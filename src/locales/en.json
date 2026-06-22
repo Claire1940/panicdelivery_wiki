@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Panic Delivery Wiki - Maps, Items & Enemies",
+      "description": "Panic Delivery wiki with co-op survival tips, map guides, mission types, enemies, items, packages, Steam release info, and beginner courier help.",
+      "keywords": "panic delivery, steam, co-op horror, maps, items, enemies, missions, packages",
+      "ogTitle": "Panic Delivery Wiki - Maps, Items & Enemies",
+      "ogDescription": "Panic Delivery wiki with co-op survival tips, map guides, mission types, enemies, items, packages, Steam release info, and beginner courier help.",
+      "twitterTitle": "Panic Delivery Wiki - Maps, Items & Enemies",
+      "twitterDescription": "Panic Delivery wiki with co-op survival tips, map guides, mission types, enemies, items, and beginner courier help for the Steam co-op horror comedy."
     }
   },
   "nav": {
@@ -34,26 +34,26 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Co-op Horror Comedy Courier Survival",
+    "title": "Panic Delivery Wiki",
+    "description": "Team up as disposable couriers, deliver packages through monster-run dystopian zones, manage shared lives, survive missions, unlock cosmetics, and learn maps, enemies, items, and package rules.",
+    "getFreeCodesCTA": "View Guides",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "4-Player",
+        "label": "Online Co-op"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "99",
+        "label": "Shared Lives"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "93%",
+        "label": "User Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
+        "value": "May 13, 2026",
         "label": "Release Date"
       }
     }
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Panic Delivery?",
+    "description": "Join the Panic Delivery community on Discord for guides, updates, and co-op survival discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Panic Delivery Wiki",
+    "description": "Your complete resource hub for Panic Delivery maps, missions, enemies, items, packages, cosmetics, and co-op survival guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Panic Delivery Wiki. Not affiliated with Invader Studios, the developers of Panic Delivery.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
