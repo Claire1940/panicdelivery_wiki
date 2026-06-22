@@ -1,0 +1,161 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Gameplay with Friends: Co-op Survival Guide",
+  description: "Master Panic Delivery gameplay with friends using our co-op guide. Learn shared life management, mission types, and survival tactics for 4-player runs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Co-op+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery gameplay with friends** relies on managing a **shared pool of 99 lives** to survive.
+- **Coordination is critical**: Assign roles like package carrier, scout, and defender to maximize efficiency.
+- **Mission variety**: Successfully complete **Standard, Recovery, and Smuggling** missions to earn gear upgrades.
+- **Procedural maps**: Adapt your strategy to changing dungeon layouts in every run to avoid team wipes.
+- **Permanent progress**: Focus on unlocking **cosmetics and shop items** to strengthen your team for future runs.
+</Callout>
+
+<Section icon={Map} title="Mastering Co-op Coordination">
+
+Coordinating **panic delivery gameplay with friends** requires more than just speed. With up to four players, the team must balance objective completion with the constant threat of monster-infested zones. Since you share a limited pool of 99 lives, every death impacts the entire squad's progress.
+
+**Video Highlights:**
+- Essential team communication strategies
+- Handling procedural map hazards
+- Managing the shared clone respawn system
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Launch Trailer" />
+
+Effective squads treat the delivery route as a military operation. Always keep the package carrier protected and ensure at least one teammate has a defensive tool ready to repel encroaching threats.
+
+| Role | Responsibility | Recommended Tool |
+| :--- | :--- | :--- |
+| Package Carrier | Focuses on pathing and delivery | Traversal Tools |
+| Scout | Identifies threats and terminals | Tracking Device |
+| Defender | Protects the carrier from monsters | Crowbar |
+| Utility Support | Manages doors and distractions | Monster Repellent |
+
+<Callout type="tip">
+Never split the team too far apart. In high-risk zones, being isolated makes you an easy target for enemies, potentially burning through your shared lives prematurely.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Objectives">
+
+Understanding the mission structure is vital for success in **panic delivery gameplay with friends**. Each mission type introduces different risks and requirements that dictate your team's movement.
+
+<Steps>
+  <Step num="1" title="Mission Selection">
+    Check the terminal to identify if the current run is a Standard, Recovery, or Smuggling mission.
+  </Step>
+  <Step num="2" title="Objective Analysis">
+    Standard missions focus on point-to-point delivery, while Recovery requires locating lost cargo using tracking devices.
+  </Step>
+  <Step num="3" title="Execution">
+    Navigate the procedurally generated dungeons, keeping your team's specific mission goal in sight to avoid unnecessary detours.
+  </Step>
+</Steps>
+
+| Mission Type | Primary Risk | Best Strategy |
+| :--- | :--- | :--- |
+| Standard | Time pressure | Direct pathing |
+| Recovery | Finding lost cargo | Use Tracking Devices |
+| Smuggling | High enemy aggro | Stealth and speed |
+
+<Callout type="warning" title="Watch Your Cargo">
+Large packages are cumbersome and slow down the carrier. Ensure your team clears the path ahead before moving heavy cargo through narrow corridors.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Enemy Tactics">
+
+With 13 unique enemies currently in the Early Access build, survival in **panic delivery gameplay with friends** hinges on your ability to react to monster behavior. Whether you choose to fight or flee, the decision must be made as a group.
+
+<CardGrid cols={3}>
+  <Card title="Combat Strategy">
+    - Use weapons only when the exit is blocked.
+    - Conserve ammo for high-threat scenarios.
+    - Prioritize stunning enemies over killing.
+  </Card>
+  <Card title="Evasion Tactics">
+    - Use traversal tools to outmaneuver pursuers.
+    - Break line-of-sight to drop enemy aggro.
+    - Always have a secondary route planned.
+  </Card>
+  <Card title="Team Protection">
+    - Use repellents to create safe zones.
+    - Rotate the package carrier role.
+    - Stay close to the team's defensive lead.
+  </Card>
+</CardGrid>
+
+| Enemy Behavior | Counterplay | Threat Level |
+| :--- | :--- | :--- |
+| Aggressive Chase | Use Repellents | High |
+| Stealthy Ambush | Keep moving/Scout | Medium |
+| Path Blocking | Use Crowbar/Distraction | Low |
+
+<Callout type="success" title="Pro Strategy">
+If a teammate is pinned, use your utility items to create a distraction rather than engaging the monster directly. This preserves your shared lives and keeps the mission on track.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Items and Progression">
+
+Spending your Speetchy effectively is the key to long-term success. While it is tempting to buy cosmetic swag, prioritize survival gear first to ensure your team can complete the harder missions.
+
+<Checklist
+  id="shop-priority"
+  title="Shop Purchase Priority:"
+  items={[
+    "Tracking Devices (Essential for Recovery)",
+    "Crowbar (Versatile tool/weapon)",
+    "Monster Repellents (Escape safety)",
+    "Traversal Tools (Mobility)",
+    "Cosmetic Swag (Low priority)"
+  ]}
+/>
+
+| Item Category | Primary Use | S-Tier Status |
+| :--- | :--- | :--- |
+| Tracking Devices | Cargo Recovery | Yes |
+| Crowbar | Interaction/Defense | Yes |
+| Repellents | Escape | No |
+| Gadgets | Utility | No |
+
+<Callout type="info" title="Note on Swag">
+Cosmetics and dances do not provide survival bonuses but are kept after a run reset. Save these for when your team has a consistent supply of survival tools.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does the 99 lives system work in co-op?",
+    answer: "The 99 lives are shared across the entire team. Every time a courier dies and respawns, one life is deducted from the pool. If the pool hits zero, the run ends."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports single-player. However, the difficulty is balanced for co-op, so expect a more intense experience when playing alone."
+  },
+  {
+    question: "Do I lose my gear if the team dies?",
+    answer: "You lose the items equipped during the active run, but any permanent cosmetics or shop upgrades you have purchased remain in your inventory."
+  }
+]} />
+
+</Section>

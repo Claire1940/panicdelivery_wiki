@@ -1,0 +1,161 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery: 初学者指南与多人联机生存技巧",
+  description: "通过我们2026年的指南掌握《Panic Delivery》。了解地图、任务类型、敌人应对策略以及快递团队的必备生存法则。",
+  category: "指南",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Panic Delivery Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **《Panic Delivery》** 是一款4人合作恐怖喜剧游戏，你需要管理 **99条共享生命**。
+- **任务类型** 包括标准、回收和走私，每种任务都需要特定的团队协作。
+- **程序化地牢** 意味着地图布局会不断变化，因此在搬运重型包裹前，请优先进行 **侦察**。
+- **资源管理** 至关重要；请务必优先将 Speetchy（货币）花费在 **追踪设备** 和防御工具上。
+</Callout>
+
+<Section icon={Target} title="新手入门：第一次跑单">
+
+踏入《Panic Delivery》的世界需要的不仅仅是速度，更需要对核心循环有清晰的理解。无论你是单人游玩还是组队合作，你的生存取决于能否在完成目标与保护团队有限的克隆生命池之间取得平衡。
+
+**视频亮点：**
+- 基础快递操作与包裹搬运技巧
+- 理解99条共享生命池机制
+- 如何导航程序化生成的地下室房间
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Panic Delivery - 抢先体验版游戏实机演示" />
+
+新晋快递员常犯的错误就是盲目冲刺。在规划路线之前，请务必确认你的目标。游戏会奖励那些将每一次跑单视为战略行动，而非混乱冲刺的团队。
+
+| 阶段 | 优先级 | 行动 |
+| :--- | :--- | :--- |
+| **准备** | 高 | 检查任务类型与路线风险 |
+| **执行** | 中 | 保持团队距离并进行沟通 |
+| **撤离** | 高 | 确保包裹安全并清理撤离路径 |
+
+<Callout type="tip" title="快递员安全须知">
+切勿让携带包裹的人走在队伍最前面。始终安排一名侦察员或防守人员在前，以发现即将到来的怪物威胁，确保货物——以及你们的生命——安然无恙。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="地图与任务策略">
+
+抢先体验版本包含三张截然不同的地图，每张地图都有程序化生成的布局。了解这些区域的环境危害对于成功交付至关重要。
+
+<CardGrid cols={3}>
+  <Card title="闹鬼路线">
+    - **重点**: 近距离战斗
+    - **风险**: 能见度低
+    - **策略**: 保持紧凑队形
+  </Card>
+  <Card title="恐慌工厂">
+    - **重点**: 终端交互
+    - **风险**: 工业危害
+    - **策略**: 指定一名专门的操作员
+  </Card>
+  <Card title="北极基地">
+    - **重点**: 探索
+    - **风险**: 路线阻碍
+    - **策略**: 尽早侦察侧路
+  </Card>
+</CardGrid>
+
+你的策略应根据任务类型进行调整。标准快递任务相对简单，但回收和走私任务需要特定的工具和格外的小心。
+
+| 任务类型 | 目标重点 | 推荐工具 |
+| :--- | :--- | :--- |
+| **标准** | 从A点到B点 | 坚固的防护装备 |
+| **回收** | 寻找丢失货物 | 追踪设备 |
+| **走私** | 高风险潜行 | 怪物驱逐剂 |
+
+<Callout type="warning" title="路线意识">
+程序化地牢可能会通向死胡同。如果你的团队难以找到目标，请使用穿越工具高效地原路返回，而不是在充满怪物的区域盲目徘徊。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="敌人行为与生存">
+
+游戏中目前有13种独特的敌人，知道何时战斗、何时逃跑，决定了你是成功跑单还是任务重置。
+
+<Steps>
+  <Step num="1" title="分析威胁">
+    观察敌人的移动模式。激进型敌人需要立即采取防御措施，而其他敌人则可以通过奔跑甩开。
+  </Step>
+  <Step num="2" title="协调防御">
+    使用你的商店物品。驱逐剂非常适合创造喘息空间，而撬棍则是可靠的紧急防御武器。
+  </Step>
+  <Step num="3" title="重组与重定位">
+    如果团队不堪重负，必要时可以暂时放下包裹以清理路径。生存才是重中之重。
+  </Step>
+</Steps>
+
+| 敌人类型 | 行为模式 | 最佳应对策略 |
+| :--- | :--- | :--- |
+| **标准威胁** | 追逐玩家距离 | 使用驱逐剂或甩开 |
+| **掠夺怪** | 试图偷取货物 | 使用小工具/武器眩晕 |
+| **环境威胁** | 区域封锁 | 使用穿越工具绕过 |
+
+<Callout type="success" title="生存法则">
+战斗是资源的消耗战。只有当敌人积极阻挡你的去路或威胁到包裹携带者时才进行交战。否则，请保持移动以节省团队的共享生命。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="商店物品与配装等级列表">
+
+明智地投入你辛苦赚来的 Speetchy 可以显著提高你的生存率。专注于支持你任务类型的实用工具。
+
+| 等级 | 物品名称 | 主要功能 |
+| :--- | :--- | :--- |
+| **S** | 追踪设备 | 回收任务必备 |
+| **S** | 撬棍 | 多功能防御与工具 |
+| **A** | 怪物驱逐剂 | 紧急逃生工具 |
+| **A** | 穿越工具 | 加快路线导航 |
+| **B** | 小工具 | 情景支持 |
+
+<Checklist
+  id="shop-priority"
+  title="购物优先级列表："
+  items={[
+    "优先购买追踪设备以确保任务成功",
+    "获取撬棍以应对早期防御",
+    "背包里始终保留一个怪物驱逐剂",
+    "仅在满足生存需求后，才将奖励许可证用于外观升级"
+  ]}
+/>
+
+<Callout type="info" title="消费建议">
+不要把你最初的 Speetchy 浪费在花哨的“Boujee Swag”上。虽然看起来很酷很有趣，但拥有合适的生存工具才能确保你带着进度平安回到枢纽。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "《Panic Delivery》中的99条生命系统是如何运作的？",
+    answer: "99条生命是整个团队的共享资源。每当一名玩家死亡时，就会部署一个新的克隆体。如果生命池归零，游戏将重置，你将失去当前的进度。"
+  },
+  {
+    question: "任务重置后我会失去物品吗？",
+    answer: "不会。虽然你的任务进度和当前跑单获得的物品可能会丢失，但你已经解锁的任何永久性商店购买或外观装饰都将保留在你的库存中。"
+  },
+  {
+    question: "我可以单人玩《Panic Delivery》吗？",
+    answer: "可以，游戏支持单人游玩和最多4人的在线合作。不过，为了管理目标和共享生命，强烈推荐进行多人合作。"
+  }
+]} />
+
+</Section>

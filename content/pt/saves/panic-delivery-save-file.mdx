@@ -1,0 +1,106 @@
+import { Map, Swords, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Arquivo de Save do Panic Delivery: Gerenciando seu Progresso de Entregador",
+  description: "Aprenda a gerenciar seu arquivo de save do Panic Delivery, entenda o sistema de progressão do jogo e mantenha seu progresso de entregador seguro neste guia.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Save+File+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **arquivo de save do Panic Delivery** rastreia seus desbloqueáveis cosméticos permanentes, compras na loja e progresso em missões.
+- Seu conjunto de **99 vidas compartilhadas** reseta a cada partida, mas seus **itens cosméticos** pessoais permanecem permanentemente vinculados à sua conta.
+- Use sempre o **menu de saída dentro do jogo** para garantir que seus dados sejam sincronizados corretamente com a Steam Cloud.
+- Se enfrentar problemas de sincronização, verifique suas **configurações da Steam Cloud** para evitar a perda acidental de progresso.
+</Callout>
+
+<Section icon={BookOpen} title="Entendendo seu Progresso">
+
+Em *Panic Delivery*, seu "arquivo de save" funciona de maneira diferente dos RPGs single-player tradicionais. Como o jogo é uma comédia de terror cooperativa para 4 jogadores, seu progresso é dividido em duas categorias distintas: dados de missão baseados em sessão e desbloqueáveis permanentes vinculados à conta.
+
+Entender como esses elementos interagem é crucial para manter seu status como um entregador de alto nível. O sistema foi projetado para recompensar a consistência, mesmo que sua equipe falhe repetidamente nas zonas infestadas de monstros.
+
+| Tipo de Dado | Nível de Persistência | Descrição |
+| :--- | :--- | :--- |
+| **Cosméticos** | Permanente | Skins, danças e emojis desbloqueados via Desafios. |
+| **Itens da Loja** | Permanente | Armas e ferramentas compradas com Speetchy. |
+| **Progresso da Missão** | Baseado em sessão | Andar atual da masmorra e conclusão da rota. |
+| **Vidas Compartilhadas** | Baseado na partida | O conjunto de 99 vidas reseta assim que a equipe é eliminada. |
+
+<Callout type="tip">
+Foque em completar Desafios logo no início. Eles desbloqueiam os itens cosméticos que permanecem na sua conta, independentemente de quantas vezes sua equipe esgote o conjunto de 99 vidas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gerenciando seus Dados de Entregador">
+
+Para garantir que seu progresso seja salvo, você deve confiar na integração do jogo com a Steam. Como *Panic Delivery* utiliza masmorras geradas proceduralmente, o estado do jogo é atualizado constantemente durante sua partida.
+
+<Steps>
+  <Step num="1" title="Termine as Missões Corretamente">
+    Sempre retorne ao hub ou conclua o objetivo da missão antes de sair para o menu principal para garantir que o jogo registre suas recompensas.
+  </Step>
+  <Step num="2" title="Verifique a Steam Cloud">
+    Certifique-se de que a sincronização com a Steam Cloud esteja ativada nas configurações da sua biblioteca Steam para o *Panic Delivery* e evite a corrupção do arquivo de save local.
+  </Step>
+  <Step num="3" title="Verifique a Integridade dos Arquivos">
+    Se você encontrar travamentos ou dados cosméticos ausentes, use a opção da Steam "Verificar integridade dos arquivos do jogo" para reparar qualquer dado local corrompido.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evite Fechamentos Forçados">
+Fechar o jogo à força via Gerenciador de Tarefas durante uma missão pode levar a uma sincronização inconsistente. Embora seus desbloqueios cosméticos geralmente estejam seguros, você pode perder o Speetchy ganho durante aquela partida específica e incompleta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solução de Problemas de Save">
+
+Se sua progressão parece travada ou os itens não estão aparecendo, siga esta lista de verificação para isolar o problema. A maioria dos problemas na versão atual de Acesso Antecipado está relacionada à sincronização de rede, e não à exclusão real de arquivos.
+
+<Checklist
+  id="save-troubleshooting"
+  title="Lista de Verificação para Correção de Progressão:"
+  items={[
+    "Reinicie o jogo para forçar uma nova conexão com o servidor da Steam",
+    "Verifique sua conexão com a internet para perda de pacotes durante sessões cooperativas",
+    "Verifique se sua conta Steam não está no modo offline",
+    "Certifique-se de que sua pasta de save local tenha permissões de leitura/gravação"
+  ]}
+/>
+
+| Tipo de Problema | Causa Provável | Ação Recomendada |
+| :--- | :--- | :--- |
+| **Speetchy Ausente** | Atraso na sincronização | Aguarde 5 minutos ou reinicie o cliente. |
+| **Cosméticos Bloqueados** | Desafio não atingido | Verifique novamente os requisitos no menu de Desafios. |
+| **Travamento ao Salvar** | Cache corrompido | Limpe o cache de download da Steam e verifique os arquivos. |
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Existe um botão de salvar manualmente no Panic Delivery?",
+    answer: "Não, o jogo utiliza um sistema de salvamento automático. Ele salva seus dados permanentes automaticamente após a conclusão de missões ou compras na loja."
+  },
+  {
+    question: "Perderei meu progresso se minha equipe ficar sem as 99 vidas?",
+    answer: "Você perde o progresso da missão atual, mas quaisquer itens permanentes, cosméticos ou moedas que você ganhou durante a partida são salvos na sua conta."
+  },
+  {
+    question: "Posso mover meu arquivo de save para outro PC?",
+    answer: "Sim, como *Panic Delivery* usa a Steam Cloud, seu progresso será transferido automaticamente quando você fizer login na sua conta em outra máquina."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,137 @@
+import { Map, Shield, Target, Trophy, FileText, AlertCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Onde ficam os arquivos de salvamento de Panic Delivery: Guia de Localização",
+  description: "Saiba onde encontrar os arquivos de salvamento de Panic Delivery no PC. Este guia aborda caminhos de arquivos, configurações de sincronização na nuvem e como fazer backup do seu progresso como entregador.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Save+File+Location",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A dúvida sobre **onde ficam os arquivos de salvamento de Panic Delivery** refere-se à localização dos dados de salvamento locais no seu PC.
+- A maioria dos títulos da Steam armazena o progresso na pasta **AppData** ou no diretório de instalação da **Steam**.
+- Sempre use o **Steam Cloud** para evitar a perda de dados ao alternar entre diferentes estações de entrega.
+- Recomenda-se realizar backups manuais antes de qualquer **verificação de integridade dos arquivos do jogo** ou atualizações do sistema.
+</Callout>
+
+<Section icon={Map} title="Localizando seus dados de salvamento">
+
+Entender como seu progresso é armazenado é essencial para todo entregador nas zonas distópicas. Embora *Panic Delivery* gerencie a maior parte disso via Steam Cloud, saber a localização física do seu arquivo de salvamento é vital para solução de problemas, backups manuais ou migração de dados para uma nova máquina.
+
+**Destaques do vídeo:**
+- Entendendo o ciclo principal do progresso de entregador.
+- Como as vidas compartilhadas impactam os dados da sua sessão local.
+- Por que fazer backup do seu perfil é importante durante o Acesso Antecipado.
+
+<Callout type="tip" title="Dica Profissional">
+Se você não conseguir encontrar seus arquivos, certifique-se de que "Itens ocultos" esteja ativado nas configurações de exibição do Explorador de Arquivos do Windows, pois a pasta AppData é oculta por padrão.
+</Callout>
+
+| Tipo de Dado | Caminho Padrão | Importância |
+| :--- | :--- | :--- |
+| **Salvamento Local** | `%LOCALAPPDATA%\PanicDelivery\Saved` | **Crítico** |
+| **Arquivos de Configuração** | `%LOCALAPPDATA%\PanicDelivery\Saved\Config` | Médio |
+| **Steam Cloud** | `Steam\userdata\[IDdoUsuário]\2887450` | **Alta** |
+
+</Section>
+
+<Section icon={Target} title="Guia de Acesso Passo a Passo">
+
+<Steps>
+  <Step num="1" title="Abra o comando Executar">
+    Pressione `Win + R` no seu teclado para abrir a caixa de diálogo Executar.
+  </Step>
+  <Step num="2" title="Navegue até AppData">
+    Digite `%LOCALAPPDATA%` e pressione Enter. Isso abrirá a pasta de dados de aplicativos locais do seu perfil de usuário.
+  </Step>
+  <Step num="3" title="Localize a pasta do jogo">
+    Procure pela pasta chamada `PanicDelivery`. Se ela não estiver presente, certifique-se de ter iniciado o jogo pelo menos uma vez.
+  </Step>
+  <Step num="4" title="Acesse os dados de salvamento">
+    Navegue até `Saved` > `SaveGames`. É aqui que seu progresso de carreira e desbloqueios cosméticos são armazenados.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Segurança de Dados">
+Nunca modifique esses arquivos enquanto o jogo estiver em execução. Editar seu arquivo de salvamento pode levar a um progresso corrompido, que pode não ser recuperável mesmo com a sincronização do Steam Cloud.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gerenciando a Sincronização na Nuvem">
+
+O Steam Cloud é sua principal defesa contra a perda do seu progresso de entregador. Como *Panic Delivery* é um título em Acesso Antecipado, atualizações frequentes podem ocasionalmente causar conflitos de sincronização.
+
+<CardGrid cols={2}>
+  <Card title="Sincronização Steam Cloud">
+    - Envia automaticamente seu progresso para os servidores da Valve.
+    - Garante que seus dados acompanhem você em diferentes PCs.
+    - Pode ser ativado ou desativado no menu de propriedades do jogo na Steam.
+  </Card>
+  <Card title="Backup Manual">
+    - Copie a pasta `SaveGames` para uma unidade externa.
+    - Útil antes de testar branches beta ou novos patches.
+    - Oferece uma rede de segurança caso a sincronização na nuvem falhe.
+  </Card>
+</CardGrid>
+
+| Cenário | Ação Recomendada |
+| :--- | :--- |
+| **Atualizando o Jogo** | Verifique a integridade via Steam, não toque nos salvamentos |
+| **Trocando de PC** | Certifique-se de que o Steam Cloud esteja ativado |
+| **Progresso Corrompido** | Restaure a partir do seu backup manual mais recente |
+| **Novo Perfil de Entregador** | Exclua os arquivos locais (Use com cautela) |
+
+</Section>
+
+<Section icon={Trophy} title="Solução de Problemas de Salvamento">
+
+Se o seu jogo não carregar seu progresso ou travar ao iniciar, talvez seja necessário corrigir uma possível corrupção de arquivo.
+
+<Checklist
+  id="save-troubleshoot"
+  title="Corrigindo Problemas de Salvamento:"
+  items={[
+    "Verifique a integridade dos arquivos do jogo via Steam.",
+    "Reinicie seu cliente Steam para forçar uma nova sincronização na nuvem.",
+    "Verifique se o seu disco rígido tem espaço de armazenamento suficiente.",
+    "Certifique-se de que seu antivírus não está bloqueando a pasta do jogo."
+  ]}
+/>
+
+<Callout type="success" title="Sucesso">
+Se você encontrar um erro de "Save Corrupted" (Salvamento Corrompido), verifique se o jogo criou um arquivo `.bak` ou de backup no mesmo diretório. Renomear esse arquivo para substituir seu salvamento principal geralmente pode restaurar seu progresso.
+</Callout>
+
+</Section>
+
+<Section icon={FileText} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Onde fica a localização dos arquivos de salvamento de Panic Delivery?",
+    answer: "Os arquivos de salvamento geralmente estão localizados na pasta AppData do Windows em %LOCALAPPDATA%\\PanicDelivery\\Saved\\SaveGames."
+  },
+  {
+    question: "Excluir o arquivo de salvamento redefine meus cosméticos?",
+    answer: "Sim, seu progresso local, incluindo skins desbloqueadas e recompensas de desafios, está vinculado aos arquivos nesse diretório. Faça um backup deles primeiro."
+  },
+  {
+    question: "Posso usar arquivos de salvamento de outros jogadores?",
+    answer: "Embora você possa tecnicamente copiá-los, isso pode causar problemas com seu ID da Steam e sincronização na nuvem. É altamente recomendável jogar com seu próprio perfil."
+  },
+  {
+    question: "Por que meu Steam Cloud não está sincronizando?",
+    answer: "Verifique sua conexão com a internet ou o status dos servidores da Steam. Se o problema persistir, reinicie a Steam e verifique as propriedades do jogo na aba Nuvem (Cloud)."
+  }
+]} />
+
+</Section>

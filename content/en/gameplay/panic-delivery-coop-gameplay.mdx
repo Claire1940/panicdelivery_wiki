@@ -1,0 +1,147 @@
+import { Map, Swords, Target, Shield, Sparkles, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Coop Gameplay: Beginner Survival Guide",
+  description: "Master Panic Delivery coop gameplay with this essential guide. Learn about shared lives, mission types, and survival tactics for your delivery runs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery coop gameplay** centers on coordinating with up to four players to deliver packages in dystopian zones.
+- **Shared 99 lives** are the most critical resource; once depleted, your team’s run ends immediately.
+- **Mission variety** includes Standard, Recovery, and Smuggling, each requiring different team strategies and tool loadouts.
+- **Procedural dungeons** ensure that no two runs are identical, forcing teams to adapt routes on the fly.
+</Callout>
+
+<Section icon={Target} title="Mastering Panic Delivery Coop Gameplay">
+
+Panic Delivery coop gameplay is built on the foundation of high-stakes coordination within a dark, comedic, and monster-infested environment. Whether you are playing solo or with a full squad of four, understanding that your lives are a finite, shared resource is the first step toward success.
+
+**Video Highlights:**
+- Understanding the core mission loop.
+- Strategies for protecting the package carrier.
+- Managing shared clone pools effectively.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery Early Access Launch Trailer" />
+
+In this game, individual heroics often lead to team failure. Because your team shares a pool of 99 lives, every death counts against the collective progress. Effective squads prioritize communication, ensuring that the person carrying the package is always protected by teammates equipped with defensive tools.
+
+</Section>
+
+<Section icon={Swords} title="Mission Types and Objectives">
+
+Before starting any run, identify your mission type. Each category shifts the team's focus from simple navigation to specialized tasks.
+
+| Mission Type | Primary Goal | Team Strategy |
+| :--- | :--- | :--- |
+| **Standard** | Deliver packages to the extraction point | Clear the path, protect the carrier |
+| **Recovery** | Locate and secure missing cargo | Use Tracking Devices, split for search |
+| **Smuggling** | Move illicit packages through zones | Use Smuggling Tools, coordinate exits |
+
+<Callout type="tip" title="Mission Planning">
+Always check the randomized objective at the start of your run. Assuming a standard delivery route when you are actually on a recovery mission is a common way to waste your team's lives.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Zones and Route Awareness">
+
+The Early Access build features three distinct maps, each with procedurally generated dungeons. These zones are not just backdrops; they are active threats that change their layout every time you play.
+
+<CardGrid cols={3}>
+  <Card title="Haunted Route">
+    - Low visibility horror rooms
+    - High-pressure monster encounters
+    - Avoid splitting up here
+  </Card>
+  <Card title="Panic Factory">
+    - Complex industrial layouts
+    - Terminal interaction pressure
+    - Mark exits for the team
+  </Card>
+  <Card title="Arctic Base">
+    - Exploration-heavy ice zones
+    - Potential dead-end traps
+    - Regroup before final delivery
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Environmental Risk">
+Procedural dungeons mean you cannot rely on memory. Always have a scout ahead of the package carrier to identify potential traps or monster spawn points.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Essential Items Tier List">
+
+Spending your earned Speetchy wisely is the difference between a successful delivery and a total wipe. Focus on utility items that support the team's survival and mobility.
+
+| Item Name | Tier | Best Use Case |
+| :--- | :--- | :--- |
+| **Tracking Devices** | S | Recovery missions, locating scattered cargo |
+| **Crowbar** | S | Emergency defense, route interaction |
+| **Monster Repellents** | A | Escape routes, protecting the carrier |
+| **Traversal Tools** | A | Navigating long or complex routes |
+| **Boujee Swag** | C | Cosmetic purposes only |
+
+</Section>
+
+<Section icon={Sparkles} title="Steps for a Successful Run">
+
+<Steps>
+  <Step num="1" title="Squad Briefing">
+    Before entering the zone, ensure every team member has a specific role (Carrier, Scout, or Defender).
+  </Step>
+  <Step num="2" title="Objective Check">
+    Verify the mission type and required tools. If you are on a Recovery mission, ensure someone has a Tracking Device.
+  </Step>
+  <Step num="3" title="Resource Management">
+    Protect the shared 99 lives. If a team member is low on health, have them step back while others take point.
+  </Step>
+  <Step num="4" title="Extraction">
+    Once the package is delivered, prioritize the exit. Do not linger for exploration after the objective is complete.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Clock} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do shared lives work in Panic Delivery?",
+    answer: "Your team shares a total pool of 99 lives. Every time a courier dies, one life is deducted from this pool. If you hit zero, the current run resets."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports single-player mode, though it is balanced for up to four-player coop. Solo play requires more careful management of tools and objectives."
+  },
+  {
+    question: "Do I lose my items if we fail a mission?",
+    answer: "No, while the run resets and you lose mission progress, any cosmetic swag or permanent upgrades purchased in the shop are kept."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="beginner-checklist"
+  title="New Courier Checklist:"
+  items={[
+    "Understand the 99 shared lives system",
+    "Identify the current mission type",
+    "Equip at least one defensive tool",
+    "Stay within line-of-sight of teammates",
+    "Prioritize package delivery over exploration"
+  ]}
+/>

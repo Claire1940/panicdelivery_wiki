@@ -1,0 +1,143 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery フレンド協力ガイド：Co-op生存のヒント",
+  description: "Panic Deliveryでフレンドと協力して混沌を乗り越えよう。共有ライフの管理、配達の連携、モンスターが徘徊するゾーンでの生存術を学べる協力プレイガイドです。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Co-op+Guide",
+  date: "2026-06-22",
+  author: "Panic Delivery Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Panic Deliveryのフレンド協力プレイ**では、99個の**共有ライフ**を効率的に管理するため、厳密な連携が求められます。
+- パッケージ運搬役、偵察役、防衛役など、**役割分担**を行うことでランの効率を最大化しましょう。
+- スピードよりも**生存を優先**してください。チームが予備のクローンを使い果たすと、進行状況が失われます。
+- プロシージャル生成されるダンジョンゾーンでは、追跡装置や忌避剤などの**ショップアイテム**を活用してリスクを軽減しましょう。
+</Callout>
+
+<Section icon={Map} title="Co-op連携の極意">
+
+**Panic Deliveryのフレンド協力プレイ**での攻略は、ソロプレイとは大きく異なります。チームで99個のライフを共有しているため、一人の死がチーム全体の損失につながります。個人の反射神経よりも、コミュニケーションが何よりも重要なツールとなります。
+
+**動画ハイライト:**
+- Co-opリスポーンループの理解。
+- パッケージ運搬役を守るための戦略。
+- 高難易度ゾーンにおけるチームリソースの管理。
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery Early Access Launch Trailer" />
+
+優れたチームは一つのユニットとして機能します。プロシージャル生成されたダンジョンに突入する際は、常に一人がパッケージを持ち、他のメンバーが道を切り開くようにしましょう。
+
+<Callout type="tip" title="プロからのヒント">
+チームを離れすぎないようにしてください。運搬役が孤立するとモンスターの格好の餌食となり、貴重な共有ライフを浪費してしまいます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ミッション戦略とパッケージの種類">
+
+どのゾーンに入る前にも、目的を理解しておくことが不可欠です。**Panic Deliveryのフレンド協力プレイ**におけるミッションは、要件とリスクレベルが大きく異なります。
+
+| ミッションタイプ | 主な目的 | チームの重点 |
+| :--- | :--- | :--- |
+| **スタンダード** | パッケージをドロップオフまで届ける | 安全な移動、ルート確保 |
+| **リカバリー** | 紛失した貨物を探して回収する | 追跡、エリアスキャン |
+| **密輸** | 違法な荷物を探知されずに運ぶ | ステルス、パトロール回避 |
+
+<Callout type="warning" title="貨物に注意">
+大きなパッケージを持つと、運搬役の移動速度と防御能力が著しく低下します。常に運搬役の左右を少なくとも二人のチームメイトで守るようにしてください。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="必須装備ティアリスト">
+
+適切なショップアイテムを選ぶことは、成功と全リセットの分かれ道になります。チームの現在のニーズに合わせて、稼いだ「Speetchy」を賢く使いましょう。
+
+<CardGrid cols={3}>
+  <Card title="Sティア：必須">
+    - **追跡装置**: リカバリーミッションには必須。
+    - **バール**: 障害物の排除や緊急時の防御に最適。
+  </Card>
+  <Card title="Aティア：サポート">
+    - **モンスター忌避剤**: 追い詰められた際の脱出に不可欠。
+    - **移動ツール**: 複雑なプロシージャルダンジョンでの移動を高速化。
+  </Card>
+  <Card title="Bティア：状況次第">
+    - **ガジェット**: 特定の環境インタラクションに役立つ。
+    - **グルーンチューブ**: 楽しくて信頼できるバックアップ武器。
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="予算管理のアドバイス">
+序盤からコスメティックにすべてを費やすのではなく、必須ツール用に少額のSpeetchyを常に残しておきましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="成功のためのステップ">
+
+**Panic Deliveryをフレンドとプレイ**する際は、この体系的なアプローチに従って一貫した進捗を確保し、不要な死を最小限に抑えましょう。
+
+<Steps>
+  <Step num="1" title="ミッション選択">
+    ターミナルで現在のミッションタイプと難易度を確認します。開始前にロードアウトについて合意してください。
+  </Step>
+  <Step num="2" title="役割分担">
+    運搬役と偵察役を割り当てます。偵察役は常に5〜10メートル先を移動し、モンスターの出現を確認してください。
+  </Step>
+  <Step num="3" title="ルート管理">
+    ダンジョンを進む際は、ターミナルや行き止まりの可能性を報告し合います。パッケージが壊れやすい場合は、不要な探索を避けましょう。
+  </Step>
+  <Step num="4" title="脱出">
+    配達が完了したら、グループとして脱出ポイントへ向かいます。次のミッションのために全員の力が必要なので、誰も置き去りにしないでください。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Package} title="主要マイルストーンチェックリスト">
+
+<Checklist
+  id="co-op-milestones"
+  title="チームの進行目標:"
+  items={[
+    "各ミッションタイプ（スタンダード、リカバリー、密輸）を1回ずつ完了する",
+    "ライフを5つ以上失わずにPanic Factoryを攻略する",
+    "チャレンジシステムを通じて少なくとも1つのコスメティックアイテムをアンロックする",
+    "長距離リカバリーのための追跡装置の使い方をマスターする"
+  ]}
+/>
+
+<Callout type="info" title="注意">
+本作は現在早期アクセス中です。今後のパッチでバランス調整やコンテンツ更新が行われ、戦略が変更される可能性があることに備えてください。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "チームのライフがなくなったらどうなりますか？",
+    answer: "共有の99ライフが尽きると、現在のランはリセットされます。ただし、ラン中に獲得した通貨やコスメティックは保持されます。"
+  },
+  {
+    question: "プレイヤー数によって難易度は変わりますか？",
+    answer: "はい、モンスターの密度や目的の複雑さは、Co-opセッションのプレイヤー数に合わせて調整されます。"
+  },
+  {
+    question: "Panic Deliveryでフレンドとクロスプラットフォームプレイはできますか？",
+    answer: "Panic Deliveryは現在Steam/PCプラットフォームに焦点を当てています。将来のクロスプラットフォーム更新については、公式発表を参照してください。"
+  }
+]} />
+
+</Section>

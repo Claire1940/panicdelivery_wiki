@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Coop Guide: Survival Tips & Team Tactics",
+  description: "Master the chaos of Panic Delivery with our coop guide. Learn about mission types, shared lives, map traversal, and gear strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Coop+Guide",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery coop guide** essentials focus on managing the **99 shared lives** pool effectively.
+- Coordination is key: assign roles for **package carrying, scouting, and route protection** during runs.
+- **Procedural dungeons** mean map layouts change, making adaptability more important than memorizing routes.
+- Always prioritize **survival tools** and defensive gear to protect the carrier in high-risk zones.
+- Failed deliveries reset your current run, but **purchased cosmetics and upgrades** remain permanent.
+</Callout>
+
+<Section icon={Target} title="Mastering the Cooperative Loop">
+
+In Panic Delivery, success depends on how well your team handles the shared 99 lives system. Unlike solo runs, cooperative play requires constant communication to prevent burning through your team's backup clones.
+
+**Video Highlights:**
+- Basic mission objectives and delivery flow.
+- How to handle package drops during monster encounters.
+- Tactical positioning for 4-player teams.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery Early Access Trailer" />
+
+<Callout type="tip" title="Pro Tip">
+Never split the team completely. If one player carries the package, two should guard the flanks, and the fourth should scout for potential monster ambushes.
+</Callout>
+
+| Role | Responsibility | Recommended Gear |
+| :--- | :--- | :--- |
+| **Carrier** | Focuses solely on package delivery | Light armor, Mobility tools |
+| **Scout** | Identifies room exits and threats | Tracking devices, Flashlights |
+| **Defender** | Provides cover fire and crowd control | Crowbar, Monster Repellents |
+| **Support** | Manages terminals and team revives | Gadgets, Utility kits |
+
+</Section>
+
+<Section icon={Map} title="Mission Types and Package Logic">
+
+Understanding the objective is critical before entering any of the three available maps. Each mission type requires a different approach to movement and risk management.
+
+<CardGrid cols={3}>
+  <Card title="Standard">
+    - Straightforward delivery
+    - Lower monster density
+    - Ideal for practice
+  </Card>
+  <Card title="Recovery">
+    - Requires tracking devices
+    - High exploration risk
+    - Scattered objective points
+  </Card>
+  <Card title="Smuggling">
+    - High-value specialized cargo
+    - Increased enemy pressure
+    - Requires exit strategy
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Important">
+In Recovery missions, do not rush into unexplored rooms. Use your tracking devices to ping the objective location before moving the entire team forward.
+</Callout>
+
+| Package Size | Risk Level | Handling Requirement |
+| :--- | :--- | :--- |
+| **Small** | Low | Single courier, high mobility |
+| **Medium** | Moderate | Requires occasional team support |
+| **Large** | High | Team effort, limited movement |
+
+</Section>
+
+<Section icon={Shield} title="Enemy Survival and Counterplay">
+
+With 13 unique enemies in the current Early Access build, you must adapt your strategy based on the zone you are in. Whether you are in a Panic Factory or the Arctic Base, combat should be a last resort.
+
+<Steps>
+  <Step num="1" title="Identify the Threat">
+    Observe enemy movement patterns. Most monsters in Panic Delivery react to noise and light.
+  </Step>
+  <Step num="2" title="Use Repellents">
+    If cornered, use monster repellents to create a path for the package carrier.
+  </Step>
+  <Step num="3" title="Regroup and Reset">
+    If the team is separated, stop moving and wait for a regroup signal to avoid individual deaths.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategy">
+The Lootmuncher is a significant threat. If you see it, prioritize securing your items immediately as it will attempt to steal or displace your tools during the chase.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Gear Tier List">
+
+Spending your earned Speetchy wisely is the difference between a successful run and a total wipe. Prioritize survival over aesthetics early in your progression.
+
+| Item Category | Best For | Survival Value |
+| :--- | :--- | :--- |
+| **Tracking Devices** | Recovery Missions | ★★★★★ |
+| **Crowbar** | Emergency Defense | ★★★★☆ |
+| **Monster Repellents** | Escape Routes | ★★★★☆ |
+| **Traversal Tools** | Procedural Maps | ★★★☆☆ |
+| **Boujee Swag** | Personalization | ★☆☆☆☆ |
+
+<Checklist
+  id="progression-goals"
+  title="Early Access Priorities:"
+  items={[
+    "Purchase Tier 1 Tracking Device",
+    "Unlock at least one defensive tool",
+    "Clear all 3 maps at least once",
+    "Save 500 Speetchy for endgame gear"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does the shared 99 lives system work?",
+    answer: "The entire team shares a single pool of 99 lives. Every time a player dies, a clone is deployed, reducing the total count. Once the pool reaches zero, the run ends immediately."
+  },
+  {
+    question: "Do I keep my items if the team fails?",
+    answer: "You keep all purchased cosmetics, skins, and permanent shop upgrades, but any items carried during a failed delivery run are lost."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports solo play, but it is balanced for 4-player co-op, making it significantly more difficult to manage objectives alone."
+  },
+  {
+    question: "How do I unlock new cosmetics?",
+    answer: "Cosmetics are unlocked by completing specific in-game challenges and spending Bonus Permits earned during successful missions."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery: How to Play and Survive the Dystopia",
+  description: "Master the basics of Panic Delivery with our 2026 guide. Learn about 99 shared lives, mission types, and how to survive monster-run delivery zones.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery how to play** focuses on cooperative survival in a monster-controlled dystopian environment.
+- The team shares a total of **99 lives**; once depleted, your current run is reset.
+- Mastering **mission types** and **package handling** is essential for earning Speetchy and cosmetic rewards.
+- Always prioritize **team coordination** and route awareness over solo heroics to avoid unnecessary deaths.
+</Callout>
+
+<Section icon={Target} title="Getting Started: The Courier Loop">
+
+Panic Delivery is a high-stakes co-op horror comedy where your efficiency is the only thing standing between you and a gruesome end. New couriers must understand that you are not just delivering boxes; you are navigating procedural dungeons designed to test your communication and survival skills.
+
+**Video Highlights:**
+- Understanding the core 4-player co-op loop.
+- Strategies for managing the shared 99 lives pool.
+- Initial setup for your first delivery mission.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery Early Access Launch Trailer" />
+
+<Callout type="tip" title="Pro Tip">
+When starting, do not rush. The game’s procedural dungeons change every run, so scout the immediate area before committing to a path with your package.
+</Callout>
+
+| Activity | Description | Priority |
+| :--- | :--- | :--- |
+| **Mission Selection** | Check the objective type before entering a zone. | High |
+| **Package Handling** | Always assign one dedicated carrier per package. | High |
+| **Team Movement** | Stay within calling distance of your teammates. | Medium |
+| **Resource Usage** | Save defensive tools for extraction or emergencies. | Medium |
+
+</Section>
+
+<Section icon={Package} title="Mission Types and Package Logic">
+
+In the Early Access build, your success depends on adapting to the specific mission requirements. Each mission type demands a different approach to route management and threat mitigation.
+
+<CardGrid cols={3}>
+  <Card title="Standard Mission">
+    - Randomized objectives
+    - Focus on direct route efficiency
+    - Best for practicing basic survival
+  </Card>
+  <Card title="Recovery Mission">
+    - Requires tracking devices
+    - Involves searching for lost cargo
+    - Higher risk of team separation
+  </Card>
+  <Card title="Smuggling Mission">
+    - Special high-value packages
+    - Requires specific smuggling tools
+    - Demands a clean exit strategy
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warning">
+Packages come in Small, Medium, and Large sizes. Larger packages restrict your mobility and make you a prime target for monsters. Always escort the carrier when moving heavy cargo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigating Operational Zones">
+
+The maps in Panic Delivery are procedurally generated, meaning you cannot rely on muscle memory alone. You must learn the characteristics of each zone to predict where threats might manifest.
+
+| Zone | Primary Hazard | Strategy |
+| :--- | :--- | :--- |
+| **Haunted House** | Low visibility & sudden jumps | Keep the team tight, use light tools |
+| **Panic Factory** | Industrial machinery & traps | Mark exits, avoid terminal congestion |
+| **Arctic Base** | Exploration traps & dead ends | Scout side paths before moving cargo |
+
+<Callout type="success" title="Map Awareness">
+Always designate a "scout" courier to check ahead for blocked paths or monster activity. This keeps the carrier safe and prevents the entire squad from walking into an ambush.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Item Tier List">
+
+Survival is not just about running; it is about spending your hard-earned Speetchy on the right tools. Use this tier list to prioritize your shop purchases during Early Access.
+
+| Tier | Item Category | Best Use Case |
+| :--- | :--- | :--- |
+| **S** | Tracking Devices | Essential for Recovery missions |
+| **S** | Crowbar | Breaking boxes & emergency defense |
+| **A** | Monster Repellents | Saving the carrier during extraction |
+| **A** | Traversal Tools | Fast repositioning on long routes |
+| **B** | Gadgets | Situational support & utility |
+
+<Steps>
+  <Step num="1" title="Prioritize Utility">
+    Always buy Tracking Devices and Crowbars first to ensure mission completion.
+  </Step>
+  <Step num="2" title="Invest in Defense">
+    Once utility is covered, purchase Monster Repellents for high-risk extraction phases.
+  </Step>
+  <Step num="3" title="Customize Later">
+    Only spend Bonus Permits on cosmetics once your team has a stable survival loadout.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many players can join a Panic Delivery session?",
+    answer: "Panic Delivery supports solo play and online co-op for up to four players."
+  },
+  {
+    question: "What happens when we run out of the 99 shared lives?",
+    answer: "Once the team exhausts the shared pool of 99 backup clones, the current run is reset and you must start over from the beginning of the mission."
+  },
+  {
+    question: "Do I keep my progress if a run fails?",
+    answer: "While the run progress resets, you retain any personal cosmetics and permanent upgrades purchased with your earned currency."
+  },
+  {
+    question: "Is Panic Delivery currently in Early Access?",
+    answer: "Yes, as of June 2026, the game is in Steam Early Access. The developers plan to continue content updates for approximately one year."
+  }
+]} />
+
+<Checklist
+  id="beginner-checklist"
+  title="New Courier Checklist:"
+  items={[
+    "Complete the tutorial mission",
+    "Purchase a Crowbar from the shop",
+    "Successfully finish one Standard mission",
+    "Unlock your first cosmetic item"
+  ]}
+/>
+
+</Section>

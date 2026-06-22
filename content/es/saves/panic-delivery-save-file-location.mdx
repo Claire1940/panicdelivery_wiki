@@ -1,0 +1,134 @@
+import { Map, Shield, Target, FileText, Settings, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ubicación de los archivos de guardado de Panic Delivery: Guía de gestión de datos en PC",
+  description: "Aprende dónde encontrar la ubicación de tus archivos de guardado de Panic Delivery en PC, cómo hacer copias de seguridad y gestionar tus datos de repartidor de manera efectiva.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Save+File+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **ubicación de los archivos de guardado de Panic Delivery** generalmente se encuentra dentro de la carpeta AppData de Windows.
+- Realiza siempre una **copia de seguridad de tus datos de guardado** antes de realizar modificaciones manuales en los archivos o actualizaciones del sistema.
+- Conocer la ruta de tus datos garantiza que puedas **restaurar tu progreso** si ocurre un error de sincronización.
+- Mantén tus **guardados en la nube activados** a través de Steam para evitar la pérdida de datos durante cambios de hardware.
+</Callout>
+
+<Section icon={Map} title="Localización de tus datos de guardado">
+
+Para los jugadores de PC, gestionar tus archivos locales es una parte fundamental para mantener tu progreso en este juego de comedia y terror cooperativo. Dado que el juego se distribuye a través de Steam, tus datos de guardado se gestionan localmente y se sincronizan con la nube.
+
+**Aspectos destacados del video:**
+- Descripción general de la estructura de archivos del juego
+- Cómo acceder a las carpetas ocultas de AppData
+- Mejores prácticas para copias de seguridad locales
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Tráiler de lanzamiento del Acceso Anticipado de Panic Delivery" />
+
+Para encontrar la **ubicación de los archivos de guardado de Panic Delivery**, sigue la ruta de directorio estándar utilizada por la mayoría de los títulos de Unreal Engine en Windows. Deberás habilitar los "Elementos ocultos" en la configuración de vista del Explorador de archivos para acceder a estas carpetas.
+
+| Nivel de carpeta | Ruta / Nombre de carpeta |
+| :--- | :--- |
+| Unidad | C: (Unidad del sistema predeterminada) |
+| Directorio de usuario | Users > [TuNombreDeUsuario] |
+| Carpeta oculta | AppData > Local |
+| Carpeta del juego | PanicDelivery > Saved > SaveGames |
+
+<Callout type="tip" title="Consejo profesional">
+Puedes acceder rápidamente a la carpeta AppData presionando `Win + R` en tu teclado, escribiendo `%localappdata%` y presionando Enter. Esto evita tener que navegar manualmente a través de las carpetas ocultas del sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Gestión y copia de seguridad del progreso">
+
+Realizar copias de seguridad periódicas de tus archivos de guardado es un hábito inteligente, especialmente durante la fase de Acceso Anticipado donde los parches y las correcciones son frecuentes. Aunque los guardados en la nube de Steam son fiables, las copias locales proporcionan una capa adicional de seguridad.
+
+<CardGrid cols={2}>
+  <Card title="Copia de seguridad manual">
+    - Copia toda la carpeta `SaveGames`.
+    - Almacénala en una unidad secundaria o servicio en la nube.
+    - Etiqueta las copias de seguridad con la fecha actual (ej. 2026-06-22).
+  </Card>
+  <Card title="Sincronización en la nube">
+    - Asegúrate de que Steam Cloud esté habilitado en Propiedades.
+    - Comprueba el estado "Actualizado" en tu Biblioteca.
+    - Evita interrumpir Steam durante la sincronización de archivos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia importante">
+Nunca modifiques, elimines ni reemplaces tus archivos de guardado mientras el juego esté en ejecución. Hacerlo puede provocar la corrupción de archivos o la pérdida de tus cosméticos y progreso. Sal siempre al escritorio por completo antes de tocar tus datos de guardado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solución de problemas con los guardados">
+
+Si encuentras problemas donde tu progreso no se guarda o el juego no carga tu perfil, sigue estos pasos para verificar la integridad de tus archivos.
+
+<Steps>
+  <Step num="1" title="Verificar los archivos del juego">
+    Abre Steam, haz clic derecho en Panic Delivery, selecciona Propiedades > Archivos instalados y haz clic en "Verificar integridad de los archivos del juego".
+  </Step>
+  <Step num="2" title="Comprobar permisos">
+    Asegúrate de que tu cuenta de usuario tenga permisos de Lectura/Escritura para la carpeta AppData.
+  </Step>
+  <Step num="3" title="Borrar caché">
+    A veces, borrar la caché de descargas de Steam puede resolver conflictos de sincronización entre tu máquina local y la nube.
+  </Step>
+</Steps>
+
+| Tipo de problema | Solución recomendada |
+| :--- | :--- |
+| El guardado no se sincroniza | Comprueba la configuración de Steam Cloud en Propiedades |
+| Datos corruptos | Restaura desde tu copia de seguridad local manual |
+| Progreso perdido | Verifica los archivos del juego a través del cliente de Steam |
+| Error de permisos | Ejecuta Steam como Administrador |
+
+</Section>
+
+<Section icon={FileText} title="Descripción general de la estructura de datos">
+
+La carpeta de guardado contiene archivos de configuración, estadísticas del jugador y desbloqueables cosméticos. Comprender qué representa cada tipo de archivo puede ayudarte a identificar qué archivos son esenciales para tu progreso personal.
+
+| Tipo de archivo | Descripción |
+| :--- | :--- |
+| `.sav` | Progreso principal y datos de misión |
+| `Config` | Configuración de usuario y preferencias gráficas |
+| `Profiles` | Identidad del jugador e inventario cosmético |
+| `Logs` | Datos técnicos para informes de errores |
+
+<Callout type="success" title="Éxito">
+Mantén tus archivos `.sav` en una carpeta separada si planeas reinstalar el juego o cambiar a una computadora nueva. Esto asegura que tus cosméticos ganados con esfuerzo y tu saldo de Speetchy permanezcan intactos.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra la ubicación de los archivos de guardado de Panic Delivery en Linux?",
+    answer: "Si juegas a través de Proton, los archivos de guardado generalmente se encuentran en tu carpeta de Steam bajo `steamapps/compatdata/2887450/pfx/drive_c/users/steamuser/AppData/Local/PanicDelivery/Saved/`."
+  },
+  {
+    question: "¿Eliminar el archivo de guardado lo reinicia todo?",
+    answer: "Sí, eliminar tus archivos en la carpeta `SaveGames` restablecerá tu progreso, incluyendo la personalización del personaje y los desbloqueos de misiones actuales. Haz esto solo si tienes la intención de comenzar una nueva partida desde cero."
+  },
+  {
+    question: "¿Puedo compartir mi archivo de guardado con amigos?",
+    answer: "No se recomienda. Los archivos de guardado están vinculados a tu ID y perfil de Steam específicos. Compartir archivos puede resultar en errores de sincronización o corrupción del perfil."
+  }
+]} />
+
+</Section>

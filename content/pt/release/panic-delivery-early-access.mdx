@@ -1,0 +1,128 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Acesso Antecipado: Guia para Iniciantes e Dicas de Sobrevivência",
+  description: "Domine Panic Delivery com nosso guia de Acesso Antecipado de 2026. Aprenda sobre tipos de missão, mecânicas de vidas compartilhadas e estratégias essenciais de sobrevivência para o sucesso cooperativo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Panic Delivery Early Access** é um jogo de comédia e terror cooperativo para 4 jogadores focado em logística de entregas de alto risco.
+- As equipes compartilham um **pool de 99 vidas**, tornando a coordenação essencial para a sobrevivência a longo prazo em zonas perigosas.
+- Domine os **três tipos de missão** (Padrão, Recuperação, Contrabando) para otimizar suas recompensas e a eficiência da equipe.
+- Sempre priorize a **proteção do pacote** e o reconhecimento de rotas para evitar o esgotamento desnecessário do pool de vidas compartilhado.
+</Callout>
+
+<Section icon={Target} title="Entendendo o Acesso Antecipado de Panic Delivery">
+
+Lançado em 13 de maio de 2026, **Panic Delivery** desafia os jogadores a atuarem como entregadores descartáveis em um mundo distópico hostil e infestado de monstros. A versão atual de Acesso Antecipado oferece uma base sólida para o jogo cooperativo, enfatizando a geração procedural e o gerenciamento de recursos em equipe.
+
+| Recurso | Detalhes |
+| :--- | :--- |
+| **Data de Lançamento** | 13 de maio de 2026 |
+| **Plataforma** | PC via Steam |
+| **Contagem de Jogadores** | 1-4 Jogadores em Co-op Online |
+| **Recurso Compartilhado** | 99 Vidas por rodada de equipe |
+| **Janela de Acesso Antecipado** | Aproximadamente 12 meses |
+
+<Callout type="tip" title="Expectativas do Acesso Antecipado">
+Embora a versão atual seja estável, espere que o jogo se expanda significativamente ao longo do próximo ano. Os desenvolvedores estão refinando ativamente os layouts dos mapas, comportamentos dos inimigos e o equilíbrio dos itens com base no feedback dos jogadores da comunidade Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fundamentos para Entregadores Iniciantes">
+
+Sua primeira rodada em **Panic Delivery** deve focar em entender o ciclo principal de jogo, em vez de buscar cosméticos de alto nível. Cada membro da equipe atua como um ativo vital em uma estrutura corporativa de alto risco, onde a vida humana é tratada como um recurso consumível.
+
+<Steps>
+  <Step num="1" title="Avaliação de Objetivo">
+    Verifique o tipo de missão imediatamente ao começar. Missões Padrão, de Recuperação e de Contrabando exigem abordagens táticas diferentes.
+  </Step>
+  <Step num="2" title="Gerenciamento de Inventário">
+    Gaste seus Speetchy iniciais em ferramentas de sobrevivência essenciais, como o Pé de Cabra ou Dispositivos de Rastreamento, em vez de itens estéticos.
+  </Step>
+  <Step num="3" title="Coordenação de Rota">
+    Mova-se como uma unidade coesa. Separar-se frequentemente leva a mortes isoladas, o que drena rapidamente o limite de 99 vidas da sua equipe.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Segurança no Trabalho">
+Perder a sincronia com sua equipe é a causa número um de falha na missão. Sempre garanta que o portador do pacote esteja protegido por pelo menos um colega de equipe com uma ferramenta defensiva.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Tipos de Missão e Lógica de Pacotes">
+
+O sucesso depende da adaptação às demandas específicas de cada tarefa de entrega. Esteja você realizando uma entrega padrão ou uma operação de contrabando de alto risco, o tamanho do pacote dita sua mobilidade e perfil de risco.
+
+| Tipo de Missão | Foco do Objetivo | Fator de Risco |
+| :--- | :--- | :--- |
+| **Padrão** | Entrega do Ponto A ao Ponto B | Baixo a Moderado |
+| **Recuperação** | Localizar carga perdida via rastreador | Moderado |
+| **Contrabando** | Movimentação protegida de bens restritos | Alto |
+
+<CardGrid cols={3}>
+  <Card title="Pacotes Pequenos">
+    - Altamente móveis
+    - Fáceis de carregar sozinho
+    - Nível de recompensa menor
+  </Card>
+  <Card title="Pacotes Médios">
+    - Peso equilibrado
+    - Requer suporte da equipe
+    - Recompensas padrão
+  </Card>
+  <Card title="Pacotes Grandes">
+    - Restringe a mobilidade
+    - Alto risco para a equipe
+    - Pagamento máximo
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Zonas de Mapa e Riscos Táticos">
+
+A versão de Acesso Antecipado apresenta três zonas operacionais distintas. Como essas áreas utilizam masmorras geradas proceduralmente, memorizar um único caminho é impossível. Em vez disso, concentre-se em aprender os perigos ambientais únicos de cada zona.
+
+| Zona do Mapa | Tema | Perigo Principal |
+| :--- | :--- | :--- |
+| **Rota Assombrada** | Interior focado em terror | Baixa visibilidade, sustos |
+| **Fábrica de Pânico** | Instalação industrial de clonagem | Pressão terminal, armadilhas de layout |
+| **Base Ártica** | Instalação gelada cheia de segredos | Becos sem saída, armadilhas de frio |
+
+<Callout type="success" title="Estratégia Profissional">
+Na Base Ártica, reserve um tempo para limpar os caminhos laterais antes de avançar profundamente no mapa. Regrupar antes da entrega final evita que a equipe seja sobrecarregada por ameaças específicas do mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que acontece quando a equipe esgota as 99 vidas?",
+    answer: "Quando o pool compartilhado de 99 vidas é esgotado, a rodada atual reinicia e você perde o progresso daquela missão específica. No entanto, quaisquer cosméticos comprados ou atualizações permanentes permanecem em seu inventário."
+  },
+  {
+    question: "Existem itens específicos de mapa que devo priorizar?",
+    answer: "Sim. Para rodadas na Fábrica de Pânico, priorize ferramentas de travessia para navegar por layouts industriais complexos. Para a Base Ártica, dispositivos de rastreamento são essenciais devido à estrutura de labirinto."
+  },
+  {
+    question: "Como a dificuldade escala em Panic Delivery?",
+    answer: "Existem três modos de dificuldade disponíveis na versão atual. Dificuldades maiores aumentam a agressividade dos inimigos e reduzem a margem de erro durante o manuseio dos pacotes."
+  }
+]} />
+
+</Section>

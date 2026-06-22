@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tráiler de Panic Delivery: Resumen del Acceso Anticipado 2026",
+  description: "Explora el caótico mundo de Panic Delivery. Nuestra guía cubre detalles del lanzamiento, consejos de supervivencia cooperativa, tipos de misión y mecánicas de juego esenciales del Acceso Anticipado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **tráiler de Panic Delivery** muestra el intenso juego de terror y comedia cooperativo para 4 jugadores, ya disponible en Steam.
+- Los jugadores actúan como **mensajeros desechables** que navegan por zonas infestadas de monstruos para entregar paquetes y obtener beneficios corporativos.
+- La coordinación es vital, ya que los equipos comparten un fondo de **99 vidas** para completar misiones procedimentales.
+- El juego cuenta actualmente con **3 mapas**, **3 tipos de misión** y **13 enemigos únicos** en el Acceso Anticipado.
+- El progreso permanente está ligado a **cosméticos y mejoras**, mientras que las partidas fallidas reinician la misión actual.
+</Callout>
+
+<Section icon={Package} title="Lanzamiento del Acceso Anticipado de Panic Delivery">
+
+El **tráiler oficial de Panic Delivery** destaca el bucle de supervivencia cómico y de alto riesgo del juego. Desde su lanzamiento el 13 de mayo de 2026, el título se ha consolidado como una experiencia cooperativa única donde la eficiencia corporativa se encuentra con el horror sobrenatural.
+
+<Callout type="tip" title="Estado del lanzamiento">
+El juego se encuentra actualmente en Acceso Anticipado, con una ventana de desarrollo planificada de un año para ampliar el contenido basándose en los comentarios de la comunidad.
+</Callout>
+
+| Característica | Detalles |
+| :--- | :--- |
+| **Fecha de lanzamiento** | 13 de mayo de 2026 |
+| **Plataforma** | PC (Steam) |
+| **Número de jugadores** | 1-4 jugadores en cooperativo online |
+| **Precio** | $7.99 USD |
+| **Idiomas soportados** | 9 (incluyendo inglés, japonés, español, portugués) |
+
+</Section>
+
+<Section icon={Target} title="Bucle principal de juego">
+
+Para tener éxito en tu primera partida, debes entender los conceptos básicos de la vida de un mensajero. Panic Delivery premia a los equipos que se comunican y gestionan sus recursos limitados de manera efectiva.
+
+<Steps>
+  <Step num="1" title="Seleccionar misión">
+    Elige entre misiones Estándar, de Recuperación o de Contrabando. Cada tipo tiene objetivos aleatorios.
+  </Step>
+  <Step num="2" title="Gestionar la carga">
+    Maneja paquetes pequeños, medianos o grandes. Los paquetes grandes requieren coordinación del equipo para ser transportados de forma segura.
+  </Step>
+  <Step num="3" title="Sobrevivir en las mazmorras">
+    Navega por mapas generados procedimentalmente. Usa herramientas y armas para defenderte de los 13 tipos de monstruos.
+  </Step>
+  <Step num="4" title="Proteger las vidas compartidas">
+    El equipo comparte 99 vidas. Una vez agotadas, la partida termina, pero conservas tu progreso cosmético personal.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Seguridad laboral">
+Separarse es la forma más rápida de agotar las 99 vidas compartidas. Mantén siempre al menos a un compañero cerca para ayudar con terminales o encuentros con monstruos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Misiones y zonas de mapa">
+
+La versión de Acceso Anticipado ofrece diversas zonas, cada una con riesgos ambientales únicos. Entender los requisitos de la misión antes de entrar es fundamental para sobrevivir.
+
+| Tipo de misión | Objetivo | Estrategia |
+| :--- | :--- | :--- |
+| **Estándar** | Entregar paquetes | Mantener una formación defensiva |
+| **Recuperación** | Recuperar carga perdida | Usar dispositivos de rastreo para localizar objetos |
+| **Contrabando** | Proteger bienes ilícitos | Coordinar rutas de escape temprano |
+
+<CardGrid cols={3}>
+  <Card title="Ruta Embrujada">
+    - Baja visibilidad
+    - Presión repentina de monstruos
+    - Ideal para combate a corta distancia
+  </Card>
+  <Card title="Fábrica Pánico">
+    - Diseños industriales
+    - Alta interacción con terminales
+    - Requiere conocer las salidas
+  </Card>
+  <Card title="Base Ártica">
+    - Centrado en la exploración
+    - Peligros en callejones sin salida
+    - Requiere explorar caminos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de misión">
+Las misiones de recuperación son mucho más fáciles si asignas a un jugador para que se concentre totalmente en el rastreo mientras los demás despejan el camino.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de niveles de objetos">
+
+Invertir tus Speetchy sabiamente en la tienda determinará qué tan lejos llegarás en las zonas posteriores.
+
+| Categoría de objeto | Nivel | Mejor uso |
+| :--- | :--- | :--- |
+| **Dispositivos de rastreo** | S | Misiones de recuperación |
+| **Palanca** | S | Defensa de emergencia e interacción |
+| **Repelentes de monstruos** | A | Rutas de escape |
+| **Herramientas de desplazamiento** | A | Navegar por habitaciones procedimentales |
+| **Gadgets** | B | Apoyo situacional |
+
+<Callout type="info" title="Estrategia de gasto">
+Prioriza siempre los objetos de utilidad como dispositivos de rastreo y palancas sobre los cosméticos "Boujee Swag" durante tus primeras partidas para asegurar la supervivencia del equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes de la comunidad">
+
+<FAQ items={[
+  {
+    question: "¿Es Panic Delivery un juego para un solo jugador?",
+    answer: "Sí, puedes jugar solo, pero el juego está diseñado para una experiencia de terror y comedia cooperativa de 4 jugadores donde las vidas compartidas hacen que el trabajo en equipo sea esencial."
+  },
+  {
+    question: "¿Pierdo todo si mi equipo muere?",
+    answer: "Cuando se agotan las vidas compartidas, la partida se reinicia, pero conservas todos los cosméticos y mejoras permanentes comprados con Permisos de Bonificación."
+  },
+  {
+    question: "¿Cuántos mapas hay disponibles actualmente?",
+    answer: "La versión de Acceso Anticipado incluye 3 mapas distintos, cada uno con diseños de mazmorras generados procedimentalmente para una alta rejugabilidad."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="beginner-checklist"
+  title="Lista de verificación para nuevos mensajeros:"
+  items={[
+    "Comprueba el tipo de misión antes de desplegarte",
+    "Asigna a alguien para transportar paquetes",
+    "Mantén el fondo de vidas compartidas por encima del 50%",
+    "Compra una palanca para la defensa inicial",
+    "Aprende el diseño de la Fábrica Pánico"
+  ]}
+/>

@@ -1,0 +1,150 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fecha de lanzamiento de Panic Delivery: Acceso anticipado y resumen del juego",
+  description: "Conoce la fecha de lanzamiento de Panic Delivery, la jugabilidad principal, los tipos de misión y consejos de supervivencia esenciales para este título de terror y comedia cooperativo para 4 jugadores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipo de Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **fecha de lanzamiento de Panic Delivery** para el acceso anticipado de Steam fue el 13 de mayo de 2026.
+- Los jugadores gestionan **99 vidas compartidas** mientras navegan por zonas infestadas de monstruos generadas procedimentalmente.
+- La versión actual cuenta con **3 mapas, 3 tipos de misión y 13 enemigos únicos** para desafiar a tu equipo.
+- La coordinación es vital; **protege al portador del paquete** y gestiona los recursos para sobrevivir en las rutas distópicas.
+</Callout>
+
+<Section icon={BookOpen} title="Fecha de lanzamiento y resumen del acceso anticipado">
+
+Panic Delivery entró oficialmente en la fase de acceso anticipado de Steam el 13 de mayo de 2026. Esta experiencia de terror y comedia cooperativa asigna a los jugadores el papel de mensajeros desechables en un mundo hostil controlado por monstruos. Como título de acceso anticipado, el juego se encuentra actualmente en expansión, y los desarrolladores planean aproximadamente un año de desarrollo para perfeccionar las mecánicas y el contenido.
+
+| Característica | Detalles |
+| :--- | :--- |
+| **Fecha de lanzamiento** | 13 de mayo de 2026 |
+| **Plataforma** | PC (Steam) |
+| **Precio base** | $7.99 USD |
+| **Periodo de desarrollo** | Aproximadamente 1 año |
+| **Versión actual** | Acceso anticipado v0.1.x |
+
+<Callout type="tip" title="Expectativas del acceso anticipado">
+Aunque el juego es totalmente jugable, espera actualizaciones frecuentes. Los desarrolladores se centran actualmente en equilibrar el comportamiento de los enemigos, mejorar la generación procedimental de mapas y añadir contenido nuevo basado en los comentarios de la comunidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fundamentos para el mensajero principiante">
+
+Empezar tu primera partida en Panic Delivery requiere entender el bucle de juego principal. No eres solo un mensajero; eres un superviviente que gestiona un grupo limitado de vidas patrocinadas por la empresa.
+
+<Steps>
+  <Step num="1" title="Forma tu equipo">
+    Únete solo o con hasta otros tres jugadores. Recuerda que todos los mensajeros comparten un único grupo de 99 vidas.
+  </Step>
+  <Step num="2" title="Identifica la misión">
+    Comprueba si estás en una misión Estándar, de Recuperación o de Contrabando. Cada una requiere estrategias diferentes.
+  </Step>
+  <Step num="3" title="Asegura el paquete">
+    Ya sea un paquete pequeño, mediano o grande, el portador es la responsabilidad principal del equipo.
+  </Step>
+  <Step num="4" title="Gestiona los recursos">
+    Usa tu Speetchy para comprar herramientas. Prioriza el equipo de supervivencia antes de gastar en objetos cosméticos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Peligro de las vidas compartidas">
+Quedarse sin vidas reinicia la partida por completo. Evita la exploración imprudente cuando el grupo tenga pocas vidas, ya que cada muerte afecta significativamente tus posibilidades de éxito.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Misiones y zonas del mapa">
+
+El juego cuenta actualmente con tres mapas distintos, cada uno de los cuales utiliza diseños de mazmorras procedimentales para garantizar que no haya dos partidas iguales. Entender las reglas de la misión es la clave para minimizar las pérdidas.
+
+| Tipo de misión | Objetivo | Estrategia |
+| :--- | :--- | :--- |
+| **Estándar** | Entregar objetos | Mantén al portador protegido y muévete rápido. |
+| **Recuperación** | Recuperar carga perdida | Usa dispositivos de rastreo para localizar objetos de forma eficiente. |
+| **Contrabando** | Mover mercancía ilícita | Coordina las rutas de salida antes de activar las alarmas. |
+
+<CardGrid cols={3}>
+  <Card title="Ruta encantada">
+    - Zonas de baja visibilidad
+    - Alto potencial de sustos (jump-scares)
+    - Requiere gestión constante de la luz
+  </Card>
+  <Card title="Fábrica del pánico">
+    - Diseños con peligros industriales
+    - Interacciones complejas con terminales
+    - Emboscadas enemigas frecuentes
+  </Card>
+  <Card title="Base ártica">
+    - Rutas centradas en la exploración
+    - Peligros ambientales
+    - Alto riesgo de callejones sin salida
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de mapa">
+Asigna siempre un explorador designado al navegar por la Base ártica para evitar quedarte atrapado en callejones sin salida durante situaciones de alta presión.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Encuentros con enemigos y supervivencia">
+
+Con 13 enemigos únicos en el juego, la supervivencia depende de tu capacidad para categorizar las amenazas y reaccionar en consecuencia. No trates cada encuentro como una pelea; a veces, huir es la única elección profesional.
+
+| Categoría de enemigo | Nivel de amenaza | Contraataque principal |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Moderado | Reposiciónate y recupera los objetos caídos. |
+| **Monstruos grotescos** | Alto | Evita separarte; usa herramientas defensivas. |
+| **Amenazas de zona** | Variable | Crea equipamientos basados en los peligros del mapa. |
+
+<Checklist
+  id="survival-checklist"
+  title="Reglas de supervivencia:"
+  items={[
+    "Entrad en las habitaciones en grupo",
+    "Proteged al portador del paquete a toda costa",
+    "Guardad el repelente para el camino de vuelta",
+    "Indicad las posiciones de los enemigos claramente"
+  ]}
+/>
+
+<Callout type="tip" title="Tácticas de repelente">
+Guarda tus repelentes de monstruos para el tramo final de tu entrega. Usarlos demasiado pronto en la misión a menudo deja al equipo vulnerable durante la fase de extracción.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Está Panic Delivery disponible en consolas?",
+    answer: "Actualmente, Panic Delivery solo está disponible en PC a través del acceso anticipado de Steam. No ha habido anuncios oficiales sobre versiones para consola."
+  },
+  {
+    question: "¿Cuántos jugadores pueden jugar juntos?",
+    answer: "Panic Delivery admite el juego en solitario y cooperativo en línea para hasta cuatro jugadores."
+  },
+  {
+    question: "¿Qué pasa si perdemos las 99 vidas?",
+    answer: "Si el equipo se queda sin vidas compartidas, la partida actual se reinicia. Sin embargo, conservas cualquier objeto cosmético o mejora permanente comprada con Permisos de bonificación."
+  },
+  {
+    question: "¿El juego admite juego cruzado (cross-platform)?",
+    answer: "Como el juego es actualmente exclusivo de Steam, la funcionalidad de juego cruzado no es aplicable."
+  }
+]} />
+
+</Section>

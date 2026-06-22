@@ -1,0 +1,152 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Análisis de Panic Delivery: Guía de supervivencia cooperativa 2026",
+  description: "Un análisis profesional y guía de Panic Delivery, que cubre las mecánicas cooperativas principales, tipos de misiones y estrategias de supervivencia en este juego de reparto distópico lleno de monstruos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Review",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **análisis de Panic Delivery** destaca una experiencia de comedia de terror cooperativa para 4 jugadores, caótica pero gratificante.
+- Los mensajeros deben gestionar **99 vidas compartidas** mientras navegan por zonas controladas por monstruos generadas procedimentalmente.
+- El éxito depende de la **coordinación del equipo**, el manejo eficiente de los paquetes y el uso inteligente de los objetos limitados de la tienda.
+- El juego cuenta con **tres tipos de misiones distintas** que requieren diferentes enfoques tácticos para sobrevivir.
+- El contenido de acceso anticipado incluye **13 enemigos únicos** y tres mapas, con actualizaciones frecuentes que mejoran el equilibrio del juego.
+</Callout>
+
+<Section icon={Package} title="Descripción general y mecánicas de juego">
+
+Panic Delivery ofrece una mezcla única de terror corporativo y logística de alto riesgo. Como mensajero en un mundo distópico, tu objetivo principal es entregar paquetes mientras sobrevives a amenazas grotescas. A diferencia de los juegos de supervivencia estándar, el sistema de **99 vidas compartidas** convierte cada muerte en una pérdida de recursos para todo el equipo, lo que hace que la comunicación sea más crítica que la habilidad individual.
+
+| Característica | Descripción | Importancia |
+| :--- | :--- | :--- |
+| **Jugadores cooperativos** | Soporta hasta 4 jugadores online | Esencial para la división de roles |
+| **Reserva de vidas** | 99 vidas compartidas por todo el equipo | Condición principal de derrota |
+| **Entorno** | Mapas estilo mazmorra generados procedimentalmente | Garantiza una alta rejugabilidad |
+| **Objetivo** | Entregar, recuperar o contrabandear paquetes | Determina la estrategia de la misión |
+
+<Callout type="tip" title="Estrategia de supervivencia">
+Designa siempre a un jugador como el transportista principal del paquete mientras los demás se centran en explorar y despejar rutas. Esto evita que el equipo pierda el paquete en situaciones de combate de alta presión.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de misiones y ejecución">
+
+Entender los tipos de misiones actuales del Acceso Anticipado es vital para mantener tu reserva de vidas compartida. Cada misión obliga a los equipos a adaptarse a objetivos aleatorios dentro de peligrosas zonas operativas.
+
+| Tipo de misión | Enfoque del objetivo | Nivel de riesgo |
+| :--- | :--- | :--- |
+| **Estándar** | Entrega punto a punto | Moderado |
+| **Recuperación** | Localizar y recuperar carga perdida | Alto |
+| **Contrabando** | Transporte protegido de mercancías ilícitas | Extremo |
+
+<Steps>
+  <Step num="1" title="Instrucciones del objetivo">
+    Consulta la terminal al inicio de tu partida para identificar tu tipo de misión específica.
+  </Step>
+  <Step num="2" title="Selección de equipo">
+    Compra herramientas según la misión. La recuperación requiere dispositivos de rastreo, mientras que el contrabando se beneficia del equipo defensivo.
+  </Step>
+  <Step num="3" title="Planificación de rutas">
+    Coordinad el movimiento. Evitad separaros, especialmente cuando llevéis paquetes grandes que ralenticen al transportista.
+  </Step>
+  <Step num="4" title="Extracción">
+    Aseguraos de que todos los miembros del equipo lleguen al punto de extracción. Abandonar a un compañero puede provocar una pérdida innecesaria de vidas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia crítica">
+Nunca intentes una misión de Contrabando sin que al menos un compañero lleve un repelente de monstruos. La presión adicional durante estas partidas puede abrumar fácilmente a un equipo sin herramientas de control de masas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Análisis de mapas y zonas">
+
+La versión de Acceso Anticipado cuenta con tres zonas distintas, cada una con peligros ambientales únicos. Dominar estos mapas es clave para mantener intactas tus 99 vidas.
+
+<CardGrid cols={3}>
+  <Card title="Ruta Encantada">
+    - **Enfoque**: Terror a corta distancia
+    - Visibilidad: Baja
+    - Ideal para: Sigilo y velocidad
+  </Card>
+  <Card title="Fábrica Pánico">
+    - **Enfoque**: Interacción industrial
+    - Complejidad: Alta
+    - Ideal para: Coordinación de equipo
+  </Card>
+  <Card title="Base Ártica">
+    - **Enfoque**: Exploración
+    - Peligros: Callejones sin salida
+    - Ideal para: Explorar rutas
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Perspectiva del mapa">
+El mapa de la Fábrica Pánico requiere que los equipos avisen de la ubicación de las terminales. No dejes que el transportista del paquete maneje las terminales, ya que son vulnerables mientras interactúan con el entorno.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de objetos y supervivencia">
+
+El uso eficiente de Speetchy en la tienda puede marcar la diferencia entre el éxito y el fracaso. Prioriza la utilidad sobre los cosméticos hasta que tengas un equipo estable.
+
+| Categoría de objeto | Mejor caso de uso | Valor de supervivencia |
+| :--- | :--- | :--- |
+| **Dispositivos de rastreo** | Misiones de recuperación | ★★★★★ |
+| **Palanca** | Defensa de emergencia | ★★★★☆ |
+| **Repelentes de monstruos** | Escape y extracción | ★★★★☆ |
+| **Herramientas de desplazamiento** | Navegar rutas largas | ★★★☆☆ |
+| **Artículos cosméticos** | Personalización personal | ★☆☆☆☆ |
+
+<Checklist
+  id="survival-essentials"
+  title="Equipo esencial:"
+  items={[
+    "Dispositivo de rastreo para la recuperación de carga",
+    "Palanca para abrir caminos bloqueados",
+    "Repelente de monstruos para extracciones finales",
+    "Herramienta de desplazamiento para un movimiento eficiente"
+  ]}
+/>
+
+<Callout type="success" title="Estrategia profesional">
+Invierte en dispositivos de rastreo desde el principio. Son la utilidad más importante para mitigar el riesgo de fracaso en las misiones de Recuperación.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal en Panic Delivery?",
+    answer: "El objetivo principal es completar misiones de entrega, recuperación o contrabando mientras gestionas un grupo compartido de 99 vidas en mapas generados procedimentalmente."
+  },
+  {
+    question: "¿Cómo funciona el sistema de 99 vidas?",
+    answer: "Todos los jugadores en la sesión cooperativa comparten un único grupo de 99 vidas. Si el equipo agota este grupo, la partida se reinicia, aunque normalmente se conserva el progreso personal en cosméticos y mejoras."
+  },
+  {
+    question: "¿Es mejor jugar Panic Delivery solo o en modo cooperativo?",
+    answer: "Aunque se admite el juego en solitario, el juego está diseñado como una experiencia cooperativa para 4 jugadores. La coordinación y la división de roles son esenciales para manejar eficazmente las misiones de alta dificultad."
+  },
+  {
+    question: "¿Existen códigos oficiales para recompensas?",
+    answer: "Actualmente, no hay un sistema de canje de códigos oficial verificado. Ten cuidado con los sitios externos que afirman ofrecer códigos activos para el juego."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,123 @@
+import { Map, Target, Shield, Sparkles, ClipboardList, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía para jugar en solitario a Panic Delivery: Estrategias de supervivencia esenciales",
+  description: "Domina las rutas de entrega distópicas con nuestra guía experta para jugar en solitario a Panic Delivery. Aprende tácticas de supervivencia, gestión de objetos y cómo completar misiones como repartidor solitario.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Panic+Delivery+Solo+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- Dominar la **guía para jugar en solitario a Panic Delivery** requiere equilibrar la seguridad del paquete con una navegación eficiente por la ruta.
+- Los repartidores en solitario deben gestionar con cuidado el grupo de **99 vidas compartidas**, ya que cada muerte afecta a los recursos totales del equipo.
+- Prioriza los **dispositivos de rastreo** y las herramientas defensivas para mitigar los riesgos durante las partidas en mazmorras generadas proceduralmente.
+- Comprender los **tipos de misión**, como Estándar, Recuperación y Contrabando, es clave para sobrevivir en zonas infestadas de monstruos.
+- Las mejoras permanentes y los cosméticos se conservan después de las partidas, lo que recompensa el esfuerzo constante incluso en entregas fallidas.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el ciclo del repartidor en solitario">
+
+Jugar en solitario en Panic Delivery requiere un cambio de mentalidad en comparación con las partidas en equipo. Aunque no tienes compañeros en los que confiar para cubrirte, tienes el control total sobre el ritmo y el proceso de toma de decisiones. El ciclo de juego principal consiste en navegar por zonas controladas por monstruos, entregar carga y gestionar un grupo limitado de 99 vidas.
+
+<CardGrid cols={3}>
+  <Card title="Prioridad de supervivencia">
+    - **Evita el combate innecesario**
+    - Enfócate en la eficiencia de la ruta
+    - Conserva los objetos defensivos
+  </Card>
+  <Card title="Conciencia de misión">
+    - **Comprueba el tipo de objetivo pronto**
+    - Adáptate a los diseños procedurales
+    - Identifica las rutas de salida óptimas
+  </Card>
+  <Card title="Gestión de recursos">
+    - **Gasta Speetchy en utilidad**
+    - Prioriza el equipo de supervivencia
+    - Desbloquea cosméticos permanentes
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Movimiento estratégico">
+En las partidas en solitario, ten siempre en mente una ruta de salida. No te comprometas a explorar una habitación profunda si tus herramientas defensivas están en tiempo de reutilización, ya que los monstruos castigarán tu aislamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de misión y manejo de paquetes">
+
+El éxito como repartidor en solitario depende de tu capacidad para manejar parámetros de misión específicos. Cada partida presenta objetivos aleatorios, lo que requiere que adaptes tu estrategia sobre la marcha.
+
+| Tipo de misión | Objetivo principal | Nivel de riesgo en solitario |
+| :--- | :--- | :--- |
+| **Estándar** | Entregar el paquete al objetivo | Moderado |
+| **Recuperación** | Recuperar carga/objetos perdidos | Alto |
+| **Contrabando** | Mover mercancía restringida de forma segura | Muy alto |
+
+<Callout type="warning" title="Peligros del peso del paquete">
+Los paquetes grandes reducen significativamente tu movilidad. Cuando juegues solo, despeja la ruta de enemigos *antes* de recoger el paquete para evitar quedar acorralado en un callejón sin salida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento para la supervivencia en solitario">
+
+Tus compras en la tienda determinan tu capacidad de supervivencia. Como jugador en solitario, no puedes permitirte desperdiciar Speetchy en objetos no esenciales. Enfócate en herramientas que te otorguen control sobre el entorno y tus enemigos.
+
+| Categoría de objeto | Enfoque de utilidad | Uso recomendado |
+| :--- | :--- | :--- |
+| **Dispositivos de rastreo** | Encontrar objetivos de recuperación | Esencial para misiones de Recuperación |
+| **Palanca** | Romper cajas/Defensa | La mejor herramienta polivalente |
+| **Repelentes de monstruos** | Crear ventanas de escape | Lo mejor para salidas de alta presión |
+| **Herramientas de desplazamiento** | Navegar habitaciones complejas | Lo mejor para mapas de la Base Ártica |
+
+<Callout type="success" title="La configuración en solitario">
+Para la mayoría de las partidas en solitario, lleva una **Palanca** para la defensa inmediata y un **Repelente de monstruos** para escapes de emergencia. Esta combinación ofrece el mejor equilibrio entre ataque y utilidad.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardList} title="Pasos para una partida exitosa">
+
+<Steps>
+  <Step num="1" title="Evaluación">
+    Comprueba el tipo de misión y la zona del mapa en la terminal. Identifica los principales factores de riesgo para el diseño actual.
+  </Step>
+  <Step num="2" title="Reconocimiento">
+    Entra en la zona y despeja el camino inicial. Traza la ubicación del objetivo y la salida más cercana.
+  </Step>
+  <Step num="3" title="Ejecución">
+    Recoge el paquete y dirígete hacia el objetivo. Usa tus herramientas para distraer o repeler amenazas en lugar de luchar en cada encuentro.
+  </Step>
+  <Step num="4" title="Extracción">
+    Sigue tu ruta de salida planificada. No te desvíes para buscar botín extra a menos que tengas vidas y objetos defensivos de sobra.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes: Dudas del repartidor en solitario">
+
+<FAQ items={[
+  {
+    question: "¿Es aplicable la guía para jugar en solitario a Panic Delivery en todos los mapas?",
+    answer: "Sí, las estrategias de supervivencia fundamentales (despejar caminos, gestionar vidas y usar herramientas) se aplican a los tres mapas del Acceso Anticipado, incluyendo la Casa Encantada, la Fábrica de Pánico y la Base Ártica."
+  },
+  {
+    question: "¿Pierdo todo si me quedo sin vidas en una partida en solitario?",
+    answer: "Cuando te quedas sin vidas, la partida se reinicia, pero conservas todos los objetos permanentes y artículos cosméticos comprados anteriormente, lo que garantiza un progreso a largo plazo."
+  },
+  {
+    question: "¿Qué tipo de misión es la más difícil para los jugadores en solitario?",
+    answer: "Las misiones de Contrabando suelen ser las más difíciles para los jugadores en solitario debido a los requisitos específicos del paquete y a la mayor presión de los enemigos, lo que requiere una coordinación precisa y el uso inteligente de herramientas."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Reparo de Equipamentos em Panic Delivery: Dicas de Manutenção e Sobrevivência",
+  description: "Domine as mecânicas de reparo de equipamentos em Panic Delivery para manter suas operações de entrega funcionando perfeitamente neste guia de sobrevivência cooperativo de terror e comédia.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Equipment+Maintenance",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O reparo de equipamentos em Panic Delivery** é essencial para manter a eficiência operacional durante missões de entrega de alta pressão.
+- **As 99 vidas compartilhadas** significam que sua equipe deve priorizar a integridade do equipamento para evitar respawns desnecessários.
+- **A manutenção regular** de ferramentas e terminais evita falhas críticas durante entregas em áreas infestadas por monstros.
+- **A coordenação é fundamental** ao realizar reparos de equipamentos sob ameaça ativa de inimigos distópicos.
+</Callout>
+
+<Section icon={Wrench} title="Entendendo as Mecânicas de Equipamento">
+
+Para realizar com sucesso uma tarefa de reparo de equipamento em Panic Delivery, você deve primeiro entender que suas ferramentas são a única barreira entre uma missão bem-sucedida e o reset total da partida. Na versão atual de Acesso Antecipado, o equipamento não é apenas uma utilidade; é uma questão de sobrevivência.
+
+**Destaques do Vídeo:**
+- Identificação de pontos críticos de falha no equipamento.
+- Coordenação eficiente da equipe para tarefas de reparo.
+- Gerenciamento de ferramentas evitando a detecção por monstros.
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Visão Geral da Jogabilidade de Panic Delivery" />
+
+Quando sua equipe entra em uma zona, o layout procedural da dungeon significa que os spawns e danos aos equipamentos são aleatórios. Você deve tratar cada interação com terminais e ferramentas como um potencial ponto de emboscada.
+
+| Tipo de Equipamento | Função Principal | Prioridade de Manutenção |
+| :--- | :--- | :--- |
+| **Dispositivos de Rastreamento** | Localizar carga perdida | Alta |
+| **Terminais de Reparo** | Restaurar sistemas da equipe | Crítica |
+| **Ferramentas Defensivas** | Controle de multidão | Média |
+| **Gadgets de Utilidade** | Acesso a portas/caminhos | Média |
+
+<Callout type="tip">
+Sempre mantenha um membro da equipe de "vigia" enquanto outros estão ocupados com o processo de reparo de equipamentos para evitar ataques surpresa dos inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estratégias de Reparo para Entregadores">
+
+A manutenção eficaz segue um fluxo de trabalho específico. Você não pode se dar ao luxo de perder tempo no meio de uma zona infestada por monstros.
+
+<Steps>
+  <Step num="1" title="Avaliar Danos">
+    Verifique o status do terminal ou da ferramenta. Se a luz estiver piscando em vermelho, requer atenção imediata.
+  </Step>
+  <Step num="2" title="Limpar a Área">
+    Certifique-se de que não há inimigos à distância de ataque. Use um repelente se necessário.
+  </Step>
+  <Step num="3" title="Atribuir Funções">
+    Um jogador realiza o reparo enquanto os outros protegem o perímetro. Nunca deixe que a pessoa reparando o equipamento seja a única exposta.
+  </Step>
+  <Step num="4" title="Verificar Funcionalidade">
+    Assim que a barra de reparo estiver cheia, garanta que o equipamento esteja ativo antes de mover o pacote.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso Crítico">
+Falhar ao reparar um terminal no mapa Panic Factory pode levar a um bloqueio, prendendo sua equipe com entidades hostis.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparação e Utilidade de Equipamentos">
+
+Nem todo equipamento requer o mesmo nível de manutenção. Alguns itens são puramente para sobrevivência, enquanto outros são cruciais para a missão.
+
+| Categoria de Item | Valor de Sobrevivência | Requisito de Manutenção |
+| :--- | :--- | :--- |
+| **Equipamento de Recuperação** | 5/5 | Alta |
+| **Pés de Cabra** | 4/5 | Baixa |
+| **Repelentes** | 3/5 | Baixa |
+| **Ferramentas de Travessia** | 3/5 | Média |
+
+<CardGrid cols={2}>
+  <Card title="Itens de Alta Manutenção">
+    Esses itens, como dispositivos de rastreamento, requerem monitoramento constante. Se quebrarem, sua capacidade de recuperar pacotes perdidos será severamente prejudicada.
+  </Card>
+  <Card title="Itens de Baixa Manutenção">
+    Ferramentas como pés de cabra são duráveis. Use-as para defesa geral sem se preocupar com ciclos de reparo frequentes.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Manutenção Específica por Missão">
+
+Diferentes tipos de missão mudam a forma como você deve abordar o reparo de equipamentos.
+
+| Tipo de Missão | Equipamento Prioritário | Estratégia |
+| :--- | :--- | :--- |
+| **Padrão** | Ferramentas Defensivas | Mantenha os caminhos limpos |
+| **Recuperação** | Dispositivos de Rastreamento | Localize a carga rapidamente |
+| **Contrabando** | Gadgets de Utilidade | Evite zonas de detecção |
+
+<Checklist
+  id="maintenance-checklist"
+  title="Lista de Verificação de Manutenção Pré-Missão:"
+  items={[
+    "Verifique se todas as 99 vidas compartilhadas estão contabilizadas",
+    "Verifique itens na loja para melhorias de durabilidade",
+    "Atribua funções de reparo específicas aos membros da equipe",
+    "Identifique pontos de extração antes de iniciar os reparos"
+  ]}
+/>
+
+<Callout type="success" title="Estratégia Pro">
+Se você estiver jogando com um esquadrão completo de quatro pessoas, alterne as funções de reparo para garantir que todos tenham experiência com as mecânicas de reparo de equipamentos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Como sei se o equipamento precisa de reparo?",
+    answer: "Procure por pistas visuais, como luzes de aviso vermelhas nos terminais ou ícones quebrados no seu HUD ao segurar ferramentas específicas."
+  },
+  {
+    question: "Reparar equipamentos consome vidas compartilhadas?",
+    answer: "Não, mas falhar ao reparar equipamentos geralmente leva a situações onde você sofre dano desnecessário, o que acaba consumindo suas 99 vidas compartilhadas."
+  },
+  {
+    question: "Vale a pena reparar itens no meio de uma perseguição?",
+    answer: "Geralmente, não. Sua prioridade deve ser a sobrevivência. Tente reparos apenas quando tiver criado uma zona de segurança temporária ou repelido os monstros com sucesso."
+  },
+  {
+    question: "Os itens persistem após o reset da partida?",
+    answer: "Embora o progresso da sua partida resgate quando as vidas chegam a zero, melhorias permanentes e cosméticos comprados com Bonus Permits permanecem, o que pode incluir aprimoramentos de equipamentos."
+  }
+]} />
+
+</Section>

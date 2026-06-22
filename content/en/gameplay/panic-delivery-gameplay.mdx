@@ -1,0 +1,139 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Gameplay: Beginner Guide & Survival Tips",
+  description: "Master Panic Delivery gameplay with our guide on co-op survival, mission types, and efficient delivery tactics for your first runs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Gameplay",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery gameplay** relies on team coordination to manage 99 shared lives across procedurally generated zones.
+- **Mission types** include Standard, Recovery, and Smuggling, each requiring specific route planning and tool usage.
+- **Shared lives** are your most valuable resource; protect the package carrier to avoid unnecessary respawns.
+- **Permanent progress** is tied to shop upgrades and cosmetics, which remain even after a failed delivery run.
+</Callout>
+
+<Section icon={Target} title="Core Gameplay Mechanics">
+
+Panic Delivery is a 4-player co-op horror comedy where your team acts as disposable couriers in a dystopian world. The core loop involves entering monster-infested zones, completing specific delivery objectives, and extracting before the team's shared life pool is depleted.
+
+**Video Highlights:**
+- Understanding the courier role in dystopian zones.
+- Managing the 99 shared lives system effectively.
+- Navigating procedurally generated dungeon layouts.
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Panic Delivery Gameplay Overview" />
+
+<Callout type="tip">
+Always designate a primary package carrier. The remaining team members should focus on scouting ahead and clearing threats to ensure the carrier reaches the drop-off point safely.
+</Callout>
+
+| Mechanic | Description | Impact on Run |
+| :--- | :--- | :--- |
+| **Shared Lives** | Total pool of 99 clones for the team | Run ends if the pool reaches zero |
+| **Procedural Zones** | Randomly generated map layouts | Requires constant path adaptation |
+| **Mission Types** | Standard, Recovery, and Smuggling | Dictates team objective and risk level |
+| **Currency** | Speetchy earned from missions | Used for shop upgrades and utility tools |
+
+</Section>
+
+<Section icon={Package} title="Mission Types and Package Handling">
+
+Understanding your objective before entering a zone is critical. Missions are randomized, meaning you must adapt your strategy every time you deploy.
+
+<CardGrid cols={3}>
+  <Card title="Standard Missions">
+    - Straightforward delivery
+    - Focus on speed and pathing
+    - Lowest overall risk profile
+  </Card>
+  <Card title="Recovery Missions">
+    - Locate lost cargo first
+    - Requires tracking devices
+    - Higher search intensity
+  </Card>
+  <Card title="Smuggling Missions">
+    - Specialized cargo handling
+    - Resistance-linked objectives
+    - Requires exit planning
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cargo Weight Matters">
+Package types (Small, Medium, Large) affect the carrier's movement speed and visibility. Large packages require team support to defend the carrier, as they are vulnerable while moving heavy cargo.
+</Callout>
+
+| Package Size | Mobility Impact | Team Strategy |
+| :--- | :--- | :--- |
+| **Small** | Minimal | Carrier can move quickly, scout ahead |
+| **Medium** | Moderate | Requires one protector by the carrier |
+| **Large** | Significant | Needs full team escort and defensive tools |
+
+</Section>
+
+<Section icon={Map} title="Zones and Route Survival">
+
+Early Access includes three distinct operational zones. Each zone features procedural dungeons, meaning your path will never be the same twice.
+
+<Steps>
+  <Step num="1" title="Assess the Zone">
+    Identify the map theme (Haunted, Factory, or Arctic Base) to prepare your item loadout.
+  </Step>
+  <Step num="2" title="Scout the Path">
+    Use traversal tools to reveal hidden rooms and identify potential enemy chokepoints.
+  </Step>
+  <Step num="3" title="Execute Delivery">
+    Coordinate movement to ensure the package carrier is never left isolated in a dark hallway.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Zone Awareness">
+Treat the Arctic Base as an exploration-heavy zone, while the Panic Factory requires high-speed terminal interaction. Adjust your team's pace accordingly to maintain control.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Enemy Behavior and Survival">
+
+With 13 unique enemies currently in the build, knowing when to fight and when to run is the hallmark of a successful courier.
+
+| Enemy Category | Behavior Pattern | Counterplay Strategy |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Aggressive escape behavior | Track movement to reposition team |
+| **Grotesque Monsters** | High-pressure swarms | Use repellents to create exit space |
+| **Map-Specific Threats** | Zone-based ambush tactics | Build loadouts for specific environments |
+
+<Callout type="tip" title="Repellent Usage">
+Save your monster repellents for the return path. The final stretch of a delivery is often the most dangerous, as enemy pressure increases once the objective is secured.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I lose my progress if the team runs out of lives?",
+    answer: "When the team runs out of the 99 shared lives, the run resets. However, any purchased cosmetics or permanent shop upgrades are retained, allowing for long-term progression."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports solo play, though the shared lives system is balanced for 4-player co-op. Solo runs require more cautious play and efficient use of defensive items."
+  },
+  {
+    question: "How do I unlock new cosmetics?",
+    answer: "Cosmetics are unlocked through the challenge system. Complete specific mission objectives and earn Bonus Permits to purchase new skins, dances, and emojis from the shop."
+  }
+]} />
+
+</Section>

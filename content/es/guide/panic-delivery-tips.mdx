@@ -1,0 +1,134 @@
+import { Map, Swords, Target, Shield, Sparkles, Package, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Consejos para Panic Delivery: Guía esencial para nuevos repartidores",
+  description: "Domina el caos de Panic Delivery con estos consejos de expertos, que cubren la coordinación cooperativa, tipos de misión y estrategias de supervivencia para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Tips",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **consejos para Panic Delivery** se centran en gestionar eficazmente el grupo de **99 vidas compartidas** como equipo.
+- **Revisa siempre el objetivo de la misión** antes de entrar en una mazmorra para evitar esfuerzos innecesarios.
+- **Coordina los roles** desde el principio; asigna a un portador de paquetes y a un explorador para mantener la eficiencia de la ruta.
+- **Prioriza las herramientas de supervivencia** en tu equipamiento para asegurar un paso seguro por las zonas infestadas de monstruos.
+- Los **objetos cosméticos permanentes** se conservan después de que las partidas se reinicien, haciendo que cada misión valga la pena.
+</Callout>
+
+<Section icon={Map} title="Dominando el ciclo de reparto">
+
+Los nuevos repartidores a menudo se precipitan en zonas infestadas de monstruos sin un plan. El éxito en Panic Delivery depende de entender que el lugar de trabajo es, en esencia, una pesadilla distópica. Tu objetivo principal es entregar paquetes mientras mantienes intacto el limitado grupo de vidas de tu equipo.
+
+<CardGrid cols={3}>
+  <Card title="Preparación">
+    - **Comprobar tipo de misión**
+    - Seleccionar equipo con sabiduría
+    - Confirmar los roles del escuadrón
+  </Card>
+  <Card title="Ejecución">
+    - **Explorar por delante**
+    - Proteger al portador
+    - Gestionar el ruido del equipo
+  </Card>
+  <Card title="Extracción">
+    - **Asegurar el camino**
+    - Monitorizar el recuento de vidas
+    - Salir antes de que cunda el pánico
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo profesional">
+Designa siempre a un jugador para que maneje el **Dispositivo de Rastreo** durante las misiones de Recuperación. Intentar localizar carga perdida sin uno es la receta perfecta para agotar las vidas compartidas prematuramente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de misión y manejo de paquetes">
+
+Entender la diferencia entre los requisitos de las misiones es la clave para reducir muertes innecesarias. Ya sea que te enfrentes a misiones Estándar, de Recuperación o de Contrabando, los objetivos aleatorios requieren una comunicación constante.
+
+| Tipo de misión | Objetivo | Nivel de riesgo | Estrategia |
+| :--- | :--- | :--- | :--- |
+| **Estándar** | Entregar paquete | Moderado | Mantener protegido al portador |
+| **Recuperación** | Localizar carga perdida | Alto | Usar herramientas de rastreo |
+| **Contrabando** | Mover bienes ilícitos | Muy alto | Planificar rutas de salida limpias |
+
+<Callout type="warning" title="Conciencia sobre los paquetes">
+Los paquetes grandes restringen significativamente tu movilidad y tus opciones de defensa. El portador nunca debería ser quien explore; asegúrate de que esté rodeado de compañeros que puedan defenderse de las amenazas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Supervivencia y gestión de enemigos">
+
+Con 13 enemigos únicos actualmente en la versión de acceso anticipado, saber cuándo luchar y cuándo huir es vital. Los monstruos grotescos castigan a los equipos que permanecen quietos demasiado tiempo.
+
+<Steps>
+  <Step num="1" title="Identificar la amenaza">
+    Observa los patrones de comportamiento de los enemigos. Algunos monstruos reaccionan al movimiento, mientras que otros siguen el sonido.
+  </Step>
+  <Step num="2" title="Asignar tareas defensivas">
+    Rota quién lleva las herramientas defensivas. Si el explorador delantero está agotado, cámbialo con un compañero de inmediato.
+  </Step>
+  <Step num="3" title="Ejecutar maniobras evasivas">
+    Usa herramientas de desplazamiento para evitar cuellos de botella. No te involucres en una pelea en un pasillo si simplemente puedes dejar atrás a la amenaza.
+  </Step>
+</Steps>
+
+| Categoría de enemigo | Comportamiento | Contraataque |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Recolecta objetos | Sigue su trayectoria de vuelo |
+| **Grotesco** | Perseguidor agresivo | Usa repelentes |
+| **Específico de zona** | Peligro basado en el mapa | Crea equipamiento específico por zona |
+
+</Section>
+
+<Section icon={Sparkles} title="Objetos y optimización del equipamiento">
+
+Gastar tus Speetchy ganados es un acto de equilibrio entre la utilidad y la supervivencia. Evita comprar objetos cosméticos hasta que hayas establecido un conjunto fiable de herramientas de supervivencia para tu equipo.
+
+| Nombre del objeto | Nivel | Mejor uso | Rol del equipo |
+| :--- | :--- | :--- | :--- |
+| **Dispositivos de rastreo** | S | Misiones de recuperación | Navegante |
+| **Palanca** | S | Interacción con rutas | Guardia de primera línea |
+| **Repelentes de monstruos** | A | Secuencias de escape | Apoyo/Utilidad |
+| **Herramientas de desplazamiento** | A | Mapas largos y complejos | Explorador |
+| **Objetos de estilo** | C | Cosméticos | Ninguno (Solo estilo) |
+
+<Callout type="success" title="Nota de estrategia">
+Un equipamiento de escuadrón equilibrado siempre debe incluir al menos una **Palanca** para el control de rutas y dos **Repelentes de monstruos** para escapes de emergencia. Esta combinación proporciona la mejor tasa de supervivencia en las zonas de Haunted y Panic Factory.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funcionan las vidas compartidas en Panic Delivery?",
+    answer: "Todo el equipo comparte un grupo de 99 vidas. Cada vez que un repartidor muere, consume una vida de este grupo. Si el grupo llega a cero, la partida actual se reinicia, aunque conservas tu progreso cosmético personal."
+  },
+  {
+    question: "¿Los mapas cambian cada vez que juego?",
+    answer: "Sí, los tres mapas en la versión de acceso anticipado actual cuentan con diseños de mazmorras generados procedimentalmente, lo que significa que no hay dos rutas de entrega exactamente iguales."
+  },
+  {
+    question: "¿Debería jugar solo o en cooperativo?",
+    answer: "Aunque se admite el juego en solitario, Panic Delivery está diseñado como una comedia de terror cooperativa. La coordinación y el reparto de roles son esenciales para las misiones de alta dificultad, lo que hace que el cooperativo sea mucho más efectivo."
+  },
+  {
+    question: "¿Hay códigos activos para obtener objetos?",
+    answer: "Actualmente, no hay un sistema oficial de códigos de canje en el juego. Todos los objetos y cosméticos se desbloquean a través del juego, recompensas de misiones y compras en la tienda."
+  }
+]} />
+
+</Section>

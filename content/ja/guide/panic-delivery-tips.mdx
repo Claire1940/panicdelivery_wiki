@@ -1,0 +1,134 @@
+import { Map, Swords, Target, Shield, Sparkles, Package, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery攻略：新手快递员必备指南",
+  description: "通过这些专家提示掌握Panic Delivery的混乱局面，涵盖2026年合作协调、任务类型及生存策略。",
+  category: "指南",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Tips",
+  date: "2026-06-22",
+  author: "Panic Delivery Wiki团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Panic Delivery的技巧**核心在于团队如何高效管理**共享的99条命**。
+- 进入地下城前务必**检查任务目标**，以免浪费精力。
+- 尽早**协调角色分配**；指定一名包裹搬运工和一名侦察员，以保持路线效率。
+- 在装备配置中**优先考虑生存工具**，确保能安全通过怪物横行的区域。
+- **永久化妆品（外观）**在跑图重置后依然保留，这让每一次任务都物有所值。
+</Callout>
+
+<Section icon={Map} title="掌握快递循环">
+
+新手快递员往往毫无计划地冲入怪物出没的区域。在Panic Delivery中取得成功，取决于你是否意识到这个工作场所实际上是一场反乌托邦式的噩梦。你的首要目标是在保持团队有限生命储备的同时完成包裹投递。
+
+<CardGrid cols={3}>
+  <Card title="准备阶段">
+    - **检查任务类型**
+    - 明智选择装备
+    - 确认小队角色
+  </Card>
+  <Card title="执行阶段">
+    - **先行侦察**
+    - 保护搬运工
+    - 控制团队噪音
+  </Card>
+  <Card title="撤离阶段">
+    - **确保路径安全**
+    - 监控剩余生命数
+    - 在恐慌蔓延前撤离
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="专业提示">
+在回收任务中，一定要指定一名玩家专门负责**追踪设备**。如果不带追踪设备就去寻找丢失的货物，只会导致团队过早消耗掉共享的生命。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="任务类型与包裹处理">
+
+了解不同任务要求的区别是减少不必要死亡的关键。无论是标准任务、回收任务还是走私任务，随机生成的目标都需要团队保持持续的沟通。
+
+| 任务类型 | 目标 | 风险等级 | 策略 |
+| :--- | :--- | :--- | :--- |
+| **标准** | 投递包裹 | 中等 | 保护好搬运工 |
+| **回收** | 寻找丢失货物 | 高 | 使用追踪工具 |
+| **走私** | 运送违禁品 | 极高 | 规划干净的撤离路径 |
+
+<Callout type="warning" title="包裹意识">
+大型包裹会严重限制你的机动性和防御能力。搬运工绝不能进行侦察；确保他们被能够抵御威胁的队友包围。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="生存与敌人管理">
+
+在目前抢先体验版中，共有13种独特的敌人，知道何时战斗、何时逃跑至关重要。怪诞的怪物会惩罚那些原地停留太久的团队。
+
+<Steps>
+  <Step num="1" title="识别威胁">
+    观察敌人的行为模式。有些怪物对移动有反应，而另一些则会追踪声音。
+  </Step>
+  <Step num="2" title="分配防御职责">
+    轮换携带防御工具的人员。如果前线侦察员精疲力竭，请立即与队友交换。
+  </Step>
+  <Step num="3" title="执行规避机动">
+    利用穿越工具绕过瓶颈。如果能直接跑过威胁，就不要在走廊里与之缠斗。
+  </Step>
+</Steps>
+
+| 敌人类别 | 行为 | 对策 |
+| :--- | :--- | :--- |
+| **拾荒怪** | 搜刮物品 | 追踪其飞行轨迹 |
+| **怪诞怪** | 积极追逐 | 使用驱逐剂 |
+| **区域特有** | 地图危害 | 构建区域针对性配置 |
+
+</Section>
+
+<Section icon={Sparkles} title="物品与装备优化">
+
+花费你赚取的Speetchy是在效用和生存之间取得平衡的过程。在为团队建立起一套可靠的生存工具之前，请避免购买装饰性商品。
+
+| 物品名称 | 等级 | 最佳用途 | 团队角色 |
+| :--- | :--- | :--- | :--- |
+| **追踪设备** | S | 回收任务 | 导航员 |
+| **撬棍** | S | 路线交互 | 前线守卫 |
+| **怪物驱逐剂** | A | 逃生序列 | 辅助/功能 |
+| **穿越工具** | A | 长而复杂的地图 | 侦察员 |
+| **时髦外观** | C | 装饰 | 无（仅为风格） |
+
+<Callout type="success" title="策略说明">
+一个平衡的小队配置应始终包含至少一个**撬棍**用于路径控制，以及两个**怪物驱逐剂**用于紧急逃生。这种组合在“闹鬼”和“恐慌工厂”区域能提供最高的生存率。
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "Panic Delivery中的共享生命是如何运作的？",
+    answer: "整个团队共享99条命。每当一名快递员死亡，就会消耗池中的一条命。如果生命池归零，当前跑图就会重置，尽管你会保留你的个人外观进度。"
+  },
+  {
+    question: "每次游玩时地图都会改变吗？",
+    answer: "是的，当前抢先体验版中的所有三张地图都具有程序生成的地下城布局，这意味着没有两条交付路线是完全相同的。"
+  },
+  {
+    question: "我应该单人游戏还是合作游戏？",
+    answer: "虽然支持单人游玩，但Panic Delivery被设计为一款合作恐怖喜剧游戏。在高难度任务中，协调与角色分配至关重要，这使得合作模式更加有效。"
+  },
+  {
+    question: "有物品的激活码吗？",
+    answer: "目前游戏中没有官方的兑换码系统。所有物品和外观都是通过游玩、任务奖励和商店购买解锁的。"
+  }
+]} />
+
+</Section>

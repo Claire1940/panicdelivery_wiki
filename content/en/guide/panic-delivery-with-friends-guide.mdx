@@ -1,0 +1,143 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery with Friends Guide: Co-op Survival Tips",
+  description: "Master the chaos of Panic Delivery with friends. Learn how to manage shared lives, coordinate deliveries, and survive monster-run zones in this co-op guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Co-op+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery with friends** requires strict coordination to manage your **shared 99 lives** pool effectively.
+- **Assign specific roles** such as package carrier, scout, and defender to optimize run efficiency.
+- **Prioritize survival** over speed; lost progress occurs when the team exhausts all available backup clones.
+- **Utilize shop items** like tracking devices and repellents to mitigate risks in procedural dungeon zones.
+</Callout>
+
+<Section icon={Map} title="Mastering Co-op Coordination">
+
+Coordinating a **panic delivery with friends** run is vastly different from solo play. Because your team shares a finite pool of 99 lives, every death is a collective setback. Communication is your most important tool, far outweighing individual reflexes.
+
+**Video Highlights:**
+- Understanding the co-op respawn loop.
+- Strategies for protecting the package carrier.
+- Managing team resources in high-risk zones.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery Early Access Launch Trailer" />
+
+Effective teams operate as a single unit. When entering procedurally generated dungeons, always designate one player to handle the package while the others clear the path.
+
+<Callout type="tip" title="Pro Tip">
+Never split the team too far apart. If a courier is isolated, they become easy prey for monsters, which wastes precious shared lives.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Strategy and Package Types">
+
+Understanding the objective is critical before entering any zone. Missions in **panic delivery with friends** vary significantly in their requirements and risk levels.
+
+| Mission Type | Primary Objective | Team Focus |
+| :--- | :--- | :--- |
+| **Standard** | Deliver package to drop-off | Safe transit, path clearing |
+| **Recovery** | Locate and retrieve lost cargo | Tracking, area scanning |
+| **Smuggling** | Move illicit goods undetected | Stealth, avoiding patrols |
+
+<Callout type="warning" title="Watch Your Cargo">
+Large packages significantly limit the carrier's movement speed and defensive capabilities. Always ensure the carrier is flanked by at least two teammates.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Essential Equipment Tier List">
+
+Selecting the right shop items can mean the difference between a successful run and a total reset. Spend your earned Speetchy wisely based on your team's current needs.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier Essentials">
+    - **Tracking Devices**: Mandatory for Recovery missions.
+    - **Crowbar**: Excellent for clearing obstacles and panic defense.
+  </Card>
+  <Card title="A-Tier Support">
+    - **Monster Repellents**: Vital for escaping tight corners.
+    - **Traversal Tools**: Speeds up navigation in complex procedural dungeons.
+  </Card>
+  <Card title="B-Tier Situational">
+    - **Gadgets**: Useful for specific environmental interactions.
+    - **Groan Tube**: A fun but reliable backup weapon.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Budgeting Advice">
+Always keep a small reserve of Speetchy for essential tools rather than spending everything on cosmetics early in your progression.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Steps to a Successful Run">
+
+Follow this systematic approach when playing **panic delivery with friends** to ensure consistent progress and minimize unnecessary deaths.
+
+<Steps>
+  <Step num="1" title="Mission Selection">
+    Check the terminal for the current mission type and difficulty level. Agree on the loadout before hitting start.
+  </Step>
+  <Step num="2" title="Role Assignment">
+    Assign a carrier and a scout. The scout should always be 5-10 meters ahead to check for monster spawns.
+  </Step>
+  <Step num="3" title="Route Management">
+    As you move through the dungeon, call out terminals and potential dead ends. Avoid unnecessary exploration if the package is fragile.
+  </Step>
+  <Step num="4" title="Extraction">
+    Once the delivery is complete, move as a group toward the extraction point. Do not leave anyone behind, as the team needs all hands for the next mission.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Package} title="Key Milestones Checklist">
+
+<Checklist
+  id="co-op-milestones"
+  title="Team Progression Goals:"
+  items={[
+    "Complete one mission of each type (Standard, Recovery, Smuggling)",
+    "Successfully navigate the Panic Factory without losing more than 5 lives",
+    "Unlock at least one cosmetic item through the challenge system",
+    "Master the use of tracking devices for long-range recovery"
+  ]}
+/>
+
+<Callout type="info" title="Note">
+The game is currently in Early Access. Be prepared for balance changes and content updates that may alter these strategies in future patches.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What happens when the team runs out of lives?",
+    answer: "When the shared 99 lives are exhausted, the current run resets. However, any currency and cosmetics earned during the run are retained."
+  },
+  {
+    question: "Does the difficulty scale with player count?",
+    answer: "Yes, the monster density and objective complexity adjust to accommodate the number of players in your co-op session."
+  },
+  {
+    question: "Can I play panic delivery with friends cross-platform?",
+    answer: "Panic Delivery is currently focused on the Steam/PC platform. Please refer to official announcements for future cross-platform updates."
+  }
+]} />
+
+</Section>

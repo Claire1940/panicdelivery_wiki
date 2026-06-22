@@ -1,0 +1,139 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de reparación de Panic Delivery: Mecánicas y supervivencia cooperativa",
+  description: "Domina Panic Delivery con nuestra guía de reparación, que cubre las vidas compartidas, los tipos de misión y las estrategias esenciales de supervivencia cooperativa para las zonas de entrega distópicas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Repair+Guide",
+  date: "2026-06-22",
+  author: "Equipo de Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **guía de reparación de Panic Delivery** se centra en la gestión de vidas compartidas y los objetivos de misión.
+- Las **99 vidas compartidas** son el recurso de supervivencia fundamental para tu equipo de mensajería.
+- Los **tipos de misión** incluyen Estándar, Recuperación y Contrabando, cada uno requiere estrategias únicas.
+- Las **mazmorras procedimentales** significan que debes adaptar tu ruta en cada partida.
+- La **gestión de objetos** es crítica para proteger al transportista del paquete durante la extracción.
+</Callout>
+
+<Section icon={Map} title="Entendiendo las mecánicas de Panic Delivery">
+
+En Panic Delivery, tu objetivo principal es entregar, recuperar o contrabandear paquetes a través de zonas controladas por monstruos. A diferencia de los juegos de entrega tradicionales, tu equipo comparte un fondo de 99 vidas. Cuando un mensajero cae, el equipo pierde una vida y la partida continúa hasta que el fondo se agota o se completa la misión.
+
+| Mecánica | Descripción | Impacto en la partida |
+| :--- | :--- | :--- |
+| Vidas compartidas | Fondo de 99 clones | La partida termina cuando el fondo llega a cero |
+| Mapas procedimentales | Diseños de mazmorra aleatorios | Las rutas cambian en cada misión |
+| Objetivos de misión | Estándar/Recuperación/Contrabando | Dicta la prioridad y el movimiento del equipo |
+| Objetos de tienda | 15 herramientas disponibles | Esenciales para sobrevivir en zonas de alta amenaza |
+
+<Callout type="tip" title="Consejo para mensajeros">
+Revisa siempre el tipo de misión antes de entrar en la zona. Una misión de Recuperación requiere herramientas de utilidad diferentes comparado con una entrega Estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de misión y manejo de paquetes">
+
+Tu éxito depende de entender el objetivo específico de cada partida. A continuación, un desglose de los tipos de misión y los requisitos de manejo de paquetes que encontrarás en el campo.
+
+| Tipo de misión | Objetivo principal | Estrategia de equipo |
+| :--- | :--- | :--- |
+| Estándar | Entregar paquete en la zona | Enfocarse en rutas rápidas y seguras |
+| Recuperación | Encontrar carga/activos perdidos | Usar dispositivos de rastreo para escanear el área |
+| Contrabando | Mover carga ilícita | Priorizar el sigilo y la planificación de salida |
+
+<Steps>
+  <Step num="1" title="Verificación del objetivo">
+    Confirma si la misión es Estándar, de Recuperación o de Contrabando al inicio de la partida.
+  </Step>
+  <Step num="2" title="Selección de paquete">
+    Identifica si llevas un paquete Pequeño, Mediano o Grande, ya que afectan tu velocidad de movimiento.
+  </Step>
+  <Step num="3" title="Planificación de ruta">
+    Explora la mazmorra generada procedimentalmente para encontrar el camino más seguro al punto de entrega.
+  </Step>
+  <Step num="4" title="Extracción">
+    Reagrúpate como equipo antes de intentar la entrega final para asegurar la protección del transportista.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia crítica">
+Nunca dejes solo al transportista del paquete. Si el transportista cae, el paquete puede quedar tirado en una ubicación peligrosa, forzando una arriesgada misión de recuperación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Supervivencia frente a enemigos y contraataque">
+
+El mundo está lleno de 13 enemigos únicos diseñados para castigar el movimiento lento y la mala coordinación. Usa la tabla a continuación para entender cómo manejar estas amenazas.
+
+| Tipo de enemigo | Comportamiento | Estrategia de contraataque |
+| :--- | :--- | :--- |
+| Amenaza común | Patrulla agresiva | Manténganse en grupo y muévanse rápido |
+| Devorador de botín | Comportamiento de escape rápido | Bloqueen salidas o usen objetos de movimiento |
+| Específico de zona | Trampas ambientales | Usen herramientas de travesía para evitarlas |
+
+<CardGrid cols={2}>
+  <Card title="Estrategia defensiva">
+    - **Mantén distancia** de las apariciones de enemigos.
+    - **Usa repelentes** para despejar pasillos.
+    - **Coordina llamadas** sobre las ubicaciones de los enemigos.
+  </Card>
+  <Card title="Estrategia ofensiva">
+    - **Usa palancas** para defensa a corta distancia.
+    - **Enfoca el fuego** en objetivos que bloqueen la salida.
+    - **No te comprometas** con peleas innecesarias.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de supervivencia">
+Los repelentes son tu activo defensivo más valioso. Guárdalos para el viaje de regreso, cuando el equipo es más vulnerable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de niveles de objetos esenciales">
+
+Invertir en el equipo adecuado es la diferencia entre una entrega exitosa y una partida desperdiciada. Gasta tus Speetchy sabiamente en la tienda.
+
+| Nivel | Categoría de objeto | Mejor caso de uso |
+| :--- | :--- | :--- |
+| S | Dispositivos de rastreo | Esenciales para misiones de Recuperación |
+| S | Palanca | Herramienta versátil para defensa e interacción |
+| A | Repelentes de monstruos | Críticos para una extracción segura |
+| A | Herramientas de travesía | Aceleran la navegación de la ruta |
+| B | Gadgets | Apoyo situacional |
+
+<Callout type="info" title="Consejo de gasto">
+Prioriza la compra de objetos de nivel S al inicio de tu carrera. Proporcionan el mayor retorno de inversión para la supervivencia a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo gestiono las 99 vidas compartidas?",
+    answer: "Las vidas son un recurso del equipo. Evita comportamientos imprudentes y asegúrate de que el transportista del paquete siempre esté protegido para evitar muertes innecesarias."
+  },
+  {
+    question: "¿Pierdo objetos cuando se reinicia la partida?",
+    answer: "No, las mejoras permanentes y los cosméticos se conservan incluso si el equipo se queda sin vidas y la partida se reinicia."
+  },
+  {
+    question: "¿Cuál es la mejor manera de manejar las misiones de Contrabando?",
+    answer: "Usa herramientas específicas para contrabando y asegúrate de que un miembro del equipo se enfoque en rutas de salida claras, ya que estas misiones suelen atraer más presión enemiga."
+  }
+]} />
+
+</Section>

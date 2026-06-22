@@ -1,0 +1,145 @@
+import { Map, Target, Trophy, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery PC版 游戏指南：新手入门与生存技巧",
+  description: "通过我们的核心指南掌握 Panic Delivery PC版游戏玩法。学习合作策略、任务类型，以及如何在充满怪物的配送区域中生存。",
+  category: "指南",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Panic Delivery Wiki团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Panic Delivery PC版** 是一款专注于4人合作的恐怖喜剧生存游戏，背景设定在反乌托邦区域。
+- 团队共享 **99条命的复活池**，因此长期任务的成功离不开团队协作。
+- 新手应优先 **熟悉地图布局** 和任务目标，再去挑战更高难度。
+- 即便任务失败，永久性的 **外观装扮和升级** 也会被保留。
+- 有效的 **物品管理** 是躲避怪物袭击并顺利完成配送的关键。
+</Callout>
+
+<Section icon={Target} title="核心玩法循环">
+
+**Panic Delivery PC版** 的核心围绕着反乌托邦快递服务的高风险环境展开。玩家必须在程序生成的地下城中导航、完成目标，并在管理共享的99条命的同时安全撤离。
+
+| 阶段 | 目标 | 策略 |
+| :--- | :--- | :--- |
+| **准备** | 购买装备 | 优先购买 **追踪器** 或 **撬棍** |
+| **潜入** | 到达区域 | 保持团队紧凑，避免落单 |
+| **执行** | 确保包裹 | 指派一名快递员携带，其他人负责保护 |
+| **撤离** | 返回基地 | 使用 **驱怪剂** 清理撤离路线 |
+
+<Callout type="tip" title="生存策略">
+绝对不要让团队分散。游戏会惩罚落单的快递员，导致怪物突然刷新。鉴于你们共享99条命，任何不必要的死亡都会消耗团队完成任务的机会。
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="任务与包裹类型">
+
+理解不同任务目标之间的区别对于提高效率至关重要。在 **Panic Delivery** 的每一局游戏中，根据任务类型和运输货物的不同，都会带来独特的挑战。
+
+| 任务类型 | 主要目标 | 玩家检查清单 |
+| :--- | :--- | :--- |
+| **标准** | 配送包裹 | 按照目标标记前往目的地 |
+| **回收** | 取回遗失货物 | 使用 **追踪器** 定位目标位置 |
+| **走私** | 运送非法货物 | 保护包裹免受增强的安全威胁 |
+
+<CardGrid cols={3}>
+  <Card title="小型包裹">
+    - 最容易携带
+    - 移动惩罚最小
+    - 最适合侦察型跑图
+  </Card>
+  <Card title="中型包裹">
+    - 重量适中
+    - 需要团队协作
+    - 标准风险等级
+  </Card>
+  <Card title="大型包裹">
+    - 移动惩罚显著
+    - 需要专人保护
+    - 高价值目标
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="货物安全">
+脆弱或大型包裹在恐慌移动时可能会掉落。如果快递员受到攻击，请让队友立即捡起包裹，以保持任务进度。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="行动区域与危险">
+
+抢先体验版包含三张独特的地图，每张地图都有程序生成的地下城布局。精通这些路线是进阶 **Panic Delivery PC版** 玩法的必要条件。
+
+| 地图区域 | 主题 | 主要危险 |
+| :--- | :--- | :--- |
+| **鬼屋** | 恐怖氛围 | 视野受限和突发惊吓 |
+| **恐慌工厂** | 工业风 | 复杂的机械结构和交互锁 |
+| **北极基地** | 冰原探索 | 死胡同路线和环境陷阱 |
+
+<Steps>
+  <Step num="1" title="区域评估">
+    进入后检查地图主题，以预判团队将面临哪种类型的怪物压力。
+  </Step>
+  <Step num="2" title="路线侦察">
+    在让包裹携带者进入房间前，先派一名玩家探路，识别终端或锁住的门。
+  </Step>
+  <Step num="3" title="目标执行">
+    在与任务相关终端互动前，先清理路径上的敌人，避免被干扰。
+  </Step>
+</Steps>
+
+<Callout type="success" title="探索小贴士">
+在北极基地，务必检查侧路寻找捷径。热修补丁 0.1.1 改善了此处的导航，如果花时间探索，更容易找到高效路线。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="敌人行为与反制">
+
+要在游戏中幸存并面对13种独特的怪物，仅仅靠逃跑是不够的。每种敌人都有可以被利用的特定行为。
+
+| 敌人类型 | 行为 | 反制措施 |
+| :--- | :--- | :--- |
+| **掠夺怪** | 试图偷走物品 | 观察其逃跑规律，然后进行追踪 |
+| **怪诞怪物** | 积极追击 | 集合并使用防御工具 |
+| **区域特有** | 地图伏击 | 根据环境构建针对性配置 |
+
+<Checklist
+  id="survival-checklist"
+  title="生存必备："
+  items={[
+    "背包里随时携带一件防御工具",
+    "向队友呼叫敌人位置",
+    "在每个新房间入口处集合",
+    "为撤离阶段保留强力道具"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "共享的99条命系统是如何运作的？",
+    answer: "每当一名玩家死亡，就会从团队共享的99条命池中部署一个新的克隆体。如果生命池归零，无论个人进度如何，整局游戏都会重置。"
+  },
+  {
+    question: "我可以单人玩 Panic Delivery 吗？",
+    answer: "可以，游戏支持单人游玩，尽管难度是为4人合作平衡的。没有队友掩护，协调难度会大大增加。"
+  },
+  {
+    question: "任务失败后我还能保留装备吗？",
+    answer: "是的。虽然生命耗尽时任务进度会重置，但你购买的任何装饰性外观或永久性商店升级都会保留在你的收藏中。"
+  }
+]} />
+
+</Section>

@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery: 初学者指南与生存技巧 (2026)",
+  description: "通过本指南掌握 Panic Delivery 的合作生存、任务类型及高效包裹处理技巧。了解如何管理 99 条命，在这款反乌托邦合作恐怖喜剧游戏中生存下去。",
+  category: "指南",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Panic Delivery Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Panic Delivery** 是一款 4 人合作恐怖喜剧游戏，你们需要共同管理一个共享的 **99 条生命池**。
+- **核心循环**：接受任务，通过程序生成的地下城运送包裹，并在怪物横行的区域中存活下来。
+- **团队合作**：沟通至关重要；千万不要分散行动，因为生命池是共享的，一个人的失败会影响整个团队。
+- **进度系统**：赚取 **Speetchy** 以购买商店物品，并获得 **Bonus Permits** 用于角色的外观定制。
+</Callout>
+
+<Section icon={Target} title="新手上路：第一次任务">
+
+新手快递员往往会冲向危险，但在 **Panic Delivery** 中成功的关键在于理解：工作场所的安全是你无法奢望的奢侈品。你的目标是穿越程序生成的地下城，完成目标并返回基地。
+
+**视频亮点：**
+- 理解核心快递配送循环。
+- 在怪物控制的区域中高效导航。
+- 与队友共同管理 99 条共享生命池。
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Trailer" />
+
+<Callout type="tip" title="生存法则">
+开始任务前务必检查任务类型。**走私 (Smuggling)** 任务与 **标准 (Standard)** 配送任务所需的节奏完全不同。
+</Callout>
+
+| 阶段 | 快递员优先级 | 团队策略 |
+| :--- | :--- | :--- |
+| **准备** | 检查任务目标 | 分配角色（侦察兵、搬运工、防卫者） |
+| **执行** | 安全运送包裹 | 保持在队友的视野范围内 |
+| **撤离** | 到达出口点 | 使用防御道具清理路径 |
+
+</Section>
+
+<Section icon={Package} title="任务类型与包裹处理">
+
+在当前的抢先体验版本中，任务根据其目标和携带的货物类型进行分类。如果管理不当，包裹往往会导致快速失败。
+
+<CardGrid cols={3}>
+  <Card title="标准 (Standard)">
+    - 随机配送目标。
+    - 专注于路线效率。
+    - 保持包裹完好。
+  </Card>
+  <Card title="回收 (Recovery)">
+    - 搜索并取回丢失的货物。
+    - 使用追踪工具定位物品。
+    - 遭遇敌人伏击的风险很高。
+  </Card>
+  <Card title="走私 (Smuggling)">
+    - 高价值、与抗性相关的任务。
+    - 需要特定的走私工具。
+    - 撤离时机至关重要。
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="货物重量">
+包裹的大小（**小、中、大**）直接影响移动速度。大型包裹需要专人携带，而其他人则负责掩护。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="区域与路线意识">
+
+你的配送路线会带你穿越各种怪物出没的环境。由于地图使用程序生成，每一局游戏都独一无二。
+
+| 区域 | 主要威胁 | 战略提示 |
+| :--- | :--- | :--- |
+| **鬼屋 (Haunted House)** | 低能见度、惊吓 | 保持紧密队形 |
+| **恐慌工厂 (Panic Factory)** | 环境危害、终端 | 交互前标记出口 |
+| **北极基地 (Arctic Base)** | 探索陷阱、死胡同 | 进入前先侦察侧路 |
+
+<Callout type="success" title="地图精通">
+程序生成的地下城意味着你必须不断调整路线。如果某条路径感觉太危险，请使用你的 **通行工具 (Traversal Tools)** 寻找替代方案，即使这会增加任务时间。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="生存与物品等级列表">
+
+生存工具对于维持团队生命至关重要。明智地花费你的 **Speetchy** 是成功配送与全军覆没之间的区别。
+
+<Steps>
+  <Step num="1" title="优先考虑实用性">
+    在回收任务中，始终优先保证有 **追踪设备 (Tracking Devices)**。
+  </Step>
+  <Step num="2" title="防御装备">
+    购买 **怪物驱除剂 (Monster Repellents)** 以在撤离时清理走廊。
+  </Step>
+  <Step num="3" title="实用工具升级">
+    投资 **通行工具 (Traversal Tools)** 以在复杂的程序布局中导航。
+  </Step>
+</Steps>
+
+| 物品类别 | 生存价值 | 最佳用途 |
+| :--- | :--- | :--- |
+| **追踪设备** | S级 | 在回收任务中寻找丢失货物 |
+| **撬棍** | S级 | 紧急防御和箱子交互 |
+| **怪物驱除剂** | A级 | 清理出口并保护搬运工 |
+| **小工具** | B级 | 针对特定布局的情景支持 |
+
+<Callout type="tip" title="消费建议">
+只有在完全升级了核心实用装备后，才将 **Bonus Permits** 用于购买外观装饰。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="目标与检查清单">
+
+<Checklist
+  id="courier-goals"
+  title="快递员进度检查清单："
+  items={[
+    "完成每种类型的任务各一次（标准、回收、走私）",
+    "从所有三个地图区域成功撤离",
+    "使用 Bonus Permits 解锁你的第一个外观物品",
+    "掌握撬棍在紧急防御中的使用方法"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="常见问题 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "当团队用尽 99 条共享生命时会发生什么？",
+    answer: "当团队耗尽共享生命池时，任务即告结束，你们必须从基地重新开始任务。"
+  },
+  {
+    question: "我可以单人游玩 Panic Delivery 吗？",
+    answer: "可以，游戏支持单人游玩，尽管 99 条生命系统和任务目标是为合作协调而平衡设计的。"
+  },
+  {
+    question: "如果任务失败，我会丢失物品吗？",
+    answer: "购买的商店物品会在任务期间消耗掉，但你解锁的任何永久外观或饰品将保留在你的库存中。"
+  }
+]} />
+
+</Section>

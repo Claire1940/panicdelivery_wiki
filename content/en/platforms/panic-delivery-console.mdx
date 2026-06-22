@@ -1,0 +1,135 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Console: Beginner Guide & Survival Tips",
+  description: "Master Panic Delivery with our 2026 survival guide. Learn mission types, map mechanics, and how to manage shared lives in this co-op horror comedy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery** is a 4-player co-op horror comedy where you deliver packages in a dystopian world.
+- Teams share a **pool of 99 lives**, making coordination essential for long-term survival.
+- Early Access features **3 maps, 3 mission types, and 13 unique enemies** to test your skills.
+- Focus on **upgrading your shop items** to ensure you have the tools needed for harder runs.
+</Callout>
+
+<Section icon={Target} title="Understanding Panic Delivery Mechanics">
+
+Panic Delivery is a chaotic experience where efficiency meets survival. As a courier, your primary goal is to transport cargo through procedurally generated zones while avoiding grotesque monsters. The core loop involves taking on missions, securing rewards, and upgrading your gear to survive increasingly hostile environments.
+
+**Video Highlights:**
+- Essential courier movement techniques.
+- How to handle package drops during monster encounters.
+- Basic team coordination strategies for new players.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Trailer" />
+
+<Callout type="tip" title="Survival Strategy">
+Never sprint into an unknown room alone. Always keep one courier near the package and another scouting ahead to manage the shared life pool effectively.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mission Types and Package Logistics">
+
+Success in Panic Delivery depends on understanding your current objective. Missions are randomized, so checking your route goal before departure is the first step toward a successful delivery.
+
+| Mission Type | Primary Objective | Risk Level |
+| :--- | :--- | :--- |
+| **Standard** | Deliver package to drop-off | Moderate |
+| **Recovery** | Locate and retrieve lost cargo | High |
+| **Smuggling** | Move illicit goods past resistance | Extreme |
+
+<Callout type="warning" title="Package Handling">
+Large packages significantly reduce your movement speed. Assign a protected courier to carry these, while teammates focus on clearing the path of enemies.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Early Access Map Overview">
+
+The current build offers three distinct operational zones. Each map uses procedural generation, meaning the layout will change with every run, preventing predictable routes.
+
+| Map Name | Theme | Key Hazard |
+| :--- | :--- | :--- |
+| **Haunted House** | Horror interior | Low visibility |
+| **Panic Factory** | Industrial facility | Terminal puzzles |
+| **Arctic Base** | Icy research site | Exploration traps |
+
+<CardGrid cols={3}>
+  <Card title="Haunted Route">
+    Focus on light sources and keep your team tight. Monsters here thrive in the dark corners of the procedural rooms.
+  </Card>
+  <Card title="Panic Factory">
+    Use terminals to open shortcuts. Ensure no one is left behind in the complex industrial corridors.
+  </Card>
+  <Card title="Arctic Base">
+    Watch for dead ends and ice-based environmental hazards that can trap your team during a retreat.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Navigation Tip">
+Always mark your exit path. When the pressure mounts, knowing exactly where the extraction point is can save your team from wasting precious lives.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Enemy Behavior and Survival">
+
+With 13 unique enemies currently in the game, knowing when to fight and when to flee is a critical skill. Most monsters punish players for being reckless or split from their teammates.
+
+| Enemy Type | Behavior Pattern | Counterplay |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Attempts to steal cargo | Intercept and stun |
+| **Grotesque** | Direct chase pressure | Use defensive tools |
+| **Zone Guardian** | Protects specific rooms | Lure away from target |
+
+<Checklist
+  id="survival-checklist"
+  title="Survival Best Practices:"
+  items={[
+    "Always carry at least one defensive tool",
+    "Enter and exit rooms as a cohesive unit",
+    "Prioritize saving lives over cosmetic items",
+    "Communicate enemy locations to teammates"
+  ]}
+/>
+
+<Callout type="tip" title="Combat Advice">
+Combat is a resource drain. If you can outrun an enemy to reach the delivery point, do it. Fighting should be reserved for protecting the package carrier or clearing a blocked exit.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What happens when the team runs out of the 99 shared lives?",
+    answer: "When your team reaches zero lives, the current run ends, and you are returned to the hub. However, any cosmetic swag or permanent progress you earned during the run is retained."
+  },
+  {
+    question: "Is Panic Delivery playable solo?",
+    answer: "Yes, the game supports both solo play and online co-op for up to four players. Solo runs are significantly more difficult due to the lack of backup."
+  },
+  {
+    question: "How do I unlock new cosmetics?",
+    answer: "Cosmetics are unlocked through the challenge system. Complete specific mission objectives and earn Bonus Permits to purchase new skins and gear."
+  },
+  {
+    question: "Are there any active codes for Panic Delivery?",
+    answer: "As of June 2026, there is no official redeemable code system in Panic Delivery. Be cautious of unofficial sources claiming to provide free items."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,145 @@
+import { Map, Target, Trophy, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery PC Gameplay: Beginner Guide & Survival Tips",
+  description: "Master Panic Delivery PC gameplay with our essential guide. Learn co-op strategies, mission types, and how to survive the monster-filled delivery zones.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery PC gameplay** focuses on 4-player co-op horror comedy survival in dystopian zones.
+- Teams share a **pool of 99 lives**, making coordination essential for long-term mission success.
+- Beginners should prioritize **learning map layouts** and mission objectives before attempting higher difficulties.
+- Permanent **cosmetics and upgrades** are retained even if a run ends in failure.
+- Effective **item management** is the key to surviving monster encounters and completing deliveries.
+</Callout>
+
+<Section icon={Target} title="Core Gameplay Loop">
+
+The core of **Panic Delivery PC gameplay** revolves around the high-stakes environment of a dystopian courier service. Players must navigate procedurally generated dungeons, complete objectives, and return to safety while managing a shared pool of 99 lives.
+
+| Phase | Objective | Strategy |
+| :--- | :--- | :--- |
+| **Preparation** | Shop for gear | Buy **Tracking Devices** or **Crowbars** first |
+| **Infiltration** | Reach the zone | Keep the team together to avoid isolation |
+| **Execution** | Secure the package | Assign one courier to carry, others to protect |
+| **Extraction** | Return to base | Use **Monster Repellents** to clear exit paths |
+
+<Callout type="tip" title="Survival Strategy">
+Never let your team split up. The game punishes isolated couriers with sudden monster spawns, and since you share a pool of 99 lives, every unnecessary death drains the team's chance to complete the run.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Mission and Package Types">
+
+Understanding the difference between mission objectives is vital for efficiency. Each run in **Panic Delivery** presents unique challenges based on the mission type and the cargo being transported.
+
+| Mission Type | Primary Goal | Player Checklist |
+| :--- | :--- | :--- |
+| **Standard** | Deliver package | Follow the objective marker to the destination |
+| **Recovery** | Retrieve lost cargo | Use **Tracking Devices** to locate the target |
+| **Smuggling** | Move illicit goods | Protect the package from increased security threats |
+
+<CardGrid cols={3}>
+  <Card title="Small Packages">
+    - Easiest to carry
+    - Minimal movement penalty
+    - Best for scout-led runs
+  </Card>
+  <Card title="Medium Packages">
+    - Balanced weight
+    - Requires team coordination
+    - Standard risk level
+  </Card>
+  <Card title="Large Packages">
+    - Significant movement penalty
+    - Requires dedicated protection
+    - High-value objective
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cargo Safety">
+Fragile or large packages can be dropped during panic movement. If a courier is under attack, have a teammate pick up the package immediately to keep the mission moving.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Operational Zones and Hazards">
+
+The Early Access build features three distinct maps, each with procedurally generated dungeon layouts. Mastery of these routes is a requirement for advanced **Panic Delivery PC gameplay**.
+
+| Map Zone | Theme | Primary Hazard |
+| :--- | :--- | :--- |
+| **Haunted House** | Horror-heavy | Low visibility and sudden jump scares |
+| **Panic Factory** | Industrial | Complex machinery and interaction locks |
+| **Arctic Base** | Icy exploration | Dead-end routes and environmental traps |
+
+<Steps>
+  <Step num="1" title="Zone Assessment">
+    Check the map theme upon entry to anticipate the type of monster pressure your team will face.
+  </Step>
+  <Step num="2" title="Route Scouting">
+    Send one player ahead to identify terminals or locked doors before moving the package carrier into the room.
+  </Step>
+  <Step num="3" title="Objective Execution">
+    Clear the path of enemies before interacting with objective-related terminals to avoid being interrupted.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Exploration Tip">
+In the Arctic Base, always check side paths for shortcuts. Hotfix 0.1.1 improved navigation here, making it easier to find efficient routes if you take the time to explore.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Enemy Behavior and Counterplay">
+
+Surviving the 13 unique monsters in the game requires more than just running away. Each enemy has specific behaviors that can be exploited.
+
+| Enemy Type | Behavior | Counterplay |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Attempts to steal items | Watch for escape patterns, then track it |
+| **Grotesque Monsters** | Aggressive pursuit | Group up and use defensive tools |
+| **Zone-Specific** | Map-based ambush | Build loadouts tailored to the environment |
+
+<Checklist
+  id="survival-checklist"
+  title="Survival Essentials:"
+  items={[
+    "Always carry a defensive tool in the inventory",
+    "Call out enemy positions to your teammates",
+    "Regroup at the entrance of every new room",
+    "Save powerful items for the return extraction"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How does the shared 99 lives system work?",
+    answer: "Every time a player dies, a new clone is deployed from the team's shared pool of 99 lives. If the pool reaches zero, the entire run resets, regardless of personal progress."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports solo play, though the difficulty is balanced for 4-player co-op. Coordination is much harder without teammates to cover your back."
+  },
+  {
+    question: "Do I keep my gear after a failed run?",
+    answer: "Yes. While the mission progress resets when you run out of lives, any cosmetic swag or permanent shop upgrades you purchased remain in your collection."
+  }
+]} />
+
+</Section>

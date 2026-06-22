@@ -1,0 +1,132 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Repair: Guide to Survival and Courier Success",
+  description: "Master panic delivery repair and courier survival with our 2026 guide. Learn maps, mission types, and how to manage your team's 99 lives effectively.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic delivery repair** is essential for maintaining gear and surviving monster-run dystopian zones.
+- Teams share **99 lives**, making efficient mission completion and survival the top priority.
+- Always check the **mission type** (Standard, Recovery, or Smuggling) before entering a zone.
+- Properly managing **shop items** like tracking devices and crowbars is key to long-term success.
+- **Coordination** with your co-op team is the most effective way to prevent catastrophic runs.
+</Callout>
+
+<Section icon={Target} title="Understanding Courier Basics">
+
+New couriers must master the core gameplay loop to succeed in the monster-infested zones of Panic Delivery. Your primary objective is to deliver packages, recover lost cargo, or smuggle goods while ensuring your team does not deplete the shared pool of 99 lives.
+
+**Video Highlights:**
+- Basic courier movement and interaction mechanics
+- How to navigate procedural dungeons
+- Managing co-op team communication
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Panic Delivery Early Access Gameplay" />
+
+When you enter a run, your team's success depends on preparation. Each mission features randomized objectives, meaning you cannot rely on previous route knowledge. Treat every run as a fresh challenge where communication is your most valuable tool.
+
+<Callout type="tip" title="Survival Strategy">
+Never split the team unless the objective requires a search pattern. A lone courier is an easy target for the 13 unique enemies currently in the game.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mission Types and Package Logic">
+
+Success in Panic Delivery depends on understanding the specific requirements of your current contract. The Early Access build categorizes missions into three distinct types, each requiring a different approach to routing and resource usage.
+
+| Mission Type | Primary Goal | Team Strategy |
+| :--- | :--- | :--- |
+| **Standard** | Deliver packages to drop-off points | Protect the carrier at all costs |
+| **Recovery** | Locate and retrieve lost cargo | Use tracking devices to find target |
+| **Smuggling** | Move illicit goods through zones | Coordinate exit paths and speed |
+
+<Callout type="warning" title="Cargo Handling">
+Packages come in Small, Medium, and Large sizes. Larger packages restrict movement and require more team protection. Always assign a dedicated carrier while others clear the path.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipment and Shop Strategy">
+
+Spending your earned Speetchy wisely is the difference between a successful run and a total reset. In the shop, prioritize items that offer utility for the current map’s environmental risks.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier Utility">
+    - **Tracking Devices**: Essential for recovery missions.
+    - **Crowbar**: Dual-purpose for breaking boxes and emergency defense.
+  </Card>
+  <Card title="A-Tier Defensive">
+    - **Monster Repellents**: Crucial for clearing exit routes.
+    - **Traversal Tools**: Speed up navigation in complex dungeons.
+  </Card>
+  <Card title="B-Tier Situational">
+    - **Gadgets**: Useful for specific procedural layouts.
+    - **Groan Tube**: A last-resort improvised panic weapon.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Economy Tip">
+Bonus Permits are used for cosmetic items. Focus your Speetchy on survival tools first to ensure you can actually complete runs and earn more rewards.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Managing Map Hazards">
+
+Maps in Panic Delivery are procedurally generated, meaning every run will have different layouts. Whether you are in a Haunted Route, a Panic Factory, or the Arctic Base, you must adapt to your surroundings.
+
+| Map Zone | Key Characteristic | Major Risk |
+| :--- | :--- | :--- |
+| **Haunted Route** | Low visibility, tight corridors | Sudden monster ambushes |
+| **Panic Factory** | Industrial machinery and terminals | Interaction delays during combat |
+| **Arctic Base** | Open, exploration-heavy paths | Dead-end traps and isolation |
+
+<Steps>
+  <Step num="1" title="Scout the Layout">
+    Have one team member check the immediate surroundings for enemy spawns.
+  </Step>
+  <Step num="2" title="Mark the Exit">
+    Always know the shortest path back to the extraction point before pushing deep.
+  </Step>
+  <Step num="3" title="Coordinate Interaction">
+    Do not let the package carrier be the one interacting with terminals or doors.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does the 99 lives system work?",
+    answer: "The team shares a total pool of 99 lives. Each time a courier dies, one life is consumed to deploy a new clone. If the pool reaches zero, the entire run resets."
+  },
+  {
+    question: "Do I keep my progress after a failed run?",
+    answer: "While the current mission progress resets, any personal cosmetics or permanent upgrades purchased with Bonus Permits are kept."
+  },
+  {
+    question: "Is panic delivery repair a mechanic I need to manage?",
+    answer: "Yes, maintaining your tools and gear is part of the survival loop. Proper equipment usage prevents your items from breaking during critical delivery phases."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports both solo play and online co-op for up to four players, though coordination is significantly harder when playing alone."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,135 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery: Como Reparar e Manter a Eficiência do Entregador",
+  description: "Domine as mecânicas essenciais de reparo, gerenciamento de itens e dicas de sobrevivência para entregadores neste guia completo de Panic Delivery.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Repair+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Principal**: Reparar e manter o equipamento é vital para a sobrevivência em **Panic Delivery**.
+- **Uso de Itens**: Use **Dispositivos de Rastreamento** e **Pés de Cabra** para navegar e resolver problemas nas rotas.
+- **Vidas Compartilhadas**: Proteja as **99 vidas** da sua equipe priorizando a integridade do equipamento em vez da velocidade.
+- **Dica de Acesso Antecipado**: Sempre verifique os **itens da loja** antes de iniciar uma partida processual.
+</Callout>
+
+<Section icon={Shield} title="Entendendo o Reparo e a Manutenção">
+
+Em **Panic Delivery**, o termo "reparo" geralmente se refere ao gerenciamento da integridade de suas ferramentas de entrega e à recuperação de carga perdida durante missões de alta pressão. Diferente de jogos de sobrevivência tradicionais onde você repara paredes de base, aqui você foca em manter seus itens utilitários e manter a rota de entrega limpa.
+
+<Callout type="tip" title="Integridade do Equipamento">
+Mantenha sempre suas ferramentas essenciais, como **Pés de Cabra**, em ótimas condições. Se uma ferramenta falhar enquanto você estiver nas profundezas de uma masmorra processual, sua capacidade de interagir com o ambiente ou se defender cairá drasticamente.
+</Callout>
+
+A tabela a seguir resume as principais categorias de itens que exigem manutenção ou uso estratégico para garantir que sua entrega permaneça no caminho certo:
+
+| Categoria do Item | Função Principal | Prioridade de Manutenção |
+| :--- | :--- | :--- |
+| **Pé de Cabra** | Quebrar caixas, defesa | Alta |
+| **Dispositivos de Rastreamento** | Localizar carga perdida | Crítica |
+| **Repelentes de Monstros** | Limpeza da rota de saída | Média |
+| **Ferramentas de Travessia** | Navegar por perigos do mapa | Média |
+
+</Section>
+
+<Section icon={Target} title="Como Gerenciar Missões e Recuperações">
+
+Quando uma entrega dá errado, você deve realizar "reparos" na própria missão recuperando a carga perdida. É aqui que a coordenação da sua equipe determina se vocês terão sucesso ou se gastarão o pool compartilhado de 99 vidas.
+
+<Steps>
+  <Step num="1" title="Identifique o Tipo de Missão">
+    Antes de entrar, confirme se é **Padrão**, **Recuperação** ou **Contrabando**. Cada uma exige prioridades de reparo diferentes.
+  </Step>
+  <Step num="2" title="Equipe Utilitários de Rastreamento">
+    Para missões de **Recuperação**, garanta que pelo menos um entregador tenha um dispositivo de rastreamento para encontrar a carga perdida.
+  </Step>
+  <Step num="3" title="Coordene o Retorno">
+    Se o pacote for derrubado, não tenha pressa. Limpe a área imediata de monstros antes de tentar pegá-lo novamente.
+  </Step>
+  <Step num="4" title="Gaste Speetchy com Sabedoria">
+    Use as recompensas da missão para comprar ferramentas melhores na loja e minimizar a necessidade de reparos de emergência em campo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Vidas Compartilhadas">
+Toda vez que um entregador morre, a equipe perde uma vida do pool compartilhado de 99. "Reparos" imprudentes ou tentativas de salvar um pacote em uma zona infestada de monstros podem levar ao reinício total da partida.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perigos do Mapa Processual">
+
+Os mapas em **Panic Delivery** são gerados processualmente, o que significa que os caminhos "quebrados" que você encontra mudam a cada vez. Esteja você na **Fábrica de Pânico** ou na **Base Ártica**, você deve adaptar sua estratégia.
+
+| Zona do Mapa | Perigo Principal | Estratégia Recomendada |
+| :--- | :--- | :--- |
+| **Rota Assombrada** | Baixa visibilidade | Mantenha a equipe agrupada |
+| **Fábrica de Pânico** | Travas de terminal | Designe um entregador para os terminais |
+| **Base Ártica** | Caminhos sem saída | Explore caminhos laterais primeiro |
+
+<Callout type="success" title="Domínio do Mapa">
+Masmorras processuais recompensam jogadores que exploram o terreno. Se um caminho estiver bloqueado ou quebrado, procure rotas alternativas em vez de forçar sua passagem por áreas de alta densidade de monstros.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Níveis de Itens para Sobrevivência">
+
+Sua capacidade de "reparar" uma situação ruim depende dos itens que você leva. Use esta lista para priorizar seus gastos na loja.
+
+<CardGrid cols={2}>
+  <Card title="Nível S (Essencial)">
+    - **Dispositivos de Rastreamento**: Obrigatório para missões de recuperação.
+    - **Pé de Cabra**: A ferramenta mais versátil para interação com a rota.
+  </Card>
+  <Card title="Nível A (Suporte)">
+    - **Repelentes de Monstros**: Essencial para limpar rotas de saída.
+    - **Ferramentas de Travessia**: Ajuda a lidar com uma geração de mapa ruim.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={BookOpen} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como reparo itens quebrados em Panic Delivery?",
+    answer: "Os itens são gerenciados através da loja. Foque em comprar ferramentas duráveis, como o Pé de Cabra, e melhorar seu equipamento utilitário para evitar falhas durante as missões."
+  },
+  {
+    question: "O que acontece se ficarmos sem vidas compartilhadas?",
+    answer: "Se a equipe esgotar as 99 vidas compartilhadas, a partida atual é reiniciada. Você mantém seu progresso cosmético pessoal, mas o progresso específico da missão é perdido."
+  },
+  {
+    question: "Existe uma ferramenta de reparo específica para o pacote?",
+    answer: "Não, os pacotes não precisam de reparos, mas podem ser derrubados. Use os membros da sua equipe para proteger o carregador e garantir que o pacote chegue ao ponto de entrega."
+  },
+  {
+    question: "A Base Ártica tem requisitos de reparo únicos?",
+    answer: "A Base Ártica foca mais na travessia. Patches recentes corrigiram barreiras invisíveis, então foque na exploração em vez de reparos baseados em itens."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="courier-goals"
+  title="Lista de Verificação do Entregador:"
+  items={[
+    "Verifique o tipo de missão antes de começar",
+    "Compre pelo menos uma ferramenta defensiva",
+    "Atribua funções para interações com terminais",
+    "Mantenha o pool de vidas compartilhadas acima de 50",
+    "Retorne à base antes que o pool de vidas chegue a zero"
+  ]}
+/>

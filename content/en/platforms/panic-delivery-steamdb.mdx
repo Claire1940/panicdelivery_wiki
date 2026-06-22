@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "panic delivery steamdb: Early Access Guide & Survival Tips",
+  description: "Master panic delivery with our 2026 guide covering mission types, map strategies, enemy behavior, and essential shop items for co-op success.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic delivery steamdb** data confirms the game launched into Early Access on May 13, 2026.
+- Players must manage **99 shared lives** across procedural, monster-filled dystopian zones.
+- Success depends on **coordination** between couriers during Standard, Recovery, and Smuggling missions.
+- Permanent progression is tied to **cosmetics and shop upgrades** kept after life depletion.
+- Prioritize **Tracking Devices and Crowbars** to maximize survival during your first runs.
+</Callout>
+
+<Section icon={Clock} title="Launch and Early Access Overview">
+
+The release of *Panic Delivery* on Steam marked the beginning of a chaotic, horror-comedy co-op experience. Since its May 13, 2026 debut, the title has focused on team-based package management within procedurally generated environments.
+
+<CardGrid cols={3}>
+  <Card title="Launch Window">
+    - Released: May 13, 2026
+    - Status: Early Access
+    - Price: $7.99 USD
+  </Card>
+  <Card title="Core Gameplay">
+    - 4-Player Online Co-op
+    - 99 Shared Team Lives
+    - Procedural Dungeon Maps
+  </Card>
+  <Card title="Content Scope">
+    - 3 Unique Map Zones
+    - 3 Mission Types
+    - 13 Diverse Enemies
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Early Access is planned to last approximately one year. Expect frequent balance updates and content expansions as the developers refine the horror-comedy loop based on community feedback.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Package Logistics">
+
+Success in *Panic Delivery* requires understanding the objective before entering a zone. Each mission type demands a specific approach to courier coordination.
+
+| Mission Type | Primary Goal | Player Strategy |
+| :--- | :--- | :--- |
+| **Standard** | Deliver assigned package | Prioritize route safety and speed |
+| **Recovery** | Retrieve lost cargo | Use tracking devices effectively |
+| **Smuggling** | Move illicit goods | Coordinate exit routes before pickup |
+
+| Package Size | Handling Difficulty | Risk Level |
+| :--- | :--- | :--- |
+| **Small** | Low | Minimal |
+| **Medium** | Moderate | Balanced |
+| **Large** | High | Significant |
+
+<Callout type="warning" title="Critical Note">
+Always check the mission objective at the start of a run. Assuming the previous strategy works for a new mission type is the fastest way to burn through your shared pool of 99 lives.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maps and Zone Strategy">
+
+Navigating the procedural dungeons requires environmental awareness. Whether you are in a factory or an icy base, your route planning determines the team's survival.
+
+| Zone | Primary Theme | Key Hazard |
+| :--- | :--- | :--- |
+| **Haunted House** | Horror interiors | Low visibility |
+| **Panic Factory** | Industrial cloning | Terminal interference |
+| **Arctic Base** | Ice exploration | Exploration traps |
+
+**Zone Tips for Couriers:**
+- **Haunted Routes**: Keep the package carrier in the center of the group.
+- **Factory Zones**: Assign one player to manage terminals while others guard.
+- **Arctic Base**: Thoroughly search side paths before pushing for the final delivery.
+
+<Callout type="success" title="Survival Strategy">
+Assign one scout to lead, one courier to carry the package, and one player to hold defensive tools. This formation prevents unnecessary team wipes in tight corridors.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Enemy Behavior and Counterplay">
+
+With 13 unique enemies currently in the game, knowing when to fight and when to flee is essential.
+
+| Enemy Type | Engagement Style | Counterplay |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Escape-oriented | Observe flight path for repositioning |
+| **Grotesque Monsters** | Aggressive | Coordinate defensive tool usage |
+| **Map-Specific Threats** | Zone-dependent | Adjust loadouts per map |
+
+<Callout type="tip" title="Combat Advice">
+Do not treat every encounter as a fight. If a monster blocks a hallway, use a repellent or traversal tool to bypass it rather than wasting team lives on unnecessary combat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Items and Shop Tier List">
+
+Investing in the right gear is crucial for long-term progress. Use your Speetchy wisely to ensure your team has the tools needed for high-risk runs.
+
+| Item | Tier | Primary Utility |
+| :--- | :--- | :--- |
+| **Tracking Devices** | S | Essential for Recovery missions |
+| **Crowbar** | S | Versatile defense and route interaction |
+| **Monster Repellents** | A | Escape and carrier protection |
+| **Traversal Tools** | A | Navigating procedural layouts |
+| **Gadgets** | B | Situational support |
+
+<Checklist
+  id="shop-priority"
+  title="Recommended Shop Buy Order:"
+  items={[
+    "Purchase Tracking Devices first for mission reliability",
+    "Acquire a Crowbar for emergency defense",
+    "Stock up on Monster Repellents for late-run exits",
+    "Save Bonus Permits for cosmetic swag after upgrades"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What happens when the team runs out of the 99 shared lives?",
+    answer: "When the team exhausts the shared pool of 99 lives, the current run resets. However, you retain any cosmetic items or permanent shop upgrades purchased during the session."
+  },
+  {
+    question: "How does the procedural dungeon system affect my runs?",
+    answer: "Every run features randomized objectives and dungeon layouts. This means your route and enemy encounters will change, requiring you to adapt your strategy every time."
+  },
+  {
+    question: "Is it better to play solo or in co-op?",
+    answer: "Panic Delivery is designed as a 4-player co-op horror comedy. While solo play is possible, co-op is recommended for managing objectives and shared lives effectively."
+  }
+]} />
+
+</Section>

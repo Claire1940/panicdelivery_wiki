@@ -1,0 +1,139 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de juego de Panic Delivery: Consejos para principiantes y supervivencia",
+  description: "Domina la jugabilidad de Panic Delivery con nuestra guía sobre supervivencia cooperativa, tipos de misiones y tácticas de entrega eficientes para tus primeras partidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Gameplay",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- **La jugabilidad de Panic Delivery** depende de la coordinación del equipo para gestionar 99 vidas compartidas en zonas generadas procedimentalmente.
+- **Los tipos de misión** incluyen Estándar, Recuperación y Contrabando, cada una requiere una planificación de ruta y uso de herramientas específicos.
+- **Las vidas compartidas** son tu recurso más valioso; protege al portador del paquete para evitar reapariciones innecesarias.
+- **El progreso permanente** está ligado a las mejoras de la tienda y a los cosméticos, los cuales se conservan incluso después de una entrega fallida.
+</Callout>
+
+<Section icon={Target} title="Mecánicas principales del juego">
+
+Panic Delivery es un juego cooperativo de terror y comedia para 4 jugadores donde tu equipo actúa como un grupo de mensajeros desechables en un mundo distópico. El bucle principal consiste en entrar en zonas infestadas de monstruos, completar objetivos de entrega específicos y extraer antes de que se agoten las vidas compartidas del equipo.
+
+**Aspectos destacados del video:**
+- Comprender el papel del mensajero en zonas distópicas.
+- Gestionar eficazmente el sistema de 99 vidas compartidas.
+- Navegar por diseños de mazmorras generados procedimentalmente.
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Resumen de la jugabilidad de Panic Delivery" />
+
+<Callout type="tip">
+Designa siempre a un portador de paquete principal. El resto de los miembros del equipo deben centrarse en explorar el terreno y despejar amenazas para asegurar que el portador llegue al punto de entrega de forma segura.
+</Callout>
+
+| Mecánica | Descripción | Impacto en la partida |
+| :--- | :--- | :--- |
+| **Vidas compartidas** | Reserva total de 99 clones para el equipo | La partida termina si la reserva llega a cero |
+| **Zonas procedimentales** | Mapas generados aleatoriamente | Requiere adaptación constante de la ruta |
+| **Tipos de misión** | Estándar, Recuperación y Contrabando | Dicta el objetivo del equipo y el nivel de riesgo |
+| **Moneda** | Speetchy ganado en misiones | Se usa para mejoras de tienda y herramientas |
+
+</Section>
+
+<Section icon={Package} title="Tipos de misión y manejo de paquetes">
+
+Entender tu objetivo antes de entrar en una zona es fundamental. Las misiones son aleatorias, lo que significa que debes adaptar tu estrategia cada vez que te despliegas.
+
+<CardGrid cols={3}>
+  <Card title="Misiones Estándar">
+    - Entrega directa
+    - Énfasis en la velocidad y la ruta
+    - Perfil de riesgo más bajo
+  </Card>
+  <Card title="Misiones de Recuperación">
+    - Localizar carga perdida primero
+    - Requiere dispositivos de rastreo
+    - Mayor intensidad de búsqueda
+  </Card>
+  <Card title="Misiones de Contrabando">
+    - Manejo de carga especializada
+    - Objetivos vinculados a la resistencia
+    - Requiere planificación de salida
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="El peso de la carga importa">
+Los tipos de paquete (Pequeño, Mediano, Grande) afectan la velocidad de movimiento y la visibilidad del portador. Los paquetes grandes requieren el apoyo del equipo para defender al portador, ya que son vulnerables mientras transportan carga pesada.
+</Callout>
+
+| Tamaño del paquete | Impacto en movilidad | Estrategia de equipo |
+| :--- | :--- | :--- |
+| **Pequeño** | Mínimo | El portador puede moverse rápido, explorar |
+| **Mediano** | Moderado | Requiere un protector junto al portador |
+| **Grande** | Significativo | Necesita escolta completa y herramientas defensivas |
+
+</Section>
+
+<Section icon={Map} title="Zonas y supervivencia en la ruta">
+
+El acceso anticipado incluye tres zonas operativas distintas. Cada zona presenta mazmorras procedimentales, lo que significa que tu camino nunca será el mismo dos veces.
+
+<Steps>
+  <Step num="1" title="Evalúa la zona">
+    Identifica la temática del mapa (Encantada, Fábrica o Base Ártica) para preparar tu equipamiento.
+  </Step>
+  <Step num="2" title="Explora el camino">
+    Usa herramientas de desplazamiento para revelar habitaciones ocultas e identificar posibles cuellos de botella enemigos.
+  </Step>
+  <Step num="3" title="Ejecuta la entrega">
+    Coordina el movimiento para asegurar que el portador del paquete nunca se quede aislado en un pasillo oscuro.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conciencia de zona">
+Trata la Base Ártica como una zona de exploración intensa, mientras que la Fábrica de Pánico requiere interacción rápida con terminales. Ajusta el ritmo de tu equipo según sea necesario para mantener el control.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comportamiento enemigo y supervivencia">
+
+Con 13 enemigos únicos en la versión actual, saber cuándo luchar y cuándo correr es el sello distintivo de un mensajero exitoso.
+
+| Categoría de enemigo | Patrón de comportamiento | Estrategia de contraataque |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Comportamiento de escape agresivo | Rastrea el movimiento para reposicionar al equipo |
+| **Monstruos grotescos** | Enjambres de alta presión | Usa repelentes para crear espacio de salida |
+| **Amenazas de mapa** | Tácticas de emboscada por zona | Prepara equipo específico para cada entorno |
+
+<Callout type="tip" title="Uso de repelentes">
+Guarda tus repelentes de monstruos para el camino de regreso. El tramo final de una entrega suele ser el más peligroso, ya que la presión enemiga aumenta una vez que se asegura el objetivo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Pierdo mi progreso si el equipo se queda sin vidas?",
+    answer: "Cuando el equipo agota las 99 vidas compartidas, la partida se reinicia. Sin embargo, cualquier cosmético comprado o mejora permanente de la tienda se mantiene, permitiendo un progreso a largo plazo."
+  },
+  {
+    question: "¿Puedo jugar Panic Delivery en solitario?",
+    answer: "Sí, el juego admite el modo solitario, aunque el sistema de vidas compartidas está equilibrado para un cooperativo de 4 jugadores. Las partidas en solitario requieren un juego más cauteloso y un uso eficiente de objetos defensivos."
+  },
+  {
+    question: "¿Cómo desbloqueo nuevos cosméticos?",
+    answer: "Los cosméticos se desbloquean a través del sistema de desafíos. Completa objetivos de misión específicos y gana Permisos de Bonificación para comprar nuevos aspectos, bailes y emojis en la tienda."
+  }
+]} />
+
+</Section>

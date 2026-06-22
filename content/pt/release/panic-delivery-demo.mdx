@@ -1,0 +1,143 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Demo de Panic Delivery: Guia para Iniciantes e Dicas de Sobrevivência",
+  description: "Domine o básico de Panic Delivery com este guia. Aprenda sobre missões de entrega, vidas compartilhadas, mecânicas de monstros e como sobreviver à sua primeira entrega.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **demo e o acesso antecipado de Panic Delivery** focam em um jogo de terror e comédia cooperativo para 4 jogadores.
+- As equipes compartilham **99 vidas** para completar missões de entrega, recuperação e contrabando.
+- A sobrevivência depende da **coordenação** e do uso de itens da loja para gerenciar a pressão dos monstros.
+- Sempre verifique seus **objetivos de missão** antes de entrar em zonas geradas proceduralmente.
+</Callout>
+
+<Section icon={BookOpen} title="Começando em Panic Delivery">
+
+Novos entregadores frequentemente se sentem sobrecarregados pela natureza caótica das zonas distópicas do jogo. Entender o ciclo central é vital para a sobrevivência e o progresso a longo prazo.
+
+**Destaques do Vídeo:**
+- Técnicas essenciais de coordenação de entregadores para equipes de 4 jogadores.
+- Como lidar com objetivos de missão aleatórios de forma eficaz.
+- Estratégias para gerenciar o pool compartilhado de 99 vidas.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Trailer de Acesso Antecipado" />
+
+O sucesso em Panic Delivery exige mais do que apenas velocidade; exige consciência tática. Sua equipe deve equilibrar a velocidade da entrega com a necessidade de proteger o transportador do pacote contra monstros grotescos.
+
+<Callout type="tip" title="Essencial para o Entregador">
+Nunca entre em uma sala sozinho. Mantenha sempre um item defensivo equipado, já que os layouts de masmorra procedurais podem alterar o caminho inesperadamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de Missão e Lógica de Pacotes">
+
+Entender sua tarefa é o primeiro passo para uma partida bem-sucedida. Cada tipo de missão requer uma abordagem diferente para garantir que o pacote chegue ao seu destino.
+
+| Tipo de Missão | Objetivo Principal | Estratégia do Jogador |
+| :--- | :--- | :--- |
+| Padrão | Entregar o pacote designado | Proteja o transportador a todo custo |
+| Recuperação | Encontrar e garantir carga perdida | Use dispositivos de rastreamento para localizar itens |
+| Contrabando | Mover bens ilícitos com segurança | Coordene o movimento para evitar armadilhas |
+
+<Callout type="warning" title="Risco da Carga">
+Pacotes maiores reduzem significativamente a velocidade do transportador. Garanta que sua equipe abra um caminho limpo e elimine ameaças antes que o transportador entre em zonas de alto risco.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navegando por Zonas Procedurais">
+
+Os mapas em Panic Delivery são gerados proceduralmente, o que significa que nenhuma partida é igual à outra. Familiarizar-se com os temas centrais das zonas é essencial para a navegação.
+
+<CardGrid cols={3}>
+  <Card title="Rota Assombrada">
+    - Alta intensidade de terror
+    - Áreas de baixa visibilidade
+    - Surgimento repentino de monstros
+  </Card>
+  <Card title="Fábrica do Pânico">
+    - Caminhos industriais complexos
+    - Jogabilidade focada em terminais
+    - Alto risco de interação
+  </Card>
+  <Card title="Base Ártica">
+    - Layouts focados em exploração
+    - Perigos ambientais
+    - Armadilhas de separação da equipe
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Navegação">
+Use ferramentas de travessia para explorar o caminho à frente na Base Ártica. Identificar becos sem saída cedo economiza um tempo valioso e evita encontros desnecessários com inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivência e Itens da Loja">
+
+O uso eficaz dos itens da loja pode transformar uma partida condenada em uma entrega bem-sucedida. Gastar seus Speetchy com sabedoria é a chave para manter seu progresso.
+
+| Categoria de Item | Melhor Caso de Uso | Classificação |
+| :--- | :--- | :--- |
+| Dispositivos de Rastreamento | Missões de recuperação | Nível S |
+| Pé de Cabra | Quebrar caixas e defesa | Nível S |
+| Repelentes de Monstros | Rotas de fuga de emergência | Nível A |
+| Ferramentas de Travessia | Exploração e reposicionamento | Nível A |
+
+<Steps>
+  <Step num="1" title="Priorize a Utilidade">
+    Invista em Dispositivos de Rastreamento e Pés de Cabra cedo para lidar com os desafios mais comuns das missões.
+  </Step>
+  <Step num="2" title="Economize para as Saídas">
+    Guarde Repelentes de Monstros para a jornada de retorno, especialmente quando a equipe estiver com poucas vidas restantes.
+  </Step>
+  <Step num="3" title="Recompensas Cosméticas">
+    Assim que seu equipamento de sobrevivência estiver completo, use Permissões de Bônus para desbloquear itens de personalização de personagem.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que acontece se ficarmos sem vidas em Panic Delivery?",
+    answer: "Se sua equipe esgotar o pool compartilhado de 99 vidas, a partida atual é reiniciada. Você perderá o progresso da missão, mas manterá quaisquer cosméticos pessoais ou melhorias permanentes compradas."
+  },
+  {
+    question: "Como a geração procedural afeta os mapas?",
+    answer: "Cada mapa apresenta layouts de masmorra gerados proceduralmente, o que significa que as localizações dos objetivos, encontros com inimigos e conexões entre salas mudam toda vez que você inicia uma nova partida."
+  },
+  {
+    question: "A comunicação é necessária para o sucesso?",
+    answer: "Sim, a comunicação é crítica. Coordenar papéis — como quem carrega o pacote, quem explora e quem gerencia itens defensivos — é a maneira mais confiável de sobreviver em modos de dificuldade mais alta."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="courier-checklist"
+  title="Lista de Verificação Final do Entregador:"
+  items={[
+    "Verificar os objetivos da missão atual",
+    "Equipar ferramentas essenciais de sobrevivência",
+    "Confirmar a atribuição dos papéis da equipe",
+    "Monitorar o pool compartilhado de vidas",
+    "Identificar a rota de saída mais segura"
+  ]}
+/>

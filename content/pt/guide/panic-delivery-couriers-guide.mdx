@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Entregadores do Panic Delivery: Dicas e Estratégias para Iniciantes",
+  description: "Domine o Panic Delivery com nosso guia de 2026. Aprenda o básico sobre os entregadores, tipos de missão, gerenciamento de vidas compartilhadas e dicas de sobrevivência para zonas infestadas de monstros.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **guia de entregadores do Panic Delivery** cobre ciclos de sobrevivência essenciais para novos jogadores neste jogo cooperativo de terror e comédia.
+- **99 vidas compartilhadas** significam que cada morte impacta o progresso da equipe, então coordene seus movimentos com cuidado.
+- **Três tipos de missão** (Padrão, Recuperação, Contrabando) exigem diferentes abordagens táticas e equipamentos.
+- **Masmorras procedurais** garantem que o conhecimento do mapa seja mais sobre sobrevivência adaptativa do que memorizar rotas fixas.
+- **Cosméticos permanentes** são mantidos mesmo quando uma partida reinicia, proporcionando objetivos de longo prazo para cada entregador.
+</Callout>
+
+<Section icon={Target} title="Começando como um Entregador">
+
+O ciclo central de jogabilidade do Panic Delivery foca em logística de alto risco em um ambiente distópico e infestado de monstros. Como um entregador, sua eficiência é tão importante quanto sua sobrevivência.
+
+**Destaques do Vídeo:**
+- Entendendo o sistema de 99 vidas compartilhadas.
+- Navegação básica através de mapas gerados proceduralmente.
+- Como gerenciar o manuseio de pacotes sob pressão.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Trailer de Acesso Antecipado" />
+
+O sucesso depende de entender o ambiente de trabalho. Ao surgir em uma zona, não corra. Avalie os objetivos da missão e garanta que sua equipe tenha as ferramentas necessárias para lidar com as ameaças específicas daquele mapa.
+
+| Fase | Objetivo | Prioridade |
+| :--- | :--- | :--- |
+| Preparação | Verificar tipo de missão e equipamento | Alta |
+| Navegação | Explorar caminhos antes de mover a carga | Média |
+| Execução | Proteger o portador do pacote | Crítica |
+| Exfiltração | Garantir a rota de saída antecipadamente | Alta |
+
+<Callout type="tip">
+Sempre designe um jogador como o portador principal do pacote enquanto outros exploram ou mantêm posições defensivas. Isso minimiza o risco de perder a carga em becos sem saída ou armadilhas de monstros.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Tipos de Missão e Manuseio de Pacotes">
+
+Nem todas as entregas são iguais. A versão de Acesso Antecipado apresenta três categorias distintas de missão, cada uma exigindo um nível diferente de coordenação da equipe.
+
+| Tipo de Missão | Objetivo | Nível de Risco |
+| :--- | :--- | :--- |
+| Padrão | Mover o pacote de A para B | Baixo |
+| Recuperação | Encontrar carga perdida usando rastreador | Médio |
+| Contrabando | Proteger mercadorias ilegais de alto valor | Alto |
+
+<Checklist
+  id="courier-checklist"
+  title="Lista de Verificação da Missão de Entregador:"
+  items={[
+    "Confirme o objetivo da missão antes de deixar a base",
+    "Atribua funções: Portador, Explorador e Defensor",
+    "Identifique o tamanho do pacote (Pequeno, Médio, Grande)",
+    "Verifique o estoque restante de vidas compartilhadas"
+  ]}
+/>
+
+<Callout type="warning" title="Segurança da Carga">
+Pacotes grandes reduzem significativamente sua mobilidade. Se você estiver carregando uma caixa grande, evite o combate e conte com seus colegas de equipe para limpar o caminho à frente.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mapas e Riscos Ambientais">
+
+O Acesso Antecipado inclui três zonas operacionais. Como esses locais utilizam masmorras geradas proceduralmente, você deve se adaptar a layouts variáveis em vez de confiar na memória estática.
+
+<CardGrid cols={3}>
+  <Card title="Rota Assombrada">
+    - **Atmosfera tensa**
+    - Visibilidade limitada
+    - Ameaças de monstros de curto alcance
+  </Card>
+  <Card title="Fábrica Pânico">
+    - **Layout industrial**
+    - Pressão de interação com terminais
+    - Estruturas de salas complexas
+  </Card>
+  <Card title="Base Ártica">
+    - **Foco em exploração**
+    - Armadilhas ambientais de gelo
+    - Potencial para separação da equipe
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Estratégia de Rota">
+Na Base Ártica, priorize verificar caminhos laterais logo no início. A geração procedural pode criar becos sem saída que prendem sua equipe durante a fase de extração.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Níveis de Sobrevivência e Itens">
+
+Gerenciar seu Speetchy (moeda) de forma eficaz é vital para a sobrevivência a longo prazo. Priorize itens que forneçam utilidade e suporte defensivo em vez de compras puramente cosméticas.
+
+| Nome do Item | Nível | Melhor Caso de Uso |
+| :--- | :--- | :--- |
+| Dispositivos de Rastreamento | S | Missões de Recuperação |
+| Pé de Cabra | S | Quebra de caixas/Defesa |
+| Repelentes de Monstros | A | Fugas de emergência |
+| Ferramentas de Travessia | A | Reposicionamento no mapa |
+| Tubo de Gemido | B | Defesa de pânico |
+
+<Callout type="success" title="Estratégia Profissional">
+Foque seu Speetchy inicial em **Dispositivos de Rastreamento**. Eles são essenciais para missões de Recuperação, que geralmente são a maneira mais eficiente de cultivar recursos no início do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como funcionam as vidas compartilhadas no Panic Delivery?",
+    answer: "A equipe compartilha um estoque de 99 clones. Cada vez que um entregador morre, um clone é consumido. Se a equipe esgotar todo o estoque, a partida atual termina e vocês devem reiniciar."
+  },
+  {
+    question: "Perco meu progresso se a missão falhar?",
+    answer: "Quando uma partida termina devido à morte ou falha na missão, você perde o progresso daquela missão específica. No entanto, quaisquer compras permanentes, cosméticos ou desafios concluídos são salvos."
+  },
+  {
+    question: "A comunicação por voz é necessária para o modo cooperativo?",
+    answer: "Embora não seja estritamente necessária, a comunicação é altamente recomendada. Coordenar quem carrega o pacote e quem vigia a retaguarda é a diferença entre o sucesso e o reinício da partida."
+  }
+]} />
+
+</Section>

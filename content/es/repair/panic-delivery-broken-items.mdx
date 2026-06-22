@@ -1,0 +1,127 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery: Objetos rotos, solución de problemas y guía de objetos",
+  description: "Aprende a gestionar los objetos rotos en Panic Delivery, la utilidad de la tienda y estrategias de supervivencia para tus partidas cooperativas en esta guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los objetos rotos en Panic Delivery** pueden interrumpir tu logística, pero las compras estratégicas en la tienda ayudan a mitigar estos riesgos.
+- **Las 99 vidas compartidas** significan que cada mensajero debe priorizar la integridad del paquete sobre la exploración arriesgada.
+- **Los objetos de la tienda**, como los dispositivos de rastreo y las palancas, son esenciales para gestionar los objetivos específicos de la misión.
+- **Las mazmorras procedimentales** requieren que los equipos adapten su equipamiento según el mapa y la misión actuales.
+- **La coordinación del equipo** es la herramienta más eficaz para evitar la pérdida de paquetes y fallos en el equipo.
+</Callout>
+
+<Section icon={Shield} title="Entendiendo la gestión de objetos">
+
+En las zonas distópicas de Panic Delivery, el mantenimiento del equipo y la manipulación de los paquetes son vitales. Cuando los jugadores se refieren a "objetos rotos", a menudo hablan de la pérdida de carga crítica para la misión o del fallo de herramientas durante partidas procedimentales de alta presión. Gestionar tu inventario de manera efectiva marca la diferencia entre una entrega exitosa y agotar el fondo de vidas compartido de tu equipo.
+
+<Callout type="tip" title="Consejo profesional">
+Asigna siempre roles específicos antes de comenzar una partida. Si un jugador lleva el paquete principal, otro debería centrarse en las herramientas defensivas para evitar que los monstruos interrumpan la entrega y provoquen que el paquete se caiga o se "rompa".
+</Callout>
+
+| Categoría de objeto | Uso principal | Valor estratégico |
+| :--- | :--- | :--- |
+| **Dispositivos de rastreo** | Localizar carga perdida | ★★★★★ |
+| **Palancas** | Romper obstáculos | ★★★★☆ |
+| **Repelentes de monstruos** | Escape/Defensa | ★★★★☆ |
+| **Herramientas de travesía** | Movilidad/Exploración | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Target} title="Tipos de misión y manejo de carga">
+
+Los diferentes tipos de misión cambian la forma en que debes interactuar con el entorno y tus objetos. Las entregas estándar son sencillas, pero las misiones de contrabando y recuperación implican una lógica de paquetes más compleja.
+
+<Steps>
+  <Step num="1" title="Evalúa el objetivo">
+    Antes de salir de la base, confirma si estás manejando paquetes estándar, de recuperación o de contrabando. Cada uno requiere un equipamiento de herramientas diferente.
+  </Step>
+  <Step num="2" title="Equipa las herramientas necesarias">
+    Las misiones de recuperación casi siempre requieren dispositivos de rastreo. Sin ellos, buscar objetos perdidos en mapas generados procedimentalmente es ineficiente.
+  </Step>
+  <Step num="3" title="Coordina el movimiento">
+    Asegúrate de que el portador del paquete esté protegido. Si el portador recibe daño, aumenta el riesgo de que el paquete se caiga, lo que puede provocar el fracaso de la misión.
+  </Step>
+  <Step num="4" title="Ejecuta la huida">
+    Usa repelentes de monstruos durante el camino de regreso final para asegurar que el equipo despeje la zona sin perder el paquete.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Vigila tus vidas">
+El fondo común de 99 vidas es el recurso definitivo de tu equipo. No sacrifiques una vida para recuperar un objeto de bajo valor si eso pone en riesgo el éxito de toda la misión.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Objetos de la tienda y clasificaciones de utilidad">
+
+La tienda ofrece 15 objetos en la versión actual de acceso anticipado. Gastar tus Speetchy con sabiduría es crucial para el progreso a largo plazo, ya que el equipo comprado te ayuda a sobrevivir a diseños procedimentales cada vez más difíciles.
+
+| Nombre del objeto | Mejor para | Rol del equipo |
+| :--- | :--- | :--- |
+| **Dispositivo de rastreo** | Misiones de recuperación | Especialista en recuperación |
+| **Palanca** | Control de rutas | Explorador/Protector |
+| **Repelente de monstruos** | Escape de emergencia | Todo el equipo |
+| **Herramienta de travesía** | Habitaciones procedimentales | Explorador |
+
+<CardGrid cols={2}>
+  <Card title="Enfoque en utilidad">
+    - Prioriza los dispositivos de rastreo para la recuperación.
+    - Mantén herramientas de travesía para rutas complicadas.
+    - Usa gadgets para apoyar el camino del equipo.
+  </Card>
+  <Card title="Enfoque en supervivencia">
+    - Lleva siempre repelentes de monstruos.
+    - Usa palancas para defensa inmediata.
+    - Guarda herramientas para el viaje de regreso a casa.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Manejo de riesgos procedimentales">
+
+Las mazmorras procedimentales significan que no hay dos partidas iguales. Tu equipo se encontrará con diversos riesgos ambientales y densidades de monstruos. Reconocer cuándo un objeto ya no es viable para una ruta específica es una habilidad clave para los mensajeros avanzados.
+
+<Callout type="success" title="Estrategia de éxito">
+Si una partida empieza a ir mal, concéntrate en asegurar el paquete. A veces, abandonar un objetivo secundario es la mejor manera de salvar las vidas compartidas del equipo y volver con tu progreso intacto.
+</Callout>
+
+| Zona del mapa | Peligro principal | Herramienta recomendada |
+| :--- | :--- | :--- |
+| **Casa encantada** | Baja visibilidad | Herramienta de travesía |
+| **Fábrica de pánico** | Diseños estrechos | Palanca |
+| **Base ártica** | Trampas de exploración | Dispositivo de rastreo |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué debo hacer si pierdo mi paquete en una mazmorra procedimental?",
+    answer: "Si tienes un dispositivo de rastreo, úsalo para localizar la carga perdida. Si no, retrocede lentamente a través de las últimas tres habitaciones que visitaste, ya que los paquetes a menudo se caen cerca de los puntos de encuentro con enemigos."
+  },
+  {
+    question: "¿Pierdo mis objetos de la tienda cuando nos quedamos sin vidas?",
+    answer: "No, los objetos comprados y las mejoras permanentes de la tienda se conservan. Solo se reinicia el progreso de tu misión actual cuando se agota el fondo común de 99 vidas."
+  },
+  {
+    question: "¿Qué tipo de misión es mejor para ganar Speetchy?",
+    answer: "Las misiones de entrega estándar son generalmente las más consistentes para ganar Speetchy, mientras que las misiones de contrabando ofrecen mayores recompensas pero conllevan riesgos significativamente mayores de fracaso."
+  }
+]} />
+
+</Section>

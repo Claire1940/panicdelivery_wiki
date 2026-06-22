@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Fix Equipment: Maintenance & Survival Tips",
+  description: "Master the panic delivery fix equipment mechanics to keep your courier operations running smoothly in this co-op horror comedy survival guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Equipment+Maintenance",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic delivery fix equipment** is essential for maintaining operational efficiency during high-pressure courier missions.
+- **Shared 99 lives** mean your team must prioritize equipment health to avoid unnecessary respawns.
+- **Regular maintenance** of tools and terminals prevents critical failures during monster-infested delivery runs.
+- **Coordination is key** when managing equipment repairs while under active threat from dystopian enemies.
+</Callout>
+
+<Section icon={Wrench} title="Understanding Equipment Mechanics">
+
+To successfully perform a panic delivery fix equipment task, you must first understand that your tools are the only barrier between a successful mission and a total run reset. In the current Early Access build, equipment isn't just about utility; it is about survival.
+
+**Video Highlights:**
+- Identifying critical equipment failure points.
+- Efficient team coordination for repair tasks.
+- Managing tools while avoiding monster detection.
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Panic Delivery Gameplay Overview" />
+
+When your team enters a zone, the procedural dungeon layout means equipment spawns and damage are randomized. You must treat every terminal and tool interaction as a potential ambush point.
+
+| Equipment Type | Primary Function | Maintenance Priority |
+| :--- | :--- | :--- |
+| **Tracking Devices** | Locating lost cargo | High |
+| **Repair Terminals** | Restoring team systems | Critical |
+| **Defensive Tools** | Crowd control | Medium |
+| **Utility Gadgets** | Door/path access | Medium |
+
+<Callout type="tip">
+Always keep one team member on "watch duty" while others are busy with the panic delivery fix equipment process to prevent surprise enemy attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Repair Strategies for Couriers">
+
+Effective maintenance follows a specific workflow. You cannot afford to waste time in the middle of a monster-infested zone.
+
+<Steps>
+  <Step num="1" title="Assess Damage">
+    Check the terminal or tool status. If the light is blinking red, it requires immediate attention.
+  </Step>
+  <Step num="2" title="Clear the Area">
+    Ensure no enemies are within immediate striking distance. Use a repellent if necessary.
+  </Step>
+  <Step num="3" title="Assign Roles">
+    One player performs the repair while others hold the perimeter. Never let the person repairing the equipment be the only one exposed.
+  </Step>
+  <Step num="4" title="Verify Functionality">
+    Once the repair bar is full, ensure the equipment is active before moving the package.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Warning">
+Failing to repair a terminal in the Panic Factory map can lead to a lockdown, trapping your team with hostile entities.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipment Comparison and Utility">
+
+Not all equipment requires the same level of maintenance. Some items are purely for survival, while others are mission-critical.
+
+| Item Category | Survival Value | Maintenance Requirement |
+| :--- | :--- | :--- |
+| **Recovery Gear** | 5/5 | High |
+| **Crowbars** | 4/5 | Low |
+| **Repellents** | 3/5 | Low |
+| **Traversal Tools** | 3/5 | Medium |
+
+<CardGrid cols={2}>
+  <Card title="High-Maintenance Items">
+    These items, such as tracking devices, require constant monitoring. If they break, your ability to recover lost packages is severely hampered.
+  </Card>
+  <Card title="Low-Maintenance Items">
+    Tools like crowbars are durable. Use them for general defense without worrying about frequent repair cycles.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Mission-Specific Maintenance">
+
+Different mission types change how you should approach equipment repair.
+
+| Mission Type | Priority Equipment | Strategy |
+| :--- | :--- | :--- |
+| **Standard** | Defensive Tools | Keep paths clear |
+| **Recovery** | Tracking Devices | Locate cargo quickly |
+| **Smuggling** | Utility Gadgets | Avoid detection zones |
+
+<Checklist
+  id="maintenance-checklist"
+  title="Pre-Mission Maintenance Checklist:"
+  items={[
+    "Verify all 99 shared lives are accounted for",
+    "Check shop items for durability upgrades",
+    "Assign specific repair roles to team members",
+    "Identify extraction points before starting repairs"
+  ]}
+/>
+
+<Callout type="success" title="Pro Strategy">
+If you are playing with a full squad of four, rotate repair duties to ensure everyone has experience with the panic delivery fix equipment mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I know if the equipment needs fixing?",
+    answer: "Look for visual cues like red warning lights on terminals or broken icons on your HUD when holding specific tools."
+  },
+  {
+    question: "Does repairing equipment consume shared lives?",
+    answer: "No, but failing to repair equipment often leads to situations where you take unnecessary damage, which eventually burns through your 99 shared lives."
+  },
+  {
+    question: "Is it worth repairing items in the middle of a chase?",
+    answer: "Generally, no. Your priority should be survival. Only attempt repairs when you have created a temporary safe zone or successfully repelled the monsters."
+  },
+  {
+    question: "Do items persist after a run reset?",
+    answer: "While your run progress resets when lives hit zero, permanent upgrades and cosmetics purchased with Bonus Permits remain, which can include equipment enhancements."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Trailer: 2026 Early Access Overview",
+  description: "Explore the chaotic world of Panic Delivery. Our guide covers launch details, co-op survival tips, mission types, and essential Early Access gameplay mechanics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery trailer** showcases the intense 4-player co-op horror-comedy gameplay now available on Steam.
+- Players act as **disposable couriers** navigating monster-infested zones to deliver packages for corporate profit.
+- Coordination is vital as teams share a pool of **99 lives** to complete procedural missions.
+- The game currently features **3 maps**, **3 mission types**, and **13 unique enemies** in Early Access.
+- Permanent progression is tied to **cosmetics and upgrades**, while failed runs reset the current mission.
+</Callout>
+
+<Section icon={Package} title="Panic Delivery Early Access Launch">
+
+The official **Panic Delivery trailer** highlights the game's high-stakes, comedic survival loop. Since its launch on May 13, 2026, the title has established itself as a unique co-op experience where corporate efficiency meets eldritch horror.
+
+<Callout type="tip" title="Launch Status">
+The game is currently in Early Access, with a planned one-year development window to expand content based on community feedback.
+</Callout>
+
+| Feature | Details |
+| :--- | :--- |
+| **Launch Date** | May 13, 2026 |
+| **Platform** | PC (Steam) |
+| **Player Count** | 1-4 Players Online Co-op |
+| **Price** | $7.99 USD |
+| **Supported Languages** | 9 (including English, Japanese, Spanish, Portuguese) |
+
+</Section>
+
+<Section icon={Target} title="Core Gameplay Loop">
+
+To succeed in your first run, you must understand the basics of the courier life. Panic Delivery rewards teams that communicate and manage their limited resources effectively.
+
+<Steps>
+  <Step num="1" title="Select Mission">
+    Choose between Standard, Recovery, or Smuggling missions. Each type has randomized objectives.
+  </Step>
+  <Step num="2" title="Manage Cargo">
+    Handle Small, Medium, or Large packages. Large packages require team coordination to transport safely.
+  </Step>
+  <Step num="3" title="Survive Dungeons">
+    Navigate procedurally generated maps. Use tools and weapons to fend off the 13 types of monsters.
+  </Step>
+  <Step num="4" title="Protect Shared Lives">
+    The team shares 99 lives. Once depleted, the run ends, but you keep your personal cosmetic progress.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Workplace Safety">
+Splitting up is the fastest way to burn through your shared 99 lives. Always keep at least one teammate nearby to assist with terminals or monster encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Missions and Map Zones">
+
+The Early Access build offers diverse zones, each with unique environmental risks. Understanding the mission requirements before you enter is critical for survival.
+
+| Mission Type | Goal | Strategy |
+| :--- | :--- | :--- |
+| **Standard** | Deliver packages | Maintain a defensive formation |
+| **Recovery** | Retrieve lost cargo | Use tracking devices to locate items |
+| **Smuggling** | Protect illicit goods | Coordinate escape routes early |
+
+<CardGrid cols={3}>
+  <Card title="Haunted Route">
+    - Low visibility
+    - Sudden monster pressure
+    - Best for close-range combat
+  </Card>
+  <Card title="Panic Factory">
+    - Industrial layouts
+    - High terminal interaction
+    - Requires exit awareness
+  </Card>
+  <Card title="Arctic Base">
+    - Exploration-heavy
+    - Dead-end hazards
+    - Requires scouting paths
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mission Tip">
+Recovery missions are much easier if you assign one player to focus entirely on tracking while the others clear the path.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Item Tier List">
+
+Investing your Speetchy wisely in the shop will determine how far you get into the later zones.
+
+| Item Category | Tier | Best Use Case |
+| :--- | :--- | :--- |
+| **Tracking Devices** | S | Recovery missions |
+| **Crowbar** | S | Emergency defense & interaction |
+| **Monster Repellents** | A | Escape routes |
+| **Traversal Tools** | A | Navigating procedural rooms |
+| **Gadgets** | B | Situational support |
+
+<Callout type="info" title="Spending Strategy">
+Always prioritize utility items like Tracking Devices and Crowbars over cosmetic "Boujee Swag" during your initial runs to ensure team survival.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Community FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Panic Delivery a single-player game?",
+    answer: "Yes, you can play solo, but the game is designed for 4-player co-op horror comedy where shared lives make teamwork essential."
+  },
+  {
+    question: "Do I lose everything if my team dies?",
+    answer: "When you run out of shared lives, the run resets, but you retain any cosmetics and permanent upgrades purchased with Bonus Permits."
+  },
+  {
+    question: "How many maps are currently available?",
+    answer: "The Early Access build includes 3 distinct maps, each featuring procedurally generated dungeon layouts for high replayability."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="beginner-checklist"
+  title="New Courier Checklist:"
+  items={[
+    "Check mission type before deploying",
+    "Assign a package carrier",
+    "Keep the shared life pool above 50%",
+    "Buy a crowbar for early-game defense",
+    "Learn the layout of the Panic Factory"
+  ]}
+/>

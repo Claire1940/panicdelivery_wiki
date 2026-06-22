@@ -1,0 +1,132 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery 修理：生存与快递成功指南",
+  description: "通过我们 2026 年的指南掌握 Panic Delivery 的修理技巧与快递生存法则。了解地图、任务类型，以及如何有效管理团队的 99 条生命。",
+  category: "指南",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Panic Delivery Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Panic Delivery 修理**对于维护装备和在怪物横行的反乌托邦区域生存至关重要。
+- 团队共享 **99 条生命**，因此高效完成任务和生存是首要任务。
+- 进入区域前，请务必检查**任务类型**（标准、回收或走私）。
+- 妥善管理追踪器和撬棍等**商店物品**是长期成功的关键。
+- 与合作团队进行**沟通协作**是防止任务失败最有效的手段。
+</Callout>
+
+<Section icon={Target} title="快递员基础知识">
+
+新快递员必须掌握核心游戏循环，才能在 Panic Delivery 怪物出没的区域取得成功。你的主要目标是运送包裹、回收丢失的货物或走私商品，同时确保团队不会耗尽 99 条共享生命。
+
+**视频亮点：**
+- 快递员的基本移动与交互机制
+- 如何探索程序生成的地下城
+- 管理合作团队的沟通
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Panic Delivery 抢先体验版游戏演示" />
+
+当你进入任务时，团队的成功取决于准备工作。每个任务的随机目标意味着你无法依赖以往的路线经验。将每一次奔跑都视为全新的挑战，沟通是你最有价值的工具。
+
+<Callout type="tip" title="生存策略">
+除非任务需要搜索模式，否则永远不要分散团队。对于目前游戏中出现的 13 种独特敌人来说，落单的快递员是极易攻击的目标。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="任务类型与包裹逻辑">
+
+在 Panic Delivery 中取得成功取决于理解当前合同的具体要求。抢先体验版本将任务分为三种不同类型，每种类型都需要不同的路线规划和资源使用策略。
+
+| 任务类型 | 主要目标 | 团队策略 |
+| :--- | :--- | :--- |
+| **标准** | 将包裹运送至投放点 | 不惜一切代价保护搬运工 |
+| **回收** | 定位并找回丢失的货物 | 使用追踪器寻找目标 |
+| **走私** | 在区域内运送违禁品 | 协调撤离路线与移动速度 |
+
+<Callout type="warning" title="货物处理">
+包裹分为小、中、大三种尺寸。较大的包裹会限制移动并需要更多团队保护。务必指派一名专门的搬运工，而其他人负责清理路径。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="装备与商店策略">
+
+明智地使用赚取的 Speetchy 是成功通关与全队重置的区别。在商店中，优先选择能应对当前地图环境风险的实用工具。
+
+<CardGrid cols={3}>
+  <Card title="S级实用工具">
+    - **追踪器**：回收任务必不可少。
+    - **撬棍**：兼具破坏箱子和紧急防御的双重用途。
+  </Card>
+  <Card title="A级防御工具">
+    - **怪物驱逐剂**：清理撤离路线的关键。
+    - **移动工具**：加快在复杂地下城中的导航速度。
+  </Card>
+  <Card title="B级情境工具">
+    - **小工具**：对特定的程序化布局很有用。
+    - **怪声管**：作为最后手段的即兴恐慌武器。
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="经济提示">
+奖励许可证（Bonus Permits）用于购买装饰品。请优先将 Speetchy 用于购买生存工具，以确保你能顺利完成任务并获得更多奖励。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="地图危险管理">
+
+Panic Delivery 中的地图是程序生成的，这意味着每次游玩的布局都不同。无论你是在“闹鬼路线”、“恐慌工厂”还是“北极基地”，都必须适应周围环境。
+
+| 地图区域 | 主要特征 | 主要风险 |
+| :--- | :--- | :--- |
+| **闹鬼路线** | 能见度低，走廊狭窄 | 突发的怪物伏击 |
+| **恐慌工厂** | 工业机械与终端 | 战斗中的交互延迟 |
+| **北极基地** | 开阔，探索路径多 | 死胡同陷阱与孤立 |
+
+<Steps>
+  <Step num="1" title="侦察布局">
+    让一名团队成员检查周围是否有敌人生成。
+  </Step>
+  <Step num="2" title="标记出口">
+    在深入探索之前，务必了解回到撤离点的最短路径。
+  </Step>
+  <Step num="3" title="协调交互">
+    不要让携带包裹的人员去操作终端或开启大门。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "99 条生命系统是如何运作的？",
+    answer: "团队共享总共 99 条生命。每次快递员死亡，就会消耗一条生命来部署一个新的克隆体。如果生命池归零，整个任务将重置。"
+  },
+  {
+    question: "任务失败后我还能保留进度吗？",
+    answer: "当前任务进度会重置，但使用奖励许可证购买的任何个人装饰品或永久升级都会保留。"
+  },
+  {
+    question: "Panic Delivery 的修理是需要管理的机制吗？",
+    answer: "是的，维护工具和装备是生存循环的一部分。正确使用设备可以防止你的物品在关键交付阶段损坏。"
+  },
+  {
+    question: "我可以单人游玩 Panic Delivery 吗？",
+    answer: "可以，游戏支持单人游玩和最多四人的在线合作，不过单人游戏时的协调难度会大得多。"
+  }
+]} />
+
+</Section>

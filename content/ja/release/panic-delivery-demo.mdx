@@ -1,0 +1,143 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery デモ：初心者ガイドと生存のヒント",
+  description: "Panic Deliveryの基本をマスターしましょう。配送ミッション、共有ライフ、モンスターの仕組み、そして最初の配達を生き延びるためのガイドです。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Panic Delivery Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Panic Delivery デモ**および早期アクセス版は、4人協力プレイのホラーコメディです。
+- チームは**99の共有ライフ**を消費して、配達、回収、密輸ミッションを完遂します。
+- 生存には**連携**と、ショップアイテムを活用してモンスターの脅威を管理することが不可欠です。
+- 手続き型生成されるゾーンに突入する前に、必ず**ミッション目標**を確認してください。
+</Callout>
+
+<Section icon={BookOpen} title="Panic Delivery を始めるにあたって">
+
+新米配達員は、ゲーム内のディストピアゾーンが持つ混沌とした性質に圧倒されがちです。長期的な生存と進行のためには、基本的なゲームループを理解することが重要です。
+
+**動画のハイライト:**
+- 4人チームのための必須の配達員連携テクニック。
+- ランダム化されたミッション目標を効果的に処理する方法。
+- 共有ライフ99のプールを管理するための戦略。
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Trailer" />
+
+Panic Deliveryでの成功には単なるスピード以上のもの、つまり戦術的な意識が求められます。チームは、恐ろしいモンスターから荷物運び役を守る必要性と、配達スピードのバランスを取らなければなりません。
+
+<Callout type="tip" title="配達員の必須心得">
+決して一人で部屋に足を踏み入れないでください。手続き型ダンジョンの構造は予期せず変化するため、常に防御アイテムを装備しておくようにしましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ミッションタイプと荷物のロジック">
+
+任務を理解することが、成功への第一歩です。各ミッションタイプには、荷物を確実に目的地へ届けるための異なるアプローチが必要です。
+
+| ミッションタイプ | 主な目標 | プレイヤーの戦略 |
+| :--- | :--- | :--- |
+| スタンダード | 指定された荷物を届ける | 何としても運び役を守る |
+| 回収 | 紛失した貨物を見つけて確保する | 追跡デバイスを使用してアイテムの位置を特定する |
+| 密輸 | 不正品を安全に運ぶ | トラップを避けるために移動を調整する |
+
+<Callout type="warning" title="貨物のリスク">
+大きな荷物は運び役の移動速度を大幅に低下させます。運び役が高リスクゾーンに入る前に、チームが道を確保し、脅威を排除してください。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="手続き型ゾーンの探索">
+
+Panic Deliveryのマップは手続き型で生成されるため、二度と同じプレイにはなりません。ナビゲーションのためには、主要なゾーンのテーマを把握しておくことが不可欠です。
+
+<CardGrid cols={3}>
+  <Card title="呪われたルート">
+    - 高いホラー演出
+    - 視界不良エリア
+    - 突然のモンスター出現
+  </Card>
+  <Card title="パニック工場">
+    - 複雑な工業通路
+    - ターミナル操作が中心
+    - 高いインタラクションリスク
+  </Card>
+  <Card title="北極基地">
+    - 探索重視のレイアウト
+    - 環境ハザード
+    - チーム分断トラップ
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="探索のヒント">
+北極基地では移動用ツールを使って先を偵察しましょう。行き止まりを早期に特定することで貴重な時間を節約し、無用な敵との遭遇を防ぐことができます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="生存とショップアイテム">
+
+ショップアイテムを効果的に活用すれば、失敗しそうなランも成功する配達に変えることができます。Speetchy（スピーチー）を賢く使うことが、進行を維持する鍵です。
+
+| アイテムカテゴリ | 最適な使用例 | ティア評価 |
+| :--- | :--- | :--- |
+| 追跡デバイス | 回収ミッション | S-Tier |
+| バール | 箱の破壊・防御 | S-Tier |
+| モンスター忌避剤 | 緊急時の脱出ルート確保 | A-Tier |
+| 移動用ツール | 偵察・位置調整 | A-Tier |
+
+<Steps>
+  <Step num="1" title="ユーティリティを優先">
+    最も一般的なミッション課題に対応できるよう、早期に追跡デバイスやバールに投資しましょう。
+  </Step>
+  <Step num="2" title="脱出用に温存">
+    モンスター忌避剤は帰還の旅路、特にチームの残りライフが少ない時のために取っておきましょう。
+  </Step>
+  <Step num="3" title="カスタマイズ報酬">
+    生存用ロードアウトが完成したら、ボーナス許可証を使用してキャラクターのカスタマイズアイテムをアンロックしましょう。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "Panic Deliveryでライフが尽きたらどうなりますか？",
+    answer: "チームの共有ライフ99が尽きると、現在のランはリセットされます。ミッションの進行状況は失われますが、購入した個人のコスメティックや永続的なアップグレードは保持されます。"
+  },
+  {
+    question: "手続き型生成はマップにどのような影響を与えますか？",
+    answer: "各マップは手続き型で生成されるダンジョンレイアウトを採用しているため、目標の場所、敵との遭遇、部屋のつながりはプレイするたびに変化します。"
+  },
+  {
+    question: "成功にはコミュニケーションが必要ですか？",
+    answer: "はい、コミュニケーションは極めて重要です。誰が荷物を運ぶか、誰が偵察するか、誰が防御アイテムを管理するかといった役割分担を調整することが、高難易度モードを生き抜く最も確実な方法です。"
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="courier-checklist"
+  title="最終配達員チェックリスト:"
+  items={[
+    "現在のミッション目標を確認する",
+    "必須の生存ツールを装備する",
+    "チームの役割分担を確定する",
+    "共有ライフのプールを監視する",
+    "最も安全な脱出ルートを特定する"
+  ]}
+/>

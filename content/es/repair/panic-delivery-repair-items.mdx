@@ -1,0 +1,116 @@
+import { Target, Shield, Package, Zap, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Artículos de reparación en Panic Delivery: Guía de herramientas y equipo de tienda",
+  description: "Domina los artículos de reparación y el equipo de tienda en Panic Delivery. Aprende a optimizar tu equipamiento de repartidor, gestionar Speetchy y sobrevivir en las zonas distópicas llenas de monstruos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Repair+Items+Guide",
+  date: "2026-06-22",
+  author: "Equipo de Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida: Artículos de reparación en Panic Delivery">
+- **Los artículos de reparación** y las herramientas de la tienda en Panic Delivery son esenciales para sobrevivir a las rutas de entrega infestadas de monstruos.
+- **Speetchy** es la moneda principal utilizada para adquirir equipo defensivo y utilitario en la tienda.
+- **Prioriza las herramientas de supervivencia** como los dispositivos de rastreo y los repelentes de monstruos para proteger tus 99 vidas compartidas.
+- **Coordínate con tu equipo** para asegurar que alguien lleve siempre la herramienta adecuada para el tipo de misión.
+- **Los cosméticos permanentes** se conservan después de que una partida se reinicia, pero los artículos críticos para la misión deben volver a comprarse.
+</Callout>
+
+<Section icon={Package} title="Entendiendo los artículos de la tienda y el equipo de reparación">
+
+En Panic Delivery, tu supervivencia depende de la eficacia con la que gestiones tus recursos. Aunque el juego cuenta con 15 artículos únicos en la versión actual de acceso anticipado, es vital entender la distinción principal entre equipo utilitario, defensivo y específico para misiones. Los artículos de reparación y las herramientas de la tienda no son solo por conveniencia; son la diferencia entre una entrega exitosa y perder las 99 vidas compartidas de tu equipo.
+
+<Callout type="tip" title="Consejo profesional">
+Comprueba siempre el objetivo de la misión antes de gastar tu Speetchy. Invertir en un dispositivo de rastreo para una misión de recuperación es mucho más valioso que comprar un arma improvisada que quizás nunca uses.
+</Callout>
+
+La tienda clasifica los artículos según su función principal. A continuación, se detalla cómo impactan estos artículos en tus partidas:
+
+| Categoría de artículo | Función principal | Ideal para |
+| :--- | :--- | :--- |
+| **Dispositivos de rastreo** | Localizar carga perdida | Misiones de recuperación |
+| **Repelentes de monstruos** | Crear ventanas de escape | Salidas de alta presión |
+| **Herramientas de desplazamiento** | Reposicionamiento rápido | Mazmorras largas y complejas |
+| **Herramientas defensivas** | Protección a corta distancia | Zonas de Panic Factory |
+
+</Section>
+
+<Section icon={Target} title="Equipamientos estratégicos">
+
+Crear un equipamiento de equipo equilibrado es la forma más fiable de manejar los diseños de mazmorras procedimentales. Dado que compartes un grupo limitado de clones, no puedes permitirte que todos los miembros del equipo lleven el mismo tipo de equipo.
+
+<Steps>
+  <Step num="1" title="Evalúa el tipo de misión">
+    Identifica si tu partida actual es una misión estándar, de recuperación o de contrabando. Esto determina si necesitas velocidad de movimiento o utilidad para encontrar carga.
+  </Step>
+  <Step num="2" title="Asigna roles">
+    Designa un "transportista" que se centre en el paquete y un "explorador" que lleve equipo defensivo como la palanca o repelentes.
+  </Step>
+  <Step num="3" title="Asigna Speetchy">
+    Gasta tu moneda en artículos que mitiguen los riesgos específicos del mapa actual, como las trampas de exploración de la Base Ártica.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Equipamiento defensivo">
+    - **Palanca**: Esencial para romper obstáculos.
+    - **Repelente de monstruos**: Úsalo para despejar una ruta de escape.
+    - **Ideal para**: Jugadores solitarios o equipos pequeños.
+  </Card>
+  <Card title="Equipamiento utilitario">
+    - **Dispositivos de rastreo**: Localiza objetivos rápidamente.
+    - **Herramientas de desplazamiento**: Navega por salas procedimentales con rapidez.
+    - **Ideal para**: Escuadrones coordinados de 4 jugadores.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Descripción general de niveles de artículos">
+
+Aunque las preferencias de los jugadores varían, ciertos artículos proporcionan un valor objetivamente mayor para la supervivencia del equipo. La siguiente tabla resume la utilidad de los artículos de la tienda disponibles en la versión actual de acceso anticipado de Panic Delivery.
+
+| Nombre del artículo | Nivel | Valor de utilidad |
+| :--- | :--- | :--- |
+| **Dispositivos de rastreo** | S | Crítico para la recuperación |
+| **Palanca** | S | Alta versatilidad |
+| **Repelentes de monstruos** | A | Gran utilidad de escape |
+| **Herramientas de desplazamiento** | A | Excelente movilidad |
+| **Gadgets** | B | Apoyo situacional |
+| **Tubo de gemidos** | B | Defensa de emergencia |
+
+<Callout type="warning" title="Gestión de recursos">
+No acumules Speetchy. Como las partidas se reinician cuando las vidas llegan a cero, gastar tus recursos en equipo que te ayude a completar la misión actual es casi siempre mejor que ahorrar para un día difícil que quizás nunca llegue.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Conservo mis artículos de reparación después de que una partida falla?",
+    answer: "No. Los artículos de reparación críticos para la misión y las herramientas de la tienda se consumen o se pierden cuando una partida se reinicia. Solo tus cosméticos 'Boujee Swag' persisten a través de múltiples partidas."
+  },
+  {
+    question: "¿Qué artículo es mejor para los jugadores solitarios de Panic Delivery?",
+    answer: "La palanca se considera generalmente el mejor artículo para jugar en solitario, ya que ofrece tanto interacción con rutas como protección básica, lo que te permite gestionar obstáculos y enemigos sin necesidad de ayuda de un compañero."
+  },
+  {
+    question: "¿Hay artículos específicos para las misiones de contrabando?",
+    answer: "Sí, las misiones de contrabando implican objetivos únicos que a menudo requieren herramientas relacionadas con el contrabando disponibles en la tienda para gestionar la carga de alto riesgo de manera efectiva."
+  },
+  {
+    question: "¿Cómo consigo más Speetchy para los artículos?",
+    answer: "El Speetchy se obtiene completando con éxito misiones de entrega, recuperación y contrabando. La dificultad de la misión y la eficiencia de tu equipo impactan directamente en tus recompensas."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,134 @@
+import { Map, Shield, Target, FileText, Settings, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Localização do arquivo de salvamento de Panic Delivery: Guia de gerenciamento de dados no PC",
+  description: "Aprenda onde encontrar a localização do arquivo de salvamento de Panic Delivery no PC, como fazer backup do progresso e gerenciar seus dados de entregador de forma eficaz.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Save+File+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **localização do arquivo de salvamento de Panic Delivery** geralmente é encontrada na pasta AppData do seu Windows.
+- Sempre **faça backup dos seus dados de salvamento** antes de realizar qualquer modificação manual nos arquivos ou atualizações do sistema.
+- Entender o caminho dos seus dados garante que você possa **restaurar o progresso** caso ocorra um erro de sincronização.
+- Mantenha seus **salvamentos na nuvem ativados** via Steam para evitar perda de dados durante transições de hardware.
+</Callout>
+
+<Section icon={Map} title="Localizando seus dados de salvamento">
+
+Para jogadores de PC, gerenciar seus arquivos locais é uma parte crítica para manter seu progresso neste jogo de comédia e terror cooperativo. Como o jogo é distribuído via Steam, seus dados de salvamento são tratados localmente e sincronizados com a nuvem.
+
+**Destaques do vídeo:**
+- Visão geral da estrutura de arquivos do jogo
+- Como acessar pastas ocultas do AppData
+- Melhores práticas para backups locais
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Trailer de Lançamento do Acesso Antecipado de Panic Delivery" />
+
+Para encontrar a **localização do arquivo de salvamento de Panic Delivery**, siga o caminho de diretório padrão usado pela maioria dos títulos da Unreal Engine no Windows. Você precisará ativar "Itens Ocultos" nas configurações de exibição do seu Explorador de Arquivos para acessar essas pastas.
+
+| Nível da Pasta | Caminho / Nome da Pasta |
+| :--- | :--- |
+| Unidade | C: (Unidade de sistema padrão) |
+| Diretório do Usuário | Users > [SeuNomeDeUsuário] |
+| Pasta Oculta | AppData > Local |
+| Pasta do Jogo | PanicDelivery > Saved > SaveGames |
+
+<Callout type="tip" title="Dica Pro">
+Você pode acessar rapidamente a pasta AppData pressionando `Win + R` no seu teclado, digitando `%localappdata%` e pressionando Enter. Isso evita a necessidade de navegar manualmente pelas pastas ocultas do sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Gerenciando e fazendo backup do progresso">
+
+Fazer backup regularmente dos seus arquivos de salvamento é um hábito inteligente, especialmente durante a fase de Acesso Antecipado, onde patches e correções são frequentes. Embora os salvamentos na nuvem da Steam sejam confiáveis, cópias locais fornecem uma camada extra de segurança.
+
+<CardGrid cols={2}>
+  <Card title="Backup Manual">
+    - Copie toda a pasta `SaveGames`.
+    - Armazene em uma unidade secundária ou serviço de nuvem.
+    - Identifique os backups com a data atual (ex: 2026-06-22).
+  </Card>
+  <Card title="Sincronização na Nuvem">
+    - Certifique-se de que a Steam Cloud esteja ativada nas Propriedades.
+    - Verifique o status "Atualizado" na Biblioteca.
+    - Evite interromper a Steam durante a sincronização de arquivos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso Importante">
+Nunca modifique, exclua ou substitua seus arquivos de salvamento enquanto o jogo estiver em execução. Fazer isso pode levar à corrupção de arquivos ou à perda dos cosméticos e do progresso do seu personagem. Sempre saia completamente para a área de trabalho antes de tocar nos seus dados de salvamento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solução de problemas de salvamento">
+
+Se você encontrar problemas onde seu progresso não está sendo salvo ou o jogo não consegue carregar seu perfil, siga estas etapas para verificar a integridade dos seus arquivos.
+
+<Steps>
+  <Step num="1" title="Verificar arquivos do jogo">
+    Abra a Steam, clique com o botão direito em Panic Delivery, selecione Propriedades > Arquivos Instalados e clique em "Verificar integridade dos arquivos do jogo".
+  </Step>
+  <Step num="2" title="Verificar permissões">
+    Certifique-se de que sua conta de usuário tenha permissões de Leitura/Gravação para a pasta AppData.
+  </Step>
+  <Step num="3" title="Limpar cache">
+    Às vezes, limpar o cache de download da Steam pode resolver conflitos de sincronização entre sua máquina local e a nuvem.
+  </Step>
+</Steps>
+
+| Tipo de Problema | Solução Recomendada |
+| :--- | :--- |
+| Salvamento não sincroniza | Verifique as configurações da Steam Cloud nas Propriedades |
+| Dados corrompidos | Restaure a partir do seu backup local manual |
+| Progresso perdido | Verifique os arquivos do jogo via Cliente Steam |
+| Erro de permissão | Execute a Steam como Administrador |
+
+</Section>
+
+<Section icon={FileText} title="Visão geral da estrutura de dados">
+
+A pasta de salvamento contém arquivos de configuração, estatísticas do jogador e desbloqueios cosméticos. Entender o que cada tipo de arquivo representa pode ajudá-lo a identificar quais arquivos são essenciais para sua progressão pessoal.
+
+| Tipo de Arquivo | Descrição |
+| :--- | :--- |
+| `.sav` | Dados principais de progressão e missão |
+| `Config` | Configurações do usuário e preferências gráficas |
+| `Profiles` | Identidade do jogador e inventário cosmético |
+| `Logs` | Dados técnicos para relatórios de falhas |
+
+<Callout type="success" title="Sucesso">
+Mantenha seus arquivos `.sav` em uma pasta separada se você planeja reinstalar o jogo ou mudar para um computador novo. Isso garante que seus cosméticos conquistados com esforço e seu saldo Speetchy permaneçam intactos.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde fica a localização do arquivo de salvamento de Panic Delivery no Linux?",
+    answer: "Se você estiver jogando via Proton, os arquivos de salvamento geralmente estão localizados na sua pasta Steam em `steamapps/compatdata/2887450/pfx/drive_c/users/steamuser/AppData/Local/PanicDelivery/Saved/`."
+  },
+  {
+    question: "Excluir o arquivo de salvamento redefine tudo?",
+    answer: "Sim, excluir seus arquivos na pasta `SaveGames` redefinirá seu progresso, incluindo personalização de personagem e desbloqueios de missões atuais. Só faça isso se você pretende começar uma nova jornada."
+  },
+  {
+    question: "Posso compartilhar meu arquivo de salvamento com amigos?",
+    answer: "Não é recomendado. Os arquivos de salvamento são vinculados ao seu ID Steam e perfil específicos. Compartilhar arquivos pode resultar em erros de sincronização ou corrupção de perfil."
+  }
+]} />
+
+</Section>

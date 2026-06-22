@@ -1,0 +1,123 @@
+import { Map, Target, Shield, Sparkles, ClipboardList, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Solo Guide: Essential Survival Strategies",
+  description: "Master the dystopian courier routes with our expert panic delivery solo guide. Learn survival tactics, item management, and mission success for solo couriers.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Panic+Delivery+Solo+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Mastering the **panic delivery solo guide** requires balancing package safety with efficient route navigation.
+- Solo couriers must manage the **99 shared lives** pool carefully as every death impacts total team resources.
+- Prioritize **tracking devices** and defensive tools to mitigate risks during procedurally generated dungeon runs.
+- Understanding **mission types** like Standard, Recovery, and Smuggling is key to surviving monster-infested zones.
+- Permanent upgrades and cosmetics are retained after runs, rewarding consistent effort even during failed deliveries.
+</Callout>
+
+<Section icon={Map} title="Understanding the Solo Courier Loop">
+
+Solo play in Panic Delivery requires a shift in mindset compared to team-based runs. While you don't have teammates to rely on for covering fire, you have complete control over the pace and decision-making process. The core gameplay loop involves navigating monster-controlled zones, delivering cargo, and managing a limited pool of 99 lives.
+
+<CardGrid cols={3}>
+  <Card title="Survival Priority">
+    - **Avoid unnecessary combat**
+    - Focus on route efficiency
+    - Conserve defensive items
+  </Card>
+  <Card title="Mission Awareness">
+    - **Check objective type early**
+    - Adapt to procedural layouts
+    - Identify optimal exit paths
+  </Card>
+  <Card title="Resource Management">
+    - **Spend Speetchy on utility**
+    - Prioritize survival gear
+    - Unlock permanent cosmetics
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategic Movement">
+In solo runs, always keep an exit path in mind. Do not commit to a deep room exploration if your defensive tools are on cooldown, as monsters will punish isolation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Package Handling">
+
+Success as a solo courier depends on your ability to handle specific mission parameters. Each run presents randomized objectives, requiring you to adapt your strategy on the fly.
+
+| Mission Type | Primary Objective | Solo Risk Level |
+| :--- | :--- | :--- |
+| **Standard** | Deliver package to target | Moderate |
+| **Recovery** | Retrieve lost cargo/items | High |
+| **Smuggling** | Move restricted goods safely | Very High |
+
+<Callout type="warning" title="Package Weight Hazards">
+Large packages significantly reduce your mobility. When playing solo, clear the route of enemies *before* picking up the package to avoid being cornered in a dead-end.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Item Loadout for Solo Survival">
+
+Your shop purchases determine your survivability. As a solo player, you cannot afford to waste Speetchy on non-essential items. Focus on tools that grant you control over the environment and your enemies.
+
+| Item Category | Utility Focus | Recommended Usage |
+| :--- | :--- | :--- |
+| **Tracking Devices** | Finding recovery targets | Essential for Recovery missions |
+| **Crowbar** | Breaking boxes/Defense | Best all-rounder tool |
+| **Monster Repellents** | Creating escape windows | Best for high-pressure exits |
+| **Traversal Tools** | Navigating complex rooms | Best for Arctic Base maps |
+
+<Callout type="success" title="The Solo Build">
+For most solo runs, carry a **Crowbar** for immediate defense and a **Monster Repellent** for emergency escapes. This combination provides the best balance of offense and utility.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardList} title="Steps to a Successful Run">
+
+<Steps>
+  <Step num="1" title="Assessment">
+    Check the mission type and map zone at the terminal. Identify the primary risk factors for the current layout.
+  </Step>
+  <Step num="2" title="Scouting">
+    Enter the zone and clear the initial path. Map out the location of the objective and the nearest exit.
+  </Step>
+  <Step num="3" title="Execution">
+    Retrieve the package and move toward the objective. Use your tools to distract or repel threats rather than fighting every encounter.
+  </Step>
+  <Step num="4" title="Extraction">
+    Follow your pre-planned exit route. Do not deviate for extra loot unless you have surplus lives and defensive items.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Solo Courier Questions">
+
+<FAQ items={[
+  {
+    question: "Is the panic delivery solo guide applicable to all maps?",
+    answer: "Yes, the fundamental survival strategies—clearing paths, managing lives, and using tools—apply across all three Early Access maps, including Haunted House, Panic Factory, and Arctic Base."
+  },
+  {
+    question: "Do I lose everything if I run out of lives in a solo run?",
+    answer: "When you run out of lives, the run resets, but you retain any previously purchased permanent items and cosmetic swag, ensuring long-term progress."
+  },
+  {
+    question: "Which mission type is the hardest for solo players?",
+    answer: "Smuggling missions are generally the most difficult for solo players due to the specific package requirements and higher enemy pressure, requiring precise coordination and tool usage."
+  }
+]} />
+
+</Section>

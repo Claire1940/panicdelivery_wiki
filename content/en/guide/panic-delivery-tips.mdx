@@ -1,0 +1,134 @@
+import { Map, Swords, Target, Shield, Sparkles, Package, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Tips: Essential Guide for New Couriers",
+  description: "Master the chaos of Panic Delivery with these expert tips, covering co-op coordination, mission types, and survival strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Tips",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery tips** focus on managing the **shared 99 lives** pool effectively as a team.
+- Always **check the mission objective** before entering a dungeon to avoid wasted effort.
+- **Coordinate roles** early; assign a package carrier and a scout to maintain route efficiency.
+- **Prioritize survival tools** in your loadout to ensure safe passage through monster-run zones.
+- **Permanent cosmetics** are kept after run resets, making every mission worth the effort.
+</Callout>
+
+<Section icon={Map} title="Mastering the Courier Loop">
+
+New couriers often rush into monster-infested zones without a plan. Success in Panic Delivery depends on understanding that the workplace is effectively a dystopian nightmare. Your primary goal is to deliver packages while keeping your team's limited life pool intact.
+
+<CardGrid cols={3}>
+  <Card title="Preparation">
+    - **Check mission type**
+    - Select gear wisely
+    - Confirm squad roles
+  </Card>
+  <Card title="Execution">
+    - **Scout ahead**
+    - Protect the carrier
+    - Manage team noise
+  </Card>
+  <Card title="Extraction">
+    - **Secure the path**
+    - Monitor life count
+    - Exit before panic sets in
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip">
+Always designate one player to handle the **Tracking Device** during Recovery missions. Trying to locate lost cargo without one is a recipe for burning through your shared lives prematurely.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Package Handling">
+
+Understanding the difference between mission requirements is the key to reducing unnecessary deaths. Whether you are dealing with Standard, Recovery, or Smuggling missions, the randomized objectives require constant communication.
+
+| Mission Type | Goal | Risk Level | Strategy |
+| :--- | :--- | :--- | :--- |
+| **Standard** | Deliver package | Moderate | Keep carrier protected |
+| **Recovery** | Locate lost cargo | High | Use tracking tools |
+| **Smuggling** | Move illicit goods | Very High | Plan clean exit paths |
+
+<Callout type="warning" title="Package Awareness">
+Large packages significantly restrict your mobility and defense options. The carrier should never be the one scouting; ensure they are surrounded by teammates who can fend off threats.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Enemy Management">
+
+With 13 unique enemies currently in the Early Access build, knowing when to fight and when to flee is vital. Grotesque monsters punish teams that stand still too long.
+
+<Steps>
+  <Step num="1" title="Identify the Threat">
+    Observe enemy behavior patterns. Some monsters react to movement, while others track sound.
+  </Step>
+  <Step num="2" title="Assign Defensive Duties">
+    Rotate who carries the defensive tools. If the front scout is exhausted, swap with a teammate immediately.
+  </Step>
+  <Step num="3" title="Execute Evasive Maneuvers">
+    Use traversal tools to bypass bottlenecks. Do not engage in a hallway fight if you can simply outrun the threat.
+  </Step>
+</Steps>
+
+| Enemy Category | Behavior | Counterplay |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Scavenges items | Track its flight path |
+| **Grotesque** | Aggressive chaser | Use repellents |
+| **Zone-Specific** | Map-based hazard | Build zone-specific loadouts |
+
+</Section>
+
+<Section icon={Sparkles} title="Items and Loadout Optimization">
+
+Spending your earned Speetchy is a balancing act between utility and survival. Avoid buying cosmetic swag until you have established a reliable set of survival tools for your team.
+
+| Item Name | Tier | Best Use | Team Role |
+| :--- | :--- | :--- | :--- |
+| **Tracking Devices** | S | Recovery missions | Navigator |
+| **Crowbar** | S | Route interaction | Front-line guard |
+| **Monster Repellents** | A | Escape sequences | Support/Utility |
+| **Traversal Tools** | A | Long, complex maps | Scout |
+| **Boujee Swag** | C | Cosmetics | None (Style only) |
+
+<Callout type="success" title="Strategy Note">
+A balanced squad loadout should always include at least one **Crowbar** for route control and two **Monster Repellents** for emergency escapes. This combination provides the best survival rate in the Haunted and Panic Factory zones.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do shared lives work in Panic Delivery?",
+    answer: "The entire team shares a pool of 99 lives. Each time a courier dies, it consumes one life from this pool. If the pool hits zero, the current run resets, though you keep your personal cosmetic progress."
+  },
+  {
+    question: "Do maps change every time I play?",
+    answer: "Yes, all three maps in the current Early Access build feature procedurally generated dungeon layouts, meaning no two delivery routes are exactly the same."
+  },
+  {
+    question: "Should I play solo or in co-op?",
+    answer: "While solo play is supported, Panic Delivery is designed as a co-op horror comedy. Coordination and role-sharing are essential for high-difficulty missions, making co-op much more effective."
+  },
+  {
+    question: "Are there active codes for items?",
+    answer: "Currently, there is no official redemption code system in the game. All items and cosmetics are unlocked through gameplay, mission rewards, and shop purchases."
+  }
+]} />
+
+</Section>

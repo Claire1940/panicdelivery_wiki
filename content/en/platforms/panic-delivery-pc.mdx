@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery PC: Beginner Guide & Survival Tips",
+  description: "Master Panic Delivery on PC with our survival guide. Learn mission types, map navigation, enemy counterplay, and essential courier tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery PC** features 4-player co-op horror comedy gameplay with 99 shared lives.
+- **Master the core loop** of delivering, recovering, and smuggling packages to earn Speetchy and cosmetics.
+- **Procedural dungeons** mean you must adapt your route to changing layouts and monster pressure.
+- **Team coordination** is mandatory; failing missions burns your shared life pool quickly.
+</Callout>
+
+<Section icon={Target} title="Getting Started as a Courier">
+
+New players entering the dystopian zones of **Panic Delivery PC** should prioritize understanding the mission loop before attempting high-difficulty runs. Your primary objective is to complete delivery tasks while managing the team's shared pool of 99 lives.
+
+<Callout type="tip" title="Courier Essential">
+Always check your mission objectives before venturing deep into a map. Ignoring the specific cargo requirements is the fastest way to lose lives unnecessarily.
+</Callout>
+
+| Activity | Description | Priority |
+| :--- | :--- | :--- |
+| **Mission Selection** | Confirm Standard, Recovery, or Smuggling goals | Critical |
+| **Package Handling** | Assign a carrier and a protector for the package | High |
+| **Resource Management** | Spend Speetchy on essential tools in the shop | Medium |
+| **Team Coordination** | Communicate monster locations and exit routes | Critical |
+
+</Section>
+
+<Section icon={Map} title="Maps and Procedural Zones">
+
+The Early Access build includes three primary operational zones. Because each map uses procedurally generated dungeon layouts, you cannot rely on memorized paths.
+
+**Video Highlights:**
+- Understanding procedural map generation
+- Managing route risks in haunted zones
+- Coordinating package movement through the Panic Factory
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery Early Access Launch Trailer" />
+
+Each zone presents unique atmospheric and mechanical hazards that force teams to adapt their movement strategies on the fly.
+
+| Map Zone | Primary Hazard | Strategy Tip |
+| :--- | :--- | :--- |
+| **Haunted Route** | Low visibility & sudden ambushes | Keep the carrier in the center of the squad |
+| **Panic Factory** | Industrial machinery & terminal pressure | Mark exit paths clearly before interacting |
+| **Arctic Base** | Exploration traps & dead-end corridors | Scout side paths before committing the package |
+
+<Callout type="warning" title="Route Alert">
+Avoid splitting your team in the Arctic Base. The map design favors regrouping before the final delivery push to avoid being trapped by procedural blockers.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Enemy Counterplay and Survival">
+
+With 13 unique enemies currently in the game, survival depends on knowing when to engage and when to sprint. The **Panic Delivery** monster pool is designed to punish reckless play.
+
+<CardGrid cols={3}>
+  <Card title="Lootmuncher">
+    - **Behavior**: Skilled at disengaging and fleeing
+    - **Counterplay**: Track its movement to recover dropped cargo
+  </Card>
+  <Card title="Grotesque Threats">
+    - **Behavior**: Punishes separated teammates
+    - **Counterplay**: Maintain tight squad formation
+  </Card>
+  <Card title="Map-Specific Enemies">
+    - **Behavior**: Varies by zone environment
+    - **Counterplay**: Customize loadouts for specific hazards
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Survival Strategy">
+Fighting should only be used to create an opening for your carrier. If a room becomes a "hallway festival" of monsters, prioritize escaping over clearing the area.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Mission Types and Package Logic">
+
+Your success depends on how well you handle the three types of packages. Each category impacts how your team moves through the procedural dungeons.
+
+| Package Size | Risk Level | Delivery Advice |
+| :--- | :--- | :--- |
+| **Small** | Low | Easiest to carry; assign to the scout |
+| **Medium** | Moderate | Requires squad support during transit |
+| **Large** | High | Treat as a team-wide task; minimize detours |
+
+<Checklist
+  id="mission-checklist"
+  title="Mission Execution Checklist:"
+  items={[
+    "Identify the objective type at the start of the run",
+    "Assign a dedicated package carrier",
+    "Ensure one teammate has a defensive tool ready",
+    "Verify the exit path before finalizing the delivery"
+  ]}
+/>
+
+<Callout type="info" title="Note">
+Smuggling missions are particularly risky. Ensure you have the required tools purchased before starting these, as they often involve resistance-linked objectives.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do shared lives work in Panic Delivery PC?",
+    answer: "Your team shares a total of 99 lives. Each death consumes one life. If the pool hits zero, the current run resets, though you retain personal progress like cosmetics."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports solo play, but the 4-player co-op horror comedy experience is recommended for better coordination and survival efficiency."
+  },
+  {
+    question: "Do I lose my gear when I die?",
+    answer: "You lose progress within the current run if the team wipes, but permanent purchases like swag and shop upgrades are kept."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,14 @@
       "twitterDescription": "Panic Delivery wiki with co-op survival tips, map guides, mission types, enemies, items, and beginner courier help for the Steam co-op horror comedy."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "gameplay": "Gameplay",
+    "repair": "Repair",
+    "release": "Release",
+    "platforms": "Platforms",
+    "saves": "Saves"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -631,125 +638,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Panic Delivery Guides",
-      "description": "Complete co-op survival guides from beginner basics to advanced mission, map, and item strategies for surviving monster-controlled delivery routes.",
-      "metaTitle": "Panic Delivery Guides - Beginner to Advanced Co-op Survival",
-      "metaDescription": "Complete Panic Delivery guides covering beginner tips, co-op survival, missions, maps, enemies, and items for mastering the Steam co-op horror comedy.",
-      "categoryLabel": "GAME GUIDES",
+      "description": "Panic Delivery guides covering how to play, beginner tips, solo and co-op tactics, and courier survival strategies for monster-infested delivery runs.",
+      "metaTitle": "Panic Delivery Guides - Beginner, Solo & Co-op Tips",
+      "metaDescription": "Panic Delivery guides with beginner tips, how to play, solo and co-op strategies, and courier tricks for surviving the Steam co-op horror comedy.",
+      "categoryLabel": "GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering co-op survival strategies, mission types, map routes, enemy behavior, and shop items. Learn everything from your first run to advanced team coordination.",
+      "whatIsDescription": "Panic Delivery guides walk you through the core courier gameplay loop, the shared 99 lives system, mission types, and team coordination. Whether you are starting your first run or pushing deeper co-op tactics, these guides cover how to play solo or with friends.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the delivery loop, shared lives system, and mission types to avoid common beginner mistakes",
-        "step2Title": "Survive Longer Runs",
-        "step2Description": "Follow proven route plans to protect the package carrier and stretch the shared 99 lives",
-        "step3Title": "Master Team Strategy",
-        "step3Description": "Develop advanced co-op tactics for coordination, role assignment, and escape timing"
+        "step1Title": "Learn the Core Loop",
+        "step1Description": "Understand deliveries, the shared lives system, and mission types before your first run",
+        "step2Title": "Play Solo or Co-op",
+        "step2Description": "Pick up solo tactics and 4-player coordination tips for any squad size",
+        "step3Title": "Survive Longer Runs",
+        "step3Description": "Apply proven tips and tricks to protect the carrier and stretch your shared lives"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "missions": {
-      "title": "Panic Delivery Missions & Packages",
-      "description": "Mission type breakdowns, package sizes, randomized objectives, and route planning for Standard, Recovery, and Smuggling runs.",
-      "metaTitle": "Panic Delivery Missions & Package Types Guide",
-      "metaDescription": "Master Panic Delivery mission types including Standard, Recovery, and Smuggling, plus Small, Medium, and Large package handling and route checklists.",
-      "categoryLabel": "MISSIONS & PACKAGES",
-      "whatIs": "What are Missions?",
-      "whatIsDescription": "Guides to the three Early Access mission types, the randomized objectives each one uses, and how Small, Medium, and Large packages change the way a route plays out.",
-      "why": "Why plan missions?",
+    "gameplay": {
+      "title": "Panic Delivery Gameplay",
+      "description": "Panic Delivery gameplay videos, reviews, impressions, and funny co-op moments showcasing the 4-player horror comedy courier survival experience.",
+      "metaTitle": "Panic Delivery Gameplay - Reviews, Impressions & Co-op Runs",
+      "metaDescription": "Watch Panic Delivery gameplay including co-op runs, no commentary footage, PC gameplay, reviews, and funny moments from the Steam horror comedy.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "What is Gameplay?",
+      "whatIsDescription": "Panic Delivery gameplay coverage shows the 4-player co-op courier survival in action, including full runs, no commentary footage, reviews, and impressions. See how teams deliver packages, manage shared lives, and survive monster encounters.",
+      "why": "Why watch gameplay?",
       "whySteps": {
-        "step1Title": "Read the Objective First",
-        "step1Description": "Identify the mission type and package size before committing the team to a route",
-        "step2Title": "Match Tools to the Job",
-        "step2Description": "Bring recovery tracking, delivery protection, or smuggling tools based on the active mission",
-        "step3Title": "Protect the Shared Lives",
-        "step3Description": "Avoid unnecessary deaths that drain the team's 99-life pool"
+        "step1Title": "See the Game in Action",
+        "step1Description": "Watch real co-op runs and judge the delivery loop before you play",
+        "step2Title": "Read Reviews & Impressions",
+        "step2Description": "Understand what players think about the Early Access experience",
+        "step3Title": "Catch Funny Moments",
+        "step3Description": "Enjoy horror comedy highlights and chaotic co-op delivery fails"
       },
       "featured": "Featured & Essential",
-      "all": "All Mission Guides"
+      "all": "All Gameplay"
     },
-    "items": {
-      "title": "Panic Delivery Items & Shop",
-      "description": "Shop item guides covering weapons, tools, defensive gear, utility options, and cosmetics, with Speetchy spending priorities for every team.",
-      "metaTitle": "Panic Delivery Items - Shop, Weapons, Tools & Gear Guide",
-      "metaDescription": "Complete item guide for Panic Delivery's 15 shop items including weapons, tools, defensive gear, traversal options, and how to spend Speetchy effectively.",
-      "categoryLabel": "ITEMS & SHOP",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Detailed guides for the 15 Early Access shop items. Learn what each weapon, tool, and utility item does, when to buy it, and how to use it across delivery, recovery, and smuggling runs.",
-      "why": "Why check item guides?",
+    "repair": {
+      "title": "Panic Delivery Repair Guide",
+      "description": "Panic Delivery repair guides explaining how to fix broken items and equipment, manage durability, and keep your courier tools working during runs.",
+      "metaTitle": "Panic Delivery Repair - How to Fix Broken Items & Equipment",
+      "metaDescription": "Panic Delivery repair guides covering how to repair broken items, fix equipment, manage durability, and keep your tools ready for monster-filled delivery runs.",
+      "categoryLabel": "REPAIR",
+      "whatIs": "What is Repair?",
+      "whatIsDescription": "Panic Delivery repair guides cover how to fix broken items and equipment, where to repair during a run, and how durability affects your weapons, tools, and defensive gear. Keep your loadout working so you can survive longer delivery routes.",
+      "why": "Why learn repair?",
       "whySteps": {
-        "step1Title": "Spend Speetchy Wisely",
-        "step1Description": "Prioritize tools that protect the carrier and recover lost cargo over flashy purchases",
-        "step2Title": "Build a Team Loadout",
-        "step2Description": "Coordinate purchases so the squad covers defense, utility, and mobility",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip repellents and traversal tools to handle monster pressure during escape"
+        "step1Title": "Fix Broken Items",
+        "step1Description": "Learn where and how to repair weapons, tools, and equipment mid-run",
+        "step2Title": "Manage Durability",
+        "step2Description": "Track item condition so gear fails at the worst possible moment less often",
+        "step3Title": "Keep Tools Ready",
+        "step3Description": "Maintain your loadout to handle monsters, recovery, and smuggling runs"
       },
       "featured": "Featured & Essential",
-      "all": "All Item Guides"
+      "all": "All Repair Guides"
     },
-    "maps": {
-      "title": "Panic Delivery Maps & Zones",
-      "description": "Map and zone guides covering the Early Access procedural map pool, route variety, environmental hazards, and survival tips for each location.",
-      "metaTitle": "Panic Delivery Maps & Zones - Routes, Hazards & Survival",
-      "metaDescription": "Explore Panic Delivery maps and zones including haunted routes, the Panic Factory, and the Arctic Base. Find route tips, risk notes, and survival strategies.",
-      "categoryLabel": "MAPS & ZONES",
-      "whatIs": "What are Maps?",
-      "whatIsDescription": "Guides to the 3 Early Access maps and their procedurally generated dungeon layouts. Learn the zone themes, mission types that appear, and risks that affect delivery speed, cargo safety, and the shared lives pool.",
-      "why": "Why study maps?",
+    "release": {
+      "title": "Panic Delivery Release Info",
+      "description": "Panic Delivery release date, Early Access details, trailers, demo info, and launch announcements for the Steam co-op horror comedy courier game.",
+      "metaTitle": "Panic Delivery Release Date, Early Access & Trailers",
+      "metaDescription": "Panic Delivery release info including the Steam Early Access launch date, announcement and launch trailers, demo details, and roadmap updates.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is Release?",
+      "whatIsDescription": "Panic Delivery release coverage tracks the Steam Early Access launch date, announcement and launch trailers, demo availability, and what each update adds. Stay current on new maps, enemies, items, and mission types as the Early Access roadmap expands.",
+      "why": "Why track release info?",
       "whySteps": {
-        "step1Title": "Plan Your Route",
-        "step1Description": "Understand zone themes and procedural layouts before committing the team",
-        "step2Title": "Avoid Zone Hazards",
-        "step2Description": "Recognize low-visibility rooms, dead ends, and monster ambush points",
-        "step3Title": "Adapt Each Run",
-        "step3Description": "Expect changing layouts and confirm the objective path every time"
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Find the Steam Early Access release date and what ships at launch",
+        "step2Title": "Watch the Trailers",
+        "step2Description": "See announcement and launch trailers to preview the courier survival experience",
+        "step3Title": "Follow the Roadmap",
+        "step3Description": "Track demos, Early Access updates, and planned new content"
       },
       "featured": "Featured & Essential",
-      "all": "All Map Guides"
+      "all": "All Release Articles"
     },
-    "enemies": {
-      "title": "Panic Delivery Monsters & Enemies",
-      "description": "Enemy tracker covering the 13 Early Access monsters, their behavior, and the survival counterplay that keeps the package carrier alive.",
-      "metaTitle": "Panic Delivery Monsters & Enemies - Behavior & Counterplay",
-      "metaDescription": "Track Panic Delivery's 13 Early Access enemies. Learn monster behavior, named threats like Lootmuncher, and survival rules for delivery, recovery, and smuggling runs.",
-      "categoryLabel": "MONSTERS & ENEMIES",
-      "whatIs": "What are Enemies?",
-      "whatIsDescription": "Guides to the 13 unique enemies in the Early Access build, their behavior patterns, and the counterplay that protects couriers during package transport.",
-      "why": "Why learn enemies?",
+    "platforms": {
+      "title": "Panic Delivery Platforms & Price",
+      "description": "Panic Delivery platforms, pricing, and store info covering Steam, PC, console availability, and cost across PS5, Xbox, and other storefronts.",
+      "metaTitle": "Panic Delivery Platforms, Price & Where to Play",
+      "metaDescription": "Panic Delivery platform and pricing info across Steam, PC, PS5, Xbox, and consoles. Compare cost, check SteamDB, and find where to play the co-op courier game.",
+      "categoryLabel": "PLATFORMS & PRICE",
+      "whatIs": "What are Platforms?",
+      "whatIsDescription": "Panic Delivery platforms and pricing guides show where to play the game, including Steam and PC support, console availability on PS5 and Xbox, current cost, and SteamDB tracking. Compare storefronts and confirm which systems run the co-op courier experience.",
+      "why": "Why check platforms?",
       "whySteps": {
-        "step1Title": "Protect the Carrier",
-        "step1Description": "Keep the package courier shielded while the rest of the team handles threats",
-        "step2Title": "Spend Tools Smartly",
-        "step2Description": "Save defensive tools and repellents for the return path instead of the first scream",
-        "step3Title": "Know When to Flee",
-        "step3Description": "Recognize when running beats fighting to preserve the shared lives pool"
+        "step1Title": "Find Where to Play",
+        "step1Description": "Confirm Steam, PC, PS5, Xbox, and console availability",
+        "step2Title": "Compare Price & Cost",
+        "step2Description": "Check the current price and find the best storefront for your budget",
+        "step3Title": "Track SteamDB Stats",
+        "step3Description": "Follow player counts and store trends on SteamDB"
       },
       "featured": "Featured & Essential",
-      "all": "All Enemy Guides"
+      "all": "All Platform Articles"
     },
-    "support": {
-      "title": "Panic Delivery Updates & Support",
-      "description": "Patch notes, hotfix timelines, soundtrack and bundle news, plus platform and performance notes for Panic Delivery on Steam.",
-      "metaTitle": "Panic Delivery Updates & Support - Patch Notes & Platform Help",
-      "metaDescription": "Get Panic Delivery patch notes, hotfix timelines, soundtrack and bundle updates, plus platform, performance, and co-op stability support.",
-      "categoryLabel": "UPDATES & SUPPORT",
-      "whatIs": "What is Updates & Support?",
-      "whatIsDescription": "Technical guides and update tracking covering patch notes, hotfixes, balance changes, crash fixes, platform compatibility, and online co-op stability.",
-      "why": "Why check updates?",
+    "saves": {
+      "title": "Panic Delivery Save Files",
+      "description": "Panic Delivery save file location guides, backup tips, and save transfer help for backing up progress and recovering courier run data on PC.",
+      "metaTitle": "Panic Delivery Save File Location & Backup Guide",
+      "metaDescription": "Panic Delivery save file guides covering save file location, backup methods, where saves are stored, and how to recover or transfer your courier progress.",
+      "categoryLabel": "SAVE FILES",
+      "whatIs": "What are Saves?",
+      "whatIsDescription": "Panic Delivery save file guides explain where your courier progress is stored, how to locate and back up save files, and how to recover or transfer data across installs. Protect your cosmetics, shop upgrades, and run history from loss.",
+      "why": "Why manage saves?",
       "whySteps": {
-        "step1Title": "Track Patch Notes",
-        "step1Description": "See what changed, when it changed, and why it matters in a run",
-        "step2Title": "Fix Technical Issues",
-        "step2Description": "Resolve crashes, performance problems, and multiplayer sync errors",
-        "step3Title": "Stay Current",
-        "step3Description": "Follow new content, soundtrack releases, and bundle offers around the Early Access window"
+        "step1Title": "Back Up Progress",
+        "step1Description": "Locate save files and back up cosmetics, upgrades, and run data",
+        "step2Title": "Recover Lost Data",
+        "step2Description": "Restore saves after crashes, reinstalls, or storage failures",
+        "step3Title": "Transfer Across Installs",
+        "step3Description": "Move or sync save files between PCs and accounts"
       },
       "featured": "Featured & Essential",
-      "all": "All Update & Support Articles"
+      "all": "All Save File Guides"
     }
   }
 }

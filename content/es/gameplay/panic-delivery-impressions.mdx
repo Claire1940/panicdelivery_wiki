@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Impresiones de Panic Delivery: Guía de Supervivencia Cooperativa 2026",
+  description: "Obtén información experta sobre Panic Delivery, incluyendo tipos de misión, guías de mapas y consejos de supervivencia cooperativa para este caótico juego de entregas de terror y comedia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipo de Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **impresiones de Panic Delivery** revelan una experiencia de terror cooperativo de alto riesgo que enfatiza la coordinación del equipo sobre la habilidad individual.
+- El juego cuenta con un **sistema compartido de 99 vidas**, lo que convierte cada muerte en un contratiempo colectivo para tu equipo de mensajeros.
+- El éxito depende de dominar las **misiones Estándar, de Recuperación y de Contrabando** mientras navegas por mapas generados procedimentalmente.
+- Prioriza siempre **proteger al portador del paquete** y gestiona los recursos con prudencia para evitar desperdiciar el limitado fondo de vidas del equipo.
+</Callout>
+
+<Section icon={Target} title="Resumen del Acceso Anticipado">
+
+Panic Delivery se lanzó en el Acceso Anticipado de Steam el 13 de mayo de 2026, introduciendo a los jugadores en un mundo distópico donde el negocio de las entregas es tan mortal como estresante. Como equipo de hasta cuatro mensajeros, tu objetivo principal es navegar por zonas infestadas de monstruos, completar objetivos de entrega y regresar a salvo.
+
+**Aspectos destacados del video:**
+- Desglose del ciclo básico de terror y comedia cooperativo para 4 jugadores.
+- Demostraciones visuales de los diseños de mazmorras procedimentales.
+- Consejos prácticos para manejar los tres tipos de misión disponibles actualmente.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Tráiler de Lanzamiento del Acceso Anticipado de Panic Delivery" />
+
+La versión actual está diseñada intencionalmente como una experiencia en expansión en lugar de un producto terminado. Los jugadores deben esperar un entorno desafiante donde la mecánica de "99 Vidas Compartidas" obliga a los equipos a comunicarse eficazmente o enfrentar el reinicio total de la partida.
+
+<Callout type="tip" title="Consejo Profesional">
+El contenido del Acceso Anticipado incluye 13 enemigos únicos y 15 artículos de tienda. Enfoca tus partidas iniciales en ganar Speetchy para desbloquear herramientas de utilidad permanentes, las cuales aumentan significativamente tu tasa de supervivencia en modos de mayor dificultad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tipos de Misión y Objetivos">
+
+Entender la estructura de la misión es el primer paso para convertirte en un mensajero exitoso. Cada partida presenta objetivos aleatorios, lo que significa que no puedes confiar únicamente en el conocimiento previo de las rutas.
+
+| Tipo de Misión | Objetivo Principal | Nivel de Riesgo | Estrategia |
+| :--- | :--- | :--- | :--- |
+| **Estándar** | Entregar paquetes en puntos específicos | Moderado | Despeja la ruta y protege al portador |
+| **Recuperación** | Recuperar carga perdida por el mapa | Alto | Usa dispositivos de rastreo para localizar objetivos |
+| **Contrabando** | Mover bienes ilícitos con resistencia | Extremo | Coordina el movimiento para evitar ser detectado |
+
+<Callout type="warning" title="Importante">
+En las misiones de Recuperación, no separes demasiado al equipo. Si el mensajero que lleva el dispositivo de rastreo es aislado y eliminado, todo el equipo pierde tiempo valioso y vidas buscando el objetivo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mapas y Peligros de Zona">
+
+Panic Delivery cuenta con tres zonas operativas distintas en la versión de Acceso Anticipado. Cada mapa utiliza generación procedimental, asegurando que no haya dos partidas de entrega iguales.
+
+<CardGrid cols={3}>
+  <Card title="Casa Encantada">
+    - **Atmósfera**: Baja visibilidad y sustos repentinos.
+    - **Riesgo**: Encuentros con monstruos a corta distancia.
+    - **Consejo**: Mantén al portador del paquete en el centro de tu formación.
+  </Card>
+  <Card title="Fábrica de Pánico">
+    - **Atmósfera**: Pasillos industriales complejos.
+    - **Riesgo**: Presión por la interacción con terminales.
+    - **Consejo**: Designa a un jugador para manejar las terminales mientras los demás defienden.
+  </Card>
+  <Card title="Base Ártica">
+    - **Atmósfera**: Rutas heladas y centradas en la exploración.
+    - **Riesgo**: Callejones sin salida y trampas de ruta.
+    - **Consejo**: Explora caminos laterales antes de comprometer el paquete con una ruta.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Reglas del Mapa">
+Independientemente de la zona, revisa siempre la ruta del objetivo al inicio de tu partida. Las mazmorras procedimentales pueden conducir a callejones sin salida, por lo que tener un punto de "reagrupamiento" antes de entrar en una nueva área es vital para la supervivencia del equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategia de Supervivencia y Objetos">
+
+La supervivencia en Panic Delivery no se trata de luchar contra cada enemigo que encuentres; se trata de saber cuándo huir. Tu equipamiento de tienda debe adaptarse al tipo de misión y a la zona del mapa en la que te encuentres.
+
+| Categoría de Objeto | Mejor para | Valor de Supervivencia |
+| :--- | :--- | :--- |
+| **Dispositivos de Rastreo** | Misiones de Recuperación | ★★★★★ |
+| **Palanca** | Control de Ruta | ★★★★☆ |
+| **Repelentes de Monstruos** | Rutas de Escape | ★★★★☆ |
+| **Herramientas de Traslado** | Mapas de Larga Distancia | ★★★☆☆ |
+| **Artículos de Lujo** | Personalización | ★☆☆☆☆ |
+
+<Steps>
+  <Step num="1" title="Evalúa la Misión">
+    Comprueba si estás en una misión Estándar o de Contrabando, ya que esto dicta tus necesidades de herramientas.
+  </Step>
+  <Step num="2" title="Compra lo Esencial">
+    Prioriza los dispositivos de rastreo y las palancas sobre los artículos cosméticos durante las primeras partidas.
+  </Step>
+  <Step num="3" title="Coordina los Equipamientos">
+    Asegúrate de que al menos un miembro del equipo tenga una utilidad defensiva, mientras otro lleva equipo de traslado.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de Éxito">
+Los artículos de lujo comprados se conservan incluso si el equipo se queda sin vidas, pero las herramientas funcionales son la clave para desbloquear los desafíos cosméticos. Enfócate primero en las herramientas de supervivencia para acumular tu fondo de Speetchy, y luego invierte en cosméticos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué es el sistema compartido de 99 vidas?",
+    answer: "Las 99 vidas representan el fondo total de clones de respaldo del equipo. Si el equipo muere 99 veces, la partida actual se reinicia y pierdes tu progreso de esa sesión."
+  },
+  {
+    question: "¿Puedo jugar Panic Delivery en solitario?",
+    answer: "Sí, el juego admite tanto un solo jugador como modo cooperativo en línea para hasta cuatro jugadores. Sin embargo, las misiones están equilibradas para la coordinación en equipo."
+  },
+  {
+    question: "¿Tiene Panic Delivery un sistema de códigos activo?",
+    answer: "Actualmente, no hay un sistema oficial de canje de códigos confirmado. Verifica siempre la información a través de los canales oficiales de Steam para evitar la desinformación."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="final-courier-checklist"
+  title="Lista de Verificación Final para Mensajeros:"
+  items={[
+    "Verifica el tipo de misión al inicio de la partida",
+    "Asigna roles: Portador, Explorador y Defensor",
+    "Comprueba si hay correcciones recientes antes de jugar",
+    "Conserva las vidas compartidas jugando de forma defensiva",
+    "Invierte Speetchy en herramientas de utilidad esenciales"
+  ]}
+/>

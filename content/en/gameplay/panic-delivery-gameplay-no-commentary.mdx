@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Gameplay: Beginner Tips & Survival Guide",
+  description: "Master Panic Delivery gameplay with our guide on missions, shared lives, monster survival, and efficient courier strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Gameplay",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery gameplay** centers on 4-player co-op survival in monster-run dystopian zones.
+- Teams share a **pool of 99 lives**, making coordination essential for long-term progress.
+- Efficiently manage **Standard, Recovery, and Smuggling missions** to earn currency and cosmetics.
+- Use **shop items** strategically to protect the package carrier and navigate procedural dungeons.
+- Always prioritize **team cohesion** over individual heroics to avoid resetting your progress.
+</Callout>
+
+<Section icon={Target} title="Understanding Panic Delivery Gameplay">
+
+Mastering the core loop is the first step to becoming a top-tier courier. In Panic Delivery, you and your team are dropped into hazardous, procedurally generated environments where the objective is to deliver, recover, or smuggle packages while avoiding grotesque monsters.
+
+**Video Highlights:**
+- Essential mechanics for managing shared team lives.
+- Strategies for navigating procedural dungeon layouts.
+- How to handle different package sizes during monster pressure.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Trailer" />
+
+The gameplay loop is built around the "99 lives" system. Every death consumes one life, and once the pool is empty, the run resets. This forces players to balance speed with survival.
+
+<Callout type="tip" title="Pro Tip">
+Never wander off alone. The monsters in Panic Delivery are designed to punish separated couriers, especially when carrying large, slow-moving packages.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mission Types & Package Logistics">
+
+Success in Panic Delivery requires knowing your mission parameters before entering a zone. Each mission type changes how you move through the map.
+
+| Mission Type | Primary Objective | Risk Level |
+| :--- | :--- | :--- |
+| **Standard** | Deliver package to drop-off | Moderate |
+| **Recovery** | Locate and retrieve lost cargo | High |
+| **Smuggling** | Move illicit items past threats | Extreme |
+
+<CardGrid cols={3}>
+  <Card title="Small Packages">
+    - Easiest to handle
+    - Minimal movement penalty
+    - Ideal for scouting runs
+  </Card>
+  <Card title="Medium Packages">
+    - Standard weight
+    - Requires team coordination
+    - Balanced risk vs reward
+  </Card>
+  <Card title="Large Packages">
+    - Heavy and cumbersome
+    - Major movement penalty
+    - Needs dedicated protection
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Critical Note">
+Large packages make you a prime target for monsters. Always assign one player to carry the package while the others clear the path.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigating Operational Zones">
+
+The Early Access build features three distinct maps, each with procedurally generated dungeon paths. Understanding the zone themes is crucial for survival.
+
+| Zone Theme | Environmental Hazard | Best Strategy |
+| :--- | :--- | :--- |
+| **Haunted House** | Low visibility, tight corners | Stick together, use light tools |
+| **Panic Factory** | Industrial traps, moving parts | Watch for terminal cues, clear exits |
+| **Arctic Base** | Exploration traps, dead ends | Scout side paths, regroup often |
+
+<Steps>
+  <Step num="1" title="Zone Assessment">
+    Identify the map theme and check for immediate environmental hazards like traps or low-visibility areas.
+  </Step>
+  <Step num="2" title="Route Planning">
+    Assign roles: one courier for the package, one for scouting, and two for defensive support.
+  </Step>
+  <Step num="3" title="Objective Execution">
+    Move through the procedural dungeon, keeping eyes on the shared lives pool and retreat paths.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategy">
+On Arctic Base runs, use traversal tools early to avoid getting trapped in dead ends during high-pressure monster encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Item Tier List & Utility">
+
+Spending your hard-earned Speetchy wisely is key to surviving higher difficulty modes. Items are divided into defensive, utility, and traversal tools.
+
+| Item Name | Tier | Best Use Case |
+| :--- | :--- | :--- |
+| **Tracking Devices** | S | Recovery missions, finding lost cargo |
+| **Crowbar** | S | Breaking boxes, emergency defense |
+| **Monster Repellents** | A | Escape routes, final delivery push |
+| **Traversal Tools** | A | Navigating complex procedural rooms |
+| **Gadgets** | B | Situational support, team utility |
+
+<Checklist
+  id="shop-priority"
+  title="Recommended Shop Purchases:"
+  items={[
+    "Prioritize Tracking Devices for Recovery runs",
+    "Always keep a Crowbar for path clearing",
+    "Save for Monster Repellents before attempting harder zones",
+    "Only spend on Boujee Swag once survival gear is secured"
+  ]}
+/>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does the shared 99 lives system work?",
+    answer: "The team shares a single pool of 99 backup clones. Each death depletes the pool. If the pool reaches zero, the entire run resets, though personal progress like cosmetics is retained."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, Panic Delivery supports solo play, though the game is balanced as a 4-player co-op horror comedy. Solo players must be much more cautious with package handling."
+  },
+  {
+    question: "What happens if a run fails?",
+    answer: "If you run out of lives, the mission fails and the map resets. However, any Speetchy or Bonus Permits earned during the run that were successfully banked remain with your account."
+  }
+]} />
+
+</Section>

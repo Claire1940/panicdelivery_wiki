@@ -1,0 +1,143 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Demo: Beginner Guide and Survival Tips",
+  description: "Master the basics of Panic Delivery with this guide. Learn about courier missions, shared lives, monster mechanics, and how to survive your first delivery.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery demo** and early access focus on 4-player co-op horror comedy.
+- Teams share **99 lives** to complete delivery, recovery, and smuggling missions.
+- Survival relies on **coordination** and using shop items to manage monster pressure.
+- Always check your **mission objectives** before entering procedurally generated zones.
+</Callout>
+
+<Section icon={BookOpen} title="Getting Started with Panic Delivery">
+
+New couriers often find themselves overwhelmed by the chaotic nature of the game's dystopian zones. Understanding the core loop is vital for long-term survival and progress.
+
+**Video Highlights:**
+- Essential courier coordination techniques for 4-player teams.
+- How to handle randomized mission objectives effectively.
+- Strategies for managing the shared 99 lives pool.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Trailer" />
+
+Success in Panic Delivery requires more than just speed; it demands tactical awareness. Your team must balance delivery speed with the need to protect the package carrier from grotesque monsters.
+
+<Callout type="tip" title="Courier Essential">
+Never venture into a room alone. Always keep a defensive item equipped, as the procedural dungeon layouts can change pathing unexpectedly.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Package Logic">
+
+Understanding your assignment is the first step to a successful run. Each mission type requires a different approach to ensure the package reaches its destination.
+
+| Mission Type | Primary Goal | Player Strategy |
+| :--- | :--- | :--- |
+| Standard | Deliver assigned package | Protect the carrier at all costs |
+| Recovery | Find and secure lost cargo | Use tracking devices to locate items |
+| Smuggling | Move illicit goods safely | Coordinate movement to avoid traps |
+
+<Callout type="warning" title="Cargo Risk">
+Larger packages significantly slow down the carrier. Ensure your team provides a clear path and eliminates threats before the carrier enters high-risk zones.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigating Procedural Zones">
+
+The maps in Panic Delivery are procedurally generated, meaning no two runs are identical. Familiarizing yourself with the core zone themes is essential for navigation.
+
+<CardGrid cols={3}>
+  <Card title="Haunted Route">
+    - High horror intensity
+    - Low visibility areas
+    - Sudden monster spawns
+  </Card>
+  <Card title="Panic Factory">
+    - Complex industrial paths
+    - Terminal-heavy gameplay
+    - High interaction risk
+  </Card>
+  <Card title="Arctic Base">
+    - Exploration-focused layouts
+    - Environmental hazards
+    - Team separation traps
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Navigation Tip">
+Use traversal tools to scout ahead in the Arctic Base. Identifying dead ends early saves valuable time and prevents unnecessary encounters with enemies.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Shop Items">
+
+Effective use of shop items can turn a doomed run into a successful delivery. Spending your Speetchy wisely is the key to maintaining your progress.
+
+| Item Category | Best Use Case | Tier Rating |
+| :--- | :--- | :--- |
+| Tracking Devices | Recovery missions | S-Tier |
+| Crowbar | Breaking boxes & defense | S-Tier |
+| Monster Repellents | Emergency escape routes | A-Tier |
+| Traversal Tools | Scouting & repositioning | A-Tier |
+
+<Steps>
+  <Step num="1" title="Prioritize Utility">
+    Invest in Tracking Devices and Crowbars early to handle the most common mission challenges.
+  </Step>
+  <Step num="2" title="Save for Exits">
+    Keep Monster Repellents for the return journey, especially when the team is low on remaining lives.
+  </Step>
+  <Step num="3" title="Cosmetic Rewards">
+    Once your survival loadout is complete, use Bonus Permits to unlock character customization items.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What happens if we run out of lives in Panic Delivery?",
+    answer: "If your team exhausts the shared pool of 99 lives, the current run resets. You will lose mission progress but retain any personal cosmetics or permanent upgrades purchased."
+  },
+  {
+    question: "How does the procedural generation affect the maps?",
+    answer: "Each map features procedurally generated dungeon layouts, meaning objective locations, enemy encounters, and room connections change every time you start a new run."
+  },
+  {
+    question: "Is communication necessary for success?",
+    answer: "Yes, communication is critical. Coordinating roles—such as who carries the package, who scouts, and who manages defensive items—is the most reliable way to survive higher difficulty modes."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="courier-checklist"
+  title="Final Courier Checklist:"
+  items={[
+    "Check current mission objectives",
+    "Equip essential survival tools",
+    "Confirm team role assignments",
+    "Monitor shared lives pool",
+    "Identify the safest exit route"
+  ]}
+/>

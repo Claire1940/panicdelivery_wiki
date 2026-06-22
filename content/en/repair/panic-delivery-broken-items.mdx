@@ -1,0 +1,127 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Broken Items: Troubleshooting & Item Guide",
+  description: "Learn how to manage Panic Delivery broken items, item shop utility, and survival strategies for your co-op courier runs in this 2026 guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery broken items** can disrupt your logistics, but strategic shop purchases help mitigate these risks.
+- **Shared 99 lives** mean every courier must prioritize package integrity over risky exploration.
+- **Shop items** like Tracking Devices and Crowbars are essential for managing mission-specific objectives.
+- **Procedural dungeons** require teams to adapt their item loadouts based on the current map and mission.
+- **Team coordination** is the most effective tool for preventing lost packages and equipment failure.
+</Callout>
+
+<Section icon={Shield} title="Understanding Item Management">
+
+In the dystopian zones of Panic Delivery, equipment maintenance and package handling are vital. When players refer to "broken items," they are often discussing the loss of mission-critical cargo or the failure of tools during high-pressure procedural runs. Managing your inventory effectively is the difference between a successful delivery and burning through your team's shared life pool.
+
+<Callout type="tip" title="Pro Tip">
+Always assign specific roles before entering a run. If one player carries the primary package, another should focus on defensive tools to prevent monster interruptions that lead to dropped or "broken" delivery states.
+</Callout>
+
+| Item Category | Primary Use | Strategic Value |
+| :--- | :--- | :--- |
+| **Tracking Devices** | Locating lost cargo | ★★★★★ |
+| **Crowbars** | Breaking obstacles | ★★★★☆ |
+| **Monster Repellents** | Escape/Defense | ★★★★☆ |
+| **Traversal Tools** | Mobility/Scouting | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Cargo Handling">
+
+Different mission types change how you should interact with the environment and your items. Standard deliveries are straightforward, but Smuggling and Recovery missions involve more complex package logic.
+
+<Steps>
+  <Step num="1" title="Assess the Objective">
+    Before leaving the hub, confirm if you are handling Standard, Recovery, or Smuggling packages. Each requires different tool loadouts.
+  </Step>
+  <Step num="2" title="Equip Necessary Tools">
+    Recovery missions almost always demand Tracking Devices. Without them, searching for dropped items in procedurally generated maps is inefficient.
+  </Step>
+  <Step num="3" title="Coordinate Movement">
+    Ensure the package carrier is protected. If the carrier takes damage, the risk of dropping the package increases, leading to potential mission failure.
+  </Step>
+  <Step num="4" title="Execute Escape">
+    Use Monster Repellents during the final return path to ensure the team clears the zone without losing the package.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Watch Your Lives">
+The shared pool of 99 lives is your team's ultimate resource. Do not sacrifice a life to retrieve a low-value item if it risks the entire mission's success.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Shop Items and Utility Rankings">
+
+The shop provides 15 items in the current Early Access build. Spending your Speetchy wisely is crucial for long-term progression, as purchased gear helps you survive increasingly difficult procedural layouts.
+
+| Item Name | Best For | Team Role |
+| :--- | :--- | :--- |
+| **Tracking Device** | Recovery Missions | Recovery Specialist |
+| **Crowbar** | Route Control | Scout/Protector |
+| **Monster Repellent** | Emergency Escape | Entire Team |
+| **Traversal Tool** | Procedural Rooms | Scout |
+
+<CardGrid cols={2}>
+  <Card title="Utility Focus">
+    - Prioritize Tracking Devices for recovery.
+    - Keep Traversal Tools for awkward routes.
+    - Use gadgets to support the team's path.
+  </Card>
+  <Card title="Survival Focus">
+    - Always carry Monster Repellents.
+    - Use Crowbars for immediate defense.
+    - Save tools for the return trip home.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Handling Procedural Risks">
+
+Procedural dungeons mean no two runs are identical. Your team will encounter varying environmental risks and monster densities. Recognizing when an item is no longer viable for a specific route is a key skill for advanced couriers.
+
+<Callout type="success" title="Success Strategy">
+If a run starts to go poorly, focus on securing the package. Sometimes, abandoning a secondary goal is the best way to save the team's shared lives and return with your progress intact.
+</Callout>
+
+| Map Zone | Primary Hazard | Recommended Tool |
+| :--- | :--- | :--- |
+| **Haunted House** | Low Visibility | Traversal Tool |
+| **Panic Factory** | Tight Layouts | Crowbar |
+| **Arctic Base** | Exploration Traps | Tracking Device |
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What should I do if I lose my package in a procedural dungeon?",
+    answer: "If you have a Tracking Device, use it to locate the lost cargo. If not, backtrack slowly through the last three rooms you visited, as packages are often dropped near enemy encounter points."
+  },
+  {
+    question: "Do I lose my shop items when we run out of lives?",
+    answer: "No, purchased swag and permanent shop upgrades are kept. Only the progress of your current mission run is reset when the shared 99 lives pool is depleted."
+  },
+  {
+    question: "Which mission type is best for earning Speetchy?",
+    answer: "Standard delivery missions are generally the most consistent for earning Speetchy, while Smuggling missions offer higher rewards but carry significantly higher risks of mission failure."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery攻略：合作生存专家技巧 (2026)",
+  description: "通过我们的指南掌握Panic Delivery技巧，涵盖合作生存、任务策略以及在怪物出没区域的高效包裹处理方法。",
+  category: "指南",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Tricks",
+  date: "2026-06-22",
+  author: "Panic Delivery Wiki团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Panic Delivery的技巧**核心在于团队协作、路线管理和生存效率，以保护你们共享的99条生命。
+- **沟通至关重要**；指派一名包裹搬运工和一名专门的侦察员，以避免在程序生成的地下城中出现致命的堵塞。
+- **明智地花费Speetchy**购买追踪设备（Tracking Devices）和撬棍（Crowbars）等实用道具，能显著提高团队的成功率。
+- **抢先体验阶段的游玩**需要学习怪物行为，以防止在高风险的走私或回收任务中发生不必要的死亡。
+</Callout>
+
+<Section icon={Target} title="掌握核心游戏循环">
+
+要提高表现，你必须明白Panic Delivery是一款关于消耗战的游戏。每使用一个克隆体，距离重置关卡就更近了一步。
+
+| 机制 | 对关卡的影响 | 生存策略 |
+| :--- | :--- | :--- |
+| **共享生命** | 全队共99条 | 避免单独冲锋；在进入危险区域前重新集结 |
+| **程序化地图** | 布局每日变更 | 不要依赖记忆；优先侦察出口 |
+| **包裹重量** | 影响移动速度 | 搬运工需要保护；若疲劳可轮换搬运人员 |
+| **怪物仇恨** | 基于声音触发 | 靠近威胁时蹲下；利用物品进行干扰 |
+
+<Callout type="tip" title="专业提示">
+在回收任务中，务必指派一名玩家携带**追踪设备**。这可以防止团队在寻找丢失货物时误入怪物密集的区域。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="高效路线与任务战术">
+
+成功取决于你如何应对当前抢先体验版本中三种任务类型的具体要求。
+
+**视频亮点：**
+- 基础快递员移动技巧
+- 如何处理多人目标同步
+- 避免Panic Factory地图中的常见陷阱
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery抢先体验游玩" />
+
+| 任务类型 | 主要风险 | 最佳实用道具 |
+| :--- | :--- | :--- |
+| **标准任务** | 时间管理 | 移动工具 |
+| **回收任务** | 目标分散 | 追踪设备 |
+| **走私任务** | 怪物密度高 | 怪物驱逐剂 |
+
+<Callout type="warning" title="重要提示">
+在**北极基地（Arctic Base）**区域，留意环境陷阱和死胡同。始终保持一名玩家留在入口附近，以确保如果程序布局发生偏移，团队不会被切断退路。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="道具配置优化">
+
+商店购买决定了你的生存能力。专注于实用性而非外观装饰，是快速通过前期阶段的最佳途径。
+
+<CardGrid cols={3}>
+  <Card title="S级必需品">
+    - **追踪设备**
+    - **撬棍**
+    - 适用于所有任务类型的高实用性道具
+  </Card>
+  <Card title="A级支援">
+    - **怪物驱逐剂**
+    - **移动工具**
+    - 紧要关头逃生的关键
+  </Card>
+  <Card title="B级情境道具">
+    - **小工具**
+    - **尖叫管（Groan Tube）**
+    - 用于辅助防御表现良好
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="策略">
+尽早优先购买**撬棍**。它不仅能高效拆箱，还能提供可靠的近战防御，这在携带大件包裹且无法使用双手武器时至关重要。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="新手快递员清单">
+
+在最初的几次游玩中遵循这些步骤，确保你不会白白浪费团队的共享生命池。
+
+<Steps>
+  <Step num="1" title="确认目标">
+    进入后立即检查终端，确认你正在执行的是标准、回收还是走私任务。
+  </Step>
+  <Step num="2" title="同步配置">
+    在离开起始区域前，确保团队至少拥有一件实用道具（追踪设备/撬棍）。
+  </Step>
+  <Step num="3" title="包裹分配">
+    指派一名快递员作为“搬运工”，并使其保持在队伍阵型的中心位置。
+  </Step>
+  <Step num="4" title="重新集结">
+    在最终交付前，停下来检查所有团队成员是否到齐，以最大化防御输出。
+  </Step>
+</Steps>
+
+<Checklist
+  id="courier-goals"
+  title="每日快递员目标："
+  items={[
+    "连续完成3次任务且不团灭",
+    "通过挑战系统解锁至少一件外观",
+    "成功通过Panic Factory且不丢失任何包裹",
+    "单次会话收集500个以上的Speetchy"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "在Panic Delivery中如何避免生命流失？",
+    answer: "专注于团队凝聚力。最常见的死亡原因是分散行动。保持在一起，使用实用道具开路，如果被逼入绝境，不要害怕放下包裹进行战斗。"
+  },
+  {
+    question: "如果团队生命用尽，我的进度会保留吗？",
+    answer: "是的。虽然当前游玩进度会重置，但任何个人进度（例如已购买的外观和已解锁的商店物品）都会保留在你的账户中。"
+  },
+  {
+    question: "哪种任务类型对新手来说最难？",
+    answer: "走私任务通常最难，因为包裹特殊且怪物攻击性更强。在尝试走私任务之前，先从标准任务开始熟悉地图布局。"
+  }
+]} />
+
+</Section>

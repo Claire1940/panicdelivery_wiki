@@ -1,0 +1,137 @@
+import { Map, Shield, Target, Trophy, FileText, AlertCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Where Is Save File: Data Location Guide",
+  description: "Learn where to find your Panic Delivery save file on PC. This guide covers file paths, cloud sync settings, and how to back up your courier progress.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Save+File+Location",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **panic delivery where is save file** query refers to locating your local PC save data.
+- Most Steam titles store progress in the **AppData** folder or the **Steam installation directory**.
+- Always use **Steam Cloud** to prevent data loss when switching between different courier stations.
+- Manual backups are recommended before performing any **game file verification** or system updates.
+</Callout>
+
+<Section icon={Map} title="Locating Your Save Data">
+
+Understanding how your progress is stored is essential for every courier in the dystopian zones. While *Panic Delivery* handles most of this via Steam Cloud, knowing the physical location of your save file is vital for troubleshooting, manual backups, or migrating your data to a new rig.
+
+**Video Highlights:**
+- Understanding the core loop of courier progress.
+- How shared lives impact your local session data.
+- Why backing up your profile matters in Early Access.
+
+<Callout type="tip" title="Pro Tip">
+If you cannot find your files, ensure that "Hidden items" is enabled in your Windows File Explorer View settings, as the AppData folder is hidden by default.
+</Callout>
+
+| Data Type | Standard Path | Importance |
+| :--- | :--- | :--- |
+| **Local Save** | `%LOCALAPPDATA%\PanicDelivery\Saved` | **Critical** |
+| **Config Files** | `%LOCALAPPDATA%\PanicDelivery\Saved\Config` | Medium |
+| **Steam Cloud** | `Steam\userdata\[UserID]\2887450` | **High** |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Access Guide">
+
+<Steps>
+  <Step num="1" title="Open Run Command">
+    Press `Win + R` on your keyboard to open the Run dialog box.
+  </Step>
+  <Step num="2" title="Navigate to AppData">
+    Type `%LOCALAPPDATA%` and press Enter. This will open the local application data folder for your user profile.
+  </Step>
+  <Step num="3" title="Locate Game Folder">
+    Look for the folder named `PanicDelivery`. If it is not present, ensure you have launched the game at least once.
+  </Step>
+  <Step num="4" title="Access Save Data">
+    Navigate into `Saved` > `SaveGames`. This is where your career progression and cosmetic unlocks are stored.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Data Safety Warning">
+Never modify these files while the game is running. Editing your save file can lead to corrupted progress, which may not be recoverable even with Steam Cloud synchronization.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Managing Cloud Sync">
+
+Steam Cloud is your primary defense against losing your courier progress. Since *Panic Delivery* is an Early Access title, frequent updates can occasionally cause sync conflicts.
+
+<CardGrid cols={2}>
+  <Card title="Steam Cloud Sync">
+    - Automatically uploads your progress to Valve servers.
+    - Ensures your data follows you to different PCs.
+    - Can be toggled in the Steam game properties menu.
+  </Card>
+  <Card title="Manual Backup">
+    - Copy the `SaveGames` folder to an external drive.
+    - Useful before testing beta branches or new patches.
+    - Provides a safety net if cloud sync fails.
+  </Card>
+</CardGrid>
+
+| Scenario | Recommended Action |
+| :--- | :--- |
+| **Updating Game** | Verify integrity via Steam, do not touch saves |
+| **Switching PC** | Ensure Steam Cloud is enabled |
+| **Corrupted Progress** | Restore from your latest manual backup |
+| **New Courier Profile** | Delete local files (Use with caution) |
+
+</Section>
+
+<Section icon={Trophy} title="Troubleshooting Save Issues">
+
+If your game fails to load your progress or crashes on startup, you may need to address potential file corruption. 
+
+<Checklist
+  id="save-troubleshoot"
+  title="Fixing Save Issues:"
+  items={[
+    "Verify integrity of game files via Steam.",
+    "Restart your Steam client to force a cloud re-sync.",
+    "Check if your hard drive has sufficient storage space.",
+    "Ensure your antivirus is not blocking the game folder."
+  ]}
+/>
+
+<Callout type="success" title="Success">
+If you encounter a "Save Corrupted" error, check if the game created a `.bak` or backup file in the same directory. Renaming that file to replace your main save can often restore your progress.
+</Callout>
+
+</Section>
+
+<Section icon={FileText} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Where is the panic delivery where is save file location?",
+    answer: "The save files are typically located in your Windows AppData folder under %LOCALAPPDATA%\\PanicDelivery\\Saved\\SaveGames."
+  },
+  {
+    question: "Does deleting the save file reset my cosmetics?",
+    answer: "Yes, your local progress, including unlocked skins and challenge rewards, is tied to the files in that directory. Back them up first."
+  },
+  {
+    question: "Can I use save files from other players?",
+    answer: "While you can technically copy them, it may cause issues with your Steam ID and cloud synchronization. It is highly recommended to play your own profile."
+  },
+  {
+    question: "Why is my Steam Cloud not syncing?",
+    answer: "Check your internet connection or Steam server status. If it persists, restart Steam and check the game properties under the Cloud tab."
+  }
+]} />
+
+</Section>

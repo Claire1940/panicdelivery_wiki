@@ -4,28 +4,24 @@ import { routing, type Locale } from '@/i18n/routing'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.panicdelivery.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts 的 NAVIGATION_CONFIG 一一对应）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'guide': 0.9,
+	'gameplay': 0.8,
+	'repair': 0.8,
+	'release': 0.8,
+	'platforms': 0.7,
+	'saves': 0.6,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（与 navigation.ts 的 NAVIGATION_CONFIG 一一对应）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'guide': 'weekly',
+	'gameplay': 'weekly',
+	'repair': 'weekly',
+	'release': 'weekly',
+	'platforms': 'monthly',
+	'saves': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

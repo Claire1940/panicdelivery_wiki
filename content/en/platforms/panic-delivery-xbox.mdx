@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery: Beginner Guide & Survival Tips (2026)",
+  description: "Master Panic Delivery with our guide on co-op survival, mission types, and efficient package handling. Learn how to manage 99 lives and thrive in this dystopian co-op horror comedy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery** is a 4-player co-op horror comedy where you manage a shared pool of **99 lives**.
+- **Core Loop**: Accept missions, deliver packages through procedural dungeons, and survive monster-infested zones.
+- **Teamwork**: Communication is vital; do not split up, as the shared life pool means one person's failure affects the whole team.
+- **Progression**: Earn **Speetchy** to purchase shop items and **Bonus Permits** for cosmetic character customization.
+</Callout>
+
+<Section icon={Target} title="Getting Started: Your First Run">
+
+New couriers often rush into danger, but the key to success in **Panic Delivery** is understanding that workplace safety is a luxury you cannot afford. Your goal is to navigate procedurally generated dungeons, complete objectives, and return to base.
+
+**Video Highlights:**
+- Understanding the core courier delivery loop.
+- Efficient navigation through monster-controlled zones.
+- Managing the shared 99 lives pool with your teammates.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Trailer" />
+
+<Callout type="tip" title="Survival Rule">
+Always check the mission type before starting. A **Smuggling** mission requires different pacing than a **Standard** delivery.
+</Callout>
+
+| Phase | Courier Priority | Team Strategy |
+| :--- | :--- | :--- |
+| **Preparation** | Check mission objective | Assign roles (Scout, Carrier, Defender) |
+| **Execution** | Move package safely | Stay within vision range of teammates |
+| **Extraction** | Reach the exit point | Use defensive items to clear the path |
+
+</Section>
+
+<Section icon={Package} title="Mission Types and Package Handling">
+
+In the current Early Access build, missions are categorized by their objectives and the type of cargo you carry. Mismanaging your package usually leads to a swift demise.
+
+<CardGrid cols={3}>
+  <Card title="Standard">
+    - Randomized delivery objectives.
+    - Focus on route efficiency.
+    - Keep the package protected.
+  </Card>
+  <Card title="Recovery">
+    - Search and retrieve lost cargo.
+    - Use tracking tools to locate items.
+    - High risk of enemy ambushes.
+  </Card>
+  <Card title="Smuggling">
+    - High-value, resistance-linked tasks.
+    - Requires specific smuggling tools.
+    - Critical extraction timing.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cargo Weight">
+The size of your package (**Small, Medium, Large**) directly impacts movement speed. Large packages require a dedicated team member to carry, while others provide cover.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Zones and Route Awareness">
+
+Your delivery routes take you through diverse, monster-filled environments. Since maps use procedural generation, no two runs are identical.
+
+| Zone | Primary Threat | Strategic Tip |
+| :--- | :--- | :--- |
+| **Haunted House** | Low visibility, jumpscares | Stay in a tight formation |
+| **Panic Factory** | Environmental hazards, terminals | Mark exits before interacting |
+| **Arctic Base** | Exploration traps, dead ends | Scout side paths before committing |
+
+<Callout type="success" title="Map Mastery">
+Procedural dungeons mean you must adapt your route constantly. If a path feels too dangerous, use your **Traversal Tools** to find an alternative, even if it adds time to your run.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Item Tier List">
+
+Survival tools are essential for keeping your team alive. Spending your **Speetchy** wisely is the difference between a successful delivery and a total wipe.
+
+<Steps>
+  <Step num="1" title="Prioritize Utility">
+    Always secure **Tracking Devices** for recovery runs first.
+  </Step>
+  <Step num="2" title="Defensive Gear">
+    Purchase **Monster Repellents** to clear hallways during extraction.
+  </Step>
+  <Step num="3" title="Utility Upgrades">
+    Invest in **Traversal Tools** to navigate complex procedural layouts.
+  </Step>
+</Steps>
+
+| Item Category | Survival Value | Best Usage |
+| :--- | :--- | :--- |
+| **Tracking Devices** | S-Tier | Finding lost cargo in recovery missions |
+| **Crowbar** | S-Tier | Emergency defense and box interaction |
+| **Monster Repellents** | A-Tier | Clearing exits and protecting the carrier |
+| **Gadgets** | B-Tier | Situational support for specific layouts |
+
+<Callout type="tip" title="Spending Advice">
+Save your **Bonus Permits** for cosmetics only after you have fully upgraded your essential utility gear.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Checklist">
+
+<Checklist
+  id="courier-goals"
+  title="Courier Progression Checklist:"
+  items={[
+    "Complete one of each mission type (Standard, Recovery, Smuggling)",
+    "Successfully extract from all three map zones",
+    "Unlock your first cosmetic item using Bonus Permits",
+    "Master the use of the Crowbar for emergency defense"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What happens when the team runs out of the 99 shared lives?",
+    answer: "When the team exhausts the shared life pool, the run ends, and you must restart the mission from the base."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports solo play, though the 99 lives system and mission objectives are balanced for co-op coordination."
+  },
+  {
+    question: "Do I lose my items if we fail a mission?",
+    answer: "Purchased shop items are consumed during the run, but any permanent cosmetics or swag you have unlocked remain in your inventory."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "guide": "Guía",
+    "gameplay": "Gameplay",
+    "repair": "Reparación",
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "saves": "Guardados"
+  }
+}

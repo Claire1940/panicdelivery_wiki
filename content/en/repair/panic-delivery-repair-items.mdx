@@ -1,0 +1,116 @@
+import { Target, Shield, Package, Zap, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Repair Items: Guide to Shop Tools & Gear",
+  description: "Master Panic Delivery repair items and shop gear. Learn how to optimize your courier loadout, manage Speetchy, and survive monster-run dystopian zones.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Repair+Items+Guide",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide: Panic Delivery Repair Items">
+- **Panic Delivery repair items** and shop tools are essential for surviving monster-infested delivery routes.
+- **Speetchy** is the primary currency used to acquire defensive and utility gear in the shop.
+- **Prioritize survival tools** like Tracking Devices and Monster Repellents to protect your shared 99 lives.
+- **Coordinate with your team** to ensure someone is always carrying the right tool for the mission type.
+- **Permanent cosmetics** are kept after a run resets, but mission-critical items must be repurchased.
+</Callout>
+
+<Section icon={Package} title="Understanding Shop Items and Repair Gear">
+
+In Panic Delivery, your survival depends on how effectively you manage your resources. While the game features 15 unique items in the current Early Access build, understanding the core distinction between utility, defensive, and mission-specific gear is vital. Repair items and shop tools are not just for convenience; they are the difference between a successful delivery and losing your team’s shared 99 lives.
+
+<Callout type="tip" title="Pro Tip">
+Always check the mission objective before spending your Speetchy. Investing in a Tracking Device for a recovery mission is far more valuable than buying an improvised weapon you might never use.
+</Callout>
+
+The shop categorizes items based on their primary function. Below is a breakdown of how these items impact your runs:
+
+| Item Category | Primary Function | Best For |
+| :--- | :--- | :--- |
+| **Tracking Devices** | Locating lost cargo | Recovery Missions |
+| **Monster Repellents** | Creating escape windows | High-pressure exits |
+| **Traversal Tools** | Rapid repositioning | Long, complex dungeons |
+| **Defensive Tools** | Close-range protection | Panic Factory zones |
+
+</Section>
+
+<Section icon={Target} title="Strategic Item Loadouts">
+
+Building a balanced team loadout is the most reliable way to handle the procedural dungeon layouts. Since you are sharing a limited pool of clones, you cannot afford to have every team member carrying the same type of gear.
+
+<Steps>
+  <Step num="1" title="Assess the Mission Type">
+    Identify if your current run is a Standard, Recovery, or Smuggling mission. This determines whether you need movement speed or cargo-finding utility.
+  </Step>
+  <Step num="2" title="Assign Roles">
+    Designate a 'Carrier' who focuses on the package and a 'Scout' who carries defensive gear like the Crowbar or Repellents.
+  </Step>
+  <Step num="3" title="Allocate Speetchy">
+    Spend your currency on items that mitigate the specific risks of the current map, such as Arctic Base exploration traps.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Defense-Focused Loadout">
+    - **Crowbar**: Essential for breaking obstacles.
+    - **Monster Repellent**: Use to clear an exit path.
+    - **Best for**: Solo players or small teams.
+  </Card>
+  <Card title="Utility-Focused Loadout">
+    - **Tracking Devices**: Locate targets quickly.
+    - **Traversal Tools**: Navigate procedural rooms fast.
+    - **Best for**: 4-player coordinated squads.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Item Tier Overview">
+
+While player preference varies, certain items provide objectively higher value for team survival. The following table summarizes the utility of the shop items available in the current Early Access version of Panic Delivery.
+
+| Item Name | Tier | Utility Value |
+| :--- | :--- | :--- |
+| **Tracking Devices** | S | Critical for recovery |
+| **Crowbar** | S | High versatility |
+| **Monster Repellents** | A | Strong escape utility |
+| **Traversal Tools** | A | Excellent mobility |
+| **Gadgets** | B | Situational support |
+| **Groan Tube** | B | Emergency defense |
+
+<Callout type="warning" title="Resource Management">
+Do not hoard Speetchy. Since runs reset when lives hit zero, spending your resources on gear that helps you complete the current mission is almost always better than saving for a rainy day that might never come.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I keep my repair items after a run fails?",
+    answer: "No. Mission-critical repair items and shop tools are consumed or lost when a run resets. Only your cosmetic 'Boujee Swag' persists through multiple runs."
+  },
+  {
+    question: "Which item is best for solo Panic Delivery players?",
+    answer: "The Crowbar is generally considered the best solo item because it offers both route interaction and basic protection, allowing you to manage obstacles and enemies without needing a teammate's help."
+  },
+  {
+    question: "Are there specific items for Smuggling missions?",
+    answer: "Yes, Smuggling missions involve unique objectives that often require specific smuggling-related tools available in the shop to manage the high-risk cargo effectively."
+  },
+  {
+    question: "How do I get more Speetchy for items?",
+    answer: "Speetchy is earned by successfully completing delivery, recovery, and smuggling missions. The difficulty of the mission and the efficiency of your team directly impact your rewards."
+  }
+]} />
+
+</Section>

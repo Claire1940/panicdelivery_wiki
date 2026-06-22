@@ -1,0 +1,143 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Panic Delivery con amigos: Consejos de supervivencia cooperativa",
+  description: "Domina el caos de Panic Delivery con amigos. Aprende a gestionar las vidas compartidas, coordinar entregas y sobrevivir en zonas infestadas de monstruos en esta guía cooperativa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Co-op+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Panic Delivery con amigos** requiere una coordinación estricta para gestionar eficazmente vuestro grupo de **99 vidas compartidas**.
+- **Asigna roles específicos** como transportista de paquetes, explorador y defensor para optimizar la eficiencia de la partida.
+- **Prioriza la supervivencia** sobre la velocidad; el progreso se pierde cuando el equipo agota todos los clones de reserva disponibles.
+- **Utiliza objetos de la tienda** como dispositivos de rastreo y repelentes para mitigar los riesgos en las zonas de mazmorras procedimentales.
+</Callout>
+
+<Section icon={Map} title="Dominando la coordinación cooperativa">
+
+Coordinar una partida de **Panic Delivery con amigos** es muy diferente al juego en solitario. Debido a que vuestro equipo comparte un grupo limitado de 99 vidas, cada muerte es un contratiempo colectivo. La comunicación es vuestra herramienta más importante, superando con creces a los reflejos individuales.
+
+**Puntos destacados del vídeo:**
+- Entender el ciclo de reaparición cooperativa.
+- Estrategias para proteger al transportista del paquete.
+- Gestión de recursos del equipo en zonas de alto riesgo.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Tráiler de lanzamiento del acceso anticipado de Panic Delivery" />
+
+Los equipos efectivos operan como una sola unidad. Al entrar en mazmorras generadas proceduralmente, designad siempre a un jugador para llevar el paquete mientras los demás despejan el camino.
+
+<Callout type="tip" title="Consejo profesional">
+Nunca separéis demasiado al equipo. Si un mensajero se queda aislado, se convierte en una presa fácil para los monstruos, lo que desperdicia preciosas vidas compartidas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de misión y tipos de paquetes">
+
+Entender el objetivo es crítico antes de entrar en cualquier zona. Las misiones en **Panic Delivery con amigos** varían significativamente en sus requisitos y niveles de riesgo.
+
+| Tipo de misión | Objetivo principal | Enfoque del equipo |
+| :--- | :--- | :--- |
+| **Estándar** | Entregar el paquete en el punto de entrega | Tránsito seguro, despejar el camino |
+| **Recuperación** | Localizar y recuperar carga perdida | Rastreo, escaneo de zona |
+| **Contrabando** | Mover bienes ilícitos sin ser detectado | Sigilo, evitar patrullas |
+
+<Callout type="warning" title="Cuida tu carga">
+Los paquetes grandes limitan significativamente la velocidad de movimiento y las capacidades defensivas del transportista. Asegúrate siempre de que el transportista esté flanqueado por al menos dos compañeros de equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de niveles de equipamiento esencial">
+
+Seleccionar los objetos adecuados en la tienda puede marcar la diferencia entre una partida exitosa y un reinicio total. Gasta tus Speetchy ganados sabiamente según las necesidades actuales de tu equipo.
+
+<CardGrid cols={3}>
+  <Card title="Esenciales (Nivel S)">
+    - **Dispositivos de rastreo**: Obligatorios para misiones de recuperación.
+    - **Palanca**: Excelente para despejar obstáculos y defensa de pánico.
+  </Card>
+  <Card title="Apoyo (Nivel A)">
+    - **Repelentes de monstruos**: Vitales para escapar de esquinas difíciles.
+    - **Herramientas de desplazamiento**: Aceleran la navegación en mazmorras procedimentales complejas.
+  </Card>
+  <Card title="Situacionales (Nivel B)">
+    - **Gadgets**: Útiles para interacciones ambientales específicas.
+    - **Tubo de gemidos**: Un arma de respaldo divertida pero fiable.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de presupuesto">
+Mantén siempre una pequeña reserva de Speetchy para herramientas esenciales en lugar de gastarlo todo en cosméticos al principio de tu progreso.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pasos para una partida exitosa">
+
+Sigue este enfoque sistemático cuando juegues a **Panic Delivery con amigos** para asegurar un progreso constante y minimizar las muertes innecesarias.
+
+<Steps>
+  <Step num="1" title="Selección de misión">
+    Revisa la terminal para ver el tipo de misión actual y el nivel de dificultad. Acordad el equipamiento antes de empezar.
+  </Step>
+  <Step num="2" title="Asignación de roles">
+    Asignad un transportista y un explorador. El explorador siempre debe ir 5-10 metros por delante para comprobar si aparecen monstruos.
+  </Step>
+  <Step num="3" title="Gestión de ruta">
+    A medida que os movéis por la mazmorra, avisad de las terminales y posibles callejones sin salida. Evitad la exploración innecesaria si el paquete es frágil.
+  </Step>
+  <Step num="4" title="Extracción">
+    Una vez completada la entrega, moved como grupo hacia el punto de extracción. No dejéis a nadie atrás, ya que el equipo necesita a todos para la siguiente misión.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Package} title="Lista de verificación de hitos clave">
+
+<Checklist
+  id="co-op-milestones"
+  title="Objetivos de progreso del equipo:"
+  items={[
+    "Completar una misión de cada tipo (Estándar, Recuperación, Contrabando)",
+    "Navegar con éxito por la Fábrica de Pánico sin perder más de 5 vidas",
+    "Desbloquear al menos un objeto cosmético a través del sistema de desafíos",
+    "Dominar el uso de dispositivos de rastreo para recuperaciones de largo alcance"
+  ]}
+/>
+
+<Callout type="info" title="Nota">
+El juego se encuentra actualmente en acceso anticipado. Prepárate para cambios de equilibrio y actualizaciones de contenido que podrían alterar estas estrategias en futuros parches.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué sucede cuando el equipo se queda sin vidas?",
+    answer: "Cuando se agotan las 99 vidas compartidas, la partida actual se reinicia. Sin embargo, cualquier moneda y cosmético obtenidos durante la partida se conservan."
+  },
+  {
+    question: "¿La dificultad escala con el número de jugadores?",
+    answer: "Sí, la densidad de monstruos y la complejidad de los objetivos se ajustan para adaptarse al número de jugadores en tu sesión cooperativa."
+  },
+  {
+    question: "¿Puedo jugar a Panic Delivery con amigos de forma multiplataforma?",
+    answer: "Panic Delivery se centra actualmente en la plataforma Steam/PC. Por favor, consulta los anuncios oficiales para futuras actualizaciones multiplataforma."
+  }
+]} />
+
+</Section>

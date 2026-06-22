@@ -1,0 +1,161 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jogando Panic Delivery com Amigos: Guia de Sobrevivência Cooperativa",
+  description: "Domine a jogabilidade de Panic Delivery com amigos usando nosso guia cooperativo. Aprenda a gerenciar vidas compartilhadas, tipos de missão e táticas de sobrevivência para partidas de 4 jogadores.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Co-op+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Jogar Panic Delivery com amigos** depende do gerenciamento de um **pool compartilhado de 99 vidas** para sobreviver.
+- **A coordenação é fundamental**: Atribua funções como transportador de pacotes, batedor e defensor para maximizar a eficiência.
+- **Variedade de missões**: Complete com sucesso missões **Padrão, Recuperação e Contrabando** para ganhar melhorias de equipamento.
+- **Mapas procedurais**: Adapte sua estratégia às mudanças no layout das masmorras a cada corrida para evitar a eliminação da equipe.
+- **Progresso permanente**: Foque em desbloquear **itens cosméticos e de loja** para fortalecer sua equipe para futuras partidas.
+</Callout>
+
+<Section icon={Map} title="Dominando a Coordenação Cooperativa">
+
+Coordenar **jogar Panic Delivery com amigos** exige mais do que apenas velocidade. Com até quatro jogadores, a equipe deve equilibrar a conclusão dos objetivos com a ameaça constante de zonas infestadas por monstros. Como vocês compartilham um pool limitado de 99 vidas, cada morte impacta o progresso de todo o esquadrão.
+
+**Destaques do Vídeo:**
+- Estratégias essenciais de comunicação em equipe
+- Lidando com perigos de mapas procedurais
+- Gerenciando o sistema de respawn de clones compartilhado
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Trailer de Lançamento em Acesso Antecipado" />
+
+Esquadrões eficazes tratam a rota de entrega como uma operação militar. Mantenha sempre o transportador de pacotes protegido e garanta que pelo menos um colega de equipe tenha uma ferramenta defensiva pronta para repelir ameaças invasoras.
+
+| Função | Responsabilidade | Ferramenta Recomendada |
+| :--- | :--- | :--- |
+| Transportador | Foca no caminho e na entrega | Ferramentas de Travessia |
+| Batedor | Identifica ameaças e terminais | Dispositivo de Rastreamento |
+| Defensor | Protege o transportador dos monstros | Pé de Cabra |
+| Suporte Utilitário | Gerencia portas e distrações | Repelente de Monstros |
+
+<Callout type="tip">
+Nunca separe a equipe demais. Em zonas de alto risco, ficar isolado torna você um alvo fácil para os inimigos, podendo esgotar suas vidas compartilhadas prematuramente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de Missão e Objetivos">
+
+Entender a estrutura da missão é vital para o sucesso ao **jogar Panic Delivery com amigos**. Cada tipo de missão introduz riscos e requisitos diferentes que ditam o movimento da sua equipe.
+
+<Steps>
+  <Step num="1" title="Seleção de Missão">
+    Verifique o terminal para identificar se a partida atual é uma missão Padrão, de Recuperação ou de Contrabando.
+  </Step>
+  <Step num="2" title="Análise de Objetivo">
+    Missões padrão focam na entrega ponto a ponto, enquanto a Recuperação exige localizar carga perdida usando dispositivos de rastreamento.
+  </Step>
+  <Step num="3" title="Execução">
+    Navegue pelas masmorras geradas proceduralmente, mantendo o objetivo específico da sua equipe em vista para evitar desvios desnecessários.
+  </Step>
+</Steps>
+
+| Tipo de Missão | Risco Principal | Melhor Estratégia |
+| :--- | :--- | :--- |
+| Padrão | Pressão de tempo | Caminho direto |
+| Recuperação | Encontrar carga perdida | Usar Dispositivos de Rastreamento |
+| Contrabando | Alta agressividade inimiga | Furtividade e velocidade |
+
+<Callout type="warning" title="Cuidado com sua Carga">
+Pacotes grandes são pesados e diminuem a velocidade do transportador. Garanta que sua equipe limpe o caminho à frente antes de mover carga pesada por corredores estreitos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivência e Táticas Inimigas">
+
+Com 13 inimigos únicos atualmente na versão de Acesso Antecipado, a sobrevivência ao **jogar Panic Delivery com amigos** depende da sua capacidade de reagir ao comportamento dos monstros. Seja lutando ou fugindo, a decisão deve ser tomada em grupo.
+
+<CardGrid cols={3}>
+  <Card title="Estratégia de Combate">
+    - Use armas apenas quando a saída estiver bloqueada.
+    - Economize munição para cenários de alta ameaça.
+    - Priorize atordoar inimigos em vez de matar.
+  </Card>
+  <Card title="Táticas de Evasão">
+    - Use ferramentas de travessia para superar perseguidores.
+    - Quebre a linha de visão para perder o agro dos inimigos.
+    - Sempre tenha uma rota secundária planejada.
+  </Card>
+  <Card title="Proteção da Equipe">
+    - Use repelentes para criar zonas seguras.
+    - Faça um rodízio na função de transportador de pacotes.
+    - Fique perto do líder defensivo da equipe.
+  </Card>
+</CardGrid>
+
+| Comportamento Inimigo | Contra-estratégia | Nível de Ameaça |
+| :--- | :--- | :--- |
+| Perseguição Agressiva | Usar Repelentes | Alto |
+| Emboscada Furtiva | Continue se movendo/Batedor | Médio |
+| Bloqueio de Caminho | Usar Pé de Cabra/Distração | Baixo |
+
+<Callout type="success" title="Estratégia Pro">
+Se um colega de equipe for encurralado, use seus itens utilitários para criar uma distração em vez de enfrentar o monstro diretamente. Isso preserva suas vidas compartilhadas e mantém a missão no caminho certo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Itens e Progressão">
+
+Gastar seu Speetchy de forma eficaz é a chave para o sucesso a longo prazo. Embora seja tentador comprar itens cosméticos, priorize primeiro o equipamento de sobrevivência para garantir que sua equipe consiga completar as missões mais difíceis.
+
+<Checklist
+  id="shop-priority"
+  title="Prioridade de Compra na Loja:"
+  items={[
+    "Dispositivos de Rastreamento (Essencial para Recuperação)",
+    "Pé de Cabra (Ferramenta/arma versátil)",
+    "Repelentes de Monstros (Segurança na fuga)",
+    "Ferramentas de Travessia (Mobilidade)",
+    "Itens Cosméticos (Baixa prioridade)"
+  ]}
+/>
+
+| Categoria de Item | Uso Principal | Status S-Tier |
+| :--- | :--- | :--- |
+| Dispositivos de Rastreamento | Recuperação de Carga | Sim |
+| Pé de Cabra | Interação/Defesa | Sim |
+| Repelentes | Fuga | Não |
+| Gadgets | Utilidade | Não |
+
+<Callout type="info" title="Nota sobre Cosméticos">
+Cosméticos e danças não fornecem bônus de sobrevivência, mas são mantidos após o reset da partida. Guarde-os para quando sua equipe tiver um suprimento consistente de ferramentas de sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como funciona o sistema de 99 vidas no modo cooperativo?",
+    answer: "As 99 vidas são compartilhadas por toda a equipe. Cada vez que um entregador morre e renasce, uma vida é deduzida do pool. Se o pool chegar a zero, a partida termina."
+  },
+  {
+    question: "Posso jogar Panic Delivery sozinho?",
+    answer: "Sim, o jogo suporta um jogador. No entanto, a dificuldade é balanceada para o modo cooperativo, então espere uma experiência mais intensa ao jogar sozinho."
+  },
+  {
+    question: "Eu perco meu equipamento se a equipe morrer?",
+    answer: "Você perde os itens equipados durante a partida ativa, mas quaisquer cosméticos permanentes ou melhorias de loja que você comprou permanecem no seu inventário."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,116 @@
+import { Target, Shield, Package, Zap, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Itens de Reparo em Panic Delivery: Guia de Ferramentas e Equipamentos da Loja",
+  description: "Domine os itens de reparo e equipamentos de loja em Panic Delivery. Aprenda a otimizar seu carregamento de entregador, gerenciar Speetchy e sobreviver às zonas distópicas repletas de monstros.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Repair+Items+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido: Itens de Reparo em Panic Delivery">
+- **Itens de reparo de Panic Delivery** e ferramentas de loja são essenciais para sobreviver a rotas de entrega infestadas de monstros.
+- **Speetchy** é a moeda principal usada para adquirir equipamentos de defesa e utilidade na loja.
+- **Priorize ferramentas de sobrevivência**, como Dispositivos de Rastreamento e Repelentes de Monstros, para proteger suas 99 vidas compartilhadas.
+- **Coordene com sua equipe** para garantir que alguém esteja sempre carregando a ferramenta certa para o tipo de missão.
+- **Cosméticos permanentes** são mantidos após o reinício de uma corrida, mas itens críticos para a missão devem ser recomprados.
+</Callout>
+
+<Section icon={Package} title="Entendendo os Itens da Loja e Equipamentos de Reparo">
+
+Em Panic Delivery, sua sobrevivência depende de quão efetivamente você gerencia seus recursos. Embora o jogo apresente 15 itens únicos na versão atual de Acesso Antecipado, entender a distinção fundamental entre equipamentos de utilidade, defesa e específicos para missões é vital. Itens de reparo e ferramentas de loja não são apenas por conveniência; eles são a diferença entre uma entrega bem-sucedida e perder as 99 vidas compartilhadas da sua equipe.
+
+<Callout type="tip" title="Dica Profissional">
+Sempre verifique o objetivo da missão antes de gastar seu Speetchy. Investir em um Dispositivo de Rastreamento para uma missão de recuperação é muito mais valioso do que comprar uma arma improvisada que você talvez nunca use.
+</Callout>
+
+A loja categoriza os itens com base em sua função principal. Abaixo está uma análise de como esses itens impactam suas corridas:
+
+| Categoria do Item | Função Principal | Melhor Para |
+| :--- | :--- | :--- |
+| **Dispositivos de Rastreamento** | Localizar carga perdida | Missões de Recuperação |
+| **Repelentes de Monstros** | Criar janelas de fuga | Saídas de alta pressão |
+| **Ferramentas de Travessia** | Reposicionamento rápido | Masmorras longas e complexas |
+| **Ferramentas Defensivas** | Proteção de curto alcance | Zonas da Panic Factory |
+
+</Section>
+
+<Section icon={Target} title="Carregamentos Estratégicos de Itens">
+
+Construir um carregamento de equipe equilibrado é a maneira mais confiável de lidar com os layouts procedurais das masmorras. Como vocês compartilham um pool limitado de clones, vocês não podem se dar ao luxo de ter todos os membros da equipe carregando o mesmo tipo de equipamento.
+
+<Steps>
+  <Step num="1" title="Avalie o Tipo de Missão">
+    Identifique se sua corrida atual é uma missão Padrão, de Recuperação ou de Contrabando. Isso determina se você precisa de velocidade de movimento ou utilidade para encontrar carga.
+  </Step>
+  <Step num="2" title="Atribua Funções">
+    Designar um 'Carregador' que foca no pacote e um 'Batedor' que carrega equipamentos defensivos, como o Pé de Cabra ou Repelentes.
+  </Step>
+  <Step num="3" title="Aloque Speetchy">
+    Gaste sua moeda em itens que mitigam os riscos específicos do mapa atual, como as armadilhas de exploração da Base Ártica.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Carregamento Focado em Defesa">
+    - **Pé de Cabra**: Essencial para quebrar obstáculos.
+    - **Repelente de Monstros**: Use para limpar um caminho de saída.
+    - **Melhor para**: Jogadores solo ou equipes pequenas.
+  </Card>
+  <Card title="Carregamento Focado em Utilidade">
+    - **Dispositivos de Rastreamento**: Localize alvos rapidamente.
+    - **Ferramentas de Travessia**: Navegue pelas salas procedurais rapidamente.
+    - **Melhor para**: Esquadrões coordenados de 4 jogadores.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Visão Geral dos Níveis de Itens">
+
+Embora a preferência do jogador varie, certos itens fornecem um valor objetivamente maior para a sobrevivência da equipe. A tabela a seguir resume a utilidade dos itens da loja disponíveis na versão atual de Acesso Antecipado de Panic Delivery.
+
+| Nome do Item | Nível | Valor de Utilidade |
+| :--- | :--- | :--- |
+| **Dispositivos de Rastreamento** | S | Crítico para recuperação |
+| **Pé de Cabra** | S | Alta versatilidade |
+| **Repelentes de Monstros** | A | Forte utilidade de fuga |
+| **Ferramentas de Travessia** | A | Excelente mobilidade |
+| **Gadgets** | B | Suporte situacional |
+| **Tubo de Gemido (Groan Tube)** | B | Defesa de emergência |
+
+<Callout type="warning" title="Gerenciamento de Recursos">
+Não acumule Speetchy. Como as corridas reiniciam quando as vidas chegam a zero, gastar seus recursos em equipamentos que ajudam a completar a missão atual é quase sempre melhor do que economizar para um dia difícil que pode nunca chegar.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Eu mantenho meus itens de reparo após uma falha na corrida?",
+    answer: "Não. Itens de reparo críticos para a missão e ferramentas de loja são consumidos ou perdidos quando uma corrida reinicia. Apenas seus cosméticos 'Boujee Swag' persistem através de múltiplas corridas."
+  },
+  {
+    question: "Qual item é melhor para jogadores solo de Panic Delivery?",
+    answer: "O Pé de Cabra é geralmente considerado o melhor item solo porque oferece interação com rotas e proteção básica, permitindo que você gerencie obstáculos e inimigos sem precisar da ajuda de um colega de equipe."
+  },
+  {
+    question: "Existem itens específicos para missões de Contrabando?",
+    answer: "Sim, missões de Contrabando envolvem objetivos únicos que frequentemente exigem ferramentas específicas relacionadas ao contrabando, disponíveis na loja para gerenciar a carga de alto risco de forma eficaz."
+  },
+  {
+    question: "Como obtenho mais Speetchy para itens?",
+    answer: "Speetchy é ganho ao completar com sucesso missões de entrega, recuperação e contrabando. A dificuldade da missão e a eficiência da sua equipe impactam diretamente suas recompensas."
+  }
+]} />
+
+</Section>

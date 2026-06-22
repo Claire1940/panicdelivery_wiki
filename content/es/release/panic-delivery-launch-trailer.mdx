@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tráiler de lanzamiento de Panic Delivery: Guía de juego en acceso anticipado",
+  description: "Explora Panic Delivery con nuestro desglose del tráiler de lanzamiento, cubriendo mecánicas de comedia de terror cooperativa, tipos de misiones y consejos esenciales de supervivencia para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **tráiler de lanzamiento de Panic Delivery** muestra el caótico modo de juego de comedia de terror cooperativo para 4 jugadores.
+- Los jugadores deben gestionar un **fondo compartido de 99 vidas** mientras navegan por zonas generadas procedimentalmente.
+- Dominar los **tipos de misiones** como Estándar, Recuperación y Contrabando es clave para el progreso a largo plazo.
+- Gastar eficientemente **Speetchy** en herramientas es vital para sobrevivir en entornos distópicos infestados de monstruos.
+- Coordínate siempre con tu equipo para proteger al **transportista del paquete** de las amenazas entrantes.
+</Callout>
+
+<Section icon={Map} title="Descripción general del lanzamiento y ciclo de juego">
+
+El **tráiler de lanzamiento de Panic Delivery** destaca el entorno de alto riesgo donde los mensajeros son considerados desechables. Desde el lanzamiento del juego el 13 de mayo de 2026, los jugadores tienen la tarea de entregar paquetes a través de zonas hostiles plagadas de monstruos.
+
+**Aspectos destacados del video:**
+- Mecánicas caóticas de entrega cooperativa para 4 jugadores.
+- Introducción al sistema compartido de 99 vidas.
+- Un vistazo a varios entornos de mapas distópicos infestados de monstruos.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Tráiler de lanzamiento del acceso anticipado" />
+
+El éxito en el juego requiere más que solo velocidad; exige una estricta coordinación en equipo. Cuando un mensajero cae, el equipo pierde una de sus 99 vidas. Si el fondo llega a cero, la partida se reinicia, aunque el progreso cosmético personal permanece intacto.
+
+| Característica | Descripción |
+| :--- | :--- |
+| **Cantidad de jugadores** | 1 a 4 jugadores en cooperativo online |
+| **Sistema de vidas** | 99 vidas compartidas por equipo |
+| **Entorno del juego** | Zonas distópicas con monstruos |
+| **Progresión** | Mejoras en la tienda y desbloqueos cosméticos |
+
+<Callout type="tip">
+No corras hacia el peligro solo. El juego recompensa a los equipos que se mueven como una unidad, manteniendo al transportista del paquete protegido en todo momento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de misiones y lógica de paquetes">
+
+Entender el objetivo es el primer paso para sobrevivir. La versión de acceso anticipado cuenta con tres tipos de misiones distintas, cada una con objetivos aleatorios que evitan que las rutas se vuelvan predecibles.
+
+<Steps>
+  <Step num="1" title="Identifica el tipo de misión">
+    Antes de empezar, comprueba si la misión es Estándar, de Recuperación o de Contrabando. Cada una requiere un enfoque diferente de movimiento y defensa.
+  </Step>
+  <Step num="2" title="Selecciona la estrategia de paquete">
+    Los paquetes pequeños, medianos y grandes afectan tu movilidad. Los paquetes grandes son pesados y requieren apoyo del equipo para transportarlos con seguridad.
+  </Step>
+  <Step num="3" title="Ejecuta y escapa">
+    Completa el objetivo y dirígete al punto de extracción. Vigila el fondo de vidas compartido para asegurarte de no agotar los recursos de tu equipo.
+  </Step>
+</Steps>
+
+| Tipo de misión | Enfoque del objetivo | Nivel de riesgo |
+| :--- | :--- | :--- |
+| **Estándar** | Entrega de punto a punto | Moderado |
+| **Recuperación** | Localizar y recuperar carga perdida | Alto |
+| **Contrabando** | Transporte protegido de bienes ilícitos | Extremo |
+
+<Callout type="warning" title="Advertencia de objetivo">
+Los objetivos aleatorios significan que tu ruta de escape puede cambiar a mitad de la partida. Mantén siempre un ojo en tu entorno y no solo en el marcador de misión.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Objetos esenciales y estrategia de tienda">
+
+Tu rendimiento está fuertemente ligado a tu equipamiento. Con 15 objetos de tienda disponibles actualmente, es crucial saber qué priorizar con tu valioso Speetchy.
+
+<CardGrid cols={3}>
+  <Card title="Supervivencia nivel S">
+    **Los dispositivos de rastreo y las palancas** son esenciales. El rastreo ayuda en las misiones de Recuperación, mientras que la palanca ofrece utilidad y defensa.
+  </Card>
+  <Card title="Utilidad nivel A">
+    **Los repelentes de monstruos y las herramientas de desplazamiento** proporcionan la ventaja necesaria para escapar de situaciones difíciles o reposicionarse durante una persecución.
+  </Card>
+  <Card title="Apoyo nivel B">
+    **Los gadgets y herramientas de contrabando** son situacionales. Cómpralos solo después de asegurar tu equipo principal de defensa y recuperación.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de presupuesto">
+Prioriza las herramientas que te ayuden a terminar la partida de forma segura. El "estilo Boujee" cosmético es divertido, pero no salvará a tu equipo de una emboscada de monstruos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navegación por mapas procedimentales">
+
+Panic Delivery ofrece tres mapas distintos en el acceso anticipado, cada uno con mazmorras generadas procedimentalmente. Esto asegura que no haya dos partidas iguales.
+
+| Zona del mapa | Temática | Peligro principal |
+| :--- | :--- | :--- |
+| **Ruta Embrujada** | Interiores de terror intenso | Poca visibilidad y sustos |
+| **Fábrica Pánico** | Instalación industrial de clonación | Presión de interacción con terminales |
+| **Base Ártica** | Atmósfera helada y secretos alienígenas | Trampas de exploración y callejones sin salida |
+
+<Checklist
+  id="map-survival"
+  title="Lista de verificación de supervivencia en mapas:"
+  items={[
+    "Asigna un explorador designado para las habitaciones nuevas",
+    "Avisa de las ubicaciones de terminales en la Fábrica Pánico",
+    "Despeja los caminos laterales en la Base Ártica antes de mover el paquete",
+    "Reagrúpate antes del empujón final de entrega"
+  ]}
+/>
+
+<Callout type="tip">
+En la Fábrica Pánico, no dejes que el transportista del paquete maneje las terminales. Usa a otro miembro del equipo para interactuar con el entorno mientras el transportista permanece protegido.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Panic Delivery un juego para un solo jugador?",
+    answer: "Sí, puedes jugar en solitario, pero el juego está equilibrado como una comedia de terror cooperativa para 4 jugadores, lo que hace que la coordinación sea mucho más fácil con un equipo."
+  },
+  {
+    question: "¿Qué sucede cuando al equipo se le acaban las 99 vidas?",
+    answer: "La partida actual se reinicia. Sin embargo, cualquier progreso cosmético personal u objetos permanentes comprados con Permisos de Bonificación permanecen guardados."
+  },
+  {
+    question: "¿Con qué frecuencia recibe actualizaciones el juego?",
+    answer: "Como título en acceso anticipado, los desarrolladores lanzan frecuentes correcciones y parches para mejorar el comportamiento de los enemigos, la estabilidad y el contenido. Consulta los anuncios oficiales en Steam para obtener lo último."
+  },
+  {
+    question: "¿Representa el tráiler de lanzamiento de Panic Delivery el juego final?",
+    answer: "El tráiler muestra la versión actual de acceso anticipado. Los desarrolladores planean expandir el juego con más mapas, enemigos y objetos durante el próximo año."
+  }
+]} />
+
+</Section>

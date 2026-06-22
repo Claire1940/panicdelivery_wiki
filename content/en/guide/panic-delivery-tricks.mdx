@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Tricks: Pro Tips for Co-op Survival (2026)",
+  description: "Master Panic Delivery tricks with our guide to co-op survival, mission strategies, and efficient package handling in monster-run zones.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Tricks",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery tricks** focus on team coordination, route management, and survival efficiency to protect your shared 99 lives.
+- **Communication is key**; designate a package carrier and a dedicated scout to avoid fatal bottlenecks in procedural dungeons.
+- **Spending Speetchy wisely** on utility items like Tracking Devices and Crowbars significantly increases your team's success rate.
+- **Early Access runs** require learning monster behaviors to prevent unnecessary deaths during high-risk smuggling or recovery missions.
+</Callout>
+
+<Section icon={Target} title="Mastering the Core Gameplay Loop">
+
+To improve your performance, you must understand that Panic Delivery is a game of attrition. Every clone used is a step closer to a run reset. 
+
+| Mechanic | Impact on Run | Survival Strategy |
+| :--- | :--- | :--- |
+| **Shared Lives** | 99 total per team | Avoid solo rushing; regroup before risky areas |
+| **Procedural Maps** | Layouts change daily | Don't rely on memory; scout exits first |
+| **Package Weight** | Affects movement speed | Carrier needs protection; rotate carriers if tired |
+| **Monster Aggro** | Sound-based triggers | Crouch when near threats; use items to distract |
+
+<Callout type="tip" title="Pro Tip">
+Always assign one player to hold the **Tracking Device** during Recovery missions. It prevents the team from wandering into monster-dense areas while searching for lost cargo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Effective Route and Mission Tactics">
+
+Success depends on how you handle the specific requirements of the three mission types available in the current Early Access build.
+
+**Video Highlights:**
+- Essential courier movement techniques
+- How to handle multi-player objective synchronization
+- Avoiding common pitfalls in the Panic Factory map
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery Early Access Gameplay" />
+
+| Mission Type | Primary Risk | Best Utility Item |
+| :--- | :--- | :--- |
+| **Standard** | Time management | Traversal Tools |
+| **Recovery** | Scattered objectives | Tracking Devices |
+| **Smuggling** | High monster density | Monster Repellents |
+
+<Callout type="warning" title="Important">
+In the **Arctic Base** zone, watch for environmental traps and dead ends. Always keep one player near the entrance to ensure the team isn't cut off if the procedural layout shifts.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Item Loadout Optimization">
+
+Your shop purchases determine your survivability. Focusing on utility over cosmetic swag is the fastest way to progress through the early tiers.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier Essentials">
+    - **Tracking Devices**
+    - **Crowbar**
+    - High utility for all mission types
+  </Card>
+  <Card title="A-Tier Support">
+    - **Monster Repellents**
+    - **Traversal Tools**
+    - Critical for tight escapes
+  </Card>
+  <Card title="B-Tier Situational">
+    - **Gadgets**
+    - **Groan Tube**
+    - Good for backup defense
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy">
+Prioritize the **Crowbar** early on. It allows for efficient box breaking and provides a reliable melee defense, which is vital when you are carrying a large package and cannot use two-handed weapons.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beginner Courier Checklist">
+
+Follow these steps during your first few runs to ensure you aren't just burning through the team's shared life pool.
+
+<Steps>
+  <Step num="1" title="Objective Check">
+    Check the terminal immediately upon entry to confirm if you are doing Standard, Recovery, or Smuggling missions.
+  </Step>
+  <Step num="2" title="Loadout Sync">
+    Ensure the team has at least one utility item (Tracking Device/Crowbar) before leaving the starting zone.
+  </Step>
+  <Step num="3" title="Package Assignment">
+    Designate one courier as the 'Carrier' who stays in the center of the formation.
+  </Step>
+  <Step num="4" title="Regrouping">
+    Before the final delivery, stop and check that all team members are accounted for to maximize defensive output.
+  </Step>
+</Steps>
+
+<Checklist
+  id="courier-goals"
+  title="Daily Courier Goals:"
+  items={[
+    "Complete 3 consecutive runs without full team wipe",
+    "Unlock at least one cosmetic via Challenge system",
+    "Successfully navigate the Panic Factory without losing a package",
+    "Collect 500+ Speetchy in a single session"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I avoid losing lives in Panic Delivery?",
+    answer: "Focus on group cohesion. The most common cause of death is splitting up. Stick together, use utility items to clear paths, and don't be afraid to drop the package to fight if you're cornered."
+  },
+  {
+    question: "Do I keep my progress if the team runs out of lives?",
+    answer: "Yes. While the current run resets, any personal progress, such as purchased cosmetics and unlocked shop items, remains with your account."
+  },
+  {
+    question: "Which mission type is the hardest for beginners?",
+    answer: "Smuggling is generally the most difficult due to the special packages and higher monster aggression. Start with Standard missions to learn map layouts before attempting Smuggling."
+  }
+]} />
+
+</Section>

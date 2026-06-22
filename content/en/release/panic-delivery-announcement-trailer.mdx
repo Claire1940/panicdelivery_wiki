@@ -1,0 +1,147 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, Package, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Announcement Trailer: Early Access Guide",
+  description: "Explore the chaotic world of Panic Delivery. Learn about mission types, shared lives, and survival tips for the 4-player co-op horror comedy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **panic delivery announcement trailer** showcases the high-stakes, co-op horror comedy gameplay now available on Steam.
+- Players act as **disposable couriers** delivering packages through procedurally generated monster-infested zones.
+- The team shares a **limited pool of 99 lives**, making coordination and survival essential for mission success.
+- Current Early Access content includes **3 maps, 3 mission types, and 13 unique enemies** to challenge your squad.
+</Callout>
+
+<Section icon={Package} title="Early Access Overview">
+
+The release of the official trailer introduced players to a dystopian world where workplace safety is a myth. Panic Delivery focuses on a cooperative loop where four players must navigate dangerous environments to deliver, recover, or smuggle packages.
+
+**Video Highlights:**
+- Chaotic 4-player co-op interaction and team-based survival mechanics.
+- A glimpse into the procedural dungeon layouts and monster threats.
+- Showcase of different package types and mission-specific objectives.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Trailer" />
+
+<Callout type="tip" title="Pro Tip">
+The game is currently in Early Access, meaning content will expand over the next year. Focus on mastering the core delivery loop before attempting higher difficulty modes.
+</Callout>
+
+| Feature | Details |
+| :--- | :--- |
+| **Release Date** | May 13, 2026 |
+| **Players** | 1-4 Online Co-op |
+| **Shared Lives** | 99 per team |
+| **Platforms** | PC via Steam |
+
+</Section>
+
+<Section icon={Target} title="Mission and Package Types">
+
+Understanding your objective is the first step to avoiding a total team wipe. Missions are randomized, so you must adapt your strategy based on the specific requirements of the run.
+
+<CardGrid cols={3}>
+  <Card title="Standard">
+    - **Goal**: Deliver packages to the designated drop-off point.
+    - **Risk**: High enemy patrol density.
+    - **Strategy**: Protect the carrier at all costs.
+  </Card>
+  <Card title="Recovery">
+    - **Goal**: Locate and retrieve lost cargo.
+    - **Risk**: Scattered objectives across the map.
+    - **Strategy**: Use tracking devices efficiently.
+  </Card>
+  <Card title="Smuggling">
+    - **Goal**: Move illicit cargo without detection.
+    - **Risk**: Special resistance-linked encounters.
+    - **Strategy**: Coordinate stealth and movement.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Watch Your Weight">
+Package size matters. Small, Medium, and Large packages affect your movement speed and visibility. Always assign the strongest team member or the one with the best defensive gear to carry Large packages.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Map Zones and Survival">
+
+Panic Delivery features procedurally generated dungeons across three primary zones. Each map requires a unique approach to navigation and threat management.
+
+| Map Zone | Theme | Primary Hazard |
+| :--- | :--- | :--- |
+| **Haunted Route** | Horror interiors | Low visibility, jump scares |
+| **Panic Factory** | Industrial cloning facility | Terminal pressure, environmental traps |
+| **Arctic Base** | Icy exploration | Dead ends, route blockers |
+
+<Steps>
+  <Step num="1" title="Scout the Layout">
+    Before moving the package, have one player scout the immediate room for monster spawns.
+  </Step>
+  <Step num="2" title="Assign Roles">
+    Designate a carrier, a protector, and a utility handler to manage terminals or tools.
+  </Step>
+  <Step num="3" title="Regroup at Exits">
+    Never leave a teammate behind. The shared 99 lives pool depletes quickly if players are isolated.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Survival Success">
+Communication is your best tool. Use voice chat or ping systems to alert teammates of enemy proximity or objective locations.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Items and Progression">
+
+The shop system allows you to spend Speetchy earned during missions. Prioritizing the right tools can be the difference between a successful run and burning through your shared lives.
+
+| Item Category | Best For | Survival Rank |
+| :--- | :--- | :--- |
+| **Tracking Devices** | Recovery missions | S-Tier |
+| **Crowbar** | Breaking boxes/Defense | S-Tier |
+| **Monster Repellents** | Escape routes | A-Tier |
+| **Traversal Tools** | Long-distance routing | A-Tier |
+
+<Checklist
+  id="progression-checklist"
+  title="Essential Courier Checklist:"
+  items={[
+    "Unlock basic defensive tools first",
+    "Complete 5 successful deliveries to earn Bonus Permits",
+    "Customize your character with unlocked cosmetics",
+    "Practice movement on Arctic Base routes"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Panic Delivery playable solo?",
+    answer: "Yes, the game supports solo play, though it is balanced as a 4-player co-op horror comedy experience."
+  },
+  {
+    question: "What happens when the team runs out of 99 lives?",
+    answer: "When the shared pool of 99 lives is exhausted, the current run resets, and you lose progress for that specific mission."
+  },
+  {
+    question: "Will there be more maps in the future?",
+    answer: "Yes, the developers have stated that the Early Access period will last approximately one year, with plans to add more maps, enemies, and mission types."
+  }
+]} />
+
+</Section>

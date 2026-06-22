@@ -1,0 +1,152 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Review: 2026 Co-op Survival Guide",
+  description: "A professional review and guide for Panic Delivery, covering core co-op mechanics, mission types, and survival strategies in this monster-run dystopian courier game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Review",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery review** highlights a chaotic yet rewarding 4-player co-op horror comedy experience.
+- Couriers must manage **99 shared lives** while navigating procedurally generated monster-controlled zones.
+- Success relies on **team coordination**, efficient package handling, and smart use of limited shop items.
+- The game features **three distinct mission types** that require different tactical approaches for survival.
+- Early Access content includes **13 unique enemies** and three maps, with frequent updates improving gameplay balance.
+</Callout>
+
+<Section icon={Package} title="Gameplay Overview and Mechanics">
+
+Panic Delivery offers a unique blend of corporate horror and high-stakes logistics. As a courier in a dystopian world, your primary goal is to deliver packages while surviving grotesque threats. Unlike standard survival games, the **99 shared lives** system turns every death into a team-wide resource drain, making communication more critical than individual skill.
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| **Co-op Count** | Supports up to 4 players online | Essential for role division |
+| **Life Pool** | 99 lives shared by the entire team | Primary failure condition |
+| **Environment** | Procedurally generated dungeon-style maps | Ensures high replayability |
+| **Objective** | Deliver, recover, or smuggle packages | Determines mission strategy |
+
+<Callout type="tip" title="Survival Strategy">
+Always designate one player as the primary package carrier while others focus on scouting and clearing routes. This prevents the team from losing the package in high-pressure combat situations.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Execution">
+
+Understanding the current Early Access mission types is vital for maintaining your shared life pool. Each mission forces teams to adapt to randomized objectives within dangerous operational zones.
+
+| Mission Type | Objective Focus | Risk Level |
+| :--- | :--- | :--- |
+| **Standard** | Point-to-point delivery | Moderate |
+| **Recovery** | Locating and retrieving lost cargo | High |
+| **Smuggling** | Protected transport of illicit goods | Extreme |
+
+<Steps>
+  <Step num="1" title="Objective Briefing">
+    Check the terminal at the start of your run to identify your specific mission type.
+  </Step>
+  <Step num="2" title="Equipment Selection">
+    Purchase tools based on the mission. Recovery requires tracking devices, while Smuggling benefits from defensive gear.
+  </Step>
+  <Step num="3" title="Route Planning">
+    Coordinate movement. Avoid splitting up, especially when carrying large packages that slow down the carrier.
+  </Step>
+  <Step num="4" title="Extraction">
+    Ensure all team members reach the extraction point. Abandoning a teammate can lead to unnecessary life loss.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Warning">
+Never attempt a Smuggling mission without at least one teammate carrying a Monster Repellent. The extra pressure during these runs can easily overwhelm a team without crowd-control tools.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maps and Zones Analysis">
+
+The Early Access build features three distinct zones, each presenting unique environmental hazards. Mastering these maps is key to keeping your 99 lives intact.
+
+<CardGrid cols={3}>
+  <Card title="Haunted Route">
+    - **Focus**: Close-range horror
+    - Visibility: Low
+    - Best for: Stealth and speed
+  </Card>
+  <Card title="Panic Factory">
+    - **Focus**: Industrial interaction
+    - Complexity: High
+    - Best for: Team coordination
+  </Card>
+  <Card title="Arctic Base">
+    - **Focus**: Exploration
+    - Hazards: Dead-ends
+    - Best for: Scouting paths
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Map Insight">
+The Panic Factory map requires teams to call out terminal locations. Do not let the package carrier handle terminals, as they are vulnerable while interacting with the environment.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Items and Survival Tier List">
+
+Efficient use of Speetchy at the shop can make or break a run. Prioritize utility over cosmetic swag until you have a stable loadout.
+
+| Item Category | Best Use Case | Survival Value |
+| :--- | :--- | :--- |
+| **Tracking Devices** | Recovery missions | ★★★★★ |
+| **Crowbar** | Emergency defense | ★★★★☆ |
+| **Monster Repellents** | Escape and extraction | ★★★★☆ |
+| **Traversal Tools** | Navigating long routes | ★★★☆☆ |
+| **Boujee Swag** | Personal customization | ★☆☆☆☆ |
+
+<Checklist
+  id="survival-essentials"
+  title="Must-have Loadout Items:"
+  items={[
+    "Tracking Device for cargo retrieval",
+    "Crowbar for breaking through blocked paths",
+    "Monster Repellent for final extractions",
+    "Traversal Tool for efficient movement"
+  ]}
+/>
+
+<Callout type="success" title="Pro Strategy">
+Invest in Tracking Devices early. They are the single most important utility for mitigating the risk of failed Recovery missions.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the primary goal in Panic Delivery?",
+    answer: "The primary goal is to complete delivery, recovery, or smuggling missions while managing a shared pool of 99 lives across procedurally generated maps."
+  },
+  {
+    question: "How does the 99 lives system work?",
+    answer: "All players in the co-op session share a single pool of 99 lives. If the team exhausts this pool, the run resets, though personal progress on cosmetics and upgrades is typically retained."
+  },
+  {
+    question: "Is Panic Delivery better solo or in co-op?",
+    answer: "While solo play is supported, the game is designed as a 4-player co-op experience. Coordination and role-splitting are essential for handling high-difficulty missions effectively."
+  },
+  {
+    question: "Are there official codes for rewards?",
+    answer: "Currently, there is no verified official code redemption system. Be wary of external sites claiming to offer active codes for the game."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,128 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Early Access: Beginner Guide & Survival Tips",
+  description: "Master Panic Delivery with our 2026 Early Access guide. Learn mission types, shared life mechanics, and essential survival strategies for co-op success.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery Early Access** is a 4-player co-op horror comedy focused on high-stakes package logistics.
+- Teams share a **pool of 99 lives**, making coordination essential for long-term survival in dangerous zones.
+- Master the **three mission types** (Standard, Recovery, Smuggling) to optimize your rewards and team efficiency.
+- Always prioritize **package protection** and route scouting to avoid unnecessary depletion of the shared life pool.
+</Callout>
+
+<Section icon={Target} title="Understanding Panic Delivery Early Access">
+
+Launched on May 13, 2026, **Panic Delivery** challenges players to operate as disposable couriers in a hostile, monster-run dystopian world. The current Early Access build provides a robust foundation for co-op play, emphasizing procedural generation and team-based resource management.
+
+| Feature | Details |
+| :--- | :--- |
+| **Release Date** | May 13, 2026 |
+| **Platform** | PC via Steam |
+| **Player Count** | 1-4 Players Online Co-op |
+| **Shared Resource** | 99 Lives per team run |
+| **Early Access Window** | Approximately 12 months |
+
+<Callout type="tip" title="Early Access Expectations">
+While the current build is stable, expect the game to expand significantly over the next year. Developers are actively refining map layouts, enemy behaviors, and item balance based on player feedback from the Steam community.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Beginner Courier Essentials">
+
+Your first run in **Panic Delivery** should focus on understanding the core gameplay loop rather than chasing high-level cosmetics. Every team member acts as a vital asset in a high-risk corporate structure where human life is treated as a consumable resource.
+
+<Steps>
+  <Step num="1" title="Objective Assessment">
+    Check the mission type immediately upon starting. Standard, Recovery, and Smuggling missions require different tactical approaches.
+  </Step>
+  <Step num="2" title="Inventory Management">
+    Spend your initial Speetchy on essential survival tools like the Crowbar or Tracking Devices rather than aesthetic items.
+  </Step>
+  <Step num="3" title="Route Coordination">
+    Move as a cohesive unit. Splitting up often leads to isolated deaths, which rapidly drains your team's 99-life limit.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Workplace Safety Warning">
+Falling out of sync with your team is the number one cause of mission failure. Always ensure the package carrier is guarded by at least one teammate with a defensive tool.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Mission Types and Package Logic">
+
+Success depends on adapting to the specific demands of each delivery task. Whether you are performing a standard drop-off or a high-stakes smuggling operation, the package size dictates your mobility and risk profile.
+
+| Mission Type | Objective Focus | Risk Factor |
+| :--- | :--- | :--- |
+| **Standard** | Point A to Point B delivery | Low to Moderate |
+| **Recovery** | Locate lost cargo via tracker | Moderate |
+| **Smuggling** | Protected movement of restricted goods | High |
+
+<CardGrid cols={3}>
+  <Card title="Small Packages">
+    - Highly mobile
+    - Easy to carry solo
+    - Lower reward tier
+  </Card>
+  <Card title="Medium Packages">
+    - Balanced weight
+    - Requires team support
+    - Standard rewards
+  </Card>
+  <Card title="Large Packages">
+    - Restricts movement
+    - High team risk
+    - Maximum payout
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Map Zones and Tactical Risks">
+
+The Early Access build features three distinct operational zones. Because these areas utilize procedurally generated dungeons, memorizing a single path is impossible. Instead, focus on learning the environmental hazards unique to each zone.
+
+| Map Zone | Theme | Primary Hazard |
+| :--- | :--- | :--- |
+| **Haunted Route** | Horror-heavy interior | Low visibility, jump scares |
+| **Panic Factory** | Industrial cloning facility | Terminal pressure, layout traps |
+| **Arctic Base** | Icy, secret-filled facility | Exploration dead-ends, cold traps |
+
+<Callout type="success" title="Pro Strategy">
+In the Arctic Base, take time to clear side paths before pushing deep into the map. Regrouping before the final delivery push prevents the team from being overwhelmed by map-specific threats.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What happens when the team runs out of 99 lives?",
+    answer: "When the shared pool of 99 lives is exhausted, the current run resets, and you lose progress for that specific mission. However, any purchased cosmetics or permanent upgrades remain in your inventory."
+  },
+  {
+    question: "Are there map-specific items I should prioritize?",
+    answer: "Yes. For Panic Factory runs, prioritize traversal tools to navigate complex industrial layouts. For Arctic Base, tracking devices are essential due to the maze-like structure."
+  },
+  {
+    question: "How does the difficulty scale in Panic Delivery?",
+    answer: "There are three difficulty modes available in the current build. Higher difficulties increase enemy aggression and reduce the margin for error during package handling."
+  }
+]} />
+
+</Section>

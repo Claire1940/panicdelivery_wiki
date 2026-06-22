@@ -1,0 +1,139 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Repair Guide: Co-op Survival & Mechanics",
+  description: "Master Panic Delivery with our repair guide, covering shared lives, mission types, and essential co-op survival strategies for the dystopian delivery zones.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Repair+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery repair guide** focuses on managing shared lives and mission objectives.
+- **Shared 99 lives** are the core survival resource for your courier team.
+- **Mission types** include Standard, Recovery, and Smuggling, each requiring unique strategies.
+- **Procedural dungeons** mean you must adapt your route in every run.
+- **Item management** is critical for protecting the package carrier during extraction.
+</Callout>
+
+<Section icon={Map} title="Understanding Panic Delivery Mechanics">
+
+In Panic Delivery, your primary goal is to deliver, recover, or smuggle packages through monster-controlled zones. Unlike traditional delivery games, your team shares a pool of 99 lives. When one courier falls, the team loses a life, and the run continues until the pool is empty or the mission is completed.
+
+| Mechanic | Description | Impact on Run |
+| :--- | :--- | :--- |
+| Shared Lives | Pool of 99 clones | Run ends when pool reaches zero |
+| Procedural Maps | Random dungeon layouts | Routes change every mission |
+| Mission Objectives | Standard/Recovery/Smuggling | Dictates team priority and movement |
+| Shop Items | 15 available tools | Essential for surviving high-threat zones |
+
+<Callout type="tip" title="Courier Advice">
+Always check the mission type before entering the zone. A Recovery mission requires different utility tools compared to a Standard delivery run.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Package Handling">
+
+Your success depends on understanding the specific objective of each run. Below is a breakdown of the mission types and package handling requirements you will encounter in the field.
+
+| Mission Type | Primary Goal | Team Strategy |
+| :--- | :--- | :--- |
+| Standard | Deliver package to zone | Focus on fast, safe routing |
+| Recovery | Find lost cargo/assets | Use tracking devices to scan area |
+| Smuggling | Move illicit cargo | Prioritize stealth and exit planning |
+
+<Steps>
+  <Step num="1" title="Objective Check">
+    Confirm if the mission is Standard, Recovery, or Smuggling at the start of the run.
+  </Step>
+  <Step num="2" title="Package Selection">
+    Identify if you are carrying a Small, Medium, or Large package, as these affect your movement speed.
+  </Step>
+  <Step num="3" title="Route Planning">
+    Scout the procedurally generated dungeon for the safest path to the delivery point.
+  </Step>
+  <Step num="4" title="Extraction">
+    Regroup as a team before attempting the final delivery to ensure protection for the carrier.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Warning">
+Never leave the package carrier alone. If the carrier falls, the package can be dropped in a dangerous location, forcing a risky recovery mission.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Enemy Survival and Counterplay">
+
+The world is filled with 13 unique enemies designed to punish slow movement and poor coordination. Use the table below to understand how to handle these threats.
+
+| Enemy Type | Behavior | Counterplay Strategy |
+| :--- | :--- | :--- |
+| Common Threat | Aggressive patrol | Group up and move quickly |
+| Lootmuncher | Fast escape behavior | Block exits or use movement items |
+| Zone-Specific | Environmental traps | Use traversal tools to bypass |
+
+<CardGrid cols={2}>
+  <Card title="Defensive Strategy">
+    - **Keep distance** from enemy spawns.
+    - **Use repellents** to clear hallways.
+    - **Coordinate calls** on enemy locations.
+  </Card>
+  <Card title="Offensive Strategy">
+    - **Use crowbars** for close-range defense.
+    - **Focus fire** on targets blocking the exit.
+    - **Don't overcommit** to unnecessary fights.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Survival Tip">
+Repellents are your most valuable defensive asset. Save them for the return trip when the team is most vulnerable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Essential Items Tier List">
+
+Investing in the right equipment is the difference between a successful delivery and a wasted run. Spend your Speetchy wisely in the shop.
+
+| Tier | Item Category | Best Use Case |
+| :--- | :--- | :--- |
+| S | Tracking Devices | Essential for Recovery missions |
+| S | Crowbar | Versatile tool for defense and interaction |
+| A | Monster Repellents | Critical for safe extraction |
+| A | Traversal Tools | Speeds up route navigation |
+| B | Gadgets | Situational support |
+
+<Callout type="info" title="Spending Advice">
+Prioritize purchasing S-tier items early in your career. They provide the highest return on investment for long-term survival.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I manage the 99 shared lives?",
+    answer: "The lives are a team resource. Avoid reckless behavior and ensure that the package carrier is always protected to prevent unnecessary deaths."
+  },
+  {
+    question: "Do I lose items when the run resets?",
+    answer: "No, permanent upgrades and cosmetics are kept even if the team runs out of lives and the run resets."
+  },
+  {
+    question: "What is the best way to handle Smuggling missions?",
+    answer: "Use smuggling-specific tools and ensure one team member is focused on clear exit routes, as Smuggling missions often attract more enemy pressure."
+  }
+]} />
+
+</Section>

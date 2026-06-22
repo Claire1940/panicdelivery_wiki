@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Couriers Guide: Beginner Tips & Strategies",
+  description: "Master Panic Delivery with our 2026 guide. Learn courier basics, mission types, shared life management, and survival tips for monster-run zones.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Panic Delivery couriers guide** covers essential survival loops for new players in this co-op horror comedy.
+- **Shared 99 lives** mean every death impacts the team's progress, so coordinate your movements carefully.
+- **Three mission types** (Standard, Recovery, Smuggling) require different tactical approaches and tool loadouts.
+- **Procedural dungeons** ensure that map knowledge is more about adaptive survival than memorizing fixed routes.
+- **Permanent cosmetics** are retained even when a run resets, providing long-term goals for every courier.
+</Callout>
+
+<Section icon={Target} title="Getting Started as a Courier">
+
+The core gameplay loop of Panic Delivery centers on high-stakes logistics in a dystopian, monster-infested environment. As a courier, your efficiency is just as important as your survival.
+
+**Video Highlights:**
+- Understanding the 99 shared lives system.
+- Basic navigation through procedurally generated maps.
+- How to manage package handling under pressure.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Trailer" />
+
+Success depends on understanding your workplace environment. When you spawn into a zone, don't rush. Assess the mission objectives and ensure your team has the necessary tools to handle the specific threats of that map.
+
+| Phase | Goal | Priority |
+| :--- | :--- | :--- |
+| Preparation | Check mission type and loadout | High |
+| Navigation | Scout paths before moving cargo | Medium |
+| Execution | Protect the package carrier | Critical |
+| Exfiltration | Secure the exit route early | High |
+
+<Callout type="tip">
+Always designate one player as the primary package carrier while others scout or hold defensive positions. This minimizes the risk of losing cargo in dead ends or monster traps.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Mission Types and Package Handling">
+
+Not all deliveries are equal. The Early Access build features three distinct mission categories, each demanding a different level of team coordination.
+
+| Mission Type | Objective | Risk Level |
+| :--- | :--- | :--- |
+| Standard | Move package from A to B | Low |
+| Recovery | Find lost cargo using tracker | Medium |
+| Smuggling | Protect high-value illegal goods | High |
+
+<Checklist
+  id="courier-checklist"
+  title="Courier Mission Checklist:"
+  items={[
+    "Confirm the mission objective before leaving the base",
+    "Assign roles: Carrier, Scout, and Defender",
+    "Identify the package size (Small, Medium, Large)",
+    "Check remaining shared lives pool"
+  ]}
+/>
+
+<Callout type="warning" title="Cargo Safety">
+Large packages significantly reduce your mobility. If you are carrying a large box, avoid combat and rely on your teammates to clear the path ahead.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maps and Environmental Risks">
+
+Early Access includes three operational zones. Because these locations utilize procedurally generated dungeons, you must adapt to shifting layouts rather than relying on static memory.
+
+<CardGrid cols={3}>
+  <Card title="Haunted Route">
+    - **Tense atmosphere**
+    - Limited visibility
+    - Close-range monster threats
+  </Card>
+  <Card title="Panic Factory">
+    - **Industrial layout**
+    - Terminal interaction pressure
+    - Complex room structures
+  </Card>
+  <Card title="Arctic Base">
+    - **Exploration-heavy**
+    - Icy environmental traps
+    - Potential for team separation
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Route Strategy">
+In the Arctic Base, prioritize checking side paths early. The procedural generation can create dead ends that trap your team during an extraction phase.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Item Tier List">
+
+Managing your Speetchy (currency) effectively is vital for long-term survival. Prioritize items that provide utility and defensive support over purely cosmetic purchases.
+
+| Item Name | Tier | Best Use Case |
+| :--- | :--- | :--- |
+| Tracking Devices | S | Recovery missions |
+| Crowbar | S | Box breaking/Defense |
+| Monster Repellents | A | Emergency escapes |
+| Traversal Tools | A | Map repositioning |
+| Groan Tube | B | Panic defense |
+
+<Callout type="success" title="Pro Strategy">
+Focus your early Speetchy on **Tracking Devices**. They are essential for Recovery missions, which are often the most efficient way to farm resources early in the game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do shared lives work in Panic Delivery?",
+    answer: "The team shares a pool of 99 clones. Every time a courier dies, one clone is consumed. If the team exhausts the entire pool, the current run ends, and you must restart."
+  },
+  {
+    question: "Do I lose my progress if the mission fails?",
+    answer: "When a run ends due to death or mission failure, you lose progress for that specific mission. However, any permanent purchases, cosmetics, or challenges completed are saved."
+  },
+  {
+    question: "Is voice communication required for co-op?",
+    answer: "While not strictly required, communication is highly recommended. Coordinating who carries the package and who watches the rear is the difference between success and a run reset."
+  }
+]} />
+
+</Section>

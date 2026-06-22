@@ -1,0 +1,150 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Release Date: Early Access & Game Overview",
+  description: "Learn about the Panic Delivery release date, core gameplay, mission types, and essential survival tips for this 4-player co-op horror comedy title.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Panic Delivery release date** for Steam Early Access was May 13, 2026.
+- Players manage **99 shared lives** while navigating procedurally generated monster-infested zones.
+- The current build features **3 maps, 3 mission types, and 13 unique enemies** to challenge your team.
+- Coordination is vital; **protect your package carrier** and manage resources to survive the dystopian routes.
+</Callout>
+
+<Section icon={BookOpen} title="Release Date and Early Access Overview">
+
+Panic Delivery officially entered the Steam Early Access phase on May 13, 2026. This co-op horror comedy experience tasks players with acting as disposable couriers in a hostile, monster-run world. As an Early Access title, the game is currently in an expanding state, with developers planning approximately one year of development to refine mechanics and content.
+
+| Feature | Details |
+| :--- | :--- |
+| **Release Date** | May 13, 2026 |
+| **Platform** | PC (Steam) |
+| **Base Price** | $7.99 USD |
+| **Development Window** | Approximately 1 year |
+| **Current Build** | Early Access v0.1.x |
+
+<Callout type="tip" title="Early Access Expectations">
+While the game is fully playable, expect frequent updates. Developers are currently focusing on balancing enemy behavior, improving procedural map generation, and adding new content based on community feedback.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Beginner Courier Essentials">
+
+Starting your first run in Panic Delivery requires understanding the core gameplay loop. You are not just a courier; you are a survivor managing a limited pool of company-sponsored lives.
+
+<Steps>
+  <Step num="1" title="Form Your Team">
+    Join solo or with up to three other players. Remember that all couriers share a single pool of 99 lives.
+  </Step>
+  <Step num="2" title="Identify the Mission">
+    Check if you are on a Standard, Recovery, or Smuggling mission. Each requires different strategies.
+  </Step>
+  <Step num="3" title="Secure the Package">
+    Whether it is a Small, Medium, or Large package, the carrier is the team's primary responsibility.
+  </Step>
+  <Step num="4" title="Manage Resources">
+    Use your Speetchy to purchase tools. Prioritize survival gear before spending on cosmetic swag.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Shared Life Danger">
+Running out of lives resets the run entirely. Avoid reckless exploration when the team's life pool is low, as every death significantly impacts your chances of success.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Missions and Map Zones">
+
+The game currently features three distinct maps, each utilizing procedural dungeon layouts to ensure that no two runs feel identical. Understanding the mission rules is the key to minimizing losses.
+
+| Mission Type | Goal | Strategy |
+| :--- | :--- | :--- |
+| **Standard** | Deliver items | Keep the carrier protected and move quickly. |
+| **Recovery** | Retrieve lost cargo | Use tracking devices to locate items efficiently. |
+| **Smuggling** | Move illicit goods | Coordinate exit routes before triggering alarms. |
+
+<CardGrid cols={3}>
+  <Card title="Haunted Route">
+    - Low visibility zones
+    - High jump-scare potential
+    - Requires constant light management
+  </Card>
+  <Card title="Panic Factory">
+    - Industrial hazard layouts
+    - Complex terminal interactions
+    - Frequent enemy ambushes
+  </Card>
+  <Card title="Arctic Base">
+    - Exploration-heavy paths
+    - Environmental hazards
+    - High dead-end risk
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Map Tip">
+Always assign a designated scout when navigating the Arctic Base to avoid getting trapped in dead ends during high-pressure situations.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Enemy Encounters and Survival">
+
+With 13 unique enemies currently in the game, survival depends on your ability to categorize threats and react accordingly. Do not treat every encounter as a fight; sometimes, fleeing is the only professional choice.
+
+| Enemy Category | Threat Level | Primary Counterplay |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Moderate | Reposition and recover dropped items. |
+| **Grotesque Monsters** | High | Avoid splitting up; use defensive tools. |
+| **Zone-Specific Threats** | Variable | Build loadouts based on map hazards. |
+
+<Checklist
+  id="survival-checklist"
+  title="Survival Rules:"
+  items={[
+    "Enter rooms as a group",
+    "Protect the package carrier at all costs",
+    "Save repellent for the return path",
+    "Call out enemy positions clearly"
+  ]}
+/>
+
+<Callout type="tip" title="Repellent Tactics">
+Save your monster repellents for the final stretch of your delivery. Using them too early in the mission often leaves the team vulnerable during the extraction phase.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Panic Delivery available on consoles?",
+    answer: "Currently, Panic Delivery is only available on PC via Steam Early Access. There have been no official announcements regarding console ports."
+  },
+  {
+    question: "How many players can play together?",
+    answer: "Panic Delivery supports solo play and online co-op for up to four players."
+  },
+  {
+    question: "What happens if we lose all 99 lives?",
+    answer: "If the team runs out of shared lives, the current run resets. However, you retain any cosmetic items or permanent upgrades purchased with Bonus Permits."
+  },
+  {
+    question: "Does the game support cross-platform play?",
+    answer: "As the game is currently exclusive to Steam, cross-platform functionality is not applicable."
+  }
+]} />
+
+</Section>

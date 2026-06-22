@@ -1,0 +1,123 @@
+import { Map, Target, Shield, Sparkles, ClipboardList, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia Solo de Panic Delivery: Estratégias Essenciais de Sobrevivência",
+  description: "Domine as rotas de entrega distópicas com nosso guia especializado para jogadores solo em Panic Delivery. Aprenda táticas de sobrevivência, gerenciamento de itens e sucesso em missões.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Panic+Delivery+Solo+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Dominar o **guia solo de Panic Delivery** exige equilibrar a segurança do pacote com uma navegação eficiente pelas rotas.
+- Entregadores solo devem gerenciar o conjunto de **99 vidas compartilhadas** com cuidado, já que cada morte impacta os recursos totais da equipe.
+- Priorize **dispositivos de rastreamento** e ferramentas defensivas para mitigar riscos durante as partidas em masmorras geradas processualmente.
+- Entender os **tipos de missão**, como Padrão, Recuperação e Contrabando, é fundamental para sobreviver em zonas infestadas de monstros.
+- Melhorias permanentes e cosméticos são mantidos após as partidas, recompensando o esforço constante mesmo em entregas fracassadas.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Ciclo do Entregador Solo">
+
+Jogar solo em Panic Delivery exige uma mudança de mentalidade em comparação com partidas em equipe. Embora você não tenha companheiros para contar com fogo de cobertura, você tem controle total sobre o ritmo e o processo de tomada de decisão. O ciclo principal de jogo envolve navegar por zonas controladas por monstros, entregar carga e gerenciar um conjunto limitado de 99 vidas.
+
+<CardGrid cols={3}>
+  <Card title="Prioridade de Sobrevivência">
+    - **Evite combates desnecessários**
+    - Foque na eficiência da rota
+    - Economize itens defensivos
+  </Card>
+  <Card title="Consciência da Missão">
+    - **Verifique o tipo de objetivo cedo**
+    - Adapte-se aos layouts processuais
+    - Identifique rotas de saída ideais
+  </Card>
+  <Card title="Gerenciamento de Recursos">
+    - **Gaste Speetchy em utilitários**
+    - Priorize equipamentos de sobrevivência
+    - Desbloqueie cosméticos permanentes
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Movimentação Estratégica">
+Em partidas solo, sempre tenha uma rota de saída em mente. Não se comprometa com uma exploração profunda de uma sala se suas ferramentas defensivas estiverem em recarga, pois os monstros punirão o isolamento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de Missão e Manuseio de Pacotes">
+
+O sucesso como entregador solo depende de sua capacidade de lidar com parâmetros específicos de missão. Cada partida apresenta objetivos aleatórios, exigindo que você adapte sua estratégia rapidamente.
+
+| Tipo de Missão | Objetivo Principal | Nível de Risco Solo |
+| :--- | :--- | :--- |
+| **Padrão** | Entregar pacote ao alvo | Moderado |
+| **Recuperação** | Recuperar carga/itens perdidos | Alto |
+| **Contrabando** | Mover mercadorias restritas com segurança | Muito Alto |
+
+<Callout type="warning" title="Perigos do Peso do Pacote">
+Pacotes grandes reduzem significativamente sua mobilidade. Ao jogar solo, limpe a rota de inimigos *antes* de pegar o pacote para evitar ser encurralado em um beco sem saída.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamento para Sobrevivência Solo">
+
+Suas compras na loja determinam sua capacidade de sobrevivência. Como jogador solo, você não pode se dar ao luxo de desperdiçar Speetchy em itens não essenciais. Foque em ferramentas que lhe garantam controle sobre o ambiente e seus inimigos.
+
+| Categoria de Item | Foco de Utilidade | Uso Recomendado |
+| :--- | :--- | :--- |
+| **Dispositivos de Rastreamento** | Encontrar alvos de recuperação | Essencial para missões de Recuperação |
+| **Pé de Cabra** | Quebrar caixas/Defesa | Melhor ferramenta versátil |
+| **Repelentes de Monstros** | Criar janelas de fuga | Melhor para saídas de alta pressão |
+| **Ferramentas de Travessia** | Navegar em salas complexas | Melhor para mapas da Base Ártica |
+
+<Callout type="success" title="A Build Solo">
+Para a maioria das partidas solo, carregue um **Pé de Cabra** para defesa imediata e um **Repelente de Monstros** para fugas de emergência. Essa combinação oferece o melhor equilíbrio entre ataque e utilidade.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardList} title="Passos para uma Partida de Sucesso">
+
+<Steps>
+  <Step num="1" title="Avaliação">
+    Verifique o tipo de missão e a zona do mapa no terminal. Identifique os principais fatores de risco para o layout atual.
+  </Step>
+  <Step num="2" title="Reconhecimento">
+    Entre na zona e limpe o caminho inicial. Mapeie a localização do objetivo e a saída mais próxima.
+  </Step>
+  <Step num="3" title="Execução">
+    Recupere o pacote e mova-se em direção ao objetivo. Use suas ferramentas para distrair ou repelir ameaças em vez de lutar em todos os encontros.
+  </Step>
+  <Step num="4" title="Extração">
+    Siga sua rota de saída pré-planejada. Não se desvie para buscar espólios extras, a menos que tenha vidas e itens defensivos de sobra.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Perguntas sobre o Entregador Solo">
+
+<FAQ items={[
+  {
+    question: "O guia solo de Panic Delivery se aplica a todos os mapas?",
+    answer: "Sim, as estratégias fundamentais de sobrevivência — limpar caminhos, gerenciar vidas e usar ferramentas — aplicam-se a todos os três mapas do Acesso Antecipado, incluindo Haunted House, Panic Factory e Arctic Base."
+  },
+  {
+    question: "Eu perco tudo se minhas vidas acabarem em uma partida solo?",
+    answer: "Quando suas vidas acabam, a partida reinicia, mas você mantém todos os itens permanentes comprados anteriormente e cosméticos, garantindo progresso a longo prazo."
+  },
+  {
+    question: "Qual tipo de missão é o mais difícil para jogadores solo?",
+    answer: "As missões de Contrabando são geralmente as mais difíceis para jogadores solo devido aos requisitos específicos do pacote e maior pressão dos inimigos, exigindo coordenação precisa e uso estratégico de ferramentas."
+  }
+]} />
+
+</Section>

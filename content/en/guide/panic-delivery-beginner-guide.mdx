@@ -1,0 +1,157 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Beginner Guide: Essential Tips for New Couriers",
+  description: "Master the basics of Panic Delivery with this guide. Learn about mission types, managing shared lives, and surviving monster-infested zones in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Beginner+Guide",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **panic delivery beginner guide** focuses on core gameplay: delivering packages while surviving monsters.
+- Teams share a **pool of 99 lives**; once depleted, the mission resets.
+- Always check the **mission type**—Standard, Recovery, or Smuggling—before starting your route.
+- Prioritize **team coordination** over individual heroics to maximize survival chances.
+- Permanent progression is tied to **cosmetics and shop upgrades** kept after runs.
+</Callout>
+
+<Section icon={BookOpen} title="Getting Started as a Courier">
+
+Entering the dystopian world of Panic Delivery requires more than just speed. As a new recruit, your primary objective is to navigate monster-controlled zones and complete delivery tasks without exhausting the team's shared resources.
+
+**Video Highlights:**
+- Understanding the core 4-player co-op loop.
+- Essential survival strategies for procedural dungeons.
+- How to manage Speetchy and shop rewards effectively.
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Panic Delivery Early Access Gameplay Overview" />
+
+The Early Access build currently features three distinct maps and 13 unique enemies. Success depends on your ability to adapt to procedural layouts rather than memorizing fixed paths.
+
+| Feature | Description |
+| :--- | :--- |
+| **Player Count** | 1-4 Players (Online Co-op) |
+| **Lives System** | 99 Shared Team Lives |
+| **Core Loop** | Deliver, Recover, Smuggle |
+| **Progression** | Permanent Cosmetics & Shop Upgrades |
+
+<Callout type="tip">
+Always communicate your route with teammates before entering a new room. Dividing the team often leads to unnecessary deaths and wasted shared lives.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Package Logic">
+
+Panic Delivery missions are randomized, meaning no two runs are identical. Understanding the specific requirements for each mission type is crucial for efficient completion.
+
+| Mission Type | Primary Objective | Team Strategy |
+| :--- | :--- | :--- |
+| **Standard** | Deliver package to target | Protect the carrier at all costs |
+| **Recovery** | Locate lost cargo using tracker | Split to search, regroup to transport |
+| **Smuggling** | Move illicit goods safely | Avoid high-traffic monster paths |
+
+<Steps>
+  <Step num="1" title="Check Mission Goal">
+    Identify if your mission is Standard, Recovery, or Smuggling at the start of the run.
+  </Step>
+  <Step num="2" title="Assign Roles">
+    Designate a package carrier and an escort. The carrier should not engage in direct combat.
+  </Step>
+  <Step num="3" title="Execute Route">
+    Move through the procedurally generated dungeon, using tools to clear obstacles.
+  </Step>
+  <Step num="4" title="Final Delivery">
+    Secure the package at the drop-off point and prepare for the return or extraction.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Watch Your Cargo">
+Different package sizes (Small, Medium, Large) affect your movement speed and visibility. Large packages make you a prime target for monsters, so ensure your team provides a solid defensive perimeter.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Item Management">
+
+Survival in Panic Delivery is about resource management. With 15 items currently available in the shop, choosing the right loadout can significantly increase your team's longevity.
+
+<CardGrid cols={3}>
+  <Card title="Tracking Devices">
+    - **Tier: S**
+    - Essential for Recovery missions.
+    - Simplifies cargo location.
+  </Card>
+  <Card title="Crowbar">
+    - **Tier: S**
+    - Excellent for route control.
+    - Provides emergency defense.
+  </Card>
+  <Card title="Monster Repellents">
+    - **Tier: A**
+    - Vital for escape routes.
+    - Helps when cornered.
+  </Card>
+</CardGrid>
+
+| Item Category | Best Use Case | Team Utility |
+| :--- | :--- | :--- |
+| **Traversal Tools** | Navigating complex map layouts | High |
+| **Gadgets** | Situational support | Medium |
+| **Smuggling Tools** | Specific mission objectives | Situational |
+| **Boujee Swag** | Personal cosmetic style | Low (Non-survival) |
+
+<Callout type="success">
+Spend your initial Speetchy on Tracking Devices and Crowbars. These tools provide the highest return on investment for new players trying to complete their first successful mission.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigating Zones">
+
+The three maps currently in Early Access require different approaches. Whether you are in the Panic Factory or the Arctic Base, environmental risks play a major role in your survival.
+
+<Checklist
+  id="map-tips"
+  title="Zone Survival Checklist:"
+  items={[
+    "Clear terminals before moving packages",
+    "Mark exits in the Panic Factory",
+    "Avoid dead-ends in the Arctic Base",
+    "Keep visibility high in Haunted routes"
+  ]}
+/>
+
+<Callout type="warning" title="Procedural Risks">
+Because dungeons are procedurally generated, never assume a path is safe just because it was empty previously. Always keep one player scouting ahead of the package carrier.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What happens when the team runs out of 99 lives?",
+    answer: "When the shared pool of 99 lives is depleted, the mission ends and resets. However, any permanent shop upgrades or cosmetics you unlocked remain in your inventory."
+  },
+  {
+    question: "Can I play Panic Delivery solo?",
+    answer: "Yes, the game supports solo play, though the difficulty is scaled for a 4-player co-op experience. Coordination is significantly easier with a full team."
+  },
+  {
+    question: "How do I unlock new cosmetics?",
+    answer: "Cosmetics are unlocked through the challenge system and by spending Bonus Permits earned during successful missions."
+  }
+]} />
+
+</Section>

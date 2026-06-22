@@ -1,0 +1,135 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery: Cómo reparar y mantener la eficiencia del mensajero",
+  description: "Domina las mecánicas esenciales de reparación, la gestión de objetos y consejos de supervivencia para mensajeros en esta guía completa de Panic Delivery.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Repair+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: Reparar y mantener el equipo es vital para sobrevivir en **Panic Delivery**.
+- **Uso de objetos**: Utiliza **dispositivos de rastreo** y **palancas** para navegar y solucionar problemas en la ruta.
+- **Vidas compartidas**: Protege las **99 vidas** de tu equipo priorizando la integridad del equipo sobre la velocidad.
+- **Consejo de acceso anticipado**: Revisa siempre los **objetos de la tienda** antes de comenzar una partida procedimental.
+</Callout>
+
+<Section icon={Shield} title="Entendiendo la reparación y el mantenimiento">
+
+En **Panic Delivery**, el término "reparar" a menudo se refiere a gestionar la integridad de tus herramientas de mensajería y recuperar carga perdida durante misiones de alta presión. A diferencia de los juegos de supervivencia tradicionales donde reparas muros de bases, aquí te enfocas en mantener tus objetos de utilidad y mantener despejada la ruta de entrega.
+
+<Callout type="tip" title="Integridad del equipo">
+Mantén siempre tus herramientas esenciales, como las **palancas**, en óptimas condiciones. Si una herramienta falla mientras estás en lo profundo de una mazmorra procedimental, tu capacidad para interactuar con el entorno o defenderte disminuirá significativamente.
+</Callout>
+
+La siguiente tabla resume las categorías principales de objetos que requieren mantenimiento o uso estratégico para asegurar que tu entrega se mantenga encaminada:
+
+| Categoría de objeto | Función principal | Prioridad de mantenimiento |
+| :--- | :--- | :--- |
+| **Palanca** | Romper cajas, defensa | Alta |
+| **Dispositivos de rastreo** | Localizar carga perdida | Crítica |
+| **Repelentes de monstruos** | Despejar rutas de salida | Media |
+| **Herramientas de travesía** | Navegar peligros del mapa | Media |
+
+</Section>
+
+<Section icon={Target} title="Cómo gestionar misiones y recuperaciones">
+
+Cuando una entrega sale mal, debes realizar "reparaciones" en la misión misma recuperando la carga perdida. Aquí es donde la coordinación de tu equipo determina si tienes éxito o si consumes tu reserva compartida de 99 vidas.
+
+<Steps>
+  <Step num="1" title="Identifica el tipo de misión">
+    Antes de entrar, confirma si es **Estándar**, **Recuperación** o **Contrabando**. Cada una requiere diferentes prioridades de reparación.
+  </Step>
+  <Step num="2" title="Equipa utilidades de rastreo">
+    Para misiones de **Recuperación**, asegúrate de que al menos un mensajero tenga un dispositivo de rastreo para encontrar carga extraviada.
+  </Step>
+  <Step num="3" title="Coordina el retorno">
+    Si el paquete se cae, no te apresures. Despeja el área inmediata de monstruos antes de intentar recogerlo de nuevo.
+  </Step>
+  <Step num="4" title="Gasta Speetchy sabiamente">
+    Usa las recompensas de misión para comprar mejores herramientas en la tienda y minimizar la necesidad de reparaciones de emergencia en el campo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de vidas compartidas">
+Cada vez que un mensajero muere, el equipo pierde una vida del grupo compartido de 99. Las "reparaciones" imprudentes o los intentos de salvar un paquete en una zona infestada de monstruos pueden llevar a un reinicio total de la partida.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Peligros de los mapas procedimentales">
+
+Los mapas en **Panic Delivery** se generan procedimentalmente, lo que significa que los caminos "rotos" que encuentras cambian cada vez. Ya sea que estés en la **Fábrica del Pánico** o en la **Base Ártica**, debes adaptar tu estrategia.
+
+| Zona del mapa | Peligro principal | Estrategia recomendada |
+| :--- | :--- | :--- |
+| **Ruta Embrujada** | Baja visibilidad | Mantén al equipo agrupado |
+| **Fábrica del Pánico** | Bloqueos de terminales | Asigna a un mensajero a las terminales |
+| **Base Ártica** | Caminos sin salida | Explora los caminos laterales primero |
+
+<Callout type="success" title="Dominio del mapa">
+Las mazmorras procedimentales recompensan a los jugadores que exploran con antelación. Si un camino está bloqueado o roto, busca rutas alternativas en lugar de forzar tu paso a través de áreas con alta densidad de monstruos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de niveles de objetos para la supervivencia">
+
+Tu capacidad para "reparar" una mala situación depende de los objetos que lleves. Usa esta lista para priorizar tus gastos en la tienda.
+
+<CardGrid cols={2}>
+  <Card title="Nivel S (Esencial)">
+    - **Dispositivos de rastreo**: Obligatorios para misiones de recuperación.
+    - **Palanca**: La herramienta más versátil para la interacción con rutas.
+  </Card>
+  <Card title="Nivel A (Apoyo)">
+    - **Repelentes de monstruos**: Esenciales para despejar rutas de salida.
+    - **Herramientas de travesía**: Ayudan a gestionar una mala generación de mapas.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Cómo reparo objetos rotos en Panic Delivery?",
+    answer: "Los objetos se gestionan a través de la tienda. Enfócate en comprar herramientas duraderas como la palanca y mejorar tu equipo de utilidad para evitar fallos durante las partidas."
+  },
+  {
+    question: "¿Qué sucede si nos quedamos sin vidas compartidas?",
+    answer: "Si el equipo agota las 99 vidas compartidas, la partida actual se reinicia. Conservas tu progreso cosmético personal, pero se pierde el progreso específico de la misión."
+  },
+  {
+    question: "¿Existe una herramienta de reparación específica para el paquete?",
+    answer: "No, los paquetes no necesitan reparaciones, pero pueden caerse. Usa a los miembros de tu equipo para proteger al portador y asegurar que el paquete llegue al punto de entrega."
+  },
+  {
+    question: "¿La Base Ártica tiene requisitos de reparación únicos?",
+    answer: "La Base Ártica se centra más en la travesía. Parches recientes arreglaron barreras invisibles, así que concéntrate en la exploración en lugar de reparaciones basadas en objetos."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="courier-goals"
+  title="Lista de preparación del mensajero:"
+  items={[
+    "Verifica el tipo de misión antes de comenzar",
+    "Compra al menos una herramienta defensiva",
+    "Asigna roles para las interacciones con terminales",
+    "Mantén el grupo de vidas compartidas por encima de 50",
+    "Regresa a la base antes de que el grupo de vidas llegue a cero"
+  ]}
+/>

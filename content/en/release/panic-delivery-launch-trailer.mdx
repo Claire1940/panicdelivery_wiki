@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Launch Trailer: Early Access Gameplay Guide",
+  description: "Explore Panic Delivery with our launch trailer breakdown, covering co-op horror comedy mechanics, mission types, and essential survival tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **panic delivery launch trailer** showcases the chaotic 4-player co-op horror comedy gameplay.
+- Players must manage a **shared pool of 99 lives** while navigating procedurally generated zones.
+- Mastering **mission types** like Standard, Recovery, and Smuggling is key to long-term progress.
+- Efficiently spending **Speetchy** on tools is vital for surviving monster-run dystopian environments.
+- Always coordinate with your team to protect the **package carrier** from incoming threats.
+</Callout>
+
+<Section icon={Map} title="Launch Overview and Gameplay Loop">
+
+The **panic delivery launch trailer** highlights the high-stakes environment where couriers are deemed disposable. Since the game's release on May 13, 2026, players have been tasked with delivering packages through hostile, monster-infested zones.
+
+**Video Highlights:**
+- Chaotic 4-player cooperative delivery mechanics.
+- Introduction to the shared 99-lives system.
+- Sneak peek at various monster-run dystopian map environments.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Early Access Launch Trailer" />
+
+Success in the game requires more than just speed; it demands strict team coordination. When a courier falls, the team loses one of their 99 lives. If the pool hits zero, the run resets, though personal cosmetic progress remains intact.
+
+| Feature | Description |
+| :--- | :--- |
+| **Player Count** | 1 to 4 Players Online Co-op |
+| **Life System** | Shared 99 Lives per team |
+| **Game Setting** | Dystopian Monster-Run Zones |
+| **Progression** | Shop upgrades and cosmetic unlocks |
+
+<Callout type="tip">
+Don't rush into danger alone. The game rewards teams that move as a unit, keeping the package carrier protected at all times.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mission Types and Package Logic">
+
+Understanding the objective is the first step to survival. The Early Access build features three distinct mission types, each with randomized goals that prevent routes from becoming predictable.
+
+<Steps>
+  <Step num="1" title="Identify Mission Type">
+    Before starting, check if the mission is Standard, Recovery, or Smuggling. Each requires a different approach to movement and defense.
+  </Step>
+  <Step num="2" title="Select Package Strategy">
+    Small, Medium, and Large packages affect your mobility. Large packages are heavy and require team support to transport safely.
+  </Step>
+  <Step num="3" title="Execute and Escape">
+    Complete the objective and head to the extraction point. Keep an eye on the shared life pool to ensure you don't burn through your team's resources.
+  </Step>
+</Steps>
+
+| Mission Type | Goal Focus | Risk Level |
+| :--- | :--- | :--- |
+| **Standard** | Point-to-point delivery | Moderate |
+| **Recovery** | Locate and retrieve lost cargo | High |
+| **Smuggling** | Protected transport of illicit goods | Extreme |
+
+<Callout type="warning" title="Objective Warning">
+Randomized objectives mean your escape route may change mid-run. Always keep an eye on your surroundings rather than just the mission marker.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essential Items and Shop Strategy">
+
+Your performance is heavily tied to your loadout. With 15 shop items currently available, knowing what to prioritize with your hard-earned Speetchy is crucial.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier Survival">
+    **Tracking Devices & Crowbars** are essential. Tracking helps in Recovery missions, while the Crowbar offers both utility and defense.
+  </Card>
+  <Card title="A-Tier Utility">
+    **Monster Repellents & Traversal Tools** provide the necessary edge to escape tight corners or reposition during a monster chase.
+  </Card>
+  <Card title="B-Tier Support">
+    **Gadgets & Smuggling Tools** are situational. Buy these only after securing your core defensive and recovery gear.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Budgeting Tip">
+Prioritize tools that help you finish the run safely. Cosmetic "Boujee Swag" is fun, but it won't save your team from a monster ambush.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navigating Procedural Maps">
+
+Panic Delivery offers three distinct maps in Early Access, each featuring procedurally generated dungeons. This ensures that no two runs feel exactly the same.
+
+| Map Zone | Theme | Primary Hazard |
+| :--- | :--- | :--- |
+| **Haunted Route** | Horror-heavy interiors | Low visibility & jumpscares |
+| **Panic Factory** | Industrial cloning facility | Terminal interaction pressure |
+| **Arctic Base** | Icy, alien-secret atmosphere | Exploration traps & dead ends |
+
+<Checklist
+  id="map-survival"
+  title="Map Survival Checklist:"
+  items={[
+    "Assign a designated scout for new rooms",
+    "Call out terminal locations in the Panic Factory",
+    "Clear side paths in the Arctic Base before moving the package",
+    "Regroup before the final delivery push"
+  ]}
+/>
+
+<Callout type="tip">
+In the Panic Factory, do not let your package carrier handle the terminals. Use a separate team member to interact with the environment while the carrier stays protected.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Panic Delivery a single-player game?",
+    answer: "Yes, you can play solo, but the game is balanced as a 4-player co-op horror comedy, making coordination much easier with a team."
+  },
+  {
+    question: "What happens when the team runs out of 99 lives?",
+    answer: "The current run resets. However, any personal cosmetic progress or permanent items purchased with Bonus Permits remain saved."
+  },
+  {
+    question: "How often does the game receive updates?",
+    answer: "As an Early Access title, the developers release frequent hotfixes and patches to improve enemy behavior, stability, and content. Check the official Steam announcements for the latest."
+  },
+  {
+    question: "Does the panic delivery launch trailer represent the final game?",
+    answer: "The trailer showcases the current Early Access build. The developers plan to expand the game with more maps, enemies, and items over the next year."
+  }
+]} />
+
+</Section>

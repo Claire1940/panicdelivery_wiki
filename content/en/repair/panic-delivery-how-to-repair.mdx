@@ -1,0 +1,135 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery: How to Repair and Maintain Courier Efficiency",
+  description: "Master essential repair mechanics, item management, and courier survival tips for Panic Delivery in this comprehensive guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Repair+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanic**: Repairing and maintaining gear is vital for **Panic Delivery** survival.
+- **Item Usage**: Use **Tracking Devices** and **Crowbars** to navigate and fix route issues.
+- **Shared Lives**: Protect your team's **99 lives** by prioritizing equipment integrity over speed.
+- **Early Access Tip**: Always check your **shop items** before starting a procedural run.
+</Callout>
+
+<Section icon={Shield} title="Understanding Repair and Maintenance">
+
+In **Panic Delivery**, the term "repair" often refers to managing the integrity of your courier tools and recovering lost cargo during high-pressure missions. Unlike traditional survival games where you repair base walls, here you focus on maintaining your utility items and keeping the package route clear.
+
+<Callout type="tip" title="Equipment Integrity">
+Always keep your essential tools, such as **Crowbars**, in top condition. If a tool fails while you are deep in a procedural dungeon, your ability to interact with the environment or defend yourself drops significantly.
+</Callout>
+
+The following table summarizes the primary categories of items that require maintenance or strategic use to ensure your delivery run stays on track:
+
+| Item Category | Primary Function | Maintenance Priority |
+| :--- | :--- | :--- |
+| **Crowbar** | Breaking boxes, defense | High |
+| **Tracking Devices** | Locating lost cargo | Critical |
+| **Monster Repellents** | Exit route clearing | Medium |
+| **Traversal Tools** | Navigating map hazards | Medium |
+
+</Section>
+
+<Section icon={Target} title="How to Manage Missions and Recoveries">
+
+When a delivery goes wrong, you must perform "repairs" on the mission itself by recovering lost cargo. This is where your team's coordination determines if you succeed or burn through your shared pool of 99 lives.
+
+<Steps>
+  <Step num="1" title="Identify the Mission Type">
+    Before entering, confirm if it is **Standard**, **Recovery**, or **Smuggling**. Each requires different repair priorities.
+  </Step>
+  <Step num="2" title="Equip Tracking Utility">
+    For **Recovery** missions, ensure at least one courier has a tracking device to find misplaced cargo.
+  </Step>
+  <Step num="3" title="Coordinate the Return">
+    If the package is dropped, don't rush. Clear the immediate area of monsters before attempting to pick it up again.
+  </Step>
+  <Step num="4" title="Spend Speetchy Wisely">
+    Use mission rewards to buy better tools in the shop to minimize the need for emergency field repairs later.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Shared Life Warning">
+Every time a courier dies, the team loses a life from the shared 99-count pool. Reckless "repairs" or attempts to save a package in a monster-infested zone can lead to a total run reset.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Procedural Map Hazards">
+
+The maps in **Panic Delivery** are procedurally generated, meaning the "broken" paths you encounter change every time. Whether you are in the **Panic Factory** or the **Arctic Base**, you must adapt your strategy.
+
+| Map Zone | Primary Hazard | Recommended Strategy |
+| :--- | :--- | :--- |
+| **Haunted Route** | Low visibility | Keep team grouped |
+| **Panic Factory** | Terminal locks | Assign one courier to terminals |
+| **Arctic Base** | Dead-end paths | Scout side paths first |
+
+<Callout type="success" title="Map Mastery">
+Procedural dungeons reward players who scout ahead. If a path is blocked or broken, look for alternate routes rather than forcing your way through high-density monster areas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Item Tier List for Survival">
+
+Your ability to "repair" a bad situation depends on the items you bring. Use this list to prioritize your shop spending.
+
+<CardGrid cols={2}>
+  <Card title="S-Tier (Essential)">
+    - **Tracking Devices**: Mandatory for recovery missions.
+    - **Crowbar**: The most versatile tool for route interaction.
+  </Card>
+  <Card title="A-Tier (Support)">
+    - **Monster Repellents**: Essential for clearing exit paths.
+    - **Traversal Tools**: Helps manage bad map generation.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I repair broken items in Panic Delivery?",
+    answer: "Items are managed through the shop. Focus on purchasing durable tools like the Crowbar and upgrading your utility gear to prevent failures during runs."
+  },
+  {
+    question: "What happens if we run out of shared lives?",
+    answer: "If the team exhausts the 99 shared lives, the current run resets. You keep your personal cosmetic progress, but mission-specific progress is lost."
+  },
+  {
+    question: "Is there a specific repair tool for the package?",
+    answer: "No, packages don't need repairs, but they can be dropped. Use your team members to protect the carrier and ensure the package reaches the delivery point."
+  },
+  {
+    question: "Does the Arctic Base have unique repair requirements?",
+    answer: "The Arctic Base focuses more on traversal. Recent patches fixed invisible barriers, so focus on exploration rather than item-based repairs."
+  }
+]} />
+
+</Section>
+
+<Checklist
+  id="courier-goals"
+  title="Courier Readiness Checklist:"
+  items={[
+    "Verify mission type before starting",
+    "Purchase at least one defensive tool",
+    "Assign roles for terminal interactions",
+    "Keep the shared life pool above 50",
+    "Return to base before the life pool hits zero"
+  ]}
+/>

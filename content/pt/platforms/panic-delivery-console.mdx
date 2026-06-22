@@ -1,0 +1,135 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Console do Panic Delivery: Guia para Iniciantes e Dicas de Sobrevivência",
+  description: "Domine o Panic Delivery com nosso guia de sobrevivência de 2026. Aprenda tipos de missão, mecânicas de mapa e como gerenciar vidas compartilhadas nesta comédia de horror cooperativa.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Panic Delivery** é uma comédia de horror cooperativa para 4 jogadores, onde você entrega pacotes em um mundo distópico.
+- As equipes compartilham um **total de 99 vidas**, tornando a coordenação essencial para a sobrevivência a longo prazo.
+- O Acesso Antecipado conta com **3 mapas, 3 tipos de missão e 13 inimigos únicos** para testar suas habilidades.
+- Foque em **melhorar seus itens na loja** para garantir que você tenha as ferramentas necessárias para as rodadas mais difíceis.
+</Callout>
+
+<Section icon={Target} title="Entendendo as Mecânicas de Panic Delivery">
+
+Panic Delivery é uma experiência caótica onde a eficiência encontra a sobrevivência. Como entregador, seu objetivo principal é transportar cargas por zonas geradas processualmente enquanto evita monstros grotescos. O ciclo principal envolve realizar missões, garantir recompensas e melhorar seu equipamento para sobreviver em ambientes cada vez mais hostis.
+
+**Destaques do Vídeo:**
+- Técnicas essenciais de movimento do entregador.
+- Como lidar com quedas de pacotes durante encontros com monstros.
+- Estratégias básicas de coordenação de equipe para novos jogadores.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Trailer de Acesso Antecipado" />
+
+<Callout type="tip" title="Estratégia de Sobrevivência">
+Nunca corra para uma sala desconhecida sozinho. Mantenha sempre um entregador perto do pacote e outro explorando à frente para gerenciar o conjunto de vidas compartilhadas de forma eficaz.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tipos de Missão e Logística de Pacotes">
+
+O sucesso em Panic Delivery depende de entender seu objetivo atual. As missões são aleatórias, então verificar o objetivo da sua rota antes de partir é o primeiro passo para uma entrega bem-sucedida.
+
+| Tipo de Missão | Objetivo Principal | Nível de Risco |
+| :--- | :--- | :--- |
+| **Padrão** | Entregar pacote no ponto de entrega | Moderado |
+| **Recuperação** | Localizar e resgatar carga perdida | Alto |
+| **Contrabando** | Mover mercadorias ilícitas pela resistência | Extremo |
+
+<Callout type="warning" title="Manuseio de Pacotes">
+Pacotes grandes reduzem significativamente sua velocidade de movimento. Designe um entregador protegido para carregá-los, enquanto os companheiros de equipe se concentram em limpar o caminho dos inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Visão Geral dos Mapas do Acesso Antecipado">
+
+A versão atual oferece três zonas operacionais distintas. Cada mapa utiliza geração processual, o que significa que o layout mudará a cada partida, evitando rotas previsíveis.
+
+| Nome do Mapa | Tema | Perigo Principal |
+| :--- | :--- | :--- |
+| **Casa Assombrada** | Interior de horror | Baixa visibilidade |
+| **Fábrica de Pânico** | Instalação industrial | Quebra-cabeças de terminais |
+| **Base Ártica** | Local de pesquisa glacial | Armadilhas ambientais |
+
+<CardGrid cols={3}>
+  <Card title="Rota Assombrada">
+    Foque em fontes de luz e mantenha sua equipe unida. Monstros aqui prosperam nos cantos escuros das salas processuais.
+  </Card>
+  <Card title="Fábrica de Pânico">
+    Use terminais para abrir atalhos. Certifique-se de que ninguém seja deixado para trás nos complexos corredores industriais.
+  </Card>
+  <Card title="Base Ártica">
+    Cuidado com becos sem saída e perigos ambientais baseados em gelo que podem prender sua equipe durante uma retirada.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Navegação">
+Marque sempre seu caminho de saída. Quando a pressão aumentar, saber exatamente onde está o ponto de extração pode salvar sua equipe de desperdiçar vidas preciosas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comportamento dos Inimigos e Sobrevivência">
+
+Com 13 inimigos únicos atualmente no jogo, saber quando lutar e quando fugir é uma habilidade crítica. A maioria dos monstros pune jogadores por serem imprudentes ou por se separarem de seus companheiros.
+
+| Tipo de Inimigo | Padrão de Comportamento | Contra-ataque |
+| :--- | :--- | :--- |
+| **Lootmuncher** | Tenta roubar carga | Interceptar e atordoar |
+| **Grotesco** | Pressão de perseguição direta | Use ferramentas defensivas |
+| **Guardião de Zona** | Protege salas específicas | Atrair para longe do alvo |
+
+<Checklist
+  id="survival-checklist"
+  title="Melhores Práticas de Sobrevivência:"
+  items={[
+    "Sempre carregue pelo menos uma ferramenta defensiva",
+    "Entre e saia das salas como uma unidade coesa",
+    "Priorize salvar vidas em vez de itens cosméticos",
+    "Comunique a localização dos inimigos para os companheiros"
+  ]}
+/>
+
+<Callout type="tip" title="Conselho de Combate">
+O combate drena recursos. Se você puder correr mais que um inimigo para alcançar o ponto de entrega, faça isso. Lutar deve ser reservado para proteger quem carrega o pacote ou limpar uma saída bloqueada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que acontece quando a equipe esgota as 99 vidas compartilhadas?",
+    answer: "Quando sua equipe chega a zero vidas, a rodada atual termina e vocês retornam ao hub. No entanto, qualquer item cosmético ou progresso permanente que você tenha conquistado durante a partida é mantido."
+  },
+  {
+    question: "O Panic Delivery pode ser jogado sozinho?",
+    answer: "Sim, o jogo suporta tanto o modo solo quanto o cooperativo online para até quatro jogadores. Partidas solo são significativamente mais difíceis devido à falta de ajuda."
+  },
+  {
+    question: "Como desbloqueio novos cosméticos?",
+    answer: "Cosméticos são desbloqueados através do sistema de desafios. Complete objetivos de missão específicos e ganhe Permissões Bônus para comprar novas skins e equipamentos."
+  },
+  {
+    question: "Existem códigos ativos para Panic Delivery?",
+    answer: "Em junho de 2026, não existe um sistema oficial de códigos resgatáveis em Panic Delivery. Tenha cuidado com fontes não oficiais que afirmam fornecer itens gratuitos."
+  }
+]} />
+
+</Section>

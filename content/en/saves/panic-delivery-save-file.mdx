@@ -1,0 +1,106 @@
+import { Map, Swords, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery Save File: Managing Your Courier Progress",
+  description: "Learn how to manage your Panic Delivery save file, understand the game's progression system, and keep your courier progress secure in this guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Save+File+Guide",
+  date: "2026-06-22",
+  author: "panic delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Panic Delivery save file** tracks your persistent cosmetic unlocks, shop purchases, and mission progress.
+- Your **shared 99 lives** pool resets per run, but personal **cosmetic swag** remains permanently tied to your account.
+- Always use the **in-game exit menu** to ensure your data syncs correctly with the Steam cloud.
+- If you face sync issues, verify your **Steam Cloud settings** to prevent accidental progress loss.
+</Callout>
+
+<Section icon={BookOpen} title="Understanding Your Progress">
+
+In *Panic Delivery*, your "save file" functions differently than in traditional single-player RPGs. Because the game is a 4-player co-op horror comedy, your progress is split into two distinct categories: session-based mission data and persistent account-wide unlocks.
+
+Understanding how these elements interact is crucial for maintaining your status as a top-tier courier. The system is designed to reward consistent play, even if your team repeatedly fails in the monster-infested zones.
+
+| Data Type | Persistence Level | Description |
+| :--- | :--- | :--- |
+| **Cosmetics** | Permanent | Skins, dances, and emojis unlocked via Challenges. |
+| **Shop Items** | Permanent | Weapons and tools bought with Speetchy. |
+| **Mission Progress** | Session-based | Current dungeon floor and route completion. |
+| **Shared Lives** | Run-based | The 99-life pool resets once the team is wiped out. |
+
+<Callout type="tip">
+Focus on completing Challenges early. These unlock the cosmetic items that remain on your account regardless of how many times your team burns through the 99 lives pool.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Managing Your Courier Data">
+
+To ensure your progress is saved, you must rely on the game’s integration with Steam. Since *Panic Delivery* uses procedurally generated dungeons, the game state is constantly updating during your run.
+
+<Steps>
+  <Step num="1" title="End Missions Properly">
+    Always return to the hub or complete the mission objective before exiting to the main menu to ensure the game registers your rewards.
+  </Step>
+  <Step num="2" title="Check Steam Cloud">
+    Ensure Steam Cloud synchronization is enabled in your Steam library settings for *Panic Delivery* to avoid local save file corruption.
+  </Step>
+  <Step num="3" title="Verify File Integrity">
+    If you encounter crashes or missing cosmetic data, use the Steam "Verify integrity of game files" option to repair any corrupted local data.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid Forced Closures">
+Force-closing the game via Task Manager during a mission can lead to inconsistent synchronization. While your cosmetic unlocks are generally safe, you may lose the Speetchy earned during that specific, incomplete run.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Save Issues">
+
+If your progression feels stuck or items aren't appearing, follow this checklist to isolate the problem. Most issues in the current Early Access build are related to network synchronization rather than actual file deletion.
+
+<Checklist
+  id="save-troubleshooting"
+  title="Progression Fix Checklist:"
+  items={[
+    "Restart the game to force a fresh connection to the Steam backend",
+    "Check your internet connection for packet loss during co-op sessions",
+    "Verify that your Steam account is not in offline mode",
+    "Ensure your local save folder has read/write permissions"
+  ]}
+/>
+
+| Issue Type | Likely Cause | Recommended Action |
+| :--- | :--- | :--- |
+| **Missing Speetchy** | Sync delay | Wait 5 minutes or restart the client. |
+| **Cosmetics Locked** | Challenge not met | Re-check the Challenge menu requirements. |
+| **Crash on Save** | Corrupt cache | Clear Steam download cache and verify files. |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there a manual save button in Panic Delivery?",
+    answer: "No, the game uses an auto-save system. It saves your persistent data automatically after mission completion or shop purchases."
+  },
+  {
+    question: "Will I lose my progress if my team runs out of 99 lives?",
+    answer: "You lose your current mission progress, but any permanent items, cosmetics, or currency you earned during the run are saved to your account."
+  },
+  {
+    question: "Can I move my save file to another PC?",
+    answer: "Yes, because *Panic Delivery* uses Steam Cloud, your progress will automatically transfer when you log into your account on a different machine."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery PC: Guía para principiantes y consejos de supervivencia",
+  description: "Domina Panic Delivery en PC con nuestra guía de supervivencia. Aprende sobre tipos de misiones, navegación de mapas, contraataques a enemigos y consejos esenciales de mensajería para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Panic Delivery PC** ofrece una experiencia de terror y comedia cooperativa para 4 jugadores con 99 vidas compartidas.
+- **Domina el ciclo principal** de entregar, recuperar y contrabandear paquetes para ganar Speetchy y cosméticos.
+- **Mazmorras procedimentales**: deberás adaptar tu ruta a diseños cambiantes y a la presión de los monstruos.
+- **La coordinación del equipo es obligatoria**; fallar las misiones consume rápidamente tu reserva de vidas compartidas.
+</Callout>
+
+<Section icon={Target} title="Comenzando como mensajero">
+
+Los nuevos jugadores que ingresan a las zonas distópicas de **Panic Delivery PC** deben priorizar la comprensión del ciclo de misión antes de intentar incursiones de alta dificultad. Tu objetivo principal es completar las tareas de entrega mientras gestionas la reserva compartida de 99 vidas del equipo.
+
+<Callout type="tip" title="Esencial para el mensajero">
+Revisa siempre los objetivos de tu misión antes de adentrarte en un mapa. Ignorar los requisitos específicos de la carga es la forma más rápida de perder vidas innecesariamente.
+</Callout>
+
+| Actividad | Descripción | Prioridad |
+| :--- | :--- | :--- |
+| **Selección de misión** | Confirma objetivos estándar, de recuperación o de contrabando | Crítica |
+| **Manejo de paquetes** | Asigna un transportista y un protector para el paquete | Alta |
+| **Gestión de recursos** | Gasta Speetchy en herramientas esenciales en la tienda | Media |
+| **Coordinación de equipo** | Comunica las ubicaciones de los monstruos y rutas de salida | Crítica |
+
+</Section>
+
+<Section icon={Map} title="Mapas y zonas procedimentales">
+
+La versión de acceso anticipado incluye tres zonas operativas principales. Debido a que cada mapa utiliza diseños de mazmorras generados procedimentalmente, no puedes confiar en rutas memorizadas.
+
+**Aspectos destacados del video:**
+- Entendiendo la generación de mapas procedimentales
+- Gestión de riesgos de ruta en zonas embrujadas
+- Coordinación del movimiento de paquetes a través de la Panic Factory
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Tráiler de lanzamiento del acceso anticipado de Panic Delivery" />
+
+Cada zona presenta peligros atmosféricos y mecánicos únicos que obligan a los equipos a adaptar sus estrategias de movimiento sobre la marcha.
+
+| Zona del mapa | Peligro principal | Consejo de estrategia |
+| :--- | :--- | :--- |
+| **Ruta Embrujada** | Poca visibilidad y emboscadas repentinas | Mantén al transportista en el centro del escuadrón |
+| **Panic Factory** | Maquinaria industrial y presión de terminales | Marca las rutas de salida claramente antes de interactuar |
+| **Base Ártica** | Trampas de exploración y pasillos sin salida | Explora rutas laterales antes de comprometer el paquete |
+
+<Callout type="warning" title="Alerta de ruta">
+Evita separar a tu equipo en la Base Ártica. El diseño del mapa favorece el reagrupamiento antes del esfuerzo final de entrega para evitar quedar atrapado por bloqueos procedimentales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Contraataque a enemigos y supervivencia">
+
+Con 13 enemigos únicos actualmente en el juego, la supervivencia depende de saber cuándo atacar y cuándo correr. El conjunto de monstruos de **Panic Delivery** está diseñado para castigar el juego imprudente.
+
+<CardGrid cols={3}>
+  <Card title="Lootmuncher">
+    - **Comportamiento**: Experto en desvincularse y huir
+    - **Contraataque**: Rastrea su movimiento para recuperar la carga perdida
+  </Card>
+  <Card title="Amenazas Grotescas">
+    - **Comportamiento**: Castiga a los compañeros de equipo separados
+    - **Contraataque**: Mantén una formación de escuadrón cerrada
+  </Card>
+  <Card title="Enemigos específicos del mapa">
+    - **Comportamiento**: Varía según el entorno de la zona
+    - **Contraataque**: Personaliza los equipamientos para peligros específicos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estrategia de supervivencia">
+El combate solo debe usarse para crear una oportunidad para tu transportista. Si una habitación se convierte en un "festival de pasillo" de monstruos, prioriza escapar antes que limpiar el área.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Tipos de misión y lógica de paquetes">
+
+Tu éxito depende de qué tan bien manejes los tres tipos de paquetes. Cada categoría afecta cómo se mueve tu equipo a través de las mazmorras procedimentales.
+
+| Tamaño del paquete | Nivel de riesgo | Consejo de entrega |
+| :--- | :--- | :--- |
+| **Pequeño** | Bajo | El más fácil de transportar; asígnalo al explorador |
+| **Mediano** | Moderado | Requiere apoyo del escuadrón durante el tránsito |
+| **Grande** | Alto | Trátalo como una tarea de todo el equipo; minimiza los desvíos |
+
+<Checklist
+  id="mission-checklist"
+  title="Lista de verificación de ejecución de misión:"
+  items={[
+    "Identifica el tipo de objetivo al inicio de la incursión",
+    "Asigna un transportista de paquetes dedicado",
+    "Asegúrate de que un compañero tenga una herramienta defensiva lista",
+    "Verifica la ruta de salida antes de finalizar la entrega"
+  ]}
+/>
+
+<Callout type="info" title="Nota">
+Las misiones de contrabando son particularmente arriesgadas. Asegúrate de haber comprado las herramientas necesarias antes de comenzarlas, ya que a menudo involucran objetivos vinculados a la resistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funcionan las vidas compartidas en Panic Delivery PC?",
+    answer: "Tu equipo comparte un total de 99 vidas. Cada muerte consume una vida. Si la reserva llega a cero, la incursión actual se reinicia, aunque conservas el progreso personal como los cosméticos."
+  },
+  {
+    question: "¿Puedo jugar Panic Delivery en solitario?",
+    answer: "Sí, el juego admite el modo solitario, pero se recomienda la experiencia de terror y comedia cooperativa para 4 jugadores para una mejor coordinación y eficiencia de supervivencia."
+  },
+  {
+    question: "¿Pierdo mi equipo cuando muero?",
+    answer: "Pierdes el progreso dentro de la incursión actual si el equipo es eliminado, pero se conservan las compras permanentes como artículos cosméticos y mejoras de tienda."
+  }
+]} />
+
+</Section>

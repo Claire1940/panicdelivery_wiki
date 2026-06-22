@@ -1,0 +1,127 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Itens Quebrados em Panic Delivery: Solução de Problemas e Guia de Itens",
+  description: "Aprenda a gerenciar itens quebrados em Panic Delivery, a utilidade da loja de itens e estratégias de sobrevivência para suas corridas de entrega cooperativas neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Itens quebrados em Panic Delivery** podem atrapalhar sua logística, mas compras estratégicas na loja ajudam a mitigar esses riscos.
+- **99 vidas compartilhadas** significam que cada entregador deve priorizar a integridade do pacote em vez de exploração arriscada.
+- **Itens da loja**, como Dispositivos de Rastreamento e Pés de Cabra, são essenciais para gerenciar objetivos específicos da missão.
+- **Masmorras procedurais** exigem que as equipes adaptem seus carregamentos de itens com base no mapa e na missão atual.
+- **Coordenação de equipe** é a ferramenta mais eficaz para evitar a perda de pacotes e a falha de equipamentos.
+</Callout>
+
+<Section icon={Shield} title="Entendendo o Gerenciamento de Itens">
+
+Nas zonas distópicas de Panic Delivery, a manutenção do equipamento e o manuseio de pacotes são vitais. Quando os jogadores se referem a "itens quebrados", eles geralmente estão discutindo a perda de carga essencial para a missão ou a falha de ferramentas durante corridas procedurais de alta pressão. Gerenciar seu inventário com eficácia é a diferença entre uma entrega bem-sucedida e o esgotamento do estoque de vidas compartilhadas da sua equipe.
+
+<Callout type="tip" title="Dica Profissional">
+Sempre atribua funções específicas antes de iniciar uma corrida. Se um jogador carregar o pacote principal, outro deve focar em ferramentas defensivas para evitar interrupções por monstros que levam a estados de entrega perdidos ou "quebrados".
+</Callout>
+
+| Categoria de Item | Uso Principal | Valor Estratégico |
+| :--- | :--- | :--- |
+| **Dispositivos de Rastreamento** | Localizar carga perdida | ★★★★★ |
+| **Pés de Cabra** | Quebrar obstáculos | ★★★★☆ |
+| **Repelentes de Monstros** | Fuga/Defesa | ★★★★☆ |
+| **Ferramentas de Travessia** | Mobilidade/Exploração | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Target} title="Tipos de Missão e Manuseio de Carga">
+
+Diferentes tipos de missão alteram como você deve interagir com o ambiente e seus itens. Entregas padrão são diretas, mas missões de Contrabando e Recuperação envolvem uma lógica de pacotes mais complexa.
+
+<Steps>
+  <Step num="1" title="Avalie o Objetivo">
+    Antes de sair do hub, confirme se você está lidando com pacotes Padrão, de Recuperação ou de Contrabando. Cada um requer carregamentos de ferramentas diferentes.
+  </Step>
+  <Step num="2" title="Equipe Ferramentas Necessárias">
+    Missões de recuperação quase sempre exigem Dispositivos de Rastreamento. Sem eles, procurar itens perdidos em mapas gerados proceduralmente é ineficiente.
+  </Step>
+  <Step num="3" title="Coordene o Movimento">
+    Certifique-se de que o carregador do pacote esteja protegido. Se o carregador sofrer dano, o risco de derrubar o pacote aumenta, levando a uma possível falha na missão.
+  </Step>
+  <Step num="4" title="Execute a Fuga">
+    Use Repelentes de Monstros durante o caminho de volta final para garantir que a equipe limpe a zona sem perder o pacote.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cuidado com suas Vidas">
+O estoque compartilhado de 99 vidas é o recurso final da sua equipe. Não sacrifique uma vida para recuperar um item de baixo valor se isso colocar em risco o sucesso de toda a missão.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Itens da Loja e Rankings de Utilidade">
+
+A loja oferece 15 itens na versão atual de Acesso Antecipado. Gastar seu Speetchy com sabedoria é crucial para o progresso a longo prazo, já que o equipamento comprado ajuda você a sobreviver a layouts procedurais cada vez mais difíceis.
+
+| Nome do Item | Melhor Para | Função na Equipe |
+| :--- | :--- | :--- |
+| **Dispositivo de Rastreamento** | Missões de Recuperação | Especialista em Recuperação |
+| **Pé de Cabra** | Controle de Rota | Explorador/Protetor |
+| **Repelente de Monstros** | Fuga de Emergência | Toda a Equipe |
+| **Ferramenta de Travessia** | Salas Procedurais | Explorador |
+
+<CardGrid cols={2}>
+  <Card title="Foco em Utilidade">
+    - Priorize Dispositivos de Rastreamento para recuperação.
+    - Mantenha Ferramentas de Travessia para rotas difíceis.
+    - Use gadgets para apoiar o caminho da equipe.
+  </Card>
+  <Card title="Foco em Sobrevivência">
+    - Sempre carregue Repelentes de Monstros.
+    - Use Pés de Cabra para defesa imediata.
+    - Guarde ferramentas para a viagem de volta para casa.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Lidando com Riscos Procedurais">
+
+Masmorras procedurais significam que nenhuma corrida é idêntica. Sua equipe encontrará riscos ambientais e densidades de monstros variáveis. Reconhecer quando um item não é mais viável para uma rota específica é uma habilidade fundamental para entregadores avançados.
+
+<Callout type="success" title="Estratégia de Sucesso">
+Se uma corrida começar a dar errado, concentre-se em proteger o pacote. Às vezes, abandonar um objetivo secundário é a melhor maneira de salvar as vidas compartilhadas da equipe e retornar com seu progresso intacto.
+</Callout>
+
+| Zona do Mapa | Perigo Principal | Ferramenta Recomendada |
+| :--- | :--- | :--- |
+| **Casa Assombrada** | Baixa Visibilidade | Ferramenta de Travessia |
+| **Fábrica de Pânico** | Layouts Apertados | Pé de Cabra |
+| **Base Ártica** | Armadilhas de Exploração | Dispositivo de Rastreamento |
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O que devo fazer se perder meu pacote em uma masmorra procedural?",
+    answer: "Se você tiver um Dispositivo de Rastreamento, use-o para localizar a carga perdida. Caso contrário, volte lentamente pelas últimas três salas que visitou, pois os pacotes costumam ser derrubados perto de pontos de encontro com inimigos."
+  },
+  {
+    question: "Eu perco meus itens da loja quando as vidas acabam?",
+    answer: "Não, os itens comprados e as melhorias permanentes da loja são mantidos. Apenas o progresso da sua corrida atual é redefinido quando o estoque de 99 vidas compartilhadas é esgotado."
+  },
+  {
+    question: "Qual tipo de missão é melhor para ganhar Speetchy?",
+    answer: "As missões de entrega padrão são geralmente as mais consistentes para ganhar Speetchy, enquanto as missões de Contrabando oferecem recompensas maiores, mas carregam riscos significativamente maiores de falha na missão."
+  }
+]} />
+
+</Section>

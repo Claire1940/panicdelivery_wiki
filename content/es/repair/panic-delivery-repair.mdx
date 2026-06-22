@@ -1,0 +1,132 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Repair: Guía de supervivencia y éxito como repartidor",
+  description: "Domina la reparación en Panic Delivery y la supervivencia del repartidor con nuestra guía de 2026. Aprende sobre mapas, tipos de misión y cómo gestionar eficazmente las 99 vidas de tu equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **reparación en Panic Delivery** es esencial para mantener el equipo y sobrevivir en las zonas distópicas infestadas de monstruos.
+- Los equipos comparten **99 vidas**, por lo que completar las misiones de forma eficiente y sobrevivir es la máxima prioridad.
+- Comprueba siempre el **tipo de misión** (Estándar, Recuperación o Contrabando) antes de entrar en una zona.
+- Gestionar adecuadamente los **objetos de la tienda**, como dispositivos de rastreo y palancas, es clave para el éxito a largo plazo.
+- La **coordinación** con tu equipo cooperativo es la forma más eficaz de evitar partidas catastróficas.
+</Callout>
+
+<Section icon={Target} title="Conceptos básicos para repartidores">
+
+Los nuevos repartidores deben dominar el ciclo principal de juego para tener éxito en las zonas infestadas de monstruos de Panic Delivery. Tu objetivo principal es entregar paquetes, recuperar carga perdida o contrabandear mercancías, asegurándote de que tu equipo no agote el grupo compartido de 99 vidas.
+
+**Aspectos destacados del vídeo:**
+- Mecánicas básicas de movimiento e interacción del repartidor
+- Cómo navegar por mazmorras procedimentales
+- Gestión de la comunicación del equipo cooperativo
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Gameplay de acceso anticipado de Panic Delivery" />
+
+Cuando comienzas una partida, el éxito de tu equipo depende de la preparación. Cada misión cuenta con objetivos aleatorios, lo que significa que no puedes confiar en el conocimiento previo de las rutas. Trata cada partida como un desafío nuevo donde la comunicación es tu herramienta más valiosa.
+
+<Callout type="tip" title="Estrategia de supervivencia">
+Nunca dividas al equipo a menos que el objetivo requiera un patrón de búsqueda. Un repartidor solitario es un objetivo fácil para los 13 enemigos únicos que hay actualmente en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tipos de misión y lógica de paquetes">
+
+El éxito en Panic Delivery depende de entender los requisitos específicos de tu contrato actual. La versión de acceso anticipado clasifica las misiones en tres tipos distintos, cada uno de los cuales requiere un enfoque diferente en cuanto a rutas y uso de recursos.
+
+| Tipo de misión | Objetivo principal | Estrategia de equipo |
+| :--- | :--- | :--- |
+| **Estándar** | Entregar paquetes en puntos de entrega | Proteger al portador a toda costa |
+| **Recuperación** | Localizar y recuperar carga perdida | Usar dispositivos de rastreo para encontrar el objetivo |
+| **Contrabando** | Mover bienes ilícitos por las zonas | Coordinar rutas de salida y velocidad |
+
+<Callout type="warning" title="Manipulación de carga">
+Los paquetes vienen en tamaños pequeño, mediano y grande. Los paquetes más grandes restringen el movimiento y requieren más protección por parte del equipo. Asigna siempre a un portador dedicado mientras los demás despejan el camino.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategia de equipo y tienda">
+
+Gastar tus Speetchy ganados con sabiduría marca la diferencia entre una partida exitosa y un reinicio total. En la tienda, prioriza los objetos que ofrezcan utilidad frente a los riesgos ambientales del mapa actual.
+
+<CardGrid cols={3}>
+  <Card title="Utilidad de nivel S">
+    - **Dispositivos de rastreo**: Esenciales para misiones de recuperación.
+    - **Palanca**: Doble función para romper cajas y defensa de emergencia.
+  </Card>
+  <Card title="Defensivos de nivel A">
+    - **Repelentes de monstruos**: Cruciales para despejar rutas de salida.
+    - **Herramientas de desplazamiento**: Aceleran la navegación en mazmorras complejas.
+  </Card>
+  <Card title="Situacionales de nivel B">
+    - **Gadgets**: Útiles para diseños procedimentales específicos.
+    - **Tubo de gemidos (Groan Tube)**: Un arma de pánico improvisada de último recurso.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de economía">
+Los permisos de bonificación se utilizan para objetos cosméticos. Centra tus Speetchy primero en herramientas de supervivencia para asegurar que realmente puedas completar las misiones y ganar más recompensas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gestión de peligros del mapa">
+
+Los mapas en Panic Delivery se generan de forma procedimental, lo que significa que cada partida tendrá diseños diferentes. Ya estés en una Ruta Embrujada, una Fábrica de Pánico o la Base Ártica, debes adaptarte a tu entorno.
+
+| Zona del mapa | Característica clave | Riesgo principal |
+| :--- | :--- | :--- |
+| **Ruta Embrujada** | Poca visibilidad, pasillos estrechos | Emboscadas repentinas de monstruos |
+| **Fábrica de Pánico** | Maquinaria industrial y terminales | Retrasos en la interacción durante el combate |
+| **Base Ártica** | Caminos abiertos, mucha exploración | Trampas sin salida y aislamiento |
+
+<Steps>
+  <Step num="1" title="Inspecciona el diseño">
+    Haz que un miembro del equipo revise los alrededores inmediatos en busca de enemigos.
+  </Step>
+  <Step num="2" title="Marca la salida">
+    Conoce siempre el camino más corto de vuelta al punto de extracción antes de adentrarte demasiado.
+  </Step>
+  <Step num="3" title="Coordina la interacción">
+    No permitas que el portador del paquete sea quien interactúe con terminales o puertas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona el sistema de 99 vidas?",
+    answer: "El equipo comparte un fondo total de 99 vidas. Cada vez que un repartidor muere, se consume una vida para desplegar un nuevo clon. Si el fondo llega a cero, toda la partida se reinicia."
+  },
+  {
+    question: "¿Mantengo mi progreso después de una partida fallida?",
+    answer: "Aunque el progreso de la misión actual se reinicia, cualquier objeto cosmético personal o mejora permanente comprada con permisos de bonificación se conserva."
+  },
+  {
+    question: "¿Es la reparación en Panic Delivery una mecánica que debo gestionar?",
+    answer: "Sí, mantener tus herramientas y equipo es parte del ciclo de supervivencia. El uso adecuado del equipo evita que tus objetos se rompan durante las fases críticas de entrega."
+  },
+  {
+    question: "¿Puedo jugar Panic Delivery en solitario?",
+    answer: "Sí, el juego admite tanto el juego en solitario como el modo cooperativo en línea para hasta cuatro jugadores, aunque la coordinación es significativamente más difícil cuando juegas solo."
+  }
+]} />
+
+</Section>

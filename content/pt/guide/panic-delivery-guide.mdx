@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Panic Delivery: Dicas de Sobrevivência e Missões Co-op 2026",
+  description: "Domine Panic Delivery com nosso guia de 2026. Aprenda tipos de missão, estratégias contra inimigos e como gerenciar vidas compartilhadas nesta caótica comédia de terror cooperativa.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os fundamentos do **guia de Panic Delivery** focam em gerenciar **99 vidas compartilhadas** durante entregas de pacotes de alto risco.
+- A **coordenação cooperativa** é crítica; evite se separar para prevenir eliminações desnecessárias da equipe em zonas repletas de monstros.
+- Os **tipos de missão** variam de Padrão a Contrabando, cada um exigindo diferentes equipamentos e planejamento de rotas.
+- O **gerenciamento de recursos** com Speetchy permite que você melhore seus equipamentos, o que é vital para a sobrevivência a longo prazo.
+- **Mapas procedurais** significam que cada rodada é única, então priorize explorar antes de correr cegamente para o perigo.
+</Callout>
+
+<Section icon={Map} title="Começando: O Básico para Entregadores">
+
+Para sobreviver ao seu primeiro turno em Panic Delivery, você deve entender o ciclo principal de jogo. Você e sua equipe são entregadores descartáveis encarregados de navegar por zonas distópicas.
+
+**Destaques do Vídeo:**
+- Estrutura básica da missão e identificação de objetivos.
+- Como gerenciar o pool de vidas compartilhadas de forma eficaz.
+- Dicas essenciais para a sobrevivência no início do jogo.
+
+<YouTubeEmbed videoId="4BxNEbk8yik" title="Gameplay de Acesso Antecipado de Panic Delivery" />
+
+Jogadores novos frequentemente falham ao tratar o jogo como um shooter padrão. Em vez disso, foque nestas prioridades:
+
+| Prioridade | Ação | Por que é importante |
+| :--- | :--- | :--- |
+| **Comunicação** | Avisos constantes | Evita a separação acidental da equipe |
+| **Gestão de Vidas** | Monitore o pool de 99 | Previne o fracasso repentino da rodada |
+| **Coleta de Recursos** | Colete Speetchy | Essencial para melhorias na loja |
+| **Exploração de Rota** | Verifique cantos primeiro | Reduz ataques surpresa de monstros |
+
+<Callout type="tip" title="Dica Pro">
+Sempre designe um jogador como o "Transportador de Pacotes". Este jogador deve focar inteiramente no objetivo, enquanto os outros três membros da equipe dão cobertura e limpam o caminho.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Missões e Manuseio de Pacotes">
+
+Panic Delivery apresenta três tipos distintos de missões. O sucesso depende de conhecer as condições específicas de vitória antes de entrar na zona.
+
+| Tipo de Missão | Objetivo Principal | Estratégia da Equipe |
+| :--- | :--- | :--- |
+| **Padrão** | Entregar pacote no ponto B | Proteja o transportador a todo custo |
+| **Recuperação** | Encontrar e devolver carga perdida | Use dispositivos de rastreamento para explorar |
+| **Contrabando** | Mover mercadorias ilícitas com segurança | Fique quieto e evite detecção |
+
+<Steps>
+  <Step num="1" title="Verificar Objetivo">
+    Identifique o tipo de missão no início da rodada para selecionar os itens certos.
+  </Step>
+  <Step num="2" title="Designar Funções">
+    Distribua as tarefas: um transportador, um explorador e dois jogadores de suporte defensivo.
+  </Step>
+  <Step num="3" title="Executar a Entrega">
+    Mova-se através da masmorra procedural enquanto mantém a formação.
+  </Step>
+  <Step num="4" title="Extração">
+    Garanta que toda a equipe alcance o ponto de saída antes que o pool de vidas acabe.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cuidado com a Carga">
+Diferentes tamanhos de pacote (Pequeno, Médio, Grande) afetam sua velocidade de movimento. Pacotes grandes tornam você altamente vulnerável; garanta que tenha pelo menos dois companheiros de equipe protegendo o transportador ao mover cargas pesadas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Inimigos e Táticas de Sobrevivência">
+
+Com 13 monstros únicos atualmente no Acesso Antecipado, o conhecimento do comportamento inimigo é sua melhor defesa.
+
+<CardGrid cols={2}>
+  <Card title="Ameaças Grotescas">
+    Esses inimigos punem o movimento lento. Se você os vir, não pare para lutar, a menos que a rota esteja completamente bloqueada.
+  </Card>
+  <Card title="Lootmunchers">
+    Essas criaturas roubam seu progresso. Use ferramentas defensivas para atordoá-los quando tentarem fugir com seus itens.
+  </Card>
+</CardGrid>
+
+| Tipo de Inimigo | Estratégia de Contra-ataque | Nível de Risco |
+| :--- | :--- | :--- |
+| **Grunt Padrão** | Repelir e correr | Baixo |
+| **Lootmuncher** | Foco de fogo para recuperar itens | Médio |
+| **Chefe de Zona** | Use armadilhas e perigos ambientais | Alto |
+
+<Callout type="success" title="Regra de Sobrevivência">
+Correr é frequentemente superior a lutar. Se sua equipe estiver com poucas vidas, guarde seus itens defensivos para a viagem de retorno final em vez de gastá-los em encontros iniciais.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Itens e Lista de Níveis da Loja">
+
+Investir seu Speetchy com sabedoria é a diferença entre uma rodada bem-sucedida e uma derrota total.
+
+| Nível | Item | Melhor Uso |
+| :--- | :--- | :--- |
+| **S** | Dispositivo de Rastreamento | Encontrar carga de recuperação perdida |
+| **S** | Pé de Cabra | Quebrar obstáculos e defesa |
+| **A** | Repelente de Monstros | Criar rotas de fuga seguras |
+| **B** | Ferramentas de Travessia | Navegar por layouts de mapa complexos |
+
+<Checklist
+  id="shop-checklist"
+  title="Compras Recomendadas na Loja:"
+  items={[
+    "Sempre compre um Dispositivo de Rastreamento para missões de Recuperação",
+    "Mantenha pelo menos um Repelente de Monstros no inventário da equipe",
+    "Melhore seu Pé de Cabra cedo para economizar tempo em obstáculos do mapa",
+    "Economize Boujee Swag para quando seu kit de sobrevivência estiver completo"
+  ]}
+/>
+
+<Callout type="info" title="Gerenciamento de Recursos">
+Não gaste todo o seu Speetchy em cosméticos logo no início. Foque em itens utilitários que aumentam diretamente sua taxa de sobrevivência e velocidade de sucesso nas missões.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que acontece quando acabam as 99 vidas?",
+    answer: "Quando sua equipe esgota o pool compartilhado de 99 vidas, a rodada atual termina imediatamente e redefine seu progresso dentro daquela zona específica."
+  },
+  {
+    question: "Posso jogar Panic Delivery sozinho?",
+    answer: "Sim, o jogo suporta jogo solo, embora seja balanceado para até quatro jogadores no cooperativo. O jogo solo é significativamente mais difícil devido à falta de suporte dos companheiros de equipe."
+  },
+  {
+    question: "Eu perco meus cosméticos se a equipe falhar em uma rodada?",
+    answer: "Não, cosméticos comprados e itens permanentes são mantidos mesmo que sua equipe fique sem vidas e a rodada seja reiniciada."
+  }
+]} />
+
+</Section>

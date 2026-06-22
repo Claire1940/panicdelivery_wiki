@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery: Guia para Iniciantes e Dicas de Sobrevivência (2026)",
+  description: "Domine o Panic Delivery com nosso guia sobre sobrevivência cooperativa, tipos de missão e manuseio eficiente de pacotes. Aprenda a gerenciar 99 vidas e a prosperar nesta comédia de horror cooperativa distópica.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Equipe da Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Panic Delivery** é uma comédia de horror cooperativa para 4 jogadores onde vocês gerenciam um conjunto compartilhado de **99 vidas**.
+- **Loop Principal**: Aceite missões, entregue pacotes através de masmorras processuais e sobreviva a zonas infestadas de monstros.
+- **Trabalho em Equipe**: A comunicação é vital; não se separem, já que o conjunto compartilhado de vidas significa que o fracasso de uma pessoa afeta toda a equipe.
+- **Progressão**: Ganhe **Speetchy** para comprar itens na loja e **Bonus Permits** para personalização estética de personagens.
+</Callout>
+
+<Section icon={Target} title="Primeiros Passos: Sua Primeira Partida">
+
+Novos entregadores costumam correr para o perigo, mas a chave para o sucesso em **Panic Delivery** é entender que a segurança no trabalho é um luxo que você não pode se dar. Seu objetivo é navegar por masmorras geradas proceduralmente, completar objetivos e retornar à base.
+
+**Destaques do Vídeo:**
+- Entendendo o loop principal de entrega.
+- Navegação eficiente por zonas controladas por monstros.
+- Gerenciamento do conjunto compartilhado de 99 vidas com seus colegas de equipe.
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery - Trailer de Acesso Antecipado" />
+
+<Callout type="tip" title="Regra de Sobrevivência">
+Sempre verifique o tipo de missão antes de começar. Uma missão de **Contrabando** exige um ritmo diferente de uma entrega **Padrão**.
+</Callout>
+
+| Fase | Prioridade do Entregador | Estratégia de Equipe |
+| :--- | :--- | :--- |
+| **Preparação** | Verificar o objetivo da missão | Atribuir funções (Batedor, Carregador, Defensor) |
+| **Execução** | Mover o pacote com segurança | Ficar dentro do campo de visão dos colegas |
+| **Extração** | Alcançar o ponto de saída | Usar itens defensivos para limpar o caminho |
+
+</Section>
+
+<Section icon={Package} title="Tipos de Missão e Manuseio de Pacotes">
+
+Na versão atual de Acesso Antecipado, as missões são categorizadas por seus objetivos e pelo tipo de carga que você transporta. O manuseio incorreto do pacote geralmente leva a uma morte rápida.
+
+<CardGrid cols={3}>
+  <Card title="Padrão">
+    - Objetivos de entrega aleatórios.
+    - Foco na eficiência da rota.
+    - Mantenha o pacote protegido.
+  </Card>
+  <Card title="Recuperação">
+    - Procure e recupere cargas perdidas.
+    - Use ferramentas de rastreamento para localizar itens.
+    - Alto risco de emboscadas inimigas.
+  </Card>
+  <Card title="Contrabando">
+    - Tarefas de alto valor vinculadas à resistência.
+    - Requer ferramentas de contrabando específicas.
+    - Tempo de extração crítico.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Peso da Carga">
+O tamanho do seu pacote (**Pequeno, Médio, Grande**) impacta diretamente a velocidade de movimento. Pacotes grandes exigem que um membro da equipe dedique-se exclusivamente ao transporte, enquanto outros fornecem cobertura.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Zonas e Consciência de Rota">
+
+Suas rotas de entrega levam você por ambientes diversos e cheios de monstros. Como os mapas usam geração processual, nenhuma partida é igual à outra.
+
+| Zona | Ameaça Principal | Dica Estratégica |
+| :--- | :--- | :--- |
+| **Casa Assombrada** | Baixa visibilidade, sustos | Mantenha uma formação fechada |
+| **Fábrica do Pânico** | Perigos ambientais, terminais | Marque as saídas antes de interagir |
+| **Base Ártica** | Armadilhas de exploração, becos sem saída | Explore caminhos laterais antes de se comprometer |
+
+<Callout type="success" title="Domínio de Mapa">
+Masmorras processuais significam que você deve adaptar sua rota constantemente. Se um caminho parecer perigoso demais, use suas **Ferramentas de Travessia** para encontrar uma alternativa, mesmo que isso adicione tempo à sua partida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivência e Tier List de Itens">
+
+Ferramentas de sobrevivência são essenciais para manter sua equipe viva. Gastar seu **Speetchy** com sabedoria é a diferença entre uma entrega bem-sucedida e uma eliminação total.
+
+<Steps>
+  <Step num="1" title="Priorize a Utilidade">
+    Sempre garanta **Dispositivos de Rastreamento** primeiro para missões de recuperação.
+  </Step>
+  <Step num="2" title="Equipamento Defensivo">
+    Compre **Repelentes de Monstros** para limpar corredores durante a extração.
+  </Step>
+  <Step num="3" title="Melhorias de Utilidade">
+    Invista em **Ferramentas de Travessia** para navegar por layouts processuais complexos.
+  </Step>
+</Steps>
+
+| Categoria de Item | Valor de Sobrevivência | Melhor Uso |
+| :--- | :--- | :--- |
+| **Dispositivos de Rastreamento** | Nível S | Encontrar carga perdida em missões de recuperação |
+| **Pé de Cabra** | Nível S | Defesa de emergência e interação com caixas |
+| **Repelentes de Monstros** | Nível A | Limpar saídas e proteger o carregador |
+| **Gadgets** | Nível B | Suporte situacional para layouts específicos |
+
+<Callout type="tip" title="Conselho de Gastos">
+Salve seus **Bonus Permits** para itens cosméticos apenas depois de ter melhorado totalmente seu equipamento essencial de utilidade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos e Checklist">
+
+<Checklist
+  id="courier-goals"
+  title="Checklist de Progressão do Entregador:"
+  items={[
+    "Complete um de cada tipo de missão (Padrão, Recuperação, Contrabando)",
+    "Extraia com sucesso de todas as três zonas de mapa",
+    "Desbloqueie seu primeiro item cosmético usando Bonus Permits",
+    "Domine o uso do Pé de Cabra para defesa de emergência"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que acontece quando a equipe esgota as 99 vidas compartilhadas?",
+    answer: "Quando a equipe esgota o conjunto de vidas compartilhadas, a partida termina e vocês devem reiniciar a missão a partir da base."
+  },
+  {
+    question: "Posso jogar Panic Delivery sozinho?",
+    answer: "Sim, o jogo suporta jogo solo, embora o sistema de 99 vidas e os objetivos da missão sejam balanceados para coordenação cooperativa."
+  },
+  {
+    question: "Eu perco meus itens se falharmos em uma missão?",
+    answer: "Itens comprados na loja são consumidos durante a partida, mas quaisquer cosméticos permanentes ou itens que você desbloqueou permanecem no seu inventário."
+  }
+]} />
+
+</Section>

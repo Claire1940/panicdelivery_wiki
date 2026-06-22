@@ -1,0 +1,137 @@
+import { Map, Shield, Target, Trophy, FileText, AlertCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Panic Delivery セーブデータの場所：データ保存先ガイド",
+  description: "PC版『Panic Delivery』のセーブデータがどこにあるかを解説します。ファイルの場所、クラウド同期の設定、および配送記録のバックアップ方法について学びましょう。",
+  category: "チュートリアル",
+  image: "https://placehold.co/800x400/12131a/facc15?text=Save+File+Location",
+  date: "2026-06-22",
+  author: "Panic Delivery Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Panic Delivery セーブデータはどこにあるのか**という疑問は、ローカルPC内のデータ保存場所に関するものです。
+- ほとんどのSteamタイトルは、進行状況を **AppData** フォルダまたは **Steamインストールディレクトリ** に保存します。
+- 異なる配送ステーション（PC）間で切り替える際は、データ損失を防ぐために必ず **Steamクラウド** を使用してください。
+- **ゲームファイルの整合性確認**やシステムアップデートを行う前には、手動バックアップを強く推奨します。
+</Callout>
+
+<Section icon={Map} title="セーブデータの場所">
+
+ディストピアなゾーンで働くすべての配送員にとって、進行状況がどのように保存されているかを理解することは不可欠です。*Panic Delivery* はそのほとんどをSteamクラウドで管理していますが、トラブルシューティングや手動バックアップ、あるいは新しいPCへのデータ移行のために、物理的なセーブデータの場所を知っておくことは非常に重要です。
+
+**動画のハイライト:**
+- 配送進行のコアサイクルの理解。
+- 共有ライフがローカルセッションデータに与える影響。
+- アーリーアクセス中にプロファイルをバックアップすることが重要な理由。
+
+<Callout type="tip" title="プロからのヒント">
+ファイルが見つからない場合は、Windowsエクスプローラーの表示設定で「隠しファイル」を表示するように設定してください。AppDataフォルダはデフォルトで隠されています。
+</Callout>
+
+| データタイプ | 標準パス | 重要度 |
+| :--- | :--- | :--- |
+| **ローカルセーブ** | `%LOCALAPPDATA%\PanicDelivery\Saved` | **非常に高い** |
+| **設定ファイル** | `%LOCALAPPDATA%\PanicDelivery\Saved\Config` | 中 |
+| **Steamクラウド** | `Steam\userdata\[UserID]\2887450` | **高い** |
+
+</Section>
+
+<Section icon={Target} title="アクセス手順ガイド">
+
+<Steps>
+  <Step num="1" title="「ファイル名を指定して実行」を開く">
+    キーボードの `Win + R` を押して、「ファイル名を指定して実行」ダイアログボックスを開きます。
+  </Step>
+  <Step num="2" title="AppDataへ移動">
+    `%LOCALAPPDATA%` と入力してEnterキーを押します。これにより、ユーザープロファイルのローカルアプリケーションデータフォルダが開きます。
+  </Step>
+  <Step num="3" title="ゲームフォルダを探す">
+    `PanicDelivery` という名前のフォルダを探します。見当たらない場合は、一度ゲームを起動しているか確認してください。
+  </Step>
+  <Step num="4" title="セーブデータにアクセス">
+    `Saved` > `SaveGames` の順に開きます。ここにあなたのキャリアの進行状況とコスメティックのアンロックデータが保存されています。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="データ保護に関する警告">
+ゲーム実行中にこれらのファイルを変更しないでください。セーブファイルを編集すると進行状況が破損する可能性があり、Steamクラウド同期を使っても復旧できない場合があります。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="クラウド同期の管理">
+
+Steamクラウドは、配送の進行状況を失わないための主要な防御策です。*Panic Delivery* はアーリーアクセスゲームであるため、頻繁なアップデートによって同期の競合が発生することがあります。
+
+<CardGrid cols={2}>
+  <Card title="Steamクラウド同期">
+    - 進行状況をValveサーバーに自動アップロードします。
+    - 別のPCでもデータを引き継げるようにします。
+    - Steamのゲームプロパティメニューから切り替え可能です。
+  </Card>
+  <Card title="手動バックアップ">
+    - `SaveGames` フォルダを外部ドライブにコピーします。
+    - ベータ版や新しいパッチを試す前に役立ちます。
+    - クラウド同期が失敗した場合のセーフティネットとなります。
+  </Card>
+</CardGrid>
+
+| シナリオ | 推奨されるアクション |
+| :--- | :--- |
+| **ゲームのアップデート** | Steamで整合性を確認し、セーブデータには触れない |
+| **PCの切り替え** | Steamクラウドが有効であることを確認する |
+| **進行状況の破損** | 最新の手動バックアップから復元する |
+| **新しい配送員プロファイル** | ローカルファイルを削除する（慎重に行うこと） |
+
+</Section>
+
+<Section icon={Trophy} title="セーブデータの問題のトラブルシューティング">
+
+ゲームが進行状況を読み込めない、または起動時にクラッシュする場合は、ファイルの破損に対処する必要があるかもしれません。
+
+<Checklist
+  id="save-troubleshoot"
+  title="セーブデータの問題を解決する:"
+  items={[
+    "Steam経由でゲームファイルの整合性を確認する。",
+    "Steamクライアントを再起動して、クラウドの再同期を強制する。",
+    "ハードドライブに十分な空き容量があるか確認する。",
+    "ウイルス対策ソフトがゲームフォルダをブロックしていないか確認する。"
+  ]}
+/>
+
+<Callout type="success" title="成功">
+「Save Corrupted（セーブデータ破損）」エラーが発生した場合は、同じディレクトリ内に `.bak` またはバックアップファイルが作成されていないか確認してください。そのファイルをリネームしてメインのセーブデータと置き換えることで、進行状況を復旧できることがよくあります。
+</Callout>
+
+</Section>
+
+<Section icon={FileText} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Panic Delivery のセーブデータはどこにありますか？",
+    answer: "セーブデータは通常、WindowsのAppDataフォルダ内、具体的には %LOCALAPPDATA%\\PanicDelivery\\Saved\\SaveGames に保存されています。"
+  },
+  {
+    question: "セーブデータを削除するとコスメティックもリセットされますか？",
+    answer: "はい、アンロックしたスキンやチャレンジ報酬などのローカル進行状況は、そのディレクトリ内のファイルに紐付いています。削除前に必ずバックアップを取ってください。"
+  },
+  {
+    question: "他のプレイヤーのセーブデータを使用できますか？",
+    answer: "技術的にコピーすることは可能ですが、Steam IDやクラウド同期に問題を引き起こす可能性があります。自分自身のプロファイルでプレイすることを強く推奨します。"
+  },
+  {
+    question: "Steamクラウドが同期されないのはなぜですか？",
+    answer: "インターネット接続またはSteamサーバーの状態を確認してください。問題が解決しない場合は、Steamを再起動し、ゲームプロパティの「クラウド」タブを確認してください。"
+  }
+]} />
+
+</Section>

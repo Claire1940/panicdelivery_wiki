@@ -1,0 +1,106 @@
+import { Map, Swords, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Archivo de guardado de Panic Delivery: Gestiona tu progreso como repartidor",
+  description: "Aprende a gestionar tu archivo de guardado de Panic Delivery, comprende el sistema de progresión del juego y mantén seguro tu progreso como repartidor en esta guía.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Panic+Delivery+Save+File+Guide",
+  date: "2026-06-22",
+  author: "Equipo de Wiki de Panic Delivery"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **archivo de guardado de Panic Delivery** registra tus desbloqueables cosméticos persistentes, compras en la tienda y el progreso de las misiones.
+- Tu reserva **compartida de 99 vidas** se reinicia en cada partida, pero los **objetos cosméticos** personales permanecen vinculados permanentemente a tu cuenta.
+- Utiliza siempre el **menú de salida del juego** para asegurar que tus datos se sincronicen correctamente con la nube de Steam.
+- Si experimentas problemas de sincronización, verifica tus **configuraciones de Steam Cloud** para evitar la pérdida accidental de progreso.
+</Callout>
+
+<Section icon={BookOpen} title="Comprender tu progreso">
+
+En *Panic Delivery*, tu "archivo de guardado" funciona de manera diferente a los juegos de rol tradicionales para un solo jugador. Debido a que el juego es una comedia de terror cooperativa para 4 jugadores, tu progreso se divide en dos categorías distintas: datos de misión basados en la sesión y desbloqueables persistentes vinculados a tu cuenta.
+
+Comprender cómo interactúan estos elementos es crucial para mantener tu estatus como un repartidor de alto nivel. El sistema está diseñado para recompensar el juego constante, incluso si tu equipo falla repetidamente en las zonas infestadas de monstruos.
+
+| Tipo de datos | Nivel de persistencia | Descripción |
+| :--- | :--- | :--- |
+| **Cosméticos** | Permanente | Skins, bailes y emojis desbloqueados mediante desafíos. |
+| **Artículos de tienda** | Permanente | Armas y herramientas compradas con Speetchy. |
+| **Progreso de misión** | Basado en sesión | Piso actual de la mazmorra y finalización de rutas. |
+| **Vidas compartidas** | Basado en partida | La reserva de 99 vidas se reinicia cuando el equipo es eliminado. |
+
+<Callout type="tip">
+Concéntrate en completar los desafíos desde el principio. Estos desbloquean los artículos cosméticos que permanecerán en tu cuenta sin importar cuántas veces tu equipo agote la reserva de 99 vidas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestión de tus datos de repartidor">
+
+Para asegurarte de que tu progreso se guarde, debes confiar en la integración del juego con Steam. Dado que *Panic Delivery* utiliza mazmorras generadas por procedimientos, el estado del juego se actualiza constantemente durante tu partida.
+
+<Steps>
+  <Step num="1" title="Finaliza las misiones correctamente">
+    Regresa siempre al centro de mando o completa el objetivo de la misión antes de salir al menú principal para asegurar que el juego registre tus recompensas.
+  </Step>
+  <Step num="2" title="Verifica Steam Cloud">
+    Asegúrate de que la sincronización con Steam Cloud esté habilitada en la configuración de tu biblioteca de Steam para *Panic Delivery* a fin de evitar la corrupción del archivo de guardado local.
+  </Step>
+  <Step num="3" title="Verifica la integridad de los archivos">
+    Si experimentas cierres inesperados o falta de datos cosméticos, utiliza la opción de "Verificar integridad de los archivos del juego" de Steam para reparar cualquier dato local dañado.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita cierres forzados">
+Cerrar el juego a la fuerza mediante el Administrador de tareas durante una misión puede provocar una sincronización inconsistente. Aunque tus desbloqueos cosméticos suelen estar seguros, podrías perder el Speetchy ganado durante esa partida específica e incompleta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de problemas de guardado">
+
+Si sientes que tu progresión está estancada o los objetos no aparecen, sigue esta lista de verificación para aislar el problema. La mayoría de los problemas en la versión actual de Acceso Anticipado están relacionados con la sincronización de red y no con la eliminación real de archivos.
+
+<Checklist
+  id="save-troubleshooting"
+  title="Lista de verificación para solucionar el progreso:"
+  items={[
+    "Reinicia el juego para forzar una nueva conexión con el backend de Steam",
+    "Verifica tu conexión a internet por si hay pérdida de paquetes durante las sesiones cooperativas",
+    "Verifica que tu cuenta de Steam no esté en modo desconectado",
+    "Asegúrate de que tu carpeta de guardado local tenga permisos de lectura/escritura"
+  ]}
+/>
+
+| Tipo de problema | Causa probable | Acción recomendada |
+| :--- | :--- | :--- |
+| **Speetchy faltante** | Retraso de sincronización | Espera 5 minutos o reinicia el cliente. |
+| **Cosméticos bloqueados** | Desafío no cumplido | Revisa los requisitos del menú de Desafíos. |
+| **Error al guardar** | Caché corrupta | Limpia la caché de descarga de Steam y verifica los archivos. |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Existe un botón de guardado manual en Panic Delivery?",
+    answer: "No, el juego utiliza un sistema de guardado automático. Guarda tus datos persistentes automáticamente después de completar misiones o realizar compras en la tienda."
+  },
+  {
+    question: "¿Perderé mi progreso si mi equipo agota las 99 vidas?",
+    answer: "Pierdes el progreso de tu misión actual, pero cualquier artículo permanente, cosmético o moneda que hayas ganado durante la partida se guarda en tu cuenta."
+  },
+  {
+    question: "¿Puedo mover mi archivo de guardado a otra PC?",
+    answer: "Sí, porque *Panic Delivery* utiliza Steam Cloud, tu progreso se transferirá automáticamente cuando inicies sesión en tu cuenta en una máquina diferente."
+  }
+]} />
+
+</Section>

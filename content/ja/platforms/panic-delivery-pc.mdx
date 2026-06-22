@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery PC: 初学者指南与生存技巧",
+  description: "通过我们的生存指南掌握 PC 版《Panic Delivery》。了解 2026 年的任务类型、地图导航、敌人应对策略及快递员必备技巧。",
+  category: "指南",
+  image: "https://placehold.co/800x400/facc15/000?text=Panic+Delivery+Guide",
+  date: "2026-06-22",
+  author: "Panic Delivery Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **PC 版《Panic Delivery》** 提供 4 人合作恐怖喜剧游戏体验，共享 99 条生命。
+- **掌握核心循环**：通过运送、回收和走私包裹来赚取 Speetchy 和装饰品。
+- **程序化地牢**：意味着你需要根据不断变化的布局和怪物压力调整路线。
+- **团队协调至关重要**：任务失败会迅速消耗团队共享的生命池。
+</Callout>
+
+<Section icon={Target} title="快递员入门">
+
+进入 **PC 版《Panic Delivery》** 反乌托邦区域的新玩家，在尝试高难度挑战前，应优先理解任务循环。你的主要目标是在管理团队 99 条共享生命池的同时完成配送任务。
+
+<Callout type="tip" title="快递员须知">
+在深入地图之前，请务必确认任务目标。忽视特定的货物需求是导致生命值无谓流失的最快方式。
+</Callout>
+
+| 活动 | 描述 | 优先级 |
+| :--- | :--- | :--- |
+| **任务选择** | 确认标准、回收或走私目标 | 极高 |
+| **包裹搬运** | 指派一名搬运工和一名保护者 | 高 |
+| **资源管理** | 在商店购买必备工具 | 中 |
+| **团队协调** | 通报怪物位置和撤离路线 | 极高 |
+
+</Section>
+
+<Section icon={Map} title="地图与程序化区域">
+
+抢先体验版包含三个主要作业区。由于每张地图都使用程序生成的地牢布局，你无法依赖死记硬背的路线。
+
+**视频亮点：**
+- 理解程序化地图生成
+- 管理闹鬼区域的路线风险
+- 在 Panic Factory（恐慌工厂）中协调包裹移动
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery 抢先体验版预告片" />
+
+每个区域都有独特的环境和机械危害，迫使团队在行动中不断调整移动策略。
+
+| 地图区域 | 主要危害 | 策略建议 |
+| :--- | :--- | :--- |
+| **闹鬼路线** | 能见度低与突发伏击 | 让搬运工保持在小队中心 |
+| **恐慌工厂** | 工业机械与终端压力 | 在交互前明确标记撤离路径 |
+| **北极基地** | 探索陷阱与死胡同 | 在交付包裹前先侦察侧路 |
+
+<Callout type="warning" title="路线警示">
+避免在北极基地分散团队。地图设计倾向于在最终交付前重新集结，以防被程序生成的障碍物困住。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="敌人应对与生存">
+
+目前游戏中有 13 种独特的敌人，生存取决于知道何时交战、何时奔跑。**《Panic Delivery》** 的怪物池旨在惩罚鲁莽的行为。
+
+<CardGrid cols={3}>
+  <Card title="掠夺怪 (Lootmuncher)">
+    - **行为**: 擅长脱离战斗并逃跑
+    - **应对**: 追踪其动向以回收掉落的货物
+  </Card>
+  <Card title="怪诞威胁 (Grotesque Threats)">
+    - **行为**: 惩罚落单的队友
+    - **应对**: 保持紧密的小队队形
+  </Card>
+  <Card title="区域专属敌人">
+    - **行为**: 随环境区域变化
+    - **应对**: 针对特定危害定制装备
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="生存策略">
+战斗应仅用于为搬运工创造空隙。如果房间变成了怪物的“走廊聚会”，请优先逃离而非清理区域。
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="任务类型与包裹逻辑">
+
+你的成功取决于如何处理这三种包裹。每一类包裹都会影响团队在程序化地牢中的移动方式。
+
+| 包裹大小 | 风险等级 | 配送建议 |
+| :--- | :--- | :--- |
+| **小型** | 低 | 最易携带；指派给侦察员 |
+| **中型** | 中 | 运输过程中需要小队支持 |
+| **大型** | 高 | 视为团队任务；减少绕路 |
+
+<Checklist
+  id="mission-checklist"
+  title="任务执行清单："
+  items={[
+    "在任务开始时识别目标类型",
+    "指派一名专门的包裹搬运工",
+    "确保一名队友准备好防御工具",
+    "在完成交付前确认撤离路径"
+  ]}
+/>
+
+<Callout type="info" title="注意">
+走私任务风险极大。确保在开始前购买了所需工具，因为这些任务通常涉及与阻碍相关的目标。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="常见问题 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "PC 版《Panic Delivery》中的共享生命是如何运作的？",
+    answer: "团队共享总共 99 条生命。每次死亡消耗一条。如果生命池耗尽，当前游玩进度会重置，但你会保留装饰品等个人进度。"
+  },
+  {
+    question: "我可以单人游玩《Panic Delivery》吗？",
+    answer: "可以，游戏支持单人游玩，但为了更好的协调性和生存效率，推荐 4 人合作恐怖喜剧体验。"
+  },
+  {
+    question: "死亡后会丢失装备吗？",
+    answer: "如果团队全灭，你会失去当前游玩的进度，但像外观和商店升级等永久性购买内容会被保留。"
+  }
+]} />
+
+</Section>

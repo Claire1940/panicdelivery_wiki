@@ -1,1 +1,698 @@
-{}
+{
+  "en": {
+    "gameplay": [
+      {
+        "slug": "panic-delivery-coop-gameplay",
+        "file": "panic-delivery-coop-gameplay"
+      },
+      {
+        "slug": "panic-delivery-funny-moments",
+        "file": "panic-delivery-funny-moments"
+      },
+      {
+        "slug": "panic-delivery-gameplay-no-commentary",
+        "file": "panic-delivery-gameplay-no-commentary"
+      },
+      {
+        "slug": "panic-delivery-gameplay-with-friends",
+        "file": "panic-delivery-gameplay-with-friends"
+      },
+      {
+        "slug": "panic-delivery-gameplay",
+        "file": "panic-delivery-gameplay"
+      },
+      {
+        "slug": "panic-delivery-impressions",
+        "file": "panic-delivery-impressions"
+      },
+      {
+        "slug": "panic-delivery-pc-gameplay",
+        "file": "panic-delivery-pc-gameplay"
+      },
+      {
+        "slug": "panic-delivery-review",
+        "file": "panic-delivery-review"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "panic-delivery-beginner-guide",
+        "file": "panic-delivery-beginner-guide"
+      },
+      {
+        "slug": "panic-delivery-coop-guide",
+        "file": "panic-delivery-coop-guide"
+      },
+      {
+        "slug": "panic-delivery-couriers-guide",
+        "file": "panic-delivery-couriers-guide"
+      },
+      {
+        "slug": "panic-delivery-guide",
+        "file": "panic-delivery-guide"
+      },
+      {
+        "slug": "panic-delivery-how-to-play",
+        "file": "panic-delivery-how-to-play"
+      },
+      {
+        "slug": "panic-delivery-solo-guide",
+        "file": "panic-delivery-solo-guide"
+      },
+      {
+        "slug": "panic-delivery-tips",
+        "file": "panic-delivery-tips"
+      },
+      {
+        "slug": "panic-delivery-tricks",
+        "file": "panic-delivery-tricks"
+      },
+      {
+        "slug": "panic-delivery-with-friends-guide",
+        "file": "panic-delivery-with-friends-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "panic-delivery-console",
+        "file": "panic-delivery-console"
+      },
+      {
+        "slug": "panic-delivery-cost",
+        "file": "panic-delivery-cost"
+      },
+      {
+        "slug": "panic-delivery-pc",
+        "file": "panic-delivery-pc"
+      },
+      {
+        "slug": "panic-delivery-price",
+        "file": "panic-delivery-price"
+      },
+      {
+        "slug": "panic-delivery-ps5",
+        "file": "panic-delivery-ps5"
+      },
+      {
+        "slug": "panic-delivery-steam",
+        "file": "panic-delivery-steam"
+      },
+      {
+        "slug": "panic-delivery-steamdb",
+        "file": "panic-delivery-steamdb"
+      },
+      {
+        "slug": "panic-delivery-xbox",
+        "file": "panic-delivery-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "panic-delivery-announcement-trailer",
+        "file": "panic-delivery-announcement-trailer"
+      },
+      {
+        "slug": "panic-delivery-demo",
+        "file": "panic-delivery-demo"
+      },
+      {
+        "slug": "panic-delivery-early-access",
+        "file": "panic-delivery-early-access"
+      },
+      {
+        "slug": "panic-delivery-launch-trailer",
+        "file": "panic-delivery-launch-trailer"
+      },
+      {
+        "slug": "panic-delivery-release-date",
+        "file": "panic-delivery-release-date"
+      },
+      {
+        "slug": "panic-delivery-trailer",
+        "file": "panic-delivery-trailer"
+      }
+    ],
+    "repair": [
+      {
+        "slug": "panic-delivery-broken-items",
+        "file": "panic-delivery-broken-items"
+      },
+      {
+        "slug": "panic-delivery-fix-equipment",
+        "file": "panic-delivery-fix-equipment"
+      },
+      {
+        "slug": "panic-delivery-how-to-repair",
+        "file": "panic-delivery-how-to-repair"
+      },
+      {
+        "slug": "panic-delivery-repair-guide",
+        "file": "panic-delivery-repair-guide"
+      },
+      {
+        "slug": "panic-delivery-repair-items",
+        "file": "panic-delivery-repair-items"
+      },
+      {
+        "slug": "panic-delivery-repair",
+        "file": "panic-delivery-repair"
+      }
+    ],
+    "saves": [
+      {
+        "slug": "panic-delivery-save-file-location",
+        "file": "panic-delivery-save-file-location"
+      },
+      {
+        "slug": "panic-delivery-save-file",
+        "file": "panic-delivery-save-file"
+      },
+      {
+        "slug": "panic-delivery-where-is-save-file",
+        "file": "panic-delivery-where-is-save-file"
+      }
+    ]
+  },
+  "es": {
+    "gameplay": [
+      {
+        "slug": "panic-delivery-coop-gameplay",
+        "file": "panic-delivery-coop-gameplay"
+      },
+      {
+        "slug": "panic-delivery-funny-moments",
+        "file": "panic-delivery-funny-moments"
+      },
+      {
+        "slug": "panic-delivery-gameplay-no-commentary",
+        "file": "panic-delivery-gameplay-no-commentary"
+      },
+      {
+        "slug": "panic-delivery-gameplay-with-friends",
+        "file": "panic-delivery-gameplay-with-friends"
+      },
+      {
+        "slug": "panic-delivery-gameplay",
+        "file": "panic-delivery-gameplay"
+      },
+      {
+        "slug": "panic-delivery-impressions",
+        "file": "panic-delivery-impressions"
+      },
+      {
+        "slug": "panic-delivery-pc-gameplay",
+        "file": "panic-delivery-pc-gameplay"
+      },
+      {
+        "slug": "panic-delivery-review",
+        "file": "panic-delivery-review"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "panic-delivery-beginner-guide",
+        "file": "panic-delivery-beginner-guide"
+      },
+      {
+        "slug": "panic-delivery-coop-guide",
+        "file": "panic-delivery-coop-guide"
+      },
+      {
+        "slug": "panic-delivery-couriers-guide",
+        "file": "panic-delivery-couriers-guide"
+      },
+      {
+        "slug": "panic-delivery-guide",
+        "file": "panic-delivery-guide"
+      },
+      {
+        "slug": "panic-delivery-how-to-play",
+        "file": "panic-delivery-how-to-play"
+      },
+      {
+        "slug": "panic-delivery-solo-guide",
+        "file": "panic-delivery-solo-guide"
+      },
+      {
+        "slug": "panic-delivery-tips",
+        "file": "panic-delivery-tips"
+      },
+      {
+        "slug": "panic-delivery-tricks",
+        "file": "panic-delivery-tricks"
+      },
+      {
+        "slug": "panic-delivery-with-friends-guide",
+        "file": "panic-delivery-with-friends-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "panic-delivery-console",
+        "file": "panic-delivery-console"
+      },
+      {
+        "slug": "panic-delivery-cost",
+        "file": "panic-delivery-cost"
+      },
+      {
+        "slug": "panic-delivery-pc",
+        "file": "panic-delivery-pc"
+      },
+      {
+        "slug": "panic-delivery-price",
+        "file": "panic-delivery-price"
+      },
+      {
+        "slug": "panic-delivery-ps5",
+        "file": "panic-delivery-ps5"
+      },
+      {
+        "slug": "panic-delivery-steam",
+        "file": "panic-delivery-steam"
+      },
+      {
+        "slug": "panic-delivery-steamdb",
+        "file": "panic-delivery-steamdb"
+      },
+      {
+        "slug": "panic-delivery-xbox",
+        "file": "panic-delivery-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "panic-delivery-announcement-trailer",
+        "file": "panic-delivery-announcement-trailer"
+      },
+      {
+        "slug": "panic-delivery-demo",
+        "file": "panic-delivery-demo"
+      },
+      {
+        "slug": "panic-delivery-early-access",
+        "file": "panic-delivery-early-access"
+      },
+      {
+        "slug": "panic-delivery-launch-trailer",
+        "file": "panic-delivery-launch-trailer"
+      },
+      {
+        "slug": "panic-delivery-release-date",
+        "file": "panic-delivery-release-date"
+      },
+      {
+        "slug": "panic-delivery-trailer",
+        "file": "panic-delivery-trailer"
+      }
+    ],
+    "repair": [
+      {
+        "slug": "panic-delivery-broken-items",
+        "file": "panic-delivery-broken-items"
+      },
+      {
+        "slug": "panic-delivery-fix-equipment",
+        "file": "panic-delivery-fix-equipment"
+      },
+      {
+        "slug": "panic-delivery-how-to-repair",
+        "file": "panic-delivery-how-to-repair"
+      },
+      {
+        "slug": "panic-delivery-repair-guide",
+        "file": "panic-delivery-repair-guide"
+      },
+      {
+        "slug": "panic-delivery-repair-items",
+        "file": "panic-delivery-repair-items"
+      },
+      {
+        "slug": "panic-delivery-repair",
+        "file": "panic-delivery-repair"
+      }
+    ],
+    "saves": [
+      {
+        "slug": "panic-delivery-save-file-location",
+        "file": "panic-delivery-save-file-location"
+      },
+      {
+        "slug": "panic-delivery-save-file",
+        "file": "panic-delivery-save-file"
+      },
+      {
+        "slug": "panic-delivery-where-is-save-file",
+        "file": "panic-delivery-where-is-save-file"
+      }
+    ]
+  },
+  "ja": {
+    "gameplay": [
+      {
+        "slug": "panic-delivery-coop-gameplay",
+        "file": "panic-delivery-coop-gameplay"
+      },
+      {
+        "slug": "panic-delivery-funny-moments",
+        "file": "panic-delivery-funny-moments"
+      },
+      {
+        "slug": "panic-delivery-gameplay-no-commentary",
+        "file": "panic-delivery-gameplay-no-commentary"
+      },
+      {
+        "slug": "panic-delivery-gameplay-with-friends",
+        "file": "panic-delivery-gameplay-with-friends"
+      },
+      {
+        "slug": "panic-delivery-gameplay",
+        "file": "panic-delivery-gameplay"
+      },
+      {
+        "slug": "panic-delivery-impressions",
+        "file": "panic-delivery-impressions"
+      },
+      {
+        "slug": "panic-delivery-pc-gameplay",
+        "file": "panic-delivery-pc-gameplay"
+      },
+      {
+        "slug": "panic-delivery-review",
+        "file": "panic-delivery-review"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "panic-delivery-beginner-guide",
+        "file": "panic-delivery-beginner-guide"
+      },
+      {
+        "slug": "panic-delivery-coop-guide",
+        "file": "panic-delivery-coop-guide"
+      },
+      {
+        "slug": "panic-delivery-couriers-guide",
+        "file": "panic-delivery-couriers-guide"
+      },
+      {
+        "slug": "panic-delivery-guide",
+        "file": "panic-delivery-guide"
+      },
+      {
+        "slug": "panic-delivery-how-to-play",
+        "file": "panic-delivery-how-to-play"
+      },
+      {
+        "slug": "panic-delivery-solo-guide",
+        "file": "panic-delivery-solo-guide"
+      },
+      {
+        "slug": "panic-delivery-tips",
+        "file": "panic-delivery-tips"
+      },
+      {
+        "slug": "panic-delivery-tricks",
+        "file": "panic-delivery-tricks"
+      },
+      {
+        "slug": "panic-delivery-with-friends-guide",
+        "file": "panic-delivery-with-friends-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "panic-delivery-console",
+        "file": "panic-delivery-console"
+      },
+      {
+        "slug": "panic-delivery-cost",
+        "file": "panic-delivery-cost"
+      },
+      {
+        "slug": "panic-delivery-pc",
+        "file": "panic-delivery-pc"
+      },
+      {
+        "slug": "panic-delivery-price",
+        "file": "panic-delivery-price"
+      },
+      {
+        "slug": "panic-delivery-ps5",
+        "file": "panic-delivery-ps5"
+      },
+      {
+        "slug": "panic-delivery-steam",
+        "file": "panic-delivery-steam"
+      },
+      {
+        "slug": "panic-delivery-steamdb",
+        "file": "panic-delivery-steamdb"
+      },
+      {
+        "slug": "panic-delivery-xbox",
+        "file": "panic-delivery-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "panic-delivery-announcement-trailer",
+        "file": "panic-delivery-announcement-trailer"
+      },
+      {
+        "slug": "panic-delivery-demo",
+        "file": "panic-delivery-demo"
+      },
+      {
+        "slug": "panic-delivery-early-access",
+        "file": "panic-delivery-early-access"
+      },
+      {
+        "slug": "panic-delivery-launch-trailer",
+        "file": "panic-delivery-launch-trailer"
+      },
+      {
+        "slug": "panic-delivery-release-date",
+        "file": "panic-delivery-release-date"
+      },
+      {
+        "slug": "panic-delivery-trailer",
+        "file": "panic-delivery-trailer"
+      }
+    ],
+    "repair": [
+      {
+        "slug": "panic-delivery-broken-items",
+        "file": "panic-delivery-broken-items"
+      },
+      {
+        "slug": "panic-delivery-fix-equipment",
+        "file": "panic-delivery-fix-equipment"
+      },
+      {
+        "slug": "panic-delivery-how-to-repair",
+        "file": "panic-delivery-how-to-repair"
+      },
+      {
+        "slug": "panic-delivery-repair-guide",
+        "file": "panic-delivery-repair-guide"
+      },
+      {
+        "slug": "panic-delivery-repair-items",
+        "file": "panic-delivery-repair-items"
+      },
+      {
+        "slug": "panic-delivery-repair",
+        "file": "panic-delivery-repair"
+      }
+    ],
+    "saves": [
+      {
+        "slug": "panic-delivery-save-file-location",
+        "file": "panic-delivery-save-file-location"
+      },
+      {
+        "slug": "panic-delivery-save-file",
+        "file": "panic-delivery-save-file"
+      },
+      {
+        "slug": "panic-delivery-where-is-save-file",
+        "file": "panic-delivery-where-is-save-file"
+      }
+    ]
+  },
+  "pt": {
+    "gameplay": [
+      {
+        "slug": "panic-delivery-coop-gameplay",
+        "file": "panic-delivery-coop-gameplay"
+      },
+      {
+        "slug": "panic-delivery-funny-moments",
+        "file": "panic-delivery-funny-moments"
+      },
+      {
+        "slug": "panic-delivery-gameplay-no-commentary",
+        "file": "panic-delivery-gameplay-no-commentary"
+      },
+      {
+        "slug": "panic-delivery-gameplay-with-friends",
+        "file": "panic-delivery-gameplay-with-friends"
+      },
+      {
+        "slug": "panic-delivery-gameplay",
+        "file": "panic-delivery-gameplay"
+      },
+      {
+        "slug": "panic-delivery-impressions",
+        "file": "panic-delivery-impressions"
+      },
+      {
+        "slug": "panic-delivery-pc-gameplay",
+        "file": "panic-delivery-pc-gameplay"
+      },
+      {
+        "slug": "panic-delivery-review",
+        "file": "panic-delivery-review"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "panic-delivery-beginner-guide",
+        "file": "panic-delivery-beginner-guide"
+      },
+      {
+        "slug": "panic-delivery-coop-guide",
+        "file": "panic-delivery-coop-guide"
+      },
+      {
+        "slug": "panic-delivery-couriers-guide",
+        "file": "panic-delivery-couriers-guide"
+      },
+      {
+        "slug": "panic-delivery-guide",
+        "file": "panic-delivery-guide"
+      },
+      {
+        "slug": "panic-delivery-how-to-play",
+        "file": "panic-delivery-how-to-play"
+      },
+      {
+        "slug": "panic-delivery-solo-guide",
+        "file": "panic-delivery-solo-guide"
+      },
+      {
+        "slug": "panic-delivery-tips",
+        "file": "panic-delivery-tips"
+      },
+      {
+        "slug": "panic-delivery-tricks",
+        "file": "panic-delivery-tricks"
+      },
+      {
+        "slug": "panic-delivery-with-friends-guide",
+        "file": "panic-delivery-with-friends-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "panic-delivery-console",
+        "file": "panic-delivery-console"
+      },
+      {
+        "slug": "panic-delivery-cost",
+        "file": "panic-delivery-cost"
+      },
+      {
+        "slug": "panic-delivery-pc",
+        "file": "panic-delivery-pc"
+      },
+      {
+        "slug": "panic-delivery-price",
+        "file": "panic-delivery-price"
+      },
+      {
+        "slug": "panic-delivery-ps5",
+        "file": "panic-delivery-ps5"
+      },
+      {
+        "slug": "panic-delivery-steam",
+        "file": "panic-delivery-steam"
+      },
+      {
+        "slug": "panic-delivery-steamdb",
+        "file": "panic-delivery-steamdb"
+      },
+      {
+        "slug": "panic-delivery-xbox",
+        "file": "panic-delivery-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "panic-delivery-announcement-trailer",
+        "file": "panic-delivery-announcement-trailer"
+      },
+      {
+        "slug": "panic-delivery-demo",
+        "file": "panic-delivery-demo"
+      },
+      {
+        "slug": "panic-delivery-early-access",
+        "file": "panic-delivery-early-access"
+      },
+      {
+        "slug": "panic-delivery-launch-trailer",
+        "file": "panic-delivery-launch-trailer"
+      },
+      {
+        "slug": "panic-delivery-release-date",
+        "file": "panic-delivery-release-date"
+      },
+      {
+        "slug": "panic-delivery-trailer",
+        "file": "panic-delivery-trailer"
+      }
+    ],
+    "repair": [
+      {
+        "slug": "panic-delivery-broken-items",
+        "file": "panic-delivery-broken-items"
+      },
+      {
+        "slug": "panic-delivery-fix-equipment",
+        "file": "panic-delivery-fix-equipment"
+      },
+      {
+        "slug": "panic-delivery-how-to-repair",
+        "file": "panic-delivery-how-to-repair"
+      },
+      {
+        "slug": "panic-delivery-repair-guide",
+        "file": "panic-delivery-repair-guide"
+      },
+      {
+        "slug": "panic-delivery-repair-items",
+        "file": "panic-delivery-repair-items"
+      },
+      {
+        "slug": "panic-delivery-repair",
+        "file": "panic-delivery-repair"
+      }
+    ],
+    "saves": [
+      {
+        "slug": "panic-delivery-save-file-location",
+        "file": "panic-delivery-save-file-location"
+      },
+      {
+        "slug": "panic-delivery-save-file",
+        "file": "panic-delivery-save-file"
+      },
+      {
+        "slug": "panic-delivery-where-is-save-file",
+        "file": "panic-delivery-where-is-save-file"
+      }
+    ]
+  }
+}

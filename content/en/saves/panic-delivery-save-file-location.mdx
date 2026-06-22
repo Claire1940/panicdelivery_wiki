@@ -1,0 +1,134 @@
+import { Map, Shield, Target, FileText, Settings, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panic Delivery Save File Location: PC Data Management Guide",
+  description: "Learn where to find your Panic Delivery save file location on PC, how to backup progress, and manage your courier data effectively.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/facc15/07080c?text=Save+File+Guide",
+  date: "2026-06-22",
+  author: "panic Delivery Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **panic delivery save file location** is typically found within your Windows AppData folder.
+- Always **backup your save data** before performing any manual file modifications or system updates.
+- Understanding your data path ensures you can **restore progress** if a synchronization error occurs.
+- Keep your **cloud saves enabled** via Steam to prevent data loss during hardware transitions.
+</Callout>
+
+<Section icon={Map} title="Locating Your Save Data">
+
+For PC players, managing your local files is a critical part of maintaining your progress in this co-op horror comedy. Since the game is distributed via Steam, your save data is handled locally and synced to the cloud.
+
+**Video Highlights:**
+- Overview of the game's file structure
+- How to access hidden AppData folders
+- Best practices for local backups
+
+<YouTubeEmbed videoId="HKjn7oej6MM" title="Panic Delivery Early Access Launch Trailer" />
+
+To find your **panic delivery save file location**, follow the standard directory path used by most Unreal Engine titles on Windows. You will need to enable "Hidden Items" in your File Explorer view settings to access these folders.
+
+| Folder Level | Path / Folder Name |
+| :--- | :--- |
+| Drive | C: (Default System Drive) |
+| User Directory | Users > [YourUsername] |
+| Hidden Folder | AppData > Local |
+| Game Folder | PanicDelivery > Saved > SaveGames |
+
+<Callout type="tip" title="Pro Tip">
+You can quickly access the AppData folder by pressing `Win + R` on your keyboard, typing `%localappdata%`, and hitting Enter. This bypasses the need to manually navigate through hidden system folders.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Managing and Backing Up Progress">
+
+Regularly backing up your save files is a smart habit, especially during the Early Access phase where patches and hotfixes are frequent. While Steam Cloud saves are reliable, local copies provide an extra layer of security.
+
+<CardGrid cols={2}>
+  <Card title="Manual Backup">
+    - Copy the entire `SaveGames` folder.
+    - Store in a secondary drive or cloud service.
+    - Label backups with the current date (e.g., 2026-06-22).
+  </Card>
+  <Card title="Cloud Syncing">
+    - Ensure Steam Cloud is enabled in Properties.
+    - Check for "Up to date" status in Library.
+    - Avoid interrupting Steam during file syncing.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Important Warning">
+Never modify, delete, or replace your save files while the game is running. Doing so can lead to file corruption or the loss of your character cosmetics and progress. Always exit to the desktop completely before touching your save data.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Troubleshooting Save Issues">
+
+If you encounter issues where your progress is not saving or the game fails to load your profile, follow these steps to verify your file integrity.
+
+<Steps>
+  <Step num="1" title="Verify Game Files">
+    Open Steam, right-click Panic Delivery, select Properties > Installed Files, and click "Verify integrity of game files."
+  </Step>
+  <Step num="2" title="Check Permissions">
+    Ensure your user account has Read/Write permissions for the AppData folder.
+  </Step>
+  <Step num="3" title="Clear Cache">
+    Sometimes, clearing the Steam download cache can resolve synchronization conflicts between your local machine and the cloud.
+  </Step>
+</Steps>
+
+| Issue Type | Recommended Solution |
+| :--- | :--- |
+| Save not syncing | Check Steam Cloud settings in Properties |
+| Corrupted data | Restore from your manual local backup |
+| Missing progress | Verify game files via Steam Client |
+| Permissions error | Run Steam as Administrator |
+
+</Section>
+
+<Section icon={FileText} title="Data Structure Overview">
+
+The save folder contains configuration files, player statistics, and cosmetic unlocks. Understanding what each file type represents can help you identify which files are essential for your personal progression.
+
+| File Type | Description |
+| :--- | :--- |
+| `.sav` | Primary progression and mission data |
+| `Config` | User settings and graphical preferences |
+| `Profiles` | Player identity and cosmetic inventory |
+| `Logs` | Technical data for crash reporting |
+
+<Callout type="success" title="Success">
+Keep your `.sav` files in a separate folder if you plan to reinstall the game or switch to a new computer. This ensures your hard-earned cosmetics and Speetchy balance remain intact.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where is the panic delivery save file location on Linux?",
+    answer: "If you are playing via Proton, the save files are usually located in your Steam folder under `steamapps/compatdata/2887450/pfx/drive_c/users/steamuser/AppData/Local/PanicDelivery/Saved/`."
+  },
+  {
+    question: "Does deleting the save file reset everything?",
+    answer: "Yes, deleting your files in the `SaveGames` folder will reset your progress, including character customization and current mission unlocks. Only do this if you intend to start a fresh playthrough."
+  },
+  {
+    question: "Can I share my save file with friends?",
+    answer: "It is not recommended. Save files are tied to your specific Steam ID and profile. Sharing files may result in sync errors or profile corruption."
+  }
+]} />
+
+</Section>
