@@ -200,6 +200,11 @@ export function isValidLanguage(lang: string): lang is Language {
 }
 
 /**
+ * 有效语言列表（与 routing.ts locales 保持一致，供构建期静态消费）
+ */
+export const validLanguages = ['en', 'ja', 'es', 'pt'] as const
+
+/**
  * 获取默认语言
  */
 export function getDefaultLanguage(): Language {
