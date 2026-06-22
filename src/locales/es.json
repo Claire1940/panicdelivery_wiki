@@ -1,10 +1,762 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Panic Delivery - Mapas, objetos y enemigos",
+      "description": "Wiki de Panic Delivery con consejos de supervivencia cooperativa, guías de mapas, tipos de misiones, enemigos, objetos, paquetes, información de lanzamiento en Steam y ayuda para repartidores principiantes.",
+      "keywords": "panic delivery, steam, terror cooperativo, mapas, objetos, enemigos, misiones, paquetes",
+      "ogTitle": "Wiki de Panic Delivery - Mapas, objetos y enemigos",
+      "ogDescription": "Wiki de Panic Delivery con consejos de supervivencia cooperativa, guías de mapas, tipos de misiones, enemigos, objetos, paquetes, información de lanzamiento en Steam y ayuda para repartidores principiantes.",
+      "twitterTitle": "Wiki de Panic Delivery - Mapas, objetos y enemigos",
+      "twitterDescription": "Wiki de Panic Delivery con consejos de supervivencia cooperativa, guías de mapas, tipos de misiones, enemigos, objetos y ayuda para repartidores principiantes para el juego de terror y comedia cooperativo de Steam."
+    }
+  },
   "nav": {
     "guide": "Guía",
-    "gameplay": "Gameplay",
+    "gameplay": "Jugabilidad",
     "repair": "Reparación",
     "release": "Lanzamiento",
     "platforms": "Plataformas",
-    "saves": "Guardados"
+    "saves": "Partidas guardadas"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "Supervivencia cooperativa de repartidores con terror y comedia",
+    "title": "Wiki de Panic Delivery",
+    "description": "Forma un equipo como repartidores desechables, entrega paquetes a través de zonas distópicas controladas por monstruos, gestiona las vidas compartidas, sobrevive a las misiones, desbloquea cosméticos y conoce los mapas, enemigos, objetos y reglas de los paquetes.",
+    "getFreeCodesCTA": "Ver guías",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "4 jugadores",
+        "label": "Cooperativo en línea"
+      },
+      "stat2": {
+        "value": "99",
+        "label": "Vidas compartidas"
+      },
+      "stat3": {
+        "value": "93%",
+        "label": "Reseñas de los usuarios"
+      },
+      "stat4": {
+        "value": "13 de mayo de 2026",
+        "label": "Fecha de lanzamiento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Panic Delivery",
+    "description": "Forma equipo como mensajeros desechables en una comedia de terror cooperativa para 4 jugadores, entrega y contrabandea paquetes a través de zonas controladas por monstruos, gestiona 99 vidas compartidas y desbloquea cosméticos en mapas generados procedimentalmente en Steam."
+  },
+  "tools": {
+    "title": "Panic Delivery",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para sobrevivir a las entregas cooperativas, desde información de lanzamiento y conceptos básicos para principiantes hasta mapas, enemigos, objetos y notas del parche.",
+    "cards": [
+      {
+        "icon": "CalendarCheck",
+        "title": "Fecha de lanzamiento de Panic Delivery",
+        "description": "Lanzamiento en acceso anticipado, plataforma, precio y alcance del contenido"
+      },
+      {
+        "icon": "Compass",
+        "title": "Guía para principiantes de Panic Delivery",
+        "description": "Bucle de juego principal, vidas compartidas, recompensas y prioridades de la primera partida"
+      },
+      {
+        "icon": "Users",
+        "title": "Guía cooperativa de Panic Delivery",
+        "description": "Cooperativo en solitario y para 4 jugadores, reserva de clones compartida y trabajo en equipo"
+      },
+      {
+        "icon": "Package",
+        "title": "Misiones y paquetes de Panic Delivery",
+        "description": "Paquetes estándar, de recuperación, de contrabando y de tamaño pequeño a grande"
+      },
+      {
+        "icon": "Map",
+        "title": "Mapas y zonas de Panic Delivery",
+        "description": "3 mapas procedimentales, rutas encantadas, fábrica y Base Ártica"
+      },
+      {
+        "icon": "Ghost",
+        "title": "Monstruos y enemigos de Panic Delivery",
+        "description": "13 enemigos, comportamiento y estrategias de supervivencia"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Lista de niveles de objetos de Panic Delivery",
+        "description": "15 objetos de la tienda clasificados por supervivencia, velocidad de ruta y utilidad"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Notas del parche de Panic Delivery",
+        "description": "Correcciones de errores, banda sonora, paquetes y cronología de lanzamiento"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDateEarlyAccess": {
+      "eyebrow": "Información de lanzamiento",
+      "title": "Fecha de lanzamiento y acceso anticipado de Panic Delivery",
+      "intro": "Panic Delivery se lanzó en acceso anticipado de Steam el 13 de mayo de 2026 como una comedia de terror cooperativa para 4 jugadores sobre mensajeros que entregan, recuperan y contrabandean paquetes a través de ubicaciones controladas por monstruos mientras comparten una reserva limitada de 99 vidas.",
+      "items": [
+        {
+          "label": "Lanzamiento en acceso anticipado",
+          "value": "13 de mayo de 2026",
+          "details": "La versión de acceso anticipado de Steam ya está disponible para jugadores de PC."
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC a través de Steam",
+          "details": "Steam incluye Panic Delivery con soporte para un jugador y cooperativo en línea."
+        },
+        {
+          "label": "Precio base",
+          "value": "$7.99",
+          "details": "El juego en acceso anticipado se vende en Steam como un lanzamiento de pago. El desarrollador señala que el precio podría aumentar ligeramente después del acceso anticipado."
+        },
+        {
+          "label": "Ventana de acceso anticipado",
+          "value": "Aproximadamente un año",
+          "details": "El desarrollador planea utilizar el período de acceso anticipado para ampliar el contenido, perfeccionar los sistemas y mejorar el juego con los comentarios de los jugadores."
+        },
+        {
+          "label": "Contenido de la versión actual",
+          "value": "3 mapas, 3 modos de dificultad, 3 tipos de misión",
+          "details": "La versión de lanzamiento incluye mazmorras generadas procedimentalmente, misiones Estándar, de Recuperación y de Contrabando, 13 enemigos, 15 artículos de la tienda, personalización de personajes, 3 tipos de paquetes y un sistema de desafíos para cosméticos."
+        },
+        {
+          "label": "Idiomas compatibles",
+          "value": "9 idiomas",
+          "details": "Steam incluye inglés, francés, italiano, alemán, español de España, japonés, portugués de Brasil, ruso y chino simplificado. El inglés cuenta con audio completo."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Guía para principiantes",
+      "title": "Guía para principiantes de Panic Delivery",
+      "intro": "Los nuevos jugadores deben centrarse en el bucle principal antes de buscar cosméticos o misiones más difíciles. Panic Delivery se basa en partidas repetidas, vidas compartidas, recompensas de misión, mejoras de la tienda y en aprender cómo se comporta cada ruta controlada por monstruos.",
+      "steps": [
+        {
+          "title": "Comienza como repartidor",
+          "description": "Entra en una partida en solitario o con compañeros en cooperativo en línea. Tu equipo juega como repartidores enviados a un mundo distópico gobernado por monstruos."
+        },
+        {
+          "title": "Comprueba el tipo de misión",
+          "description": "El acceso anticipado incluye misiones Estándar, de Recuperación y de Contrabando. Cada tipo de misión utiliza objetivos aleatorios, así que comprueba el objetivo de la partida antes de lanzarte al peligro."
+        },
+        {
+          "title": "Maneja el paquete",
+          "description": "El juego incluye paquetes de tamaño pequeño, mediano y grande. Tu objetivo está ligado a entregar, recuperar o contrabandear paquetes a través de la ruta activa."
+        },
+        {
+          "title": "Protege las 99 vidas compartidas",
+          "description": "El equipo comparte 99 clones de reserva. Cada muerte despliega otro clon, pero quedarse sin vidas reinicia la partida."
+        },
+        {
+          "title": "Gana y gasta recompensas de misión",
+          "description": "Las misiones otorgan Speetchy, que se puede gastar en armas y herramientas en la tienda. Los permisos de bonificación se usan para conseguir artículos cosméticos."
+        },
+        {
+          "title": "Conserva las compras permanentes",
+          "description": "Cuando el equipo se queda sin vidas, la partida se reinicia, pero se conservan los artículos cosméticos comprados. Esto hace que las mejoras iniciales y los cosméticos formen parte del progreso a largo plazo."
+        }
+      ],
+      "quickTips": [
+        "Lee el objetivo de la misión antes de moverte para que el equipo se comprometa con el objetivo de paquete correcto.",
+        "Trata las 99 vidas compartidas como un recurso de equipo, no como una barra de salud personal.",
+        "Ahorra Speetchy para herramientas que protejan al portador del paquete o aceleren la ruta.",
+        "Coordina el movimiento para que el portador nunca se quede solo bajo la presión de los monstruos."
+      ]
+    },
+    "coopMultiplayerGuide": {
+      "eyebrow": "Multijugador cooperativo",
+      "title": "Guía del multijugador cooperativo de Panic Delivery",
+      "intro": "El bucle multijugador se basa en la coordinación: completar el objetivo de entrega, gestionar la reserva de clones compartida, evitar la presión enemiga y volver con recompensas. Panic Delivery no consiste solo en moverse rápido; se trata de gastar sabiamente las vidas limitadas del equipo.",
+      "items": [
+        {
+          "title": "Número de jugadores",
+          "value": "En solitario o hasta 4 jugadores en línea",
+          "description": "Steam indica compatibilidad tanto para un solo jugador como para cooperativo en línea, y el juego se describe como una comedia de terror cooperativa para 4 jugadores."
+        },
+        {
+          "title": "Vidas compartidas",
+          "value": "99 vidas de equipo",
+          "description": "Los repartidores comparten una reserva de 99 clones de reserva. Las muertes reducen las oportunidades restantes del equipo, por lo que jugar de forma imprudente consume el progreso de todos."
+        },
+        {
+          "title": "Bucle de reaparición",
+          "value": "La muerte despliega otro clon",
+          "description": "Un repartidor muerto puede continuar a través del sistema de clonación, pero la reserva es limitada. Una vez que el equipo se queda sin vidas, la partida se reinicia."
+        },
+        {
+          "title": "Objetivo de equipo",
+          "value": "Entregar, recuperar o contrabandear paquetes",
+          "description": "Los equipos cooperativos deben completar el objetivo de la misión actual mientras lidian con metas aleatorias, mazmorras procedimentales y encuentros con enemigos."
+        },
+        {
+          "title": "Conocimiento de la ruta",
+          "value": "3 zonas operativas en acceso anticipado",
+          "description": "La versión de acceso anticipado incluye tres mapas con mazmorras generadas procedimentalmente, lo que crea rutas cambiantes en lugar de un único trayecto de entrega fijo."
+        },
+        {
+          "title": "Prioridad cooperativa",
+          "value": "Manténganse coordinados",
+          "description": "El equipo más seguro es el que sigue el objetivo, vigila las vidas compartidas y evita separarse en el peor momento posible."
+        }
+      ]
+    },
+    "missionsPackageTypes": {
+      "eyebrow": "Misiones",
+      "title": "Misiones y tipos de paquetes de Panic Delivery",
+      "intro": "Las misiones de Panic Delivery se centran en el trabajo con paquetes en ubicaciones peligrosas y generadas procedimentalmente. Antes de comenzar una partida, los jugadores deben identificar el tipo de misión, el tamaño del paquete, el riesgo de la ruta y el plan de escape.",
+      "rows": [
+        {
+          "category": "Tipo de misión",
+          "entry": "Estándar",
+          "gameData": "Uno de los tres tipos de misión de acceso anticipado con objetivos aleatorios.",
+          "checklist": "Confirma el objetivo de entrega, transporta el paquete asignado, evita muertes innecesarias y regresa con las vidas del equipo intactas."
+        },
+        {
+          "category": "Tipo de misión",
+          "entry": "Recuperación",
+          "gameData": "Uno de los tres tipos de misión de acceso anticipado con objetivos aleatorios.",
+          "checklist": "Encuentra el objetivo de recuperación, asegura el paquete o artículo vinculado al objetivo y vete antes de que se agote la reserva de clones compartida."
+        },
+        {
+          "category": "Tipo de misión",
+          "entry": "Contrabando",
+          "gameData": "Uno de los tres tipos de misión de acceso anticipado con objetivos aleatorios.",
+          "checklist": "Sigue el objetivo de contrabando, protege el paquete, coordina los movimientos y evita que la ruta se convierta en un error grupal."
+        },
+        {
+          "category": "Tipo de paquete",
+          "entry": "Paquete pequeño",
+          "gameData": "Uno de los tres tipos de paquetes de entrega incluidos en la versión de acceso anticipado.",
+          "checklist": "Asigna un mensajero al paquete, mantén la ruta despejada y prioriza completar la misión de forma segura antes que la exploración."
+        },
+        {
+          "category": "Tipo de paquete",
+          "entry": "Paquete mediano",
+          "gameData": "Uno de los tres tipos de paquetes de entrega incluidos en la versión de acceso anticipado.",
+          "checklist": "Planifica la ruta en torno al objetivo, mantén a tus compañeros lo suficientemente cerca para ayudar y vigila las vidas compartidas durante la presión enemiga."
+        },
+        {
+          "category": "Tipo de paquete",
+          "entry": "Paquete grande",
+          "gameData": "Uno de los tres tipos de paquetes de entrega incluidos en la versión de acceso anticipado.",
+          "checklist": "Trata el paquete como una tarea de equipo, reduce los desvíos arriesgados y asegúrate de que el portador no sea abandonado."
+        },
+        {
+          "category": "Estructura de la partida",
+          "entry": "Objetivos aleatorios",
+          "gameData": "Las misiones estándar, de recuperación y de contrabando usan objetivos aleatorios.",
+          "checklist": "Revisa el objetivo al inicio de cada partida en lugar de asumir que el plan de ruta anterior sigue funcionando."
+        },
+        {
+          "category": "Alcance del acceso anticipado",
+          "entry": "3 mapas y mazmorras procedimentales",
+          "gameData": "La versión de lanzamiento del acceso anticipado incluye 3 mapas, cada uno con mazmorras generadas procedimentalmente.",
+          "checklist": "Espera diseños cambiantes, confirma la ruta del objetivo y adáptate antes de que los monstruos se adapten a ti."
+        }
+      ]
+    },
+    "mapsAndZonesGuide": {
+      "eyebrow": "Mapas y zonas",
+      "title": "Guía de mapas y zonas de Panic Delivery",
+      "intro": "Panic Delivery se lanza con 3 mapas, cada uno estructurado en torno a diseños de estilo mazmorra generados procedimentalmente. Esta guía ayuda a los mensajeros a comprender los temas principales de las zonas, los tipos de misiones que pueden aparecer y los riesgos que afectan a la velocidad de entrega, la seguridad del cargamento y la reserva compartida de 99 vidas.",
+      "cards": [
+        {
+          "name": "Lista de mapas del acceso anticipado",
+          "zoneType": "Sistema de mapas principal",
+          "routeFocus": "3 mapas con diseños de mazmorras procedimentales",
+          "gameplayData": [
+            "3 mapas de acceso anticipado",
+            "Mazmorras generadas procedimentalmente en cada mapa",
+            "3 modos de dificultad",
+            "Tipos de misión de Entrega, Recuperación y Contrabando"
+          ],
+          "risks": [
+            "Ubicación aleatoria de objetivos",
+            "Encuentros con monstruos durante los cambios de ruta",
+            "Pérdida de progreso cuando el equipo se queda sin vidas compartidas"
+          ],
+          "routeTip": "Asigna a un mensajero para llevar el paquete, a otro para explorar la siguiente sala y a otro para tener lista una herramienta de supervivencia antes de que el equipo se decida por una ruta."
+        },
+        {
+          "name": "Ruta encantada",
+          "zoneType": "Ubicación encantada",
+          "routeFocus": "Senderos interiores tensos, salas repletas de horror y presión repentina de monstruos",
+          "gameplayData": [
+            "Parte del conjunto de ubicaciones mortales presentadas para el acceso anticipado",
+            "Utilizado para envíos de paquetes de alto riesgo",
+            "Diseñado para rutas procedimentales rejugables"
+          ],
+          "risks": [
+            "Presión por baja visibilidad",
+            "Contacto a corta distancia con monstruos",
+            "Caídas de paquetes durante movimientos de pánico"
+          ],
+          "routeTip": "Mantén al portador del paquete en el centro del grupo y evita separarte a menos que el objetivo obligue a realizar un patrón de búsqueda."
+        },
+        {
+          "name": "Fábrica del pánico",
+          "zoneType": "Instalación industrial de clonación",
+          "routeFocus": "Rutas de fábrica vinculadas a la temática laboral de clonación humana",
+          "gameplayData": [
+            "Catalogada como una ubicación mortal importante",
+            "Conectada con la ambientación de clonación y terror corporativo",
+            "Funciona con objetivos de misión aleatorios"
+          ],
+          "risks": [
+            "Diseños industriales confusos",
+            "Presión por terminales e interacciones",
+            "Enemigos que interrumpen el uso de objetos o el manejo de paquetes"
+          ],
+          "routeTip": "Usa la incursión en la fábrica como una prueba de coordinación: avisa sobre las terminales, mantén marcadas las salidas y no dejes que el portador del paquete se encargue de cada interacción."
+        },
+        {
+          "name": "Base ártica",
+          "zoneType": "Zona de base de hielo",
+          "routeFocus": "Una ruta de la base helada construida en torno a una atmósfera de secretos alienígenas y peligros de exploración",
+          "gameplayData": [
+            "Zona de mapa conocida de Acceso Anticipado",
+            "El Hotfix 0.1.1 eliminó las barreras invisibles que bloqueaban la exploración en algunas zonas de la Base Ártica",
+            "Los diseños procedimentales evitan que las rutas se repitan exactamente igual"
+          ],
+          "risks": [
+            "Trampas de exploración",
+            "Obstáculos en la ruta y presión por callejones sin salida",
+            "Separación del equipo durante las búsquedas"
+          ],
+          "routeTip": "Considera las rutas de la Base Ártica como de exploración intensa: revisa los caminos secundarios antes de llevar el paquete a lo profundo del mapa, y luego reagrúpate antes del esfuerzo final de entrega."
+        },
+        {
+          "name": "Reglas de ruta de misión",
+          "zoneType": "Sistema de objetivos",
+          "routeFocus": "Entregas estándar, trabajos de recuperación y encargos de contrabando",
+          "gameplayData": [
+            "Las misiones de entrega trasladan paquetes a través de rutas peligrosas",
+            "Las misiones de recuperación usan dispositivos de rastreo para localizar cargamento perdido",
+            "Las misiones de contrabando involucran paquetes especiales y objetivos vinculados a la resistencia"
+          ],
+          "risks": [
+            "Manipulación de cargamento frágil o peligroso",
+            "Búsqueda de cargamento disperso",
+            "Mayores recompensas asociadas a rutas más difíciles"
+          ],
+          "routeTip": "Elige los objetos según el tipo de misión: la recuperación requiere herramientas de rastreo, la entrega necesita protección para el portador y el contrabando requiere un plan de escape despejado."
+        }
+      ]
+    },
+    "monstersAndEnemiesGuide": {
+      "eyebrow": "Enemigos",
+      "title": "Guía de monstruos y enemigos de Panic Delivery",
+      "intro": "Panic Delivery se lanza con 13 enemigos únicos en una distopía repleta de monstruos. Lidiar con los enemigos consiste menos en memorizar una ruta perfecta y más en proteger al portador del paquete, usar las herramientas con cabeza y saber cuándo luchar, huir o reagruparse antes de que la reserva de vidas compartidas se agote.",
+      "cards": [
+        {
+          "name": "Reserva de enemigos de Acceso Anticipado",
+          "enemyType": "Conjunto de enemigos de lanzamiento",
+          "gameplayData": [
+            "13 enemigos únicos en la versión de Acceso Anticipado",
+            "Los enemigos aparecen en mapas procedimentales y rutas de misión",
+            "Enemigos adicionales específicos de cada mapa forman parte de la hoja de ruta de contenido de Acceso Anticipado"
+          ],
+          "behavior": "La presión de los enemigos cambia según el diseño de la ruta, la ubicación de los objetivos y el ruido del equipo durante el movimiento cooperativo.",
+          "counterplay": "Entra en las habitaciones con tu equipo, mantén protegido al portador del paquete y guarda las herramientas defensivas para el camino de vuelta."
+        },
+        {
+          "name": "Lootmuncher",
+          "enemyType": "Enemigo con nombre propio",
+          "gameplayData": [
+            "El Hotfix 0.1.3 mejoró el comportamiento de huida de Lootmuncher",
+            "La actualización hizo que su movimiento fuera más constante durante el comportamiento de huida"
+          ],
+          "behavior": "Lootmuncher es lo suficientemente importante como para recibir una corrección de comportamiento específica durante el Acceso Anticipado.",
+          "counterplay": "Vigila su movimiento cuando se retire o huya, y aprovecha el momento para reposicionarte, recuperar los objetos caídos o mover el paquete."
+        },
+        {
+          "name": "Monstruos grotescos",
+          "enemyType": "Grupo de amenazas principales",
+          "gameplayData": [
+            "El mundo del juego está dominado por monstruos grotescos",
+            "Las entregas se realizan a través de una distopía infestada de monstruos",
+            "Los monstruos generan la mayor presión durante las misiones de entrega, recuperación y contrabando"
+          ],
+          "behavior": "Estas amenazas penalizan la planificación lenta de rutas, la separación de los compañeros de equipo y la manipulación descuidada de los paquetes.",
+          "counterplay": "Un repartidor indica la ruta, otro protege al portador y el resto se mueve."
+        },
+        {
+          "name": "Amenazas específicas del mapa",
+          "enemyType": "Diseño de enemigos basado en zonas",
+          "gameplayData": [
+            "Se planean futuras actualizaciones de Early Access para añadir más enemigos específicos de cada mapa",
+            "Los nuevos comportamientos de los enemigos están destinados a ampliar la variedad de la jugabilidad",
+            "Cada mapa utiliza diseños de mazmorras procedimentales para lograr encuentros repetibles pero impredecibles"
+          ],
+          "behavior": "La identidad de la zona es importante porque una ruta de fábrica, una ruta embrujada y una ruta de base helada crean diferentes problemas de movimiento y visibilidad.",
+          "counterplay": "Crea equipamientos de objetos en función de la zona: herramientas defensivas para interiores estrechos, herramientas de movilidad para rutas largas y repelentes para las salidas."
+        },
+        {
+          "name": "Presión de persecución",
+          "enemyType": "Patrón de encuentro",
+          "gameplayData": [
+            "Los jugadores pueden defenderse de los monstruos hostiles o dejarlos atrás",
+            "Las armas, artilugios, herramientas de movilidad y repelentes de monstruos ayudan a la supervivencia",
+            "A veces, correr es la mejor opción"
+          ],
+          "behavior": "Los enemigos obligan a tomar decisiones rápidas durante el transporte de paquetes, especialmente cuando el equipo lleva carga frágil o de alto riesgo.",
+          "counterplay": "Lucha solo cuando te abra una ruta. Si la pelea se convierte en un enfrentamiento en un pasillo, vete, porque la supervivencia sigue siendo más importante que el orgullo laboral."
+        }
+      ]
+    },
+    "itemsTierList": {
+      "eyebrow": "Objetos",
+      "title": "Tier List de objetos de Panic Delivery",
+      "intro": "La versión de Early Access incluye 15 objetos de la tienda. Las misiones otorgan Speetchy, que se puede gastar en armas, herramientas, equipo defensivo, opciones de utilidad y accesorios, mientras que los Bonus Permits se usan para compras de tipo cosmético. Las mejores compras iniciales son las que protegen al portador del paquete, recuperan la carga perdida o ayudan al escuadrón a escapar antes de que se agote el sistema de 99 vidas.",
+      "tierLabels": {
+        "s": "Tier S - Crítico para la misión",
+        "a": "Tier A - Muy recomendado",
+        "b": "Tier B - Situacional",
+        "c": "Tier C - Estilo y cosméticos"
+      },
+      "items": [
+        {
+          "tier": "S",
+          "name": "Dispositivos de rastreo",
+          "itemType": "Utilidad de recuperación",
+          "bestFor": "Misiones de recuperación y búsqueda de carga dispersa",
+          "why": "Las misiones de recuperación dependen de los dispositivos de rastreo para recuperar la carga perdida en terrenos peligrosos, lo que convierte a esta en una de las categorías de utilidad más críticas para las misiones.",
+          "teamUse": "Asigna la responsabilidad del rastreo a un repartidor mientras el resto protege la ruta y el camino del paquete."
+        },
+        {
+          "tier": "S",
+          "name": "Palanca",
+          "itemType": "Herramienta y arma de corto alcance",
+          "bestFor": "Romper cajas, defensa de emergencia y control directo de rutas",
+          "why": "La palanca combina una interacción práctica con la ruta y protección a corta distancia cuando los monstruos presionan al equipo.",
+          "teamUse": "Mantenla cerca del explorador de vanguardia o del repartidor que custodia al portador del paquete."
+        },
+        {
+          "tier": "A",
+          "name": "Repelentes de monstruos",
+          "itemType": "Utilidad defensiva",
+          "bestFor": "Rutas de escape, recuperaciones de pánico y protección del portador del paquete",
+          "why": "Los repelentes ayudan a sobrevivir cuando la lucha ralentiza al equipo, especialmente durante la ruta de regreso final o en un mal diseño procedimental.",
+          "teamUse": "Guarda los repelentes para las salidas, las reanimaciones o los momentos en que el portador no pueda permitirse soltar la carga."
+        },
+        {
+          "tier": "A",
+          "name": "Herramientas de movilidad",
+          "itemType": "Utilidad de movilidad",
+          "bestFor": "Rutas largas, salas procedimentales y caminos de retorno peligrosos",
+          "why": "Los mapas procedimentales recompensan el reposicionamiento rápido, y las herramientas de movilidad ayudan a los equipos a adaptarse cuando los objetivos aparecen en rutas complicadas.",
+          "teamUse": "Usa herramientas de movilidad para explorar, reunir a repartidores separados o crear un camino más seguro para el transportador del paquete."
+        },
+        {
+          "tier": "B",
+          "name": "Artilugios",
+          "itemType": "Utilidad general",
+          "bestFor": "Soporte situacional en misiones de entrega, recuperación y contrabando",
+          "why": "Los artilugios pueden adaptarse a diferentes estilos de juego, pero su valor depende en gran medida del diseño del mapa y del tipo de misión.",
+          "teamUse": "Compra artilugios después de que el equipo ya tenga una opción defensiva sólida y una herramienta de control de rutas."
+        },
+        {
+          "tier": "B",
+          "name": "Tubo gemidor",
+          "itemType": "Arma improvisada",
+          "bestFor": "Defensa de pánico a corta distancia y momentos cooperativos caóticos",
+          "why": "Funciona como un arma de respaldo práctica, aunque no debería reemplazar a las herramientas de utilidad serias cuando la misión requiere trazar rutas limpias.",
+          "teamUse": "Úsalo como protección de emergencia, no como una excusa para que cuatro repartidores se queden quietos."
+        },
+        {
+          "tier": "B",
+          "name": "Herramientas de contrabando",
+          "itemType": "Utilidad de misión",
+          "bestFor": "Encargos de contrabando y objetivos de paquetes vinculados a la resistencia",
+          "why": "Las misiones de contrabando involucran paquetes especiales con herramientas y objetos únicos, por lo que estas herramientas son más importantes cuando ese tipo de misión está activo.",
+          "teamUse": "Asigna a un repartidor para que se encargue de las herramientas específicas de contrabando mientras otro mantiene despejada la ruta de salida."
+        },
+        {
+          "tier": "C",
+          "name": "Estilo boujee",
+          "itemType": "Gastos en estilo y cosméticos",
+          "bestFor": "Estilo personal persistente y compras no destinadas a la supervivencia",
+          "why": "Los artículos de estilo adquiridos siguen siendo valiosos para la personalización, pero no superan a las herramientas de supervivencia durante las rutas de entrega peligrosas.",
+          "teamUse": "Compra artículos de estilo después de que el equipo tenga suficientes herramientas para completar las partidas de forma constante."
+        }
+      ]
+    },
+    "updatesAndPatchNotes": {
+      "eyebrow": "Actualizaciones",
+      "title": "Actualizaciones y notas del parche de Panic Delivery",
+      "intro": "Panic Delivery está en el Acceso anticipado de Steam, por lo que las actualizaciones se centran en la estabilidad, el ritmo de las misiones, las correcciones de mapas, el comportamiento de los enemigos, el audio y el nuevo contenido en torno a la ventana de lanzamiento. Esta cronología ofrece a los jugadores la versión práctica: qué cambió, cuándo cambió y por qué es importante en una partida.",
+      "entries": [
+        {
+          "date": "15 de junio de 2026",
+          "type": "Banda sonora",
+          "title": "Lanzamiento de la banda sonora original",
+          "highlights": [
+            "Banda sonora original de Panic Delivery lanzada en Steam",
+            "47 pistas del juego",
+            "Compuesta y producida por Jonah Buhat Gardose",
+            "Incluye pistas de estilo trap, dubstep, techno, chiptune y orquestal"
+          ],
+          "impact": "Añade una opción de banda sonora oficial para los jugadores que quieran el caos corporativo del juego fuera de las entregas activas."
+        },
+        {
+          "date": "25 de mayo de 2026",
+          "type": "Hotfix",
+          "title": "Parche hotfix 0.1.3",
+          "highlights": [
+            "Se ha mejorado el comportamiento de Lootmuncher al escapar",
+            "Se ha corregido un cierre inesperado crítico provocado cuando un jugador empujaba a otro al chocar contra él",
+            "Se ha evitado que otros jugadores muevan a un jugador mientras interactúa con las terminales"
+          ],
+          "impact": "Mejora la coherencia de los enemigos y reduce los problemas de interacción cooperativa alrededor de las terminales."
+        },
+        {
+          "date": "22 de mayo de 2026",
+          "type": "Hotfix",
+          "title": "Parche hotfix 0.1.2",
+          "highlights": [
+            "Se han añadido nuevas pistas de música a Panic Truck Radio",
+            "Se han reducido los recursos necesarios para abrir el Área de contrabando",
+            "Se ha mejorado la mezcla de audio general",
+            "Se ha mejorado la respuesta de la terminal de recursos",
+            "Se ha corregido la entrada de pulsar para hablar en el mando",
+            "Se ha corregido un error que podía dejar a un jugador atrapado dentro de una pared"
+          ],
+          "impact": "Hace que la progresión del contrabando sea más fluida, mejora la claridad del audio y elimina varios puntos de fricción prácticos."
+        },
+        {
+          "date": "22 de mayo de 2026",
+          "type": "Lote",
+          "title": "Lote Panic Delivery + MAZEBOUND",
+          "highlights": [
+            "Panic Delivery se incluyó en un lote con MAZEBOUND en Steam",
+            "El anuncio incluía un sorteo de claves de Discord para MAZEBOUND",
+            "El lote está dirigido a los fans de la supervivencia multijugador"
+          ],
+          "impact": "Ofrece a los jugadores del cooperativo una opción de lote con descuento durante el periodo de lanzamiento del Acceso anticipado."
+        },
+        {
+          "date": "15 de mayo de 2026",
+          "type": "Hotfix",
+          "title": "Parche hotfix 0.1.1",
+          "highlights": [
+            "Se ha añadido un ajuste de límite de FPS",
+            "Se han eliminado las barreras invisibles no deseadas en el mapa Arctic Base",
+            "Se han corregido pequeños problemas de replicación del lado del cliente",
+            "Se ha mejorado la sincronización multijugador y la coherencia de la interacción en el juego"
+          ],
+          "impact": "Mejora el control del rendimiento, la exploración de Arctic Base y la estabilidad del cooperativo en línea."
+        },
+        {
+          "date": "13 de mayo de 2026",
+          "type": "Lanzamiento",
+          "title": "Lanzamiento en Acceso anticipado de Steam",
+          "highlights": [
+            "Panic Delivery se ha lanzado en Acceso anticipado en Steam",
+            "Jugabilidad de reparto cooperativo de comedia y terror para 4 jugadores",
+            "Reserva compartida de 99 vidas patrocinadas por la empresa",
+            "Precio de lanzamiento fijado en 7,99 USD con un descuento de lanzamiento por Acceso anticipado del 10 % a 7,19 USD",
+            "La banda sonora oficial fue anunciada para su lanzamiento después del lanzamiento."
+          ],
+          "impact": "Se lanzó la versión principal de Early Access con entregas cooperativas, recuperación, contrabando, mapas procedimentales, enemigos, objetos de la tienda y el sistema de vidas compartidas."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Panic Delivery",
+    "questions": [
+      {
+        "question": "¿Qué es Panic Delivery?",
+        "answer": "Panic Delivery es un juego cooperativo de supervivencia, mensajería y comedia de terror para 4 jugadores en Steam. Juegas como repartidores desechables que entregan, recuperan y contrabandean paquetes a través de ubicaciones distópicas controladas por monstruos mientras comparten una reserva de 99 vidas."
+      },
+      {
+        "question": "¿Cuándo se lanzó Panic Delivery?",
+        "answer": "Panic Delivery se lanzó en Early Access de Steam el 13 de mayo de 2026 para PC. El desarrollador planea mantenerlo en Early Access durante aproximadamente un año para expandir el contenido con los comentarios de los jugadores."
+      },
+      {
+        "question": "¿Cuánto cuesta Panic Delivery?",
+        "answer": "Panic Delivery tiene un precio de $7.99 USD en Steam, con un descuento de lanzamiento por Early Access del 10% que redujo el precio de estreno a $7.19 USD. El desarrollador señala que el precio podría aumentar ligeramente después del Early Access."
+      },
+      {
+        "question": "¿Es compatible Panic Delivery con el multijugador cooperativo?",
+        "answer": "Sí. Panic Delivery es compatible tanto con el modo de un solo jugador como con el cooperativo en línea para hasta cuatro jugadores. Los equipos cooperativos comparten la reserva de 99 vidas de clones de repuesto, por lo que la coordinación importa tanto como la velocidad."
+      },
+      {
+        "question": "¿En qué plataformas está disponible Panic Delivery?",
+        "answer": "Panic Delivery está disponible en PC a través de Steam. La versión de lanzamiento de Early Access incluye 3 mapas, 3 modos de dificultad, 3 tipos de misiones, 13 enemigos y 15 objetos de la tienda."
+      },
+      {
+        "question": "¿Es Panic Delivery un juego terminado?",
+        "answer": "Panic Delivery es un título de Early Access, por lo que todavía está en expansión en lugar de estar terminado. La versión actual es completamente jugable, y el desarrollador planea agregar más mapas, enemigos, objetos, misiones y opciones de entrega durante el período de Early Access."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar Panic Delivery?",
+    "description": "¡Únete a la comunidad de Panic Delivery en Discord para obtener guías, actualizaciones y debates sobre la supervivencia cooperativa!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Panic Delivery",
+    "description": "Tu centro completo de recursos para mapas, misiones, enemigos, objetos, paquetes, cosméticos y guías de supervivencia cooperativa de Panic Delivery.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Panic Delivery Wiki. No afiliado con Invader Studios, los desarrolladores de Panic Delivery.",
+    "disclaimer": "Sitio web no oficial de recursos creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías de Panic Delivery",
+      "description": "Guías de Panic Delivery que cubren cómo jugar, consejos para principiantes, tácticas en solitario y cooperativas, y estrategias de supervivencia de mensajeros para rutas de entrega infestadas de monstruos.",
+      "metaTitle": "Guías de Panic Delivery - Consejos para principiantes, en solitario y cooperativo",
+      "metaDescription": "Guías de Panic Delivery con consejos para principiantes, cómo jugar, estrategias en solitario y cooperativas, y trucos de mensajería para sobrevivir a la comedia de terror cooperativa de Steam.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Las guías de Panic Delivery te guían a través del ciclo de juego principal de mensajería, el sistema compartido de 99 vidas, los tipos de misiones y la coordinación en equipo. Ya sea que estés comenzando tu primera partida o profundizando en tácticas cooperativas, estas guías explican cómo jugar en solitario o con amigos.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende el ciclo de juego principal",
+        "step1Description": "Comprende las entregas, el sistema de vidas compartidas y los tipos de misiones antes de tu primera partida",
+        "step2Title": "Juega en solitario o en cooperativo",
+        "step2Description": "Consigue tácticas para jugar en solitario y consejos de coordinación para 4 jugadores para cualquier tamaño de escuadrón",
+        "step3Title": "Sobrevive a partidas más largas",
+        "step3Description": "Aplica consejos y trucos probados para proteger al portador y estirar tus vidas compartidas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "gameplay": {
+      "title": "Gameplay de Panic Delivery",
+      "description": "Videos de gameplay de Panic Delivery, reseñas, impresiones y momentos cooperativos divertidos que muestran la experiencia de supervivencia de mensajería de comedia de terror para 4 jugadores.",
+      "metaTitle": "Gameplay de Panic Delivery - Reseñas, impresiones y partidas cooperativas",
+      "metaDescription": "Mira el gameplay de Panic Delivery, que incluye partidas cooperativas, videos sin comentarios, gameplay de PC, reseñas y momentos divertidos de esta comedia de terror de Steam.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "¿Qué es el gameplay?",
+      "whatIsDescription": "La cobertura del gameplay de Panic Delivery muestra la supervivencia cooperativa de mensajería para 4 jugadores en acción, incluyendo partidas completas, videos sin comentarios, reseñas e impresiones. Mira cómo los equipos entregan paquetes, gestionan las vidas compartidas y sobreviven a encuentros con monstruos.",
+      "why": "¿Por qué ver gameplay?",
+      "whySteps": {
+        "step1Title": "Mira el juego en acción",
+        "step1Description": "Mira partidas cooperativas reales y evalúa el ciclo de entregas antes de jugar",
+        "step2Title": "Lee reseñas e impresiones",
+        "step2Description": "Comprende lo que piensan los jugadores sobre la experiencia de Acceso Anticipado",
+        "step3Title": "Disfruta de momentos divertidos",
+        "step3Description": "Disfruta de los mejores momentos de la comedia de terror y de los caóticos fallos en las entregas cooperativas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todo el gameplay"
+    },
+    "repair": {
+      "title": "Guía de reparación de Panic Delivery",
+      "description": "Guías de reparación de Panic Delivery que explican cómo arreglar objetos y equipos rotos, gestionar la durabilidad y mantener tus herramientas de mensajero funcionando durante las partidas.",
+      "metaTitle": "Reparación en Panic Delivery - Cómo arreglar objetos y equipos rotos",
+      "metaDescription": "Guías de reparación de Panic Delivery que cubren cómo reparar objetos rotos, arreglar equipos, gestionar la durabilidad y mantener tus herramientas listas para partidas de entrega llenas de monstruos.",
+      "categoryLabel": "REPARACIÓN",
+      "whatIs": "¿Qué es la reparación?",
+      "whatIsDescription": "Las guías de reparación de Panic Delivery cubren cómo arreglar objetos y equipos rotos, dónde reparar durante una partida y cómo la durabilidad afecta a tus armas, herramientas y equipo defensivo. Mantén tu equipamiento en funcionamiento para poder sobrevivir a rutas de entrega más largas.",
+      "why": "¿Por qué aprender sobre reparación?",
+      "whySteps": {
+        "step1Title": "Arregla objetos rotos",
+        "step1Description": "Aprende dónde y cómo reparar armas, herramientas y equipos a mitad de la partida",
+        "step2Title": "Gestiona la durabilidad",
+        "step2Description": "Realiza un seguimiento del estado de los objetos para que el equipo falle con menos frecuencia en el peor momento posible",
+        "step3Title": "Mantén las herramientas listas",
+        "step3Description": "Mantén tu equipamiento para lidiar con monstruos, recuperación y misiones de contrabando"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de reparación"
+    },
+    "release": {
+      "title": "Información de lanzamiento de Panic Delivery",
+      "description": "Fecha de lanzamiento de Panic Delivery, detalles del Acceso anticipado, tráileres, información de la demo y anuncios de lanzamiento para el juego cooperativo de mensajería, comedia y terror de Steam.",
+      "metaTitle": "Fecha de lanzamiento, Acceso anticipado y tráileres de Panic Delivery",
+      "metaDescription": "Información de lanzamiento de Panic Delivery, incluyendo la fecha de lanzamiento en Acceso anticipado de Steam, tráileres de anuncio y de lanzamiento, detalles de la demo y actualizaciones de la hoja de ruta.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento?",
+      "whatIsDescription": "La cobertura del lanzamiento de Panic Delivery sigue la fecha de lanzamiento del Acceso anticipado de Steam, los tráileres de anuncio y lanzamiento, la disponibilidad de la demo y lo que añade cada actualización. Mantente al día de los nuevos mapas, enemigos, objetos y tipos de misiones a medida que se expande la hoja de ruta del Acceso anticipado.",
+      "why": "¿Por qué seguir la información de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Conoce la fecha de lanzamiento",
+        "step1Description": "Encuentra la fecha de lanzamiento del Acceso anticipado de Steam y lo que se incluye en el lanzamiento",
+        "step2Title": "Mira los tráileres",
+        "step2Description": "Mira los tráileres de anuncio y lanzamiento para ver un avance de la experiencia de supervivencia de mensajería",
+        "step3Title": "Sigue la hoja de ruta",
+        "step3Description": "Sigue las demos, las actualizaciones del Acceso anticipado y el nuevo contenido planificado"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "platforms": {
+      "title": "Plataformas y precio de Panic Delivery",
+      "description": "Plataformas, precios e información de tienda de Panic Delivery, que cubren Steam, PC, disponibilidad en consolas y costes en PS5, Xbox y otras tiendas.",
+      "metaTitle": "Plataformas, precio y dónde jugar a Panic Delivery",
+      "metaDescription": "Información de plataformas y precios de Panic Delivery en Steam, PC, PS5, Xbox y consolas. Compara costes, consulta SteamDB y descubre dónde jugar a este juego cooperativo de mensajería.",
+      "categoryLabel": "PLATAFORMAS Y PRECIOS",
+      "whatIs": "¿Qué son las plataformas?",
+      "whatIsDescription": "Las guías de plataformas y precios de Panic Delivery muestran dónde jugar al juego, incluyendo soporte para Steam y PC, disponibilidad en consolas PS5 y Xbox, coste actual y seguimiento en SteamDB. Compara tiendas y confirma qué sistemas ejecutan esta experiencia cooperativa de mensajería.",
+      "why": "¿Por qué consultar las plataformas?",
+      "whySteps": {
+        "step1Title": "Encuentra dónde jugar",
+        "step1Description": "Confirma la disponibilidad en Steam, PC, PS5, Xbox y consolas",
+        "step2Title": "Compara precios y costes",
+        "step2Description": "Consulta el precio actual y encuentra la mejor tienda para tu presupuesto",
+        "step3Title": "Sigue las estadísticas de SteamDB",
+        "step3Description": "Sigue el número de jugadores y las tendencias de la tienda en SteamDB"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de plataformas"
+    },
+    "saves": {
+      "title": "Archivos de guardado de Panic Delivery",
+      "description": "Guías de ubicación de archivos de guardado de Panic Delivery, consejos de respaldo y ayuda para la transferencia de partidas para respaldar el progreso y recuperar los datos de las partidas de mensajero en PC.",
+      "metaTitle": "Guía de ubicación y copia de seguridad de los archivos de guardado de Panic Delivery",
+      "metaDescription": "Guías de archivos de guardado de Panic Delivery que cubren la ubicación de los archivos, métodos de respaldo, dónde se almacenan las partidas y cómo recuperar o transferir tu progreso de mensajero.",
+      "categoryLabel": "ARCHIVOS DE GUARDADO",
+      "whatIs": "¿Qué son las partidas guardadas?",
+      "whatIsDescription": "Las guías de archivos de guardado de Panic Delivery explican dónde se almacena tu progreso de mensajero, cómo localizar y respaldar los archivos de guardado, y cómo recuperar o transferir datos entre instalaciones. Protege de pérdidas tus cosméticos, mejoras de la tienda e historial de partidas.",
+      "why": "¿Por qué gestionar las partidas guardadas?",
+      "whySteps": {
+        "step1Title": "Respaldar el progreso",
+        "step1Description": "Localiza los archivos de guardado y respalda cosméticos, mejoras y datos de partidas",
+        "step2Title": "Recuperar datos perdidos",
+        "step2Description": "Restaura partidas guardadas después de fallos del juego, reinstalaciones o errores de almacenamiento",
+        "step3Title": "Transferir entre instalaciones",
+        "step3Description": "Mueve o sincroniza archivos de guardado entre PC y cuentas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de archivos de guardado"
+    }
   }
 }
