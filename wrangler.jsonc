@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "lucidblocks-wiki",
+  "name": "panicdelivery-wiki",
   "main": ".open-next/worker.js",
   "compatibility_date": "2025-03-10",
   "compatibility_flags": ["nodejs_compat"],
@@ -9,6 +9,6 @@
     "binding": "ASSETS"
   },
   "routes": [
-    { "pattern": "www.lucidblocks.wiki/*", "zone_name": "lucidblocks.wiki" }
+    { "pattern": "www.panicdelivery.wiki/*", "zone_name": "panicdelivery.wiki" }
   ]
 }
