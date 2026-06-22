@@ -38,7 +38,7 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
   updatesAndPatchNotes: ['update', 'patch', 'release', 'early access', 'trailer'],
 }
 
-const FILLER_WORDS = ['2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master', 'panic', 'delivery']
 
 function normalize(text: string): string {
   return text
