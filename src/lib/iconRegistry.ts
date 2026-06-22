@@ -27,6 +27,13 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  // Panic Delivery 导航卡片图标
+  CalendarCheck: LucideIcons.CalendarCheck,
+  Compass: LucideIcons.Compass,
+  Map: LucideIcons.Map,
+  Ghost: LucideIcons.Ghost,
+  Trophy: LucideIcons.Trophy,
+  Newspaper: LucideIcons.Newspaper,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

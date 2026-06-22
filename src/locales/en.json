@@ -52,696 +52,526 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Panic Delivery Gameplay",
+    "description": "Team up as disposable couriers in a 4-player co-op horror comedy, deliver and smuggle packages through monster-controlled zones, manage 99 shared lives, and unlock cosmetics across procedurally generated maps on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Panic Delivery",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to survive co-op delivery runs, from release info and beginner basics to maps, enemies, items, and patch notes.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "CalendarCheck",
+        "title": "Panic Delivery Release Date",
+        "description": "Early Access launch, platform, price, and content scope"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Compass",
+        "title": "Panic Delivery Beginner Guide",
+        "description": "Core loop, shared lives, rewards, and first-run priorities"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Panic Delivery Co-op Guide",
+        "description": "Solo and 4-player co-op, shared clone pool, and teamwork"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Panic Delivery Missions & Packages",
+        "description": "Standard, Recovery, Smuggling, and Small to Large packages"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Map",
+        "title": "Panic Delivery Maps & Zones",
+        "description": "3 procedural maps, haunted routes, factory, and Arctic Base"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Ghost",
+        "title": "Panic Delivery Monsters & Enemies",
+        "description": "13 enemies, behavior, and survival counterplay"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Trophy",
+        "title": "Panic Delivery Items Tier List",
+        "description": "15 shop items ranked by survival, route speed, and utility"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Newspaper",
+        "title": "Panic Delivery Patch Notes",
+        "description": "Hotfixes, soundtrack, bundles, and launch timeline"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "releaseDateEarlyAccess": {
+      "eyebrow": "Release Info",
+      "title": "Panic Delivery Release Date and Early Access",
+      "intro": "Panic Delivery launched into Steam Early Access on May 13, 2026 as a 4-player co-op horror comedy about couriers delivering, recovering, and smuggling packages through monster-controlled locations while sharing a limited pool of 99 lives.",
+      "items": [
+        {
+          "label": "Early Access Launch",
+          "value": "May 13, 2026",
+          "details": "The Steam Early Access version is live now for PC players."
+        },
+        {
+          "label": "Platform",
+          "value": "PC via Steam",
+          "details": "Steam lists Panic Delivery with Single-player and Online Co-op support."
+        },
+        {
+          "label": "Base Price",
+          "value": "$7.99",
+          "details": "The Early Access game is sold on Steam as a paid release. The developer notes the price may increase slightly after Early Access."
+        },
+        {
+          "label": "Early Access Window",
+          "value": "Approximately one year",
+          "details": "The developer plans to use the Early Access period to expand content, refine systems, and improve the game with player feedback."
+        },
+        {
+          "label": "Current Build Content",
+          "value": "3 maps, 3 difficulty modes, 3 mission types",
+          "details": "The launch build includes procedurally generated dungeons, Standard, Recovery, and Smuggling missions, 13 enemies, 15 shop items, character customization, 3 package types, and a challenge system for cosmetics."
+        },
+        {
+          "label": "Supported Languages",
+          "value": "9 languages",
+          "details": "Steam lists English, French, Italian, German, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, and Simplified Chinese. English includes full audio."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Beginner Guide",
+      "title": "Panic Delivery Beginner Guide",
+      "intro": "New players should focus on the core loop before chasing cosmetics or harder missions. Panic Delivery is built around repeat runs, shared lives, mission rewards, shop upgrades, and learning how each monster-controlled route behaves.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Start as a Courier",
+          "description": "Enter a run solo or with online co-op teammates. Your team plays as couriers sent into a dystopian world ruled by monsters."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Check the Mission Type",
+          "description": "Early Access includes Standard, Recovery, and Smuggling missions. Each mission type uses randomized objectives, so check the run goal before rushing into danger."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Handle the Package",
+          "description": "The game includes Small, Medium, and Large package types. Your objective is tied to delivering, recovering, or smuggling packages through the active route."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Protect the Shared 99 Lives",
+          "description": "The team shares 99 backup clones. Each death deploys another clone, but running out of lives resets the run."
+        },
+        {
+          "title": "Earn and Spend Mission Rewards",
+          "description": "Missions reward Speetchy, which can be spent on weapons and tools in the shop. Bonus Permits are used for cosmetic swag."
+        },
+        {
+          "title": "Keep Permanent Purchases",
+          "description": "When the team runs out of lives, the run resets, but purchased swag is kept. This makes early upgrades and cosmetics part of long-term progress."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Read the mission objective before moving so the team commits to the right package goal.",
+        "Treat the shared 99 lives as a team resource, not a personal health bar.",
+        "Save Speetchy for tools that protect the package carrier or speed up the route.",
+        "Coordinate movement so the carrier is never left alone during monster pressure."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "coopMultiplayerGuide": {
+      "eyebrow": "Co-op Multiplayer",
+      "title": "Panic Delivery Co-op Multiplayer Guide",
+      "intro": "The multiplayer loop is built around coordination: complete the delivery objective, manage the shared clone pool, avoid enemy pressure, and return with rewards. Panic Delivery is not only about moving fast; it is about spending the team's limited lives wisely.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Player Count",
+          "value": "Solo or up to 4 players online",
+          "description": "Steam lists both Single-player and Online Co-op support, and the game is described as a 4-player co-op horror comedy."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Shared Lives",
+          "value": "99 team lives",
+          "description": "Couriers share a pool of 99 backup clones. Deaths reduce the team's remaining chances, so reckless play burns progress for everyone."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Respawn Loop",
+          "value": "Death deploys another clone",
+          "description": "A dead courier can continue through the cloning system, but the pool is limited. Once the team runs out of lives, the run resets."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Team Objective",
+          "value": "Deliver, recover, or smuggle packages",
+          "description": "Co-op teams need to complete the current mission objective while dealing with randomized goals, procedural dungeons, and enemy encounters."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "title": "Route Awareness",
+          "value": "3 operational zones in Early Access",
+          "description": "The Early Access build includes three maps with procedurally generated dungeons, creating changing routes instead of one fixed delivery path."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Co-op Priority",
+          "value": "Stay coordinated",
+          "description": "The safest team is the one that tracks the objective, watches the shared lives, and avoids splitting up at the worst possible moment."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "missionsPackageTypes": {
+      "eyebrow": "Missions",
+      "title": "Panic Delivery Missions and Package Types",
+      "intro": "Panic Delivery missions are built around package work in dangerous, procedurally generated locations. Before starting a run, players should identify the mission type, package size, route risk, and escape plan.",
+      "rows": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "category": "Mission Type",
+          "entry": "Standard",
+          "gameData": "One of the three Early Access mission types with randomized objectives.",
+          "checklist": "Confirm the delivery objective, move the assigned package, avoid unnecessary deaths, and return with the team's lives intact."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "category": "Mission Type",
+          "entry": "Recovery",
+          "gameData": "One of the three Early Access mission types with randomized objectives.",
+          "checklist": "Find the recovery target, secure the package or item tied to the objective, and leave before the shared clone pool gets drained."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "category": "Mission Type",
+          "entry": "Smuggling",
+          "gameData": "One of the three Early Access mission types with randomized objectives.",
+          "checklist": "Track the smuggling objective, protect the package, coordinate movement, and avoid turning the route into a group mistake."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "category": "Package Type",
+          "entry": "Small Package",
+          "gameData": "One of the three delivery package types included in the Early Access build.",
+          "checklist": "Assign a courier to the package, keep the route clear, and prioritize safe completion over exploration."
+        },
+        {
+          "category": "Package Type",
+          "entry": "Medium Package",
+          "gameData": "One of the three delivery package types included in the Early Access build.",
+          "checklist": "Plan the route around the objective, keep teammates close enough to help, and watch the shared lives during enemy pressure."
+        },
+        {
+          "category": "Package Type",
+          "entry": "Large Package",
+          "gameData": "One of the three delivery package types included in the Early Access build.",
+          "checklist": "Treat the package as a team task, reduce risky detours, and make sure the carrier is not abandoned."
+        },
+        {
+          "category": "Run Structure",
+          "entry": "Randomized Objectives",
+          "gameData": "Standard, Recovery, and Smuggling missions use randomized objectives.",
+          "checklist": "Check the objective at the start of every run instead of assuming the previous route plan still works."
+        },
+        {
+          "category": "Early Access Scope",
+          "entry": "3 Maps and Procedural Dungeons",
+          "gameData": "The launch Early Access version includes 3 maps, each with procedurally generated dungeons.",
+          "checklist": "Expect changing layouts, confirm the objective path, and adapt before the monsters adapt for you."
         }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+    "mapsAndZonesGuide": {
+      "eyebrow": "Maps & Zones",
+      "title": "Panic Delivery Maps and Zones Guide",
+      "intro": "Panic Delivery launches with 3 maps, each built around procedurally generated dungeon-style layouts. This guide helps couriers understand the major zone themes, the mission types that can appear, and the risks that affect delivery speed, cargo safety, and the shared 99 lives pool.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Early Access Map Pool",
+          "zoneType": "Core map system",
+          "routeFocus": "3 maps with procedural dungeon layouts",
+          "gameplayData": [
+            "3 Early Access maps",
+            "Procedurally generated dungeons on each map",
+            "3 difficulty modes",
+            "Delivery, Recovery, and Smuggling mission types"
+          ],
+          "risks": [
+            "Randomized objective placement",
+            "Monster encounters during route changes",
+            "Lost progress when the team runs out of shared lives"
+          ],
+          "routeTip": "Assign one courier to carry the package, one to scout the next room, and one to keep a survival tool ready before the team commits to a route."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Haunted Route",
+          "zoneType": "Haunted location",
+          "routeFocus": "Tense interior paths, horror-heavy rooms, and sudden monster pressure",
+          "gameplayData": [
+            "Part of the deadly location set shown for Early Access",
+            "Used for high-risk package runs",
+            "Built for replayable procedural routes"
+          ],
+          "risks": [
+            "Low visibility pressure",
+            "Close-range monster contact",
+            "Package drops during panic movement"
+          ],
+          "routeTip": "Keep the package carrier in the middle of the group and avoid splitting up unless the objective forces a search pattern."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Panic Factory",
+          "zoneType": "Industrial cloning facility",
+          "routeFocus": "Factory paths tied to the human-cloning workplace theme",
+          "gameplayData": [
+            "Listed as a major deadly location",
+            "Connected to the cloning and corporate horror setting",
+            "Works with randomized mission objectives"
+          ],
+          "risks": [
+            "Confusing industrial layouts",
+            "Terminal and interaction pressure",
+            "Enemies interrupting item use or package handling"
+          ],
+          "routeTip": "Use the factory run as a coordination check: call out terminals, keep exits marked, and do not let the package carrier handle every interaction."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Arctic Base",
+          "zoneType": "Ice-base zone",
+          "routeFocus": "An icy base route built around alien-secret atmosphere and exploration hazards",
+          "gameplayData": [
+            "Known Early Access map zone",
+            "Hotfix 0.1.1 removed invisible barriers that blocked exploration in some Arctic Base areas",
+            "Procedural layouts keep routes from repeating cleanly"
+          ],
+          "risks": [
+            "Exploration traps",
+            "Route blockers and dead-end pressure",
+            "Team separation during searches"
+          ],
+          "routeTip": "Treat Arctic Base routes as exploration-heavy: check side paths before moving the package deep into the map, then regroup before the final delivery push."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Mission Route Rules",
+          "zoneType": "Objective system",
+          "routeFocus": "Standard delivery, recovery work, and smuggling assignments",
+          "gameplayData": [
+            "Delivery missions move packages through hazardous routes",
+            "Recovery missions use tracking devices to locate lost cargo",
+            "Smuggling missions involve special packages and resistance-linked objectives"
+          ],
+          "risks": [
+            "Fragile or risky cargo handling",
+            "Scattered cargo searches",
+            "Higher rewards tied to harder routes"
+          ],
+          "routeTip": "Pick items around the mission type: recovery needs tracking utility, delivery needs protection around the carrier, and smuggling needs a clean exit plan."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "monstersAndEnemiesGuide": {
+      "eyebrow": "Enemies",
+      "title": "Panic Delivery Monsters and Enemies Guide",
+      "intro": "Panic Delivery launches with 13 unique enemies in a monster-filled dystopia. Enemy handling is less about memorizing a perfect route and more about protecting the package carrier, spending tools wisely, and knowing when to fight, flee, or regroup before the shared life pool collapses.",
+      "cards": [
+        {
+          "name": "Early Access Enemy Pool",
+          "enemyType": "Launch enemy set",
+          "gameplayData": [
+            "13 unique enemies in the Early Access build",
+            "Enemies appear across procedural maps and mission routes",
+            "Additional map-specific enemies are part of the Early Access content roadmap"
+          ],
+          "behavior": "Enemy pressure changes with route layout, objective placement, and team noise during co-op movement.",
+          "counterplay": "Enter rooms together, keep the package carrier protected, and save defensive tools for the return path."
+        },
+        {
+          "name": "Lootmuncher",
+          "enemyType": "Named enemy",
+          "gameplayData": [
+            "Hotfix 0.1.3 improved Lootmuncher escape behavior",
+            "The update made its movement more consistent during escape behavior"
+          ],
+          "behavior": "Lootmuncher is important enough to receive a named behavior fix during Early Access.",
+          "counterplay": "Watch its movement when it disengages or flees, then use the moment to reposition, recover dropped items, or move the package."
+        },
+        {
+          "name": "Grotesque Monsters",
+          "enemyType": "Core threat group",
+          "gameplayData": [
+            "The game world is ruled by grotesque monsters",
+            "Deliveries take place through a monster-infested dystopia",
+            "Monsters create the main pressure during delivery, recovery, and smuggling missions"
+          ],
+          "behavior": "These threats punish slow routing, separated teammates, and messy package handling.",
+          "counterplay": "One courier calls the route, one protects the carrier, and the rest move."
+        },
+        {
+          "name": "Map-Specific Threats",
+          "enemyType": "Zone-based enemy design",
+          "gameplayData": [
+            "Future Early Access updates are planned to add more map-specific enemies",
+            "New enemy behaviors are intended to expand gameplay variety",
+            "Each map uses procedural dungeon layouts for repeatable but unpredictable encounters"
+          ],
+          "behavior": "Zone identity matters because a factory route, haunted route, and ice-base route create different movement and visibility problems.",
+          "counterplay": "Build item loadouts around the zone: defensive tools for tight interiors, traversal tools for long routes, and repellents for exits."
+        },
+        {
+          "name": "Chase Pressure",
+          "enemyType": "Encounter pattern",
+          "gameplayData": [
+            "Players can fend off hostile monsters or outrun them",
+            "Weapons, gadgets, traversal tools, and monster repellents support survival",
+            "Sometimes running is the better option"
+          ],
+          "behavior": "Enemies force quick decisions during package transport, especially when the team is carrying fragile or high-risk cargo.",
+          "counterplay": "Fight only when it opens a route. If fighting turns into a hallway standoff, leave, because survival still beats workplace pride."
+        }
+      ]
+    },
+    "itemsTierList": {
+      "eyebrow": "Items",
+      "title": "Panic Delivery Items Tier List",
+      "intro": "The Early Access build includes 15 shop items. Missions award Speetchy, which can be spent on weapons, tools, defensive gear, utility options, and swag, while Bonus Permits are used for cosmetic-style purchases. The best early buys are the ones that protect the package carrier, recover lost cargo, or help the squad escape before the 99 lives system runs dry.",
+      "tierLabels": {
+        "s": "S Tier - Mission Critical",
+        "a": "A Tier - Highly Recommended",
+        "b": "B Tier - Situational",
+        "c": "C Tier - Style & Cosmetic"
+      },
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "tier": "S",
+          "name": "Tracking Devices",
+          "itemType": "Recovery utility",
+          "bestFor": "Recovery missions and scattered cargo searches",
+          "why": "Recovery missions rely on tracking devices to retrieve lost cargo across dangerous terrain, making this one of the most mission-critical utility categories.",
+          "teamUse": "Give tracking responsibility to one courier while the rest protect the route and package path."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "tier": "S",
+          "name": "Crowbar",
+          "itemType": "Tool and close-range weapon",
+          "bestFor": "Breaking boxes, emergency defense, and direct route control",
+          "why": "The crowbar combines practical route interaction with close-range protection when monsters pressure the team.",
+          "teamUse": "Keep it near the front scout or the courier guarding the package carrier."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "tier": "A",
+          "name": "Monster Repellents",
+          "itemType": "Defensive utility",
+          "bestFor": "Escape routes, panic recoveries, and protecting the package carrier",
+          "why": "Repellents support survival when fighting slows the team down, especially during the final route back or a bad procedural layout.",
+          "teamUse": "Save repellents for exits, revives, or moments when the carrier cannot afford to drop cargo."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "tier": "A",
+          "name": "Traversal Tools",
+          "itemType": "Mobility utility",
+          "bestFor": "Long routes, procedural rooms, and risky return paths",
+          "why": "Procedural maps reward faster repositioning, and traversal tools help teams adapt when objectives spawn across awkward routes.",
+          "teamUse": "Use mobility tools to scout, reconnect separated couriers, or create a safer path for the package carrier."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "tier": "B",
+          "name": "Gadgets",
+          "itemType": "General utility",
+          "bestFor": "Situational support across delivery, recovery, and smuggling missions",
+          "why": "Gadgets can support different playstyles, but their value depends heavily on map layout and mission type.",
+          "teamUse": "Buy gadgets after the team already has one strong defensive option and one route-control tool."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "tier": "B",
+          "name": "Groan Tube",
+          "itemType": "Improvised weapon",
+          "bestFor": "Short-range panic defense and chaotic co-op moments",
+          "why": "It works as a practical backup weapon, though it should not replace serious utility when the mission requires clean routing.",
+          "teamUse": "Use it as emergency protection, not as a reason for four couriers to stand still."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "tier": "B",
+          "name": "Smuggling Tools",
+          "itemType": "Mission utility",
+          "bestFor": "Smuggling assignments and resistance-linked package objectives",
+          "why": "Smuggling missions involve special packages with unique tools and items, so these tools matter most when that mission type is active.",
+          "teamUse": "Assign one courier to handle smuggling-specific tools while another keeps the exit route clear."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "tier": "C",
+          "name": "Boujee Swag",
+          "itemType": "Style and cosmetic spending",
+          "bestFor": "Persistent personal style and non-survival purchases",
+          "why": "Purchased swag remains valuable for personalization, but it does not outperform survival tools during dangerous delivery routes.",
+          "teamUse": "Buy swag after the team has enough tools to complete runs consistently."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "updatesAndPatchNotes": {
+      "eyebrow": "Updates",
+      "title": "Panic Delivery Updates and Patch Notes",
+      "intro": "Panic Delivery is in Steam Early Access, so updates focus on stability, mission pacing, map fixes, enemy behavior, audio, and new content around the launch window. This timeline gives players the practical version: what changed, when it changed, and why it matters in a run.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "June 15, 2026",
+          "type": "Soundtrack",
+          "title": "Original Soundtrack Release",
+          "highlights": [
+            "Panic Delivery Original Soundtrack released on Steam",
+            "47 tracks from the game",
+            "Composed and produced by Jonah Buhat Gardose",
+            "Includes Trap, Dubstep, Techno, Chiptune, and orchestral-style tracks"
+          ],
+          "impact": "Adds an official soundtrack option for players who want the game's corporate chaos outside active deliveries."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
+          "date": "May 25, 2026",
           "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "Hotfix Patch 0.1.3",
+          "highlights": [
+            "Improved Lootmuncher behavior when escaping",
+            "Fixed a critical crash caused by a player pushing another player by running into them",
+            "Prevented players from being moved by others while interacting with terminals"
+          ],
+          "impact": "Improves enemy consistency and reduces co-op interaction problems around terminals."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "date": "May 22, 2026",
+          "type": "Hotfix",
+          "title": "Hotfix Patch 0.1.2",
+          "highlights": [
+            "Added new music tracks to Panic Truck Radio",
+            "Reduced the Resources required to open the Smuggling Area",
+            "Improved the overall audio mix",
+            "Improved Resource Terminal feedback",
+            "Fixed gamepad Push-To-Talk input",
+            "Fixed an issue that could leave a player stuck inside a wall"
+          ],
+          "impact": "Makes smuggling progression smoother, improves audio readability, and removes several practical friction points."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "date": "May 22, 2026",
+          "type": "Bundle",
+          "title": "Panic Delivery + MAZEBOUND Bundle",
+          "highlights": [
+            "Panic Delivery was bundled with MAZEBOUND on Steam",
+            "The announcement included a Discord key giveaway for MAZEBOUND",
+            "The bundle targets multiplayer survival fans"
+          ],
+          "impact": "Gives co-op players a discounted bundle path around the Early Access launch period."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "date": "May 15, 2026",
+          "type": "Hotfix",
+          "title": "Hotfix Patch 0.1.1",
+          "highlights": [
+            "Added an FPS limit setting",
+            "Removed unintended invisible barriers in the Arctic Base map",
+            "Fixed minor client-side replication issues",
+            "Improved multiplayer synchronization and gameplay interaction consistency"
+          ],
+          "impact": "Improves performance control, Arctic Base exploration, and online co-op stability."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "date": "May 13, 2026",
+          "type": "Launch",
+          "title": "Steam Early Access Launch",
+          "highlights": [
+            "Panic Delivery launched in Early Access on Steam",
+            "4-player co-op horror comedy delivery gameplay",
+            "Shared pool of 99 company-sponsored lives",
+            "Launch price listed at $7.99 USD with a 10% Early Access release discount at $7.19 USD",
+            "Official soundtrack was announced for release after launch"
+          ],
+          "impact": "Opened the core Early Access version with co-op delivery, recovery, smuggling, procedural maps, enemies, shop items, and the shared-lives system."
         }
       ]
     }
@@ -749,31 +579,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Panic Delivery",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Panic Delivery?",
+        "answer": "Panic Delivery is a 4-player co-op horror comedy courier survival game on Steam. You play as disposable couriers delivering, recovering, and smuggling packages through monster-controlled dystopian locations while sharing a pool of 99 lives."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When did Panic Delivery release?",
+        "answer": "Panic Delivery launched into Steam Early Access on May 13, 2026 for PC. The developer plans to keep it in Early Access for approximately one year to expand content with player feedback."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How much does Panic Delivery cost?",
+        "answer": "Panic Delivery is listed at $7.99 USD on Steam, with a 10% Early Access release discount that brought the launch price to $7.19 USD. The developer notes the price may increase slightly after Early Access."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Panic Delivery support co-op multiplayer?",
+        "answer": "Yes. Panic Delivery supports both single-player and online co-op for up to four players. Co-op teams share the pool of 99 backup clone lives, so coordination matters as much as speed."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What platforms is Panic Delivery available on?",
+        "answer": "Panic Delivery is available on PC via Steam. The Early Access launch build includes 3 maps, 3 difficulty modes, 3 mission types, 13 enemies, and 15 shop items."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Panic Delivery a finished game?",
+        "answer": "Panic Delivery is an Early Access title, so it is still expanding rather than finished. The current build is fully playable, and the developer plans to add more maps, enemies, items, missions, and delivery options during the Early Access period."
       }
     ]
   },
@@ -802,124 +632,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Panic Delivery Guides",
+      "description": "Complete co-op survival guides from beginner basics to advanced mission, map, and item strategies for surviving monster-controlled delivery routes.",
+      "metaTitle": "Panic Delivery Guides - Beginner to Advanced Co-op Survival",
+      "metaDescription": "Complete Panic Delivery guides covering beginner tips, co-op survival, missions, maps, enemies, and items for mastering the Steam co-op horror comedy.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering co-op survival strategies, mission types, map routes, enemy behavior, and shop items. Learn everything from your first run to advanced team coordination.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Description": "Understand the delivery loop, shared lives system, and mission types to avoid common beginner mistakes",
+        "step2Title": "Survive Longer Runs",
+        "step2Description": "Follow proven route plans to protect the package carrier and stretch the shared 99 lives",
+        "step3Title": "Master Team Strategy",
+        "step3Description": "Develop advanced co-op tactics for coordination, role assignment, and escape timing"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "missions": {
+      "title": "Panic Delivery Missions & Packages",
+      "description": "Mission type breakdowns, package sizes, randomized objectives, and route planning for Standard, Recovery, and Smuggling runs.",
+      "metaTitle": "Panic Delivery Missions & Package Types Guide",
+      "metaDescription": "Master Panic Delivery mission types including Standard, Recovery, and Smuggling, plus Small, Medium, and Large package handling and route checklists.",
+      "categoryLabel": "MISSIONS & PACKAGES",
+      "whatIs": "What are Missions?",
+      "whatIsDescription": "Guides to the three Early Access mission types, the randomized objectives each one uses, and how Small, Medium, and Large packages change the way a route plays out.",
+      "why": "Why plan missions?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Read the Objective First",
+        "step1Description": "Identify the mission type and package size before committing the team to a route",
+        "step2Title": "Match Tools to the Job",
+        "step2Description": "Bring recovery tracking, delivery protection, or smuggling tools based on the active mission",
+        "step3Title": "Protect the Shared Lives",
+        "step3Description": "Avoid unnecessary deaths that drain the team's 99-life pool"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Mission Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
+      "title": "Panic Delivery Items & Shop",
+      "description": "Shop item guides covering weapons, tools, defensive gear, utility options, and cosmetics, with Speetchy spending priorities for every team.",
+      "metaTitle": "Panic Delivery Items - Shop, Weapons, Tools & Gear Guide",
+      "metaDescription": "Complete item guide for Panic Delivery's 15 shop items including weapons, tools, defensive gear, traversal options, and how to spend Speetchy effectively.",
+      "categoryLabel": "ITEMS & SHOP",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
+      "whatIsDescription": "Detailed guides for the 15 Early Access shop items. Learn what each weapon, tool, and utility item does, when to buy it, and how to use it across delivery, recovery, and smuggling runs.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
+        "step1Title": "Spend Speetchy Wisely",
+        "step1Description": "Prioritize tools that protect the carrier and recover lost cargo over flashy purchases",
+        "step2Title": "Build a Team Loadout",
+        "step2Description": "Coordinate purchases so the squad covers defense, utility, and mobility",
         "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step3Description": "Equip repellents and traversal tools to handle monster pressure during escape"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Item Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "maps": {
+      "title": "Panic Delivery Maps & Zones",
+      "description": "Map and zone guides covering the Early Access procedural map pool, route variety, environmental hazards, and survival tips for each location.",
+      "metaTitle": "Panic Delivery Maps & Zones - Routes, Hazards & Survival",
+      "metaDescription": "Explore Panic Delivery maps and zones including haunted routes, the Panic Factory, and the Arctic Base. Find route tips, risk notes, and survival strategies.",
+      "categoryLabel": "MAPS & ZONES",
+      "whatIs": "What are Maps?",
+      "whatIsDescription": "Guides to the 3 Early Access maps and their procedurally generated dungeon layouts. Learn the zone themes, mission types that appear, and risks that affect delivery speed, cargo safety, and the shared lives pool.",
+      "why": "Why study maps?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Plan Your Route",
+        "step1Description": "Understand zone themes and procedural layouts before committing the team",
+        "step2Title": "Avoid Zone Hazards",
+        "step2Description": "Recognize low-visibility rooms, dead ends, and monster ambush points",
+        "step3Title": "Adapt Each Run",
+        "step3Description": "Expect changing layouts and confirm the objective path every time"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Map Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "enemies": {
+      "title": "Panic Delivery Monsters & Enemies",
+      "description": "Enemy tracker covering the 13 Early Access monsters, their behavior, and the survival counterplay that keeps the package carrier alive.",
+      "metaTitle": "Panic Delivery Monsters & Enemies - Behavior & Counterplay",
+      "metaDescription": "Track Panic Delivery's 13 Early Access enemies. Learn monster behavior, named threats like Lootmuncher, and survival rules for delivery, recovery, and smuggling runs.",
+      "categoryLabel": "MONSTERS & ENEMIES",
+      "whatIs": "What are Enemies?",
+      "whatIsDescription": "Guides to the 13 unique enemies in the Early Access build, their behavior patterns, and the counterplay that protects couriers during package transport.",
+      "why": "Why learn enemies?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Protect the Carrier",
+        "step1Description": "Keep the package courier shielded while the rest of the team handles threats",
+        "step2Title": "Spend Tools Smartly",
+        "step2Description": "Save defensive tools and repellents for the return path instead of the first scream",
+        "step3Title": "Know When to Flee",
+        "step3Description": "Recognize when running beats fighting to preserve the shared lives pool"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Enemy Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Panic Delivery Updates & Support",
+      "description": "Patch notes, hotfix timelines, soundtrack and bundle news, plus platform and performance notes for Panic Delivery on Steam.",
+      "metaTitle": "Panic Delivery Updates & Support - Patch Notes & Platform Help",
+      "metaDescription": "Get Panic Delivery patch notes, hotfix timelines, soundtrack and bundle updates, plus platform, performance, and co-op stability support.",
+      "categoryLabel": "UPDATES & SUPPORT",
+      "whatIs": "What is Updates & Support?",
+      "whatIsDescription": "Technical guides and update tracking covering patch notes, hotfixes, balance changes, crash fixes, platform compatibility, and online co-op stability.",
+      "why": "Why check updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Track Patch Notes",
+        "step1Description": "See what changed, when it changed, and why it matters in a run",
+        "step2Title": "Fix Technical Issues",
+        "step2Description": "Resolve crashes, performance problems, and multiplayer sync errors",
+        "step3Title": "Stay Current",
+        "step3Description": "Follow new content, soundtrack releases, and bundle offers around the Early Access window"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Update & Support Articles"
     }
   }
 }
